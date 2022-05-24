@@ -62,4 +62,4 @@ fields:
     labelField: 
   label: Sections
 pages:
-- index.md
+- homepage.md
