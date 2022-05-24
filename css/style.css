@@ -76,5 +76,169 @@
   font-display: swap;
 }
 
+* {
+  font-size: 16px;
+  font-family: 'AvenirNext-Regular', sans-serif;
+}
+
+body {
+  /* opacity: 0;
+  animation: loadBody 4s forwards; */
+}
+
+html {
+  overflow: scroll;
+  overflow-x: hidden;
+}
+::-webkit-scrollbar {
+  width: 0;  /* Remove scrollbar space */
+  background: transparent;  /* Optional: just make scrollbar invisible */
+}
+
+
+html, body, div, p {
+  color: #251C16;
+}
+
+body {
+  padding-bottom: 2rem;
+  /* opacity: 0;
+  -webkit-animation: 3s bodyLoad forwards;
+          animation: 3s bodyLoad forwards; */
+}
+
+/* @keyframes bodyLoad {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes bodyLoad {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+} */
+
+.custom-bg-gray {
+  background-color: #EEEDE5;
+}
+.custom-bg-olive-light {
+  background-color: #AEB3A1;
+}
+.custom-bg-olive-dark {
+  background-color: #A3A792;
+}
+.custom-bg-beige-light {
+  background-color: #F0E1AD;
+}
+.custom-bg-beige-dark {
+  background-color: #F2E2B2;
+}
+.custom-bg-brown {
+  background-color: #BC984F;
+}
+
+.custom-gray {
+  color: #EEEDE5;
+}
+.custom-olive-light {
+  color: #AEB3A1;
+}
+.custom-olive-dark {
+  color: #A3A792;
+}
+.custom-beige-light {
+  color: #F0E1AD;
+}
+.custom-beige-dark {
+  color: #F2E2B2;
+}
+.custom-brown {
+  color: #BC984F;
+}
+
+/* -------------------------------------- */
+/*    H     E     A     D     E     R     */
+/* -------------------------------------- */
+
+header.site-header{
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 100px;
+  margin: 0 80px;
+}
+
+header .voucher-btn a{
+  font-size: 14px;
+  color: #fff;
+  font-weight: 600;
+  text-underline-offset: 4px;
+}
+
+header .voucher-btn a:hover {
+  text-decoration: underline;
+}
+
+header .make-booking-btn{
+  font-size: 14px;
+  font-weight: 600;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  margin: 0 90px;
+}
+
+header .make-booking-btn:hover {
+  background-color: #225367;
+}
+
+header .burger {
+  cursor: pointer;
+  width: 60px;
+}
+
+header .burger .burger-line {
+  height: 6px;
+  width: 100%;
+  background-color: #fff;
+  transition: all .3s ease-in-out;
+}
+
+header .burger .burger-line:nth-child(1) {
+  margin-bottom: 7px;
+}
+header .burger .burger-line:nth-child(2) {
+  width: 75%;
+}
+
+header .burger:hover .burger-line:nth-child(1){
+  width: 75%;
+}
+
+header .burger:hover .burger-line:nth-child(2){
+  width: 100%;
+}
+
+
+/* -------------------------------------- */
+/*      H   O   M   E   P   A   G  E      */
+/* -------------------------------------- */
+
+body#homepage {
+  background-color: #AEB3A1;
+}
+
 
 
