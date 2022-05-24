@@ -54,3 +54,5 @@ fields:
     max: 
     labelField: 
   label: Sections
+pages:
+- index-1.md
