@@ -1,3 +1,80 @@
-body{
-  
+@font-face {
+  font-family: 'Avenir LT Std';
+  src: url('AvenirLTStd-Book.eot');
+  src: url('AvenirLTStd-Book.eot?#iefix') format('embedded-opentype'),
+      url('AvenirLTStd-Book.woff2') format('woff2'),
+      url('AvenirLTStd-Book.woff') format('woff'),
+      url('AvenirLTStd-Book.ttf') format('truetype'),
+      url('AvenirLTStd-Book.svg#AvenirLTStd-Book') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
+
+@font-face {
+  font-family: 'Avenir LT Std';
+  src: url('AvenirLTStd-Medium.eot');
+  src: url('AvenirLTStd-Medium.eot?#iefix') format('embedded-opentype'),
+      url('AvenirLTStd-Medium.woff2') format('woff2'),
+      url('AvenirLTStd-Medium.woff') format('woff'),
+      url('AvenirLTStd-Medium.ttf') format('truetype'),
+      url('AvenirLTStd-Medium.svg#AvenirLTStd-Medium') format('svg');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Calisto MT';
+  src: url('CalistoMT-Italic.eot');
+  src: url('CalistoMT-Italic.eot?#iefix') format('embedded-opentype'),
+      url('CalistoMT-Italic.woff2') format('woff2'),
+      url('CalistoMT-Italic.woff') format('woff'),
+      url('CalistoMT-Italic.ttf') format('truetype'),
+      url('CalistoMT-Italic.svg#CalistoMT-Italic') format('svg');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Calisto MT';
+  src: url('CalistoMT-BoldItalic.eot');
+  src: url('CalistoMT-BoldItalic.eot?#iefix') format('embedded-opentype'),
+      url('CalistoMT-BoldItalic.woff2') format('woff2'),
+      url('CalistoMT-BoldItalic.woff') format('woff'),
+      url('CalistoMT-BoldItalic.ttf') format('truetype'),
+      url('CalistoMT-BoldItalic.svg#CalistoMT-BoldItalic') format('svg');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Calisto MT';
+  src: url('CalisMTBol.eot');
+  src: url('CalisMTBol.eot?#iefix') format('embedded-opentype'),
+      url('CalisMTBol.woff2') format('woff2'),
+      url('CalisMTBol.woff') format('woff'),
+      url('CalisMTBol.ttf') format('truetype'),
+      url('CalisMTBol.svg#CalisMTBol') format('svg');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Calisto MT';
+  src: url('CalistoMT.eot');
+  src: url('CalistoMT.eot?#iefix') format('embedded-opentype'),
+      url('CalistoMT.woff2') format('woff2'),
+      url('CalistoMT.woff') format('woff'),
+      url('CalistoMT.ttf') format('truetype'),
+      url('CalistoMT.svg#CalistoMT') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+
