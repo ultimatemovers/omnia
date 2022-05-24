@@ -61,5 +61,3 @@ fields:
     max: 
     labelField: 
   label: Sections
-pages:
-- homepage.md
