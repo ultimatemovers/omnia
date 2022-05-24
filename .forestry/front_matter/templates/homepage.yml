@@ -6,7 +6,7 @@ fields:
   type: text
   config:
     required: false
-  label: Layout
+  label: layout
   default: homepage
   hidden: true
 - name: hero_image
