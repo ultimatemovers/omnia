@@ -2,6 +2,13 @@
 label: Homepage
 hide_body: true
 fields:
+- name: layout
+  type: text
+  config:
+    required: false
+  label: Layout
+  default: homepage
+  hidden: true
 - name: hero_image
   type: file
   config:
