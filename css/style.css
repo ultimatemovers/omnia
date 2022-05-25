@@ -112,6 +112,19 @@ footer {
   padding: 4rem;
 }
 
+.footer-bottom {
+  padding-top: 20px;
+  border-top: 1px solid  #A3A792;
+
+}
+
+
+.footer-bottom p {
+  font-size: 14px;
+}
+
+
+
 .olive-btn{
   font-size: 14px;
   font-weight: 600;
