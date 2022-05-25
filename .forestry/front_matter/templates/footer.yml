@@ -6,7 +6,7 @@ fields:
   type: text
   config:
     required: false
-  label: Layout
+  label: layout
   hidden: true
   default: footer
 - name: hours_title
