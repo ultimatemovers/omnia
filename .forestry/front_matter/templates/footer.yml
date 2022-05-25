@@ -64,5 +64,15 @@ fields:
   config:
     required: false
   label: Saturday working hours
+- name: footer_first_button
+  type: text
+  config:
+    required: false
+  label: footer first button
+- name: footer_second_button
+  type: text
+  config:
+    required: false
+  label: footer second button
 pages:
 - footer.md
