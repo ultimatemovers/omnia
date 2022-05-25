@@ -1,6 +1,13 @@
 ---
 label: footer
 hide_body: true
-fields: []
+fields:
+- name: layout
+  type: text
+  config:
+    required: false
+  label: layout
+  hidden: true
+  default: footer
 pages:
 - footer.md
