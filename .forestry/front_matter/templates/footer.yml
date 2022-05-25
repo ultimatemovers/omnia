@@ -9,5 +9,25 @@ fields:
   label: layout
   hidden: true
   default: footer
+- name: hours_title
+  type: text
+  config:
+    required: false
+  label: Hours title
+- name: contact_title
+  type: text
+  config:
+    required: false
+  label: Contact title
+- name: careers_title
+  type: text
+  config:
+    required: false
+  label: Careers title
+- name: subscribe_title
+  type: text
+  config:
+    required: false
+  label: Subscribe title
 pages:
 - footer.md
