@@ -29,5 +29,3 @@ fields:
   config:
     required: false
   label: Subscribe title
-pages:
-- footer.md
