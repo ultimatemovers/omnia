@@ -74,5 +74,15 @@ fields:
   config:
     required: false
   label: footer second button
+- name: careers_text
+  type: text
+  config:
+    required: false
+  label: careers text
+- name: subscribe_text
+  type: text
+  config:
+    required: false
+  label: Subscribe text
 pages:
 - footer.md
