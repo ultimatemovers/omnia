@@ -1,17 +1,46 @@
-<header class="site-header flex justify-between items-center">
-  <div>
+<header class="site-header open-burger flex justify-between items-start z-50">
+  <div class="logo">
     <img src="/img/logo.svg" alt="logo_omnia">
   </div>
-  <div class="flex items-center">
+  <div class="nav-logo hidden">
+    <img src="/img/nav-logo.png" alt="logo_omnia">
+  </div>
+  <div class="flex items-center mt-4">
     <div class="voucher-btn cursor-pointer px-4">
       <a class="uppercase p-2" href="#">Voucer</a>
     </div>
     <a class="make-booking-btn custom-beige-dark custom-bg-brown py-2 px-8 uppercase cursor-pointer">
       Make a booking
     </a>
-    <div class="burger flex flex-col items-end p-3">
+    <div id="burger-menu" class="burger flex flex-col items-end p-3">
       <div class="burger-line"></div>
       <div class="burger-line"></div>
     </div>
   </div>
 </header>
+
+<div id="navigation-page" class="fixed z-40 h-screen w-full flex hidden" style="background-color: #C1A973 ;">
+  <div class="nav-image">
+    <img src="/img/nav-image.png" alt="nav-image">
+  </div>
+  <nav class="flex flex-col justify-end">
+    <ul class="navigation">
+      <li class=""><a href="#">About us</a></li>
+      <li class=""><a href="#">Food & Drinks</a></li>
+      <li class=""><a href="#">Rewards & reviews</a></li>
+      <li class=""><a href="#">Group bookings</a></li>
+      <li class=""><a href="#">Events</a></li>
+      <li class=""><a href="#">Contacts</a></li>
+    </ul>
+    <div class="promotion-headline">
+      SUBSCRIBE PROMOTION HEADLINE <br> GOES HERE
+    </div>
+    <div class="newsletter">
+      <span>SUBSCRIBE TO OUR NEWSLETTER</span>
+    </div>
+    <div class="terms-conditions">
+       <div class="mb-3"><a href="#">PRIVACY POLICY</a></div>
+       <div><a href="#">TERMS & CONDITIONS</a></div>
+    </div>
+  </nav>
+</div>

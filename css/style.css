@@ -224,6 +224,11 @@ th {
   color: #BC984F;
 }
 
+body.noscroll{
+  position:fixed;
+  overflow:hidden;
+}
+
 /* -------------------------------------- */
 /*    H     E     A     D     E     R     */
 /* -------------------------------------- */
@@ -232,7 +237,7 @@ header.site-header{
   position: fixed;
   left: 0;
   right: 0;
-  top: 100px;
+  top: 80px;
   margin: 0 80px;
 }
 
@@ -272,19 +277,106 @@ header .burger .burger-line {
 }
 
 header .burger .burger-line:nth-child(1) {
-  margin-bottom: 7px;
+  width: 100%;
+  transform: rotate(-45deg) translateY(8px);
 }
+
 header .burger .burger-line:nth-child(2) {
+  width: 100%;
+  transform: rotate(45deg) translate(3px, -4px);
+}
+
+header .burger {
+  height: 42px;
+}
+
+header.open-burger .burger .burger-line:nth-child(1) {
+  margin-bottom: 7px;
+  transform: none;
+}
+header.open-burger .burger .burger-line:nth-child(2) {
+  width: 75%;
+  transform: none;
+}
+
+header.open-burger .burger:hover .burger-line:nth-child(1){
   width: 75%;
 }
 
-header .burger:hover .burger-line:nth-child(1){
-  width: 75%;
-}
-
-header .burger:hover .burger-line:nth-child(2){
+header.open-burger .burger:hover .burger-line:nth-child(2){
   width: 100%;
 }
+
+/* -------------------------------------- */
+/*     N  A  V  I  G  A  T  I  O  N       */
+/* -------------------------------------- */
+
+.nav-logo {
+  width: 80px;
+}
+
+.nav-image {
+  height: 100%;
+}
+
+.nav-image img {
+  height: 100%;
+}
+
+nav {
+  margin-left: 240px;
+  margin-bottom: 120px;
+}
+
+nav .terms-conditions div a{
+  font-size: 14px;
+  color: #DCDAD5;
+}
+
+nav .newsletter {
+  margin: 40px 0;
+}
+
+nav .newsletter span{
+  font-size: 14px;
+  font-weight: 600;
+  background-color: #A3A792;
+  color: #5C7057;
+  border: 2px solid #5C7057;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  padding: 8px 30px;
+  cursor: pointer;
+  transition: all .3s ease-in-out;
+  width: 360px;
+}
+
+nav .newsletter span:hover {
+  background-color: #BC984F;
+}
+
+nav .promotion-headline {
+  color: #225367;
+  font-size: 20px;
+  line-height: 20px;
+  margin-top: 40px;
+}
+nav ul.navigation li {
+  margin-bottom: 8px;
+  cursor: pointer;
+}
+
+nav ul.navigation li a {
+  font-size: 36px;
+  text-transform: uppercase;
+  color: #F0E1AD;
+}
+
+nav ul.navigation li:hover a {
+  color: #225367;
+}
+
+
 
 
 /* -------------------------------------- */
@@ -294,3 +386,5 @@ header .burger:hover .burger-line:nth-child(2){
 body#homepage {
   background-color: #AEB3A1;
 }
+
+
