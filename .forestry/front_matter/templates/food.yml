@@ -2,7 +2,7 @@
 label: food
 hide_body: true
 fields:
-- name: food
+- name: layout
   type: text
   config:
     required: false
