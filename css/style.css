@@ -170,7 +170,8 @@ th {
   color: #F0E1AD;
   /*font-family: 'Avenir LT Std';*/
   text-transform: uppercase;
-  font-size: 28px;
+  font-size: 26px;
+  line-height: 28px;
 }
 
 .middle-white-title {
@@ -389,8 +390,34 @@ body#homepage {
 
 .homepage-title {
   font-size: 90px;
+  line-height: 90px;
   color: #F0E1AD;
   line-height: 120px;
-  margin: 0 auto;
+  margin-top: -600px;
   background-color: red;
+
+}
+
+.omnia-title {
+  color: #F0E1AD;
+  font-size: 90px;
+  padding-bottom: 15px;
+  border-bottom: 2px solid #F0E1AD;
+  width: 350px;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.img-radius {
+  border-top-left-radius: 90px;
+  border-top-right-radius: 90px;
+}
+
+.img-bottom-radius {
+  border-bottom-right-radius: 180px;
+}
+
+.olive {
+  color: #5C7057;
 }
