@@ -1,4 +1,11 @@
 ---
 label: food
 hide_body: true
-fields: []
+fields:
+- name: food
+  type: text
+  config:
+    required: false
+  label: food
+  hidden: true
+  default: food
