@@ -1,4 +1,4 @@
 ---
-food: food
+layout: food
 
 ---
