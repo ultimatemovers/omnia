@@ -6,6 +6,6 @@ fields:
   type: text
   config:
     required: false
-  label: food
+  label: Layout
   hidden: true
   default: food
