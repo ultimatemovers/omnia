@@ -1,6 +1,7 @@
 ---
 layout: food
 menus:
-  title: hello
+- title: hello
+  text: hello
 
 ---
