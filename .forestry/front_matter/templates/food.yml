@@ -12,6 +12,12 @@ fields:
 - name: menus
   type: field_group
   config: {}
+  fields:
+  - name: title
+    type: text
+    config:
+      required: false
+    label: title
   label: menus
 pages:
 - food.md
