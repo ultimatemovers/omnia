@@ -75,7 +75,7 @@ fields:
     max: 
     labelField: 
   label: menus
-- name: drinks
+- name: drink_type
   type: field_group_list
   fields:
   - name: title
@@ -87,6 +87,6 @@ fields:
     min: 
     max: 
     labelField: 
-  label: drinks
+  label: drink type
 pages:
 - food.md
