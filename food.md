@@ -4,7 +4,7 @@ menus:
 - title: SNACKS & STARTER
   text: hello2
   first_item: Musquee de provence pumpkin
-  first_item_cost: "46"
+  first_item_cost: "36"
   first_item_ingredients: Labneh, zaatar & pumpkin seeds
   item:
   - title: Musquee de provence pumpkin
