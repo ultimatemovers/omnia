@@ -3,7 +3,7 @@ layout: food
 menus:
 - title: SNACKS & STARTER
   text: hello2
-- title: hello
+- title: MAINS & SIDE
   text: hello
 
 ---
