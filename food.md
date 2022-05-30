@@ -34,5 +34,8 @@ menus:
   second_item: ''
   second_item_cost: ''
   second_item_ingredients: ''
+drinks:
+- title: SIGNATURE COCKTAILS
+- title: ''
 
 ---
