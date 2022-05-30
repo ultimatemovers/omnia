@@ -11,6 +11,9 @@ menus:
     ingredients: " Labneh, zaatar & pumpkin seeds"
     cost: "46"
   ingredients: []
+  second_item: Murray cod
+  second_item_cost: "44"
+  second_item_ingredients: " ‍Seaweed crusted, smoked fish consommé & kohlrabi"
 - title: MAINS & SIDE
   text: hello
   first_item: ''
@@ -18,6 +21,9 @@ menus:
   first_item_ingredients: ''
   item: []
   ingredients: []
+  second_item: ''
+  second_item_cost: ''
+  second_item_ingredients: ''
 - title: DESSERTS
   text: ''
   first_item: ''
@@ -25,5 +31,8 @@ menus:
   first_item_ingredients: ''
   item: []
   ingredients: []
+  second_item: ''
+  second_item_cost: ''
+  second_item_ingredients: ''
 
 ---
