@@ -55,6 +55,21 @@ fields:
       max: 
       labelField: 
     label: items
+  - name: second_item
+    type: text
+    config:
+      required: false
+    label: second item
+  - name: second_item_cost
+    type: text
+    config:
+      required: false
+    label: second item cost
+  - name: second_item_ingredients
+    type: text
+    config:
+      required: false
+    label: second item ingredients
   config:
     min: 
     max: 
