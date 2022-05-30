@@ -9,5 +9,9 @@ fields:
   label: Layout
   hidden: true
   default: food
+- name: menus
+  type: field_group
+  config: {}
+  label: menus
 pages:
 - food.md
