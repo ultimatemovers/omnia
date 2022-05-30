@@ -5,11 +5,56 @@
 <!--temp-->
 
 <div id="food">
-  <img src="/img/food_main.jpg" alt="interior picture"
+  <img src="/img/food_main.jpg" alt="food picture"
   class="img-bottom-radius w-full -mt-8 mb-8 sm:mt-0 sm:mb-12 lg:mb-32">
   <div class="container mx-auto">
   <h1 class="homepage-title">
     FOOD & DRINKS <br> HEADLINE IS HERE
   </h1>
+  <div class="pt-24 pb-48 mt-48">
+    <div>
+  <h2 class="food-title">Food</h2>
+  </div>
+  <ul class="food-menu flex justify-between">
+    {% for menu in page.menus %}
+    <li class="inner-menu-item" data-category-name="{{ menu.title | slugify }}">
+      {{menu.title}}
+      <div class="menu-line"></div>
+    </li>
+    {% endfor %}
+</ul>
+<!---->
+<div class="inbetween-line"></div>
+  <div class="menu-container flex flex-wrap justify-between mt-8 flex-col">
+    {% for menu in page.menus  %}
+    <div class="" data-category={{ menu.title | slugify}}>
+      <table class="menu-table text-left">
+        <tr class="table-item">
+          <th>{{menu.first_item}} <p class="grey pt-2 pb-12">{{menu.first_item_ingredients}}</p></th>
+          <td class="grey">{{menu.first_item_cost}}</td>
+        </tr>
+        <tr>
+          <th>{{menu.first_item}} <p class="grey pt-2 pb-12">{{menu.first_item_ingredients}}</p></th>
+          <td class="grey">{{menu.first_item_cost}}</td>
+        </tr>
+        <tr>
+          <th>{{menu.first_item}} <p class="grey pt-2 pb-12">{{menu.first_item_ingredients}}</p></th>
+          <td class="grey">{{menu.first_item_cost}}</td>
+        </tr>
+        <tr>
+          <th>{{menu.first_item}} <p class="grey pt-2 pb-12">{{menu.first_item_ingredients}}</p></th>
+          <td class="grey">{{menu.first_item_cost}}</td>
+        </tr>
+        <tr>
+          <th>{{menu.first_item}} <p class="grey pt-2 pb-12">{{menu.first_item_ingredients}}</p></th>
+          <td class="grey">{{menu.first_item_cost}}</td>
+        </tr>
+        <tr>
+          <th>{{menu.first_item}} <p class="grey pt-2 pb-12">{{menu.first_item_ingredients}}</p></th>
+          <td class="grey">{{menu.first_item_cost}}</td>
+        </tr>
+        {% endfor %}
+<!---->
+</div>
   </div>
 <!--{% include footer.html %}-->

@@ -145,6 +145,10 @@ footer {
   border: 2px solid #F0E1AD;
 }
 
+button {
+  cursor: pointer;
+  transition: 0.4s;
+}
 
 button:focus {
     outline: none;
@@ -423,7 +427,6 @@ body#homepage {
 .img-radius {
   border-top-left-radius: 90px;
   border-top-right-radius: 90px;
-  /*max-width: 550px;*/
 }
 
 .img-bottom-radius {
@@ -458,4 +461,61 @@ margin-bottom: 15px;
 
 .btn:hover {
  background-color: #5C7057;
+}
+
+/*food*/
+
+#food {
+background-color: #F2E8C3;
+}
+
+.food-title {
+color: #C1A973;
+font-size: 90px;
+padding-bottom: 15px;
+border-bottom: 2px solid #C1A973;
+width: 400px;
+text-transform: uppercase;
+text-align: center;
+margin: 0 auto;
+}
+
+
+.food-menu {
+width: 50%;
+padding-top: 100px;
+margin: 0 auto;
+/*padding-bottom: 40px;*/
+}
+
+.inner-menu-item {
+color: #A3A792;
+font-size: 20px;
+text-transform: uppercase;
+margin-left: 10px;
+margin-right: 10px;
+}
+
+.inner-menu-item:active {
+  color: #5C7057;
+  text-decoration: underline;
+}
+
+.cost {
+  padding-bottom: 50px;
+
+}
+
+.menu-table {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.menu-container {
+  border-top: 2px solid #C1A973;
+  padding: 80px;
+}
+
+.grey {
+  color: #A3A792;
 }
