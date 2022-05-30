@@ -39,6 +39,7 @@ drinks:
 - title: SIGNATURE COCKTAILS
 - title: NON ALCOHOLIC DIGESTIVE
 drink_type:
+- title: NON ALCOHOLIC DIGESTIVE
 - title: SIGNATURE COCKTAILS
 
 ---
