@@ -35,6 +35,7 @@ menus:
   second_item_cost: ''
   second_item_ingredients: ''
 drinks:
+- title: CELLAR WINE BY THE GLASS
 - title: SIGNATURE COCKTAILS
 - title: NON ALCOHOLIC DIGESTIVE
 
