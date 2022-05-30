@@ -34,6 +34,12 @@ fields:
     label: first_item_ingredients
   - name: item
     type: field_group_list
+    fields:
+    - name: title
+      type: text
+      config:
+        required: false
+      label: title
     config:
       min: 
       max: 
