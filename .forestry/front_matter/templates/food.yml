@@ -27,6 +27,11 @@ fields:
     config:
       required: false
     label: first_item_cost
+  - name: first_item_ingredients
+    type: text
+    config:
+      required: false
+    label: first_item_ingredients
   config:
     min: 
     max: 
