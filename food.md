@@ -8,6 +8,8 @@ menus:
   first_item_ingredients: Labneh, zaatar & pumpkin seeds
   item:
   - title: Musquee de provence pumpkin
+    ingredients: " Labneh, zaatar & pumpkin seeds"
+    cost: "46"
   ingredients: []
 - title: MAINS & SIDE
   text: hello
