@@ -1,7 +1,7 @@
 ---
 layout: food
 menus:
-- title: hello1
+- title: SNACKS & STARTER
   text: hello2
 - title: hello
   text: hello
