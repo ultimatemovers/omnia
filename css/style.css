@@ -136,8 +136,19 @@ footer {
   padding: 8px;
   text-transform: uppercase;
   min-width: 300px;
+  outline: none;
 }
 
+
+.olive-btn:hover {
+  background-color:  #BC984F;
+  border: 2px solid #F0E1AD;
+}
+
+
+button:focus {
+    outline: none;
+}
 /* @keyframes bodyLoad {
   0% {
     opacity: 0;
@@ -412,7 +423,7 @@ body#homepage {
 .img-radius {
   border-top-left-radius: 90px;
   border-top-right-radius: 90px;
-  max-width: 550px;
+  /*max-width: 550px;*/
 }
 
 .img-bottom-radius {
@@ -443,4 +454,8 @@ margin-bottom: 15px;
   border-top-right-radius: 30px;
   border-bottom-right-radius: 30px;
   text-transform: uppercase ;
+}
+
+.btn:hover {
+ background-color: #5C7057;
 }
