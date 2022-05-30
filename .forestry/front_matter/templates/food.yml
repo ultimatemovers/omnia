@@ -17,11 +17,16 @@ fields:
     config:
       required: false
     label: title
-  - name: text
+  - name: first_item
     type: text
     config:
       required: false
-    label: text
+    label: first_item
+  - name: first_item_cost
+    type: text
+    config:
+      required: false
+    label: first_item_cost
   config:
     min: 
     max: 
