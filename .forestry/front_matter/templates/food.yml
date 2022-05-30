@@ -75,5 +75,18 @@ fields:
     max: 
     labelField: 
   label: menus
+- name: drinks
+  type: field_group_list
+  fields:
+  - name: title
+    type: text
+    config:
+      required: false
+    label: title
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: drinks
 pages:
 - food.md
