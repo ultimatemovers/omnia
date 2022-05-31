@@ -43,6 +43,7 @@ drink_type:
 - title: NON ALCOHOLIC DIGESTIVE
 - title: SIGNATURE COCKTAILS
 drink_types:
+- title: CELLAR WINE BY THE GLASS
 - title: SIGNATURE COCKTAILS
 - title: NON ALCOHOLIC DIGESTIVE
 
