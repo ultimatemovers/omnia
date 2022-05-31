@@ -43,10 +43,6 @@ drink_type:
 - title: NON ALCOHOLIC DIGESTIVE
 - title: SIGNATURE COCKTAILS
 drink_types:
-- title: CELLAR WINE BY THE GLASS
-  first_item: Cosmopolitan
-  first_item_cost: "50"
-  first_item_ingredients: Labneh, zaatar & pumpkin seeds
 - title: SIGNATURE COCKTAILS
   first_item: ''
   first_item_cost: ''
@@ -55,5 +51,9 @@ drink_types:
   first_item: ''
   first_item_cost: ''
   first_item_ingredients: ''
+- title: CELLAR WINE BY THE GLASS
+  first_item: Cosmopolitan
+  first_item_cost: "50"
+  first_item_ingredients: Labneh, zaatar & pumpkin seeds
 
 ---
