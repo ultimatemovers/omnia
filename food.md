@@ -16,14 +16,14 @@ menus:
   second_item_ingredients: " ‍Seaweed crusted, smoked fish consommé & kohlrabi"
 - title: MAINS & SIDE
   text: hello
-  first_item: ''
-  first_item_cost: ''
-  first_item_ingredients: ''
+  first_item: Pelmeni
+  first_item_cost: "120"
+  first_item_ingredients: 'meat '
   item: []
   ingredients: []
-  second_item: ''
-  second_item_cost: ''
-  second_item_ingredients: ''
+  second_item: holodets
+  second_item_cost: "100"
+  second_item_ingredients: meat
 - title: DESSERTS
   text: ''
   first_item: ''
