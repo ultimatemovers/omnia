@@ -411,8 +411,6 @@ body#homepage {
   color: #F0E1AD;
   line-height: 120px;
   margin-top: -600px;
-  background-color: red;
-
 }
 
 .omnia-title {
@@ -504,7 +502,7 @@ margin-left: 10px;
 margin-right: 10px;
 }
 
-.inner-menu-item:active {
+.active {
   color: #5C7057;
   text-decoration: underline;
 }
@@ -517,6 +515,7 @@ margin-right: 10px;
 .menu-table {
   width: 70%;
   margin: 0 auto;
+  margin-bottom: 15px;
 }
 
 .menu-container {
@@ -526,4 +525,8 @@ margin-right: 10px;
 
 .grey {
   color: #A3A792;
+}
+
+.hide {
+  /*background-color: coral;*/
 }

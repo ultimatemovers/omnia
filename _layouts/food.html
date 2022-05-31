@@ -2,7 +2,6 @@
 
 {% include head.html %}
 {% include nav.html %}
-<!--temp-->
 
 <div id="food">
   <img src="/img/food_main.jpg" alt="food picture"
@@ -11,7 +10,7 @@
   <h1 class="homepage-title">
     FOOD & DRINKS <br> HEADLINE IS HERE
   </h1>
-  <div class="pt-24 pb-48 mt-48"><!--class="pt-24 pb-48 mt-48"-->
+  <div class="pt-24 pb-48 mt-48">
     <div>
   <h2 class="food-title">Food</h2>
   </div>
@@ -23,20 +22,36 @@
     </li>
     {% endfor %}
 </ul>
-<!---->
-<div class="inbetween-line"></div>
+<!----->
+<!--<div class="experiences-container flex flex-wrap justify-between mt-8 flex-col">
+  {% for experience in page.experiences %}
+  <div class="lg:pt-20 experience wrapper lg:pb-56" data-category={{ experience.title | slugify}}>
+    <h3 class="w-full upper-experience-title lg:hidden py-4 upper-font main-color">{{experience.title}}</h3>
+    <div class="hidden lg:block">
+      <img
+        class="pb-12 lg:pb-0 w-full animate__animated animate__fadeIn animate__slow experience-image"
+        src="{{experience.image}}"
+        alt="experience photo">-->
+<!----->
   <div class="menu-container flex flex-wrap justify-between mt-8 flex-col">
-    <div class="" data-category="{{ menu.title | slugify}}">
-       <table class="menu-table text-left">
-        {% for menu in page.menus %}
+    {% for menu in page.menus %}
+    <div class="" data-category={{ menu.title | slugify}}>
+      <h2 >
+        {{menu.title}}
+      </h2>
+      <h2 >
+        {{menu.second_item}}
+      </h2>
+      {% endfor %}
+       <!--<table class="menu-table text-left">
         <tr>
-          <th>{{menu.first_item}} <p class="grey pt-2 pb-12">{{menu.first_item_ingredients}}</p></th>
+          <th>{{menu.first_item}} <div>{{menu.title}}</div> <p class="grey pt-2 pb-12">{{menu.first_item_ingredients}}</p></th>
           <td class="grey">{{menu.first_item_cost}}</td>
         </tr>
-        <tr>
+        <tr class="">
           <th>{{menu.second_item}} <p class="grey pt-2 pb-12">{{menu.second_item_ingredients}}</p></th>
           <td class="grey">{{menu.second_item_cost}}</td>
-        </tr>
+        </tr>-->
         <!--<tr>
           <th>{{menu.third_item}} <p class="grey pt-2 pb-12">{{menu.third_item_ingredients}}</p></th>
           <td class="grey">{{menu.third_item_cost}}</td>
@@ -48,10 +63,10 @@
         <tr>
           <th>{{menu.fifth_item}} <p class="grey pt-2 pb-12">{{menu.fifth_item_ingredients}}</p></th>
           <td class="grey">{{menu.fifth_item_cost}}</td>
-        </tr>-->
+        </tr>
         {% endfor %}
       </table>
-</div>
+</div>-->
   </div>
 </div>
 </div>

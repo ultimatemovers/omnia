@@ -83,7 +83,7 @@
       navLogo.classList.remove('hidden')
       logo.classList.add('hidden')
     }
-    
+
     if(TOGGLE_MENU){
       header.classList.add('open-burger')
       navigationPage.classList.add('hidden')
@@ -100,4 +100,92 @@
   window.onbeforeunload = () => {
     window.scrollTo(0, 0);
   }
+
+
+
+    const categories = document.querySelectorAll('.inner-menu-item')
+    /*if(categories && categories.length && screen.width >=  1024 ) {*/
+      if(categories && categories.length) {
+      categories[0].classList.add('active')
+      //console.log( 'dataset.categoryName', categories[0].dataset.categoryName)
+
+      filterProducts(categories[0].dataset.categoryName)
+
+      categories.forEach((c) => {
+        c.addEventListener('click', (e) => {
+          c.scrollIntoView({
+            behavior: 'smooth',
+            block: 'nearest',
+            inline: 'center'
+        })
+          filterProducts(e.target.dataset.categoryName)
+          console.log('e.target.dataset.categoryName in filter products func',e.target.dataset.categoryName)
+        })
+      })
+    }
+
+ function filterProducts(category) {
+  const products = [...document.querySelector('.menu-container').children]
+  console.log('products', products.length)
+  console.log('menu-container', document.querySelector('.menu-container'))
+  console.log('category', category)
+
+  products.forEach((p, idx) => {
+    p.style = ''
+    p.classList.remove('hide')
+    p.style.opacity = 1
+    console.log('category p', p.dataset.category)
+    if(p.dataset.category !== category)
+      p.classList.add('hide')
+    else
+      experienceActiveTab = idx
+    })
+  categories.forEach((c,idx) => {
+    //c.classList.add(idx%2 === 0 ? 'btn-zoom-in-out' : 'btn-zoom-in-out')
+    c.classList.remove('active')
+    if(c.dataset.categoryName === category)
+      c.classList.add('active')
+  })
+}
+
+
+   /*const categoriesSpaces = document.querySelectorAll('.inner-menu-item-spaces')
+    if (categoriesSpaces && categoriesSpaces.length && screen.width >=  1024) {
+      categoriesSpaces[0].classList.add('active')
+      filterRooms(categoriesSpaces[0].dataset.categoryName)
+
+      categoriesSpaces.forEach((c) => {
+        c.addEventListener('click', (e) => {
+          c.scrollIntoView({
+            behavior: 'smooth',
+            block: 'nearest',
+            inline: 'center'
+        })
+        filterRooms(e.target.dataset.categoryName)
+        })
+      })
+    }
+
+    function filterRooms(category) {
+      const rooms = [...document.querySelector('.spaces-container').children]
+      rooms.forEach((p) => {
+        p.style = ''
+        p.classList.remove('hide')
+        p.style.opacity = 1
+
+        if (p.dataset.category !== category)
+        p.classList.add('hide')
+
+        if (p.dataset.category !== 'bromley-co-gallery')
+        p.classList.add('coming-soon')
+
+
+      })
+      categoriesSpaces.forEach((c,idx) => {
+        c.classList.remove('active')
+        if(c.dataset.categoryName === category)
+          c.classList.add('active')
+      })
+    }
+   */
 })()
