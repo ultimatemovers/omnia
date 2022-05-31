@@ -83,6 +83,21 @@ fields:
     config:
       required: false
     label: title
+  - name: first_item
+    type: text
+    config:
+      required: false
+    label: first item
+  - name: first_item_cost
+    type: text
+    config:
+      required: false
+    label: first_item_cost
+  - name: first_item_ingredients
+    type: text
+    config:
+      required: false
+    label: first item ingredients
   config:
     min: 
     max: 
