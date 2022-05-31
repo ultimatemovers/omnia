@@ -1,5 +1,5 @@
 ---
-label: awards
+label: rewards
 hide_body: true
 fields:
 - name: layout
@@ -7,7 +7,7 @@ fields:
   config:
     required: false
   label: layout
-  default: awards
+  default: rewards
   hidden: true
 pages:
 - awards.md
