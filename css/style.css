@@ -125,7 +125,7 @@ footer {
 
 
 
-.olive-btn{
+.olive-btn {
   font-size: 14px;
   font-weight: 600;
   border-top-right-radius: 30px;
@@ -487,6 +487,12 @@ padding-top: 100px;
 margin: 0 auto;
 /*padding-bottom: 40px;*/
 }
+
+.drink-menu {
+  width: 70%;
+  padding-top: 100px;
+  margin: 0 auto;
+  }
 
 .inner-menu-item {
 color: #A3A792;

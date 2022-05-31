@@ -26,35 +26,97 @@
 <!---->
 <div class="inbetween-line"></div>
   <div class="menu-container flex flex-wrap justify-between mt-8 flex-col">
-    {% for menu in page.menus  %}
-    <div class="" data-category={{ menu.title | slugify}}>
-      <table class="menu-table text-left">
-        <tr class="table-item">
-          <th>{{menu.first_item}} <p class="grey pt-2 pb-12">{{menu.first_item_ingredients}}</p></th>
-          <td class="grey">{{menu.first_item_cost}}</td>
-        </tr>
+    <div class="" data-category="{{ menu.title | slugify}}">
+       <table class="menu-table text-left">
+        {% for menu in page.menus %}
         <tr>
           <th>{{menu.first_item}} <p class="grey pt-2 pb-12">{{menu.first_item_ingredients}}</p></th>
           <td class="grey">{{menu.first_item_cost}}</td>
         </tr>
         <tr>
-          <th>{{menu.first_item}} <p class="grey pt-2 pb-12">{{menu.first_item_ingredients}}</p></th>
-          <td class="grey">{{menu.first_item_cost}}</td>
+          <th>{{menu.second_item}} <p class="grey pt-2 pb-12">{{menu.second_item_ingredients}}</p></th>
+          <td class="grey">{{menu.second_item_cost}}</td>
+        </tr>
+        <!--<tr>
+          <th>{{menu.third_item}} <p class="grey pt-2 pb-12">{{menu.third_item_ingredients}}</p></th>
+          <td class="grey">{{menu.third_item_cost}}</td>
         </tr>
         <tr>
-          <th>{{menu.first_item}} <p class="grey pt-2 pb-12">{{menu.first_item_ingredients}}</p></th>
-          <td class="grey">{{menu.first_item_cost}}</td>
+          <th>{{menu.fourth_item}} <p class="grey pt-2 pb-12">{{menu.fourth_item_ingredients}}</p></th>
+          <td class="grey">{{menu.fourth_item_cost}}</td>
         </tr>
         <tr>
-          <th>{{menu.first_item}} <p class="grey pt-2 pb-12">{{menu.first_item_ingredients}}</p></th>
-          <td class="grey">{{menu.first_item_cost}}</td>
-        </tr>
-        <tr>
-          <th>{{menu.first_item}} <p class="grey pt-2 pb-12">{{menu.first_item_ingredients}}</p></th>
-          <td class="grey">{{menu.first_item_cost}}</td>
-        </tr>
+          <th>{{menu.fifth_item}} <p class="grey pt-2 pb-12">{{menu.fifth_item_ingredients}}</p></th>
+          <td class="grey">{{menu.fifth_item_cost}}</td>
+        </tr>-->
         {% endfor %}
-<!---->
+      </table>
 </div>
   </div>
+</div>
+</div>
+  <img src="/img/wine.jpg" alt="wine picture"
+class="img-bottom-radius w-full">
+
+<!---->
+<div class="container mx-auto">
+  <div class="mt-20">
+    <div>
+  <h2 class="food-title">Drinks</h2>
+  </div>
+  <ul class="drink-menu flex justify-between">
+    {% for drink_type in page.drink_types %}
+    <li class="inner-menu-item" data-category-name="{{ drink_type.title | slugify }}">
+      {{drink_type.title}}
+      <div class="menu-line"></div>
+    </li>
+    {% endfor %}
+</ul>
+<!---->
+<div class="inbetween-line"></div>
+  <div class="menu-container flex flex-wrap justify-between mt-8 flex-col">
+    <div class="" data-category="{{ menu.title | slugify}}">
+       <table class="menu-table text-left">
+        {% for drink_type in page.drink_types %}
+        <tr>
+          <th>{{drink_type.first_item}} <p class="grey pt-2 pb-12">{{drink_type.first_item_ingredients}}</p></th>
+          <td class="grey">{{drink_type.first_item_cost}}</td>
+        </tr>
+        <tr>
+          <th>{{drink_type.first_item}} <p class="grey pt-2 pb-12">{{drink_type.first_item_ingredients}}</p></th>
+          <td class="grey">{{drink_type.first_item_cost}}</td>
+        </tr>
+        <tr>
+          <th>{{drink_type.first_item}} <p class="grey pt-2 pb-12">{{drink_type.first_item_ingredients}}</p></th>
+          <td class="grey">{{drink_type.first_item_cost}}</td>
+        </tr>
+        <tr>
+          <th>{{drink_type.first_item}} <p class="grey pt-2 pb-12">{{drink_type.first_item_ingredients}}</p></th>
+          <td class="grey">{{drink_type.first_item_cost}}</td>
+        </tr>
+       <!-- <tr>
+          <th>{{drink_type.second_item}} <p class="grey pt-2 pb-12">{{drink_type.second_item_ingredients}}</p></th>
+          <td class="grey">{{drink_type.second_item_cost}}</td>
+        </tr>
+        <tr>
+          <th>{{drink_type.third_item}} <p class="grey pt-2 pb-12">{{drink_type.third_item_ingredients}}</p></th>
+          <td class="grey">{{drink_type.third_item_cost}}</td>
+        </tr>
+        <tr>
+          <th>{{drink_type.fourth_item}} <p class="grey pt-2 pb-12">{{drink_type.fourth_item_ingredients}}</p></th>
+          <td class="grey">{{drink_type.fourth_item_cost}}</td>
+        </tr>
+        <tr>
+          <th>{{drink_type.fifth_item}} <p class="grey pt-2 pb-12">{{drink_type.fifth_item_ingredients}}</p></th>
+          <td class="grey">{{drink_type.fifth_item_cost}}</td>
+        </tr>-->
+        {% endfor %}
+      </table>
+</div>
+  </div>
+</div>
+</div>
+</div>
+<!---->
+</div>
 <!--{% include footer.html %}-->
