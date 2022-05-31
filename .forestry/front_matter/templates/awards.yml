@@ -9,3 +9,5 @@ fields:
   label: layout
   default: rewards
   hidden: true
+pages:
+- rewards.md
