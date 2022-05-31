@@ -26,14 +26,14 @@ menus:
   second_item_ingredients: meat
 - title: DESSERTS
   text: ''
-  first_item: ''
-  first_item_cost: ''
-  first_item_ingredients: ''
+  first_item: cheescake
+  first_item_cost: "70"
+  first_item_ingredients: cheese, eggs, milk
   item: []
   ingredients: []
-  second_item: ''
-  second_item_cost: ''
-  second_item_ingredients: ''
+  second_item: icecream
+  second_item_cost: "60"
+  second_item_ingredients: milk, friuts
 drinks:
 - title: CELLAR WINE BY THE GLASS
 - title: SIGNATURE COCKTAILS
