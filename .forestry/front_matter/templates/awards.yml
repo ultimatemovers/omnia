@@ -9,3 +9,5 @@ fields:
   label: layout
   default: awards
   hidden: true
+pages:
+- awards.md
