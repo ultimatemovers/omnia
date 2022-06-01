@@ -32,7 +32,7 @@ first_reward_text: Pssst. Fancy a drink inSouth Yarra but want to stay far from 
   madding Chapel St crowd? Head to 25 Toorak Rd. Push open the door, sashay past the
   duos dining…
 img: "/assets/images/reward1.jpg"
-first_reward_img: ''
+first_reward_img: "/assets/images/reward2.jpg"
 second_reward_title: second reward title
 second_reward_text: Pssst. Fancy a drink inSouth Yarra but want to stay far from the
   madding Chapel St crowd? Head to 25 Toorak Rd. Push open the door, sashay past the
