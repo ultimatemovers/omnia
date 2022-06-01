@@ -47,6 +47,11 @@ fields:
   config:
     required: false
   label: first_reward_title
+- name: first_reward_text
+  type: text
+  config:
+    required: false
+  label: first_reward_text
 - name: first_reward_date
   type: text
   config:
@@ -57,15 +62,35 @@ fields:
   config:
     required: false
   label: first_reward_author
-- name: first_reward_text
-  type: text
-  config:
-    required: false
-  label: first_reward_text
-- name: img
+- name: first_reward_img
   type: file
   config:
     maxSize: 64
-  label: img
+  label: first reward img
+- name: second_reward_title
+  type: text
+  config:
+    required: false
+  label: second_reward_title
+- name: second_reward_text
+  type: text
+  config:
+    required: false
+  label: second reward text
+- name: second_reward_date
+  type: text
+  config:
+    required: false
+  label: second reward date
+- name: second_reward_author
+  type: text
+  config:
+    required: false
+  label: second reward author
+- name: second_reward_img
+  type: file
+  config:
+    maxSize: 64
+  label: second reward img
 pages:
 - rewards.md
