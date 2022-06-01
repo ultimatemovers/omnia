@@ -13,14 +13,44 @@
     <div>
   <h2 class="rewards-title">NEWS & REWARDS</h2>
   </div>
+  <!----->
+  <div class="flex justify-between flex-wrap">
+  <div class="pt-16 mb-20 w-1/2 reward-item reward-item--first">
+    <div  class="">
+  <img src="{{page.first_reward_img}}" class="img-radius">
+  </div>
+  <div class="pt-16 olive">
+    <p class="reward-date mb-10">{{page.first_reward_date}}</p>
+    <h3 class="author-title">{{page.first_reward_author}}</h3>
+    <h3 class="pb-8 review-title">{{page.first_reward_title}}</h3>
+    <p class="mb-12 olive">{{page.first_reward_text}}</p>
+    <button class="olive-btn">Find out more</button>
+  </div>
+  </div>
+    <div class="pt-16 mb-20 w-1/2 reward-item reward-item--second">
+      <div  class="">
+    <img src="{{page.second_reward_img}}" class="img-radius">
+    </div>
+    <div class="pt-16 olive">
+      <p class="reward-date mb-10">{{page.second_reward_date}}</p>
+      <h3 class="author-title">{{page.second_reward_author}}</h3>
+      <h3 class="pb-8 review-title">{{page.second_reward_title}}</h3>
+      <p class="mb-12 olive">{{page.second_reward_text}}</p>
+      <button class="olive-btn">Find out more</button>
+    </div>
+</div>
+</div>
+
+<h2 class="about-rewards-title mt-20 mb-20">Here is the title about Omnia reviews</h2>
+  <!----->
   <div class="flex justify-between flex-wrap">
     {% for reward in page.rewards %}
   <div class="pt-16 mb-20 w-1/2 reward-item">
     <div  class="">
-  <img src="/img/homepage_1.jpg" class="img-radius">
+  <img src="{{reward.img}}" class="img-radius">
   </div>
   <div class="pt-16 olive">
-    <p class="reward-date mb-10"> October 12,02</p>
+    <p class="reward-date mb-10">{{reward.date}}</p>
     <h3 class="author-title">{{reward.author}}</h3>
     <h3 class="pb-8 review-title">{{reward.title}}</h3>
     <p class="mb-12 olive">{{reward.text}}</p>
@@ -28,7 +58,6 @@
   </div>
   </div>
   {% endfor %}
-  <h2 class="about-rewards-title" >Here is the title about Omnia reviews</h2>
 </div>
 </div>
   </div>
