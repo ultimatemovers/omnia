@@ -557,16 +557,53 @@ margin-right: 10px;
 
 .author-title {
 color: #A3A792;
-font-size: 40px;
+font-size: 32px;
 line-height: 40px;
 text-transform: uppercase;
 }
 
 .review-title {
   color: #BC984F;
-  font-size: 40px;
+  font-size: 32px;
   line-height: 40px;
   padding-bottom: 15px;
   margin-bottom: 15px;
   text-transform: uppercase;
+}
+
+/*.reward-item {
+  border: 1px solid red;
+}*/
+
+.reward-item:nth-child(even) {
+  padding-left: 30px;
+}
+
+.reward-item:nth-child(odd) {
+ padding-right: 30px;
+}
+
+.reward-item:nth-child(1){
+margin-bottom: 250px;
+}
+
+.reward-item:nth-child(2){
+margin-bottom: 250px;
+}
+
+.about-rewards-title {
+position: absolute;
+top: 1200px;
+left: 0;
+color: #A3A792;
+font-size: 40px;
+line-height: 40px;
+text-transform: uppercase;
+width: 50%;
+padding-bottom: 15px;
+border-bottom: 2px solid #A3A792;
+}
+
+.rewards-container {
+position: relative;
 }
