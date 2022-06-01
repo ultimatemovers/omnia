@@ -1,7 +1,7 @@
 ---
 layout: rewards
 rewards:
-- img: "/assets/images/reward2.jpg"
+- img: "/assets/images/reward4.jpg"
   title: RAISING THE TEMP
   author: HERALD SUN
   data: MAY 12, 2021
