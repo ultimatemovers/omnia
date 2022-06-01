@@ -42,5 +42,30 @@ fields:
     max: 
     labelField: 
   label: rewards
+- name: first_reward_title
+  type: text
+  config:
+    required: false
+  label: first_reward_title
+- name: first_reward_date
+  type: text
+  config:
+    required: false
+  label: first_reward_date
+- name: first_reward_author
+  type: text
+  config:
+    required: false
+  label: first_reward_author
+- name: first_reward_text
+  type: text
+  config:
+    required: false
+  label: first_reward_text
+- name: img
+  type: file
+  config:
+    maxSize: 64
+  label: img
 pages:
 - rewards.md
