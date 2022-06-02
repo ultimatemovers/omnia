@@ -1,0 +1,51 @@
+{% assign current_page = 'events' %}
+{% include head.html %}
+{% include nav.html %}
+<div id="events">
+  <img src="/img/events_main.jpg" alt="interior picture"
+  class="img-bottom-radius w-full -mt-8 mb-8 sm:mt-0 sm:mb-12 lg:mb-32">
+  <div class="container mx-auto">
+  <h1 class="homepage-title">
+   Events <br> headline
+  </h1>
+  <div class="pt-24 mt-48">
+    <div>
+  <h2 class="events-title">Events</h2>
+  </div>
+  {% for event in page.events %}
+  <div class="flex justify-between pt-16 mb-20 event-item" >
+    <div  class="w-1/2 event-img">
+  <img src="{{event.img}}" class="img-radius ">
+  </div>
+  <div class="pt-16 olive w-1/2 event-text"><!---ml-10 pr-20-->
+    <h3 class="pb-8 section-title">{{event.title}}</h3>
+    <p class="mb-12 olive">{{event.text}}</p>
+    <button class="olive-btn">Book a table</button>
+  </div>
+  </div>
+  {% endfor %}
+  </div>
+    <div class="">
+      <h2 class="events-title">EXCLUSIVE Events</h2>
+      <h3 class="private-title mt-20">HOST YOUR PRIVATE EVENT AT OMNIA</h3>
+      </div>
+
+      <div class="flex justify-between pt-12 pb-12 columns">
+        <div class="1/3 mr-4">
+        <p class="pb-8 olive">{{page.first_column_first_text}}</p>
+        <p class="pb-8 olive">{{page.first_column_second_text}}</p>
+        </div>
+        <div class=" 1/3 mr-4">
+          <p class="pb-8 olive">{{page.second_column_first_text}}</p>
+          <p class="pb-8 olive">{{page.second_column_second_text}}</p>
+          <p class="pb-8 olive">{{page.second_column_third_text}}</p>
+          <p class="pb-8 olive">{{page.second_column_fourth_text}}</p>
+      </div>
+        <div class=" 1/3 mr-4">
+        <p class="pb-8 olive">{{page.third_column_first_text}}</p>
+        <p class="pb-8 olive">{{page.third_column_second_text}}</p>
+      </div>
+      </div>
+
+</div>
+{% include footer.html %}

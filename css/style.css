@@ -407,7 +407,8 @@ body#homepage {
 
 .homepage-title {
   font-size: 90px;
-  line-height: 90px;
+  line-height: 70px;
+  text-transform: uppercase;
   color: #F0E1AD;
   line-height: 120px;
   margin-top: -600px;
@@ -422,6 +423,17 @@ body#homepage {
   text-transform: uppercase;
   text-align: center;
   margin: 0 auto;
+}
+
+.events-title {
+  font-size: 90px;
+  padding-bottom: 15px;
+  /*width: 350px;*/
+  text-transform: uppercase;
+  text-align: center;
+  margin: 0 auto;
+  color: #5C7057;
+  border-bottom: 2px solid #A3A792;
 }
 
 .img-radius {
@@ -602,4 +614,45 @@ border-bottom: 2px solid #A3A792;
 }
 
 .rewards-container {
+}
+
+/*EVENTS*/
+
+.event-img {
+  margin-right: 40px;
+}
+
+.event-text {
+  margin-left: 40px;
+  padding-right: 80px;
+}
+
+.event-item:nth-child(odd) {
+    flex-direction: row-reverse;
+}
+
+.event-item:nth-child(odd) .event-img {
+  margin-left: 40px;
+  margin-right: 0;
+}
+
+.event-item:nth-child(odd) .event-text {
+  margin-right: 40px;
+  margin-left: 0;
+  padding-left: 0;
+  padding-right: 80px;
+}
+
+.private-title {
+color: #BB968F;
+font-size: 60px;
+line-height: 60px;
+text-transform: uppercase;
+width: 50%;
+padding-bottom: 25px;
+border-bottom: 2px solid #AEB3A1;
+}
+
+.columns {
+  font-size: 18px;
 }
