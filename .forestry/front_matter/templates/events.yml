@@ -9,3 +9,5 @@ fields:
   label: layout
   default: events
   hidden: true
+pages:
+- events.md
