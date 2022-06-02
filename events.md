@@ -46,5 +46,18 @@ column_2_text: 'You will have a choice of one of three menu options: Three-cours
 column_3_text: Beverages will be charged on consumption and a $500 deposit will be
   required to secure the venue. For special occasions, we would also be glad to custom
   make your favourite cake.
+1column_1_text: We can comfortably accommodate 100 guests for a cocktail function,
+  40 seated in our Conservatory Room and 22 (long table) to 40 in our Barrel Room.
+1column_2_text: 'The minimum spend for dinner is: Mon-Thurs $10,000, Fri & Sat $20,000.
+  The minimum spend for lunch is: Mon-Thurs $5,000, Fri-Sun $7,500.'
+2column_1_text: 'You will have a choice of one of three menu options:'
+2column_2_text: Three-course Chef’s Menu ($150pp)
+1column_3_text: " Four-course Chef’s Menu ($175pp)"
+2column_4_text: A custom Chef’s Menu can also be created if you would like something
+  special or more than four courses.
+3column_1_text: Beverages will be charged on consumption and a $500 deposit will be
+  required to secure the venue.
+3column_2_text: For special occasions, we would also be glad to custom make your favourite
+  cake.
 
 ---
