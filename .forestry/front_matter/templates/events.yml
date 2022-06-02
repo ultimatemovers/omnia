@@ -32,11 +32,11 @@ fields:
     max: 
     labelField: 
   label: events
-- name: 1column_1_text
+- name: first_column_first_text
   type: text
   config:
     required: false
-  label: 1column_1_text
+  label: first column first text
 - name: 1column_2_text
   type: text
   config:
