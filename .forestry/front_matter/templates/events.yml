@@ -32,20 +32,45 @@ fields:
     max: 
     labelField: 
   label: events
-- name: column_1_text
+- name: 1column_1_text
   type: text
   config:
     required: false
-  label: column 1 text
-- name: column_2_text
+  label: 1column_1_text
+- name: 1column_2_text
   type: text
   config:
     required: false
-  label: column 2 text
-- name: column_3_text
+  label: 1column_2_text
+- name: 2column_1_text
   type: text
   config:
     required: false
-  label: column 3 text
+  label: 2column_1_text
+- name: 2column_2_text
+  type: text
+  config:
+    required: false
+  label: 2column_2_text
+- name: 1column_3_text
+  type: text
+  config:
+    required: false
+  label: 2column_3_text
+- name: 2column_4_text
+  type: text
+  config:
+    required: false
+  label: 2column_4_text
+- name: 3column_1_text
+  type: text
+  config:
+    required: false
+  label: 3column_1_text
+- name: 3column_2_text
+  type: text
+  config:
+    required: false
+  label: 3column_2_text
 pages:
 - events.md
