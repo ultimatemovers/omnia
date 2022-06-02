@@ -9,5 +9,28 @@ fields:
   label: layout
   default: events
   hidden: true
+- name: events
+  type: field_group_list
+  fields:
+  - name: title
+    type: text
+    config:
+      required: false
+    label: title
+  - name: img
+    type: file
+    config:
+      maxSize: 64
+    label: img
+  - name: text
+    type: text
+    config:
+      required: false
+    label: text
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: events
 pages:
 - events.md
