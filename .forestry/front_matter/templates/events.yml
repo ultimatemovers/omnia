@@ -32,18 +32,20 @@ fields:
     max: 
     labelField: 
   label: events
-- name: columns
-  type: field_group_list
-  fields:
-  - name: text
-    type: text
-    config:
-      required: false
-    label: text
+- name: column_1_text
+  type: text
   config:
-    min: 
-    max: 
-    labelField: 
-  label: columns
+    required: false
+  label: column 1 text
+- name: column_2_text
+  type: text
+  config:
+    required: false
+  label: column 2 text
+- name: column_3_text
+  type: text
+  config:
+    required: false
+  label: column 3 text
 pages:
 - events.md
