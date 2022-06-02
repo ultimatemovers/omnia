@@ -37,40 +37,40 @@ fields:
   config:
     required: false
   label: first column first text
-- name: 1column_2_text
+- name: first_column_second_text
   type: text
   config:
     required: false
-  label: 1column_2_text
-- name: 2column_1_text
+  label: first column second text
+- name: second_column_first_text
   type: text
   config:
     required: false
-  label: 2column_1_text
-- name: 2column_2_text
+  label: second column first text
+- name: second_column_second_text
   type: text
   config:
     required: false
-  label: 2column_2_text
-- name: 1column_3_text
+  label: second column second text
+- name: second_column_third_text
   type: text
   config:
     required: false
-  label: 2column_3_text
-- name: 2column_4_text
+  label: second column third text
+- name: second_column_fourth_text
   type: text
   config:
     required: false
-  label: 2column_4_text
-- name: 3column_1_text
+  label: second column fourth text
+- name: third_column_first_text
   type: text
   config:
     required: false
-  label: 3column_1_text
-- name: 3column_2_text
+  label: third column first text
+- name: third_column_second_text
   type: text
   config:
     required: false
-  label: 3column_2_text
+  label: third column second text
 pages:
 - events.md
