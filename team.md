@@ -1,6 +1,10 @@
 ---
 layout: team
 team_members:
+- name: Orlando Marzo
+  title: WORLD CLASS BARTENDER OF 2018
+  text: WORLD CLASS BARTENDER OF 2018
+  img: "/assets/images/member2.jpg"
 - name: Stephen Nairn
   title: CULINARY DIRECTOR
   text: Our menu changes seasonally, supporting Australian growers, producers and
