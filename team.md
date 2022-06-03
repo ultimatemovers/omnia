@@ -22,5 +22,6 @@ team_members:
     a selection of our personal favourites from Australia and around the world, including
     an enticing collection of Champagnes.
   img: "/assets/images/member1.jpg"
+bottom_img: "/assets/images/team_bottom.jpg"
 
 ---
