@@ -37,5 +37,10 @@ fields:
     max: 
     labelField: 
   label: team_members
+- name: bottom_img
+  type: file
+  config:
+    maxSize: 64
+  label: bottom img
 pages:
 - team.md
