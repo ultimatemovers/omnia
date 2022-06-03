@@ -632,7 +632,7 @@ border-bottom: 2px solid #A3A792;
 }
 
 .event-item:nth-child(odd) {
-    flex-direction: row-reverse;
+  flex-direction: row-reverse;
 }
 
 .event-item:nth-child(odd) .event-img {
@@ -712,4 +712,44 @@ background-color: #EEEDE5;
 
 .blue {
  color: #225367;
+}
+
+
+/*members/about us*/
+
+
+#team {
+background-color: #AEB3A1;
+}
+
+.member-item:nth-child(even) .img-border-radius {
+  border-bottom-right-radius: 90px;
+  border-top-right-radius: 90px;
+}
+
+.member-item:nth-child(odd) .img-border-radius {
+  border-bottom-left-radius: 90px;
+  border-top-left-radius: 90px;
+};
+
+
+.member-item:nth-child(odd) {
+  flex-direction: row-reverse;
+  background-color: darkgoldenrod;
+}
+
+.member-item:nth-child(even) .member-text {
+  margin-right: 80px;
+  padding-right: 80px;
+  }
+
+.member-item:nth-child(odd) .member-text {
+margin-right: 0;
+padding-right: 80px;
+margin-left: 80px;
+}
+
+.team-bottom-img {
+  border-top-right-radius: 90px;
+  border-top-left-radius: 90px;
 }
