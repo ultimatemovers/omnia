@@ -4,133 +4,52 @@
 {% include nav.html %}
 
 <div id="food">
-  <img src="/img/food_main.jpg" alt="food picture"
-  class="img-bottom-radius w-full -mt-8 mb-8 sm:mt-0 sm:mb-12 lg:mb-32">
+  <div class="cover-image" style="background-image: url('/img/food_main.jpg');">
+    <div class="container mx-auto">
+      <h1 class="">
+        {{ page.big_title }}
+      </h1>
+    </div>
+  </div>
+  {% for menu in page.menu %}
+  {% if menu-group-image %}
+    <div>
+      <img src="/img/wine.jpg" alt="wine picture" class="img-bottom-radius w-full">
+    </div>
+  {% endif %}
   <div class="container mx-auto">
-  <h1 class="homepage-title">
-    FOOD & DRINKS <br> HEADLINE IS HERE
-  </h1>
-  <div class="pt-24 pb-48 mt-48">
-    <div>
-  <h2 class="food-title">Food</h2>
-  </div>
-  <ul class="food-menu flex justify-between">
-    {% for menu in page.menus %}
-    <li class="inner-menu-item" data-category-name="{{ menu.title | slugify }}">
-      {{menu.title}}
-      <div class="menu-line"></div>
-    </li>
-    {% endfor %}
-</ul>
-<!----->
-<!--<div class="experiences-container flex flex-wrap justify-between mt-8 flex-col">
-  {% for experience in page.experiences %}
-  <div class="lg:pt-20 experience wrapper lg:pb-56" data-category={{ experience.title | slugify}}>
-    <h3 class="w-full upper-experience-title lg:hidden py-4 upper-font main-color">{{experience.title}}</h3>
-    <div class="hidden lg:block">
-      <img
-        class="pb-12 lg:pb-0 w-full animate__animated animate__fadeIn animate__slow experience-image"
-        src="{{experience.image}}"
-        alt="experience photo">-->
-<!----->
-  <div class="menu-container flex flex-wrap justify-between mt-8 flex-col">
-    {% for menu in page.menus %}
-    <div class="" data-category={{ menu.title | slugify}}>
-      <h2 >
-        {{menu.title}}
-      </h2>
-      <h2 >
-        {{menu.second_item}}
-      </h2>
-      {% endfor %}
-       <!--<table class="menu-table text-left">
-        <tr>
-          <th>{{menu.first_item}} <div>{{menu.title}}</div> <p class="grey pt-2 pb-12">{{menu.first_item_ingredients}}</p></th>
-          <td class="grey">{{menu.first_item_cost}}</td>
-        </tr>
-        <tr class="">
-          <th>{{menu.second_item}} <p class="grey pt-2 pb-12">{{menu.second_item_ingredients}}</p></th>
-          <td class="grey">{{menu.second_item_cost}}</td>
-        </tr>-->
-        <!--<tr>
-          <th>{{menu.third_item}} <p class="grey pt-2 pb-12">{{menu.third_item_ingredients}}</p></th>
-          <td class="grey">{{menu.third_item_cost}}</td>
-        </tr>
-        <tr>
-          <th>{{menu.fourth_item}} <p class="grey pt-2 pb-12">{{menu.fourth_item_ingredients}}</p></th>
-          <td class="grey">{{menu.fourth_item_cost}}</td>
-        </tr>
-        <tr>
-          <th>{{menu.fifth_item}} <p class="grey pt-2 pb-12">{{menu.fifth_item_ingredients}}</p></th>
-          <td class="grey">{{menu.fifth_item_cost}}</td>
-        </tr>
-        {% endfor %}
-      </table>
-</div>-->
-  </div>
-</div>
-</div>
-  <img src="/img/wine.jpg" alt="wine picture"
-class="img-bottom-radius w-full">
+    <h2 class="food-title">{{ menu.menu_group_title }}</h2>
 
-<!---->
-<div class="container mx-auto">
-  <div class="mt-20">
-    <div>
-  <h2 class="food-title">Drinks</h2>
-  </div>
-  <ul class="drink-menu flex justify-between">
-    {% for drink_type in page.drink_types %}
-    <li class="inner-menu-item" data-category-name="{{ drink_type.title | slugify }}">
-      {{drink_type.title}}
-      <div class="menu-line"></div>
-    </li>
-    {% endfor %}
-</ul>
-<!---->
-<div class="inbetween-line"></div>
-  <div class="menu-container flex flex-wrap justify-between mt-8 flex-col">
-    <div class="" data-category="{{ menu.title | slugify}}">
-       <table class="menu-table text-left">
-        {% for drink_type in page.drink_types %}
-        <tr>
-          <th>{{drink_type.first_item}} <p class="grey pt-2 pb-12">{{drink_type.first_item_ingredients}}</p></th>
-          <td class="grey">{{drink_type.first_item_cost}}</td>
-        </tr>
-        <tr>
-          <th>{{drink_type.first_item}} <p class="grey pt-2 pb-12">{{drink_type.first_item_ingredients}}</p></th>
-          <td class="grey">{{drink_type.first_item_cost}}</td>
-        </tr>
-        <tr>
-          <th>{{drink_type.first_item}} <p class="grey pt-2 pb-12">{{drink_type.first_item_ingredients}}</p></th>
-          <td class="grey">{{drink_type.first_item_cost}}</td>
-        </tr>
-        <tr>
-          <th>{{drink_type.first_item}} <p class="grey pt-2 pb-12">{{drink_type.first_item_ingredients}}</p></th>
-          <td class="grey">{{drink_type.first_item_cost}}</td>
-        </tr>
-       <!-- <tr>
-          <th>{{drink_type.second_item}} <p class="grey pt-2 pb-12">{{drink_type.second_item_ingredients}}</p></th>
-          <td class="grey">{{drink_type.second_item_cost}}</td>
-        </tr>
-        <tr>
-          <th>{{drink_type.third_item}} <p class="grey pt-2 pb-12">{{drink_type.third_item_ingredients}}</p></th>
-          <td class="grey">{{drink_type.third_item_cost}}</td>
-        </tr>
-        <tr>
-          <th>{{drink_type.fourth_item}} <p class="grey pt-2 pb-12">{{drink_type.fourth_item_ingredients}}</p></th>
-          <td class="grey">{{drink_type.fourth_item_cost}}</td>
-        </tr>
-        <tr>
-          <th>{{drink_type.fifth_item}} <p class="grey pt-2 pb-12">{{drink_type.fifth_item_ingredients}}</p></th>
-          <td class="grey">{{drink_type.fifth_item_cost}}</td>
-        </tr>-->
+    <div class="w-full flex justify-between mb-24" style="border-bottom: 2px solid #C1A973">
+      <ul class="menu-categories flex justify-between inner-container">
+        {% for category in menu.categories %}
+        <li class="menu-categories-title px-3 py-2 cursor-pointer" data-category-name="{{ category.category_title | slugify }}">
+          {{ category.category_title }}
+        </li>
         {% endfor %}
-      </table>
-</div>
+      </ul>
+    </div>
+    <div class="inner-container">
+      {% for category in menu.categories %}
+        <div class="w-full mb-40">
+          {% for product in category.products %}
+            <div class="flex items-start justify-between">
+              <div>
+                <div class="product-title">{{ product.product_title }}</div>
+                <div class="product-description pt-2 pb-12">{{ product.product_description }}</div>
+              </div>
+              <div class="product-price">
+                {{ product.product_price }}
+              </div>
+            </div>
+          {% endfor %}
+        </div>
+      {% endfor %}
+    </div>
   </div>
-</div>
-</div>
-</div>
-<!--</div>-->
-{% include footer.html %}
+  {% endfor %}
+
+  <img src="/img/wine.jpg" alt="wine picture" class="img-bottom-radius w-full">
+
+  <!--</div>-->
+  {% include footer.html %}
