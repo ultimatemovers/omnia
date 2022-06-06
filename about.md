@@ -20,10 +20,15 @@ team_members:
     an opus of his international experience and ability to source impeccable ingredients
     for each dish.
   img: "/assets/images/member1.jpg"
-- name: ''
-  title: ''
-  text: ''
-  img: ''
+- name: Orlando Marzo
+  title: Cocktail creator
+  text: When the time came to define a vision for bespoke beverages in our bar and
+    bistro, we recruited the very best. Orlando Marzo is the recipient of the 2018
+    World Class Global Bartender of the Year award and an international expert in
+    cocktail and food pairing. His reputation as a mixologist skyrocketed on a journey
+    that took him from his native Italy to London’s renowned Soho club scene and now
+    to our very own Omnia bar. Take a sip and see what all the beverage buzz is about.
+  img: "/assets/images/member2.jpg"
 - name: ''
   title: ''
   text: ''
