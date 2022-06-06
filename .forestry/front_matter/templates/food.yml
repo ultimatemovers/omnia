@@ -10,6 +10,12 @@ fields:
 - name: menu
   type: field_group_list
   fields:
+  - name: menu_group_name
+    type: text
+    config:
+      required: false
+    label: Menu Group Name
+    hidden: false
   - name: menu_group_title
     type: text
     config:
@@ -58,12 +64,6 @@ fields:
       max: 
       labelField: 
     label: Categories
-  - name: menu_group_name
-    type: text
-    config:
-      required: false
-    label: Menu Group Name
-    hidden: false
   config:
     min: 
     max: 
