@@ -48,4 +48,5 @@ fields:
     required: false
   label: team_title
 pages:
+- about.md
 - team.md
