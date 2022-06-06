@@ -39,7 +39,8 @@ team_members:
     dining with an added touch of class. See him work his magic in the Omnia open
     kitchen.
   img: "/assets/images/member1.jpg"
-bottom_img: ''
+bottom_img: "/assets/images/team_bottom.jpg"
 team_title: ''
+main_title: ''
 
 ---
