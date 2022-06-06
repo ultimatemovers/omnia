@@ -9,3 +9,5 @@ fields:
   label: layout
   hidden: true
   default: bookings
+pages:
+- bookings.md
