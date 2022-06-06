@@ -114,6 +114,9 @@ menu:
     - product_title: Cosmopolitan
       product_description: Lemon vodka, triple sec, cranberry juice, lime juice ice
       product_price: "80"
+    - product_title: Cosmopolitan
+      product_description: Lemon vodka, triple sec, cranberry juice, lime juice ice
+      product_price: "80"
 - category_title: Food
   products: []
   menu_group_title: Food
