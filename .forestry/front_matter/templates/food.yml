@@ -5,34 +5,49 @@ fields:
 - name: menu
   type: field_group_list
   fields:
-  - name: category_title
+  - name: menu_group_title
     type: text
     config:
       required: false
-    label: Category Title
-  - name: products
+    label: Menu Group Title
+  - name: categories
     type: field_group_list
     fields:
-    - name: product_title
+    - name: category_title
       type: text
       config:
         required: false
-      label: Product title
-    - name: product_description
-      type: text
+      label: Category Title
+    - name: products
+      type: field_group_list
+      fields:
+      - name: product_title
+        type: text
+        config:
+          required: false
+        label: Product Title
+        default: product title
+      - name: product_description
+        type: text
+        config:
+          required: false
+        label: Product description
+      - name: product_price
+        type: text
+        config:
+          required: false
+        label: Product price
+        default: price
       config:
-        required: false
-      label: Product description
-    - name: product_price
-      type: text
-      config:
-        required: false
-      label: Product price
+        min: 
+        max: 
+        labelField: 
+      label: Products
     config:
       min: 
       max: 
       labelField: 
-    label: Products
+    label: Categories
   config:
     min: 
     max: 
