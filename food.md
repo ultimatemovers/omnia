@@ -57,6 +57,9 @@ drink_types:
   first_item_ingredients: Labneh, zaatar & pumpkin seeds
 food_categories:
 - products:
+  - product_title: Milawa organic poussin ‍
+    product_description: White chicken velouté, sourdough, tarragon
+    product_price: "32"
   - product_title: Blackmore bavette steak
     product_description: Blue moon chips, peppercorn sauce
     product_price: "46"
