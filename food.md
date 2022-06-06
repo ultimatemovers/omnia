@@ -110,7 +110,10 @@ menu:
 - menu_group_title: Drinks
   categories:
   - category_title: CELLAR WINE BY THE GLASS
-    products: []
+    products:
+    - product_title: Robert Weil
+      product_description: 'Vintage: 2018 Appellation: Rheingau, Germany ABV: 8.5%'
+      product_price: "150"
   - category_title: NON ALCOHOLIC DIGESTIVE
     products:
     - product_title: Blue Lagoon
