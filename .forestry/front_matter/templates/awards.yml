@@ -65,5 +65,10 @@ fields:
     max: 
     labelField: 
   label: reviews
+- name: recent_title
+  type: text
+  config:
+    required: false
+  label: recent_title
 pages:
 - rewards.md

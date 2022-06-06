@@ -45,5 +45,6 @@ reviews:
     and David Bromley prints giving way to a lowceiling, cellar-like moody space opposite
     the open kitchen in which a phalanx of staff get on with feeding the 100-seater."
   img: "/assets/images/reward2.jpg"
+recent_title: "“OMNIA MARKS THE RETURN OF SOUTH YARRA’S GLAMOUR DAYS.” – HERALD SUN"
 
 ---
