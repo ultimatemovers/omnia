@@ -76,35 +76,38 @@ categories:
   products:
   - product_title: Milawa organic poussin
     product_description: White chicken velouté, sourdough, tarragon
-    product_price: "32"
+    product_price: '32'
   - product_title: Blackmore bavette steak
     product_description: Blue moon chips, peppercorn sauce
-    product_price: "46"
+    product_price: '46'
   - product_title: Murray cod
     product_description: Seaweed crusted, smoked fish consommé & kohlrabi
-    product_price: "44"
+    product_price: '44'
   - product_title: Musquee de provence pumpkin
     product_description: Labneh, zaatar & pumpkin seeds
-    product_price: "36"
+    product_price: '36'
 - category_title: Food
   products:
   - product_title: Dry aged honey roasted duck for two
     product_description: Charred navel orange, Tokyo turnip & sauce a l’orang
-    product_price: "42"
+    product_price: '42'
   - product_title: Shared add-on
     product_description: ''
     product_price: "/"
   - product_title: Milawa organic poussin
     product_description: "‍White chicken velouté, sourdough, tarragon"
-    product_price: "32"
+    product_price: '32'
   - product_title: " Blackmore bavette steak"
     product_description: " ‍Blue moon chips, peppercorn sauce"
-    product_price: "46"
+    product_price: '46'
   - product_title: " Murray cod"
     product_description: "‍Seaweed crusted, smoked fish consommé & kohlrabi"
-    product_price: "44"
+    product_price: '44'
   - product_title: Musquee de provence pumpkin
     product_description: Labneh, zaatar & pumpkin seeds
-    product_price: "36"
+    product_price: '36'
+menu:
+- category_title: Food
+  products: []
 
 ---
