@@ -112,6 +112,9 @@ menu:
   menu_group_title: Food
   categories:
   - category_title: SNACKS & STARTER
-    products: []
+    products:
+    - product_title: Musquee de provence pumpkin
+      product_description: Labneh, zaatar & pumpkin seeds
+      product_price: "50"
 
 ---
