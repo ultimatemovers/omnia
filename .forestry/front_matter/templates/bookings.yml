@@ -9,5 +9,10 @@ fields:
   label: layout
   hidden: true
   default: bookings
+- name: big_title
+  type: text
+  config:
+    required: false
+  label: big title
 pages:
 - bookings.md
