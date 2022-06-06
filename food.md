@@ -73,7 +73,10 @@ food_categories:
 drink_categories: []
 categories:
 - category_title: Drinks
-  products: []
+  products:
+  - product_title: Musquee de provence pumpkin
+    product_description: Labneh, zaatar & pumpkin seeds
+    product_price: "36"
 - category_title: Food
   products:
   - product_title: Dry aged honey roasted duck for two
