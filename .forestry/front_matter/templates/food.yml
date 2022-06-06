@@ -2,7 +2,7 @@
 label: food
 hide_body: true
 fields:
-- name: categories
+- name: menu
   type: field_group_list
   fields:
   - name: category_title
@@ -37,7 +37,7 @@ fields:
     min: 
     max: 
     labelField: 
-  label: Categories
+  label: Menu
 - name: layout
   type: text
   config:
