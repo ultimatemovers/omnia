@@ -4,35 +4,35 @@ menus:
 - title: SNACKS & STARTER
   text: hello2
   first_item: Musquee de provence pumpkin
-  first_item_cost: "36"
+  first_item_cost: '36'
   first_item_ingredients: Labneh, zaatar & pumpkin seeds
   item:
   - title: Musquee de provence pumpkin
     ingredients: " Labneh, zaatar & pumpkin seeds"
-    cost: "46"
+    cost: '46'
   ingredients: []
   second_item: Murray cod
-  second_item_cost: "44"
+  second_item_cost: '44'
   second_item_ingredients: " ‍Seaweed crusted, smoked fish consommé & kohlrabi"
 - title: MAINS & SIDE
   text: hello
   first_item: Pelmeni
-  first_item_cost: "120"
+  first_item_cost: '120'
   first_item_ingredients: 'meat '
   item: []
   ingredients: []
   second_item: holodets
-  second_item_cost: "100"
+  second_item_cost: '100'
   second_item_ingredients: meat
 - title: DESSERTS
   text: ''
   first_item: cheescake
-  first_item_cost: "70"
+  first_item_cost: '70'
   first_item_ingredients: cheese, eggs, milk
   item: []
   ingredients: []
   second_item: icecream
-  second_item_cost: "60"
+  second_item_cost: '60'
   second_item_ingredients: milk, friuts
 drinks:
 - title: CELLAR WINE BY THE GLASS
@@ -53,7 +53,14 @@ drink_types:
   first_item_ingredients: ''
 - title: CELLAR WINE BY THE GLASS
   first_item: Cosmopolitan
-  first_item_cost: "50"
+  first_item_cost: '50'
   first_item_ingredients: Labneh, zaatar & pumpkin seeds
+food_categories:
+- products:
+  - product_title: Musquee de provence pumpkin
+    product_description: Labneh, zaatar & pumpkin seeds
+    product_price: "36"
+  category_title: Food
+drink_categories: []
 
 ---
