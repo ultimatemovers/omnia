@@ -120,6 +120,9 @@ menu:
     - product_title: Blue Lagoon
       product_description: Vodka, Blue curaçao, Lemonade
       product_price: "90"
+    - product_title: Blue Lagoon
+      product_description: Vodka, Blue curaçao, Lemonade
+      product_price: "90"
   - category_title: SIGNATURE COCKTAILS
     products:
     - product_title: Cosmopolitan
