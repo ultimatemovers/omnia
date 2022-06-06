@@ -52,5 +52,25 @@ fields:
   config:
     required: false
   label: main_title
+- name: place_title
+  type: text
+  config:
+    required: false
+  label: place_title
+- name: space_title
+  type: text
+  config:
+    required: false
+  label: space_title
+- name: produce
+  type: text
+  config:
+    required: false
+  label: produce
+- name: hospitality_title
+  type: text
+  config:
+    required: false
+  label: hospitality_title
 pages:
 - about.md
