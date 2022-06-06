@@ -109,8 +109,13 @@ categories:
 menu:
 - menu_group_title: Drinks
   categories:
+  - category_title: CELLAR WINE BY THE GLASS
+    products: []
   - category_title: NON ALCOHOLIC DIGESTIVE
     products:
+    - product_title: Blue Lagoon
+      product_description: Vodka, Blue curaçao, Lemonade
+      product_price: "90"
     - product_title: Blue Lagoon
       product_description: Vodka, Blue curaçao, Lemonade
       product_price: "90"
