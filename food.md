@@ -218,7 +218,7 @@ menu:
       product_description: Lemon vodka, triple sec, cranberry juice, lime juice ice
       product_price: "80"
   menu-group-image: "/assets/images/mask-group-20-2x.jpg"
-  menu_group_name: ''
+  menu_group_name: drink
 big_title: FOOD & DRINKS
 
 ---
