@@ -57,6 +57,9 @@ drink_types:
   first_item_ingredients: Labneh, zaatar & pumpkin seeds
 food_categories:
 - products:
+  - product_title: Murray cod
+    product_description: Seaweed crusted, smoked fish consommé & kohlrabi
+    product_price: "44"
   - product_title: Musquee de provence pumpkin
     product_description: Labneh, zaatar & pumpkin seeds
     product_price: "36"
