@@ -16,9 +16,9 @@ rewards:
   data: OCTOBER 12, 2021
   text: Pssst. Fancy a drink inSouth Yarra but want to stay far from the madding Chapel
     St crowd? Head to 25 Toorak Rd. Push open the door, sashay past the duos dining…
-  name_year: ''
-  category: ''
-  to: ''
+  name_year: New York Times 2022
+  category: Food and drink
+  to: Architects EAT for Omnia Bistro
 first_reward_title: first reward title
 first_reward_date: 13 May 2022
 first_reward_author: Leo Tolstoy
