@@ -2,6 +2,11 @@
 label: food
 hide_body: true
 fields:
+- name: big_title
+  type: text
+  config:
+    required: false
+  label: Big title
 - name: menu
   type: field_group_list
   fields:
