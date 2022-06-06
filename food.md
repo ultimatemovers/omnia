@@ -74,6 +74,9 @@ drink_categories: []
 categories:
 - category_title: Food
   products:
+  - product_title: Shared add-on
+    product_description: ''
+    product_price: "/"
   - product_title: Milawa organic poussin
     product_description: "‍White chicken velouté, sourdough, tarragon"
     product_price: "32"
