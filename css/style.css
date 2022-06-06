@@ -715,10 +715,10 @@ background-color: #EEEDE5;
 }
 
 
-/*members/about us*/
+/*about us*/
 
 
-#team {
+#about {
 background-color: #AEB3A1;
 }
 
@@ -733,9 +733,10 @@ background-color: #AEB3A1;
 };
 
 
-.member-item:nth-child(odd) {
+.member-item:nth-child(odd)  {
   flex-direction: row-reverse;
   background-color: darkgoldenrod;
+  border: 1px solid red;
 }
 
 .member-item:nth-child(even) .member-text {
