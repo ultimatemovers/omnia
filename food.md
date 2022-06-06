@@ -72,6 +72,8 @@ food_categories:
   category_title: Food
 drink_categories: []
 categories:
+- category_title: Drinks
+  products: []
 - category_title: Food
   products:
   - product_title: Dry aged honey roasted duck for two
