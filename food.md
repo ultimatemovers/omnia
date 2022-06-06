@@ -125,6 +125,9 @@ menu:
     - product_title: Blackmore
       product_description: " ‍Blue moon chips, peppercorn sauce "
       product_price: "100"
+    - product_title: Blackmore
+      product_description: " ‍Blue moon chips, peppercorn sauce "
+      product_price: "100"
   - category_title: MAINS & SIDE
     products:
     - product_title: Murray cod
