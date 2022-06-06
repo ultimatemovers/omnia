@@ -42,5 +42,9 @@ team_members:
 bottom_img: "/assets/images/team_bottom.jpg"
 team_title: The people
 main_title: THE STORY BEHIND EVERY BITE
+place_title: The Place
+space_title: The Space
+produce: The produce
+hospitality_title: LK Hospitality
 
 ---
