@@ -2,6 +2,78 @@
 label: food
 hide_body: true
 fields:
+- name: food_categories
+  type: field_group_list
+  fields:
+  - name: category_title
+    type: text
+    config:
+      required: false
+    label: Category Title
+  - name: products
+    type: field_group_list
+    fields:
+    - name: product_title
+      type: text
+      config:
+        required: false
+      label: Product title
+    - name: product_description
+      type: text
+      config:
+        required: false
+      label: Product description
+    - name: product_price
+      type: text
+      config:
+        required: false
+      label: Product price
+    config:
+      min: 
+      max: 
+      labelField: 
+    label: Products
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Food categories
+- name: drink_categories
+  type: field_group_list
+  fields:
+  - name: category_title
+    type: text
+    config:
+      required: false
+    label: Category title
+  - name: products
+    type: field_group_list
+    fields:
+    - name: product_title
+      type: text
+      config:
+        required: false
+      label: Product title
+    - name: product_description
+      type: text
+      config:
+        required: false
+      label: Product description
+    - name: product_price
+      type: text
+      config:
+        required: false
+      label: Product price
+    config:
+      min: 
+      max: 
+      labelField: 
+    label: Products
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Drink categories
 - name: layout
   type: text
   config:
@@ -9,99 +81,5 @@ fields:
   label: Layout
   hidden: true
   default: food
-- name: menus
-  type: field_group_list
-  fields:
-  - name: title
-    type: text
-    config:
-      required: false
-    label: title
-  - name: first_item
-    type: text
-    config:
-      required: false
-    label: first_item
-  - name: first_item_cost
-    type: text
-    config:
-      required: false
-    label: first_item_cost
-  - name: first_item_ingredients
-    type: text
-    config:
-      required: false
-    label: first_item_ingredients
-  - name: item
-    type: field_group_list
-    fields:
-    - name: title
-      type: text
-      config:
-        required: false
-      label: title
-    - name: ingredients
-      type: text
-      config:
-        required: false
-      label: ingredients
-    - name: cost
-      type: text
-      config:
-        required: false
-      label: cost
-    config:
-      min: 
-      max: 
-      labelField: 
-    label: items
-  - name: second_item
-    type: text
-    config:
-      required: false
-    label: second item
-  - name: second_item_cost
-    type: text
-    config:
-      required: false
-    label: second item cost
-  - name: second_item_ingredients
-    type: text
-    config:
-      required: false
-    label: second item ingredients
-  config:
-    min: 
-    max: 
-    labelField: 
-  label: menus
-- name: drink_types
-  type: field_group_list
-  fields:
-  - name: title
-    type: text
-    config:
-      required: false
-    label: title
-  - name: first_item
-    type: text
-    config:
-      required: false
-    label: first item
-  - name: first_item_cost
-    type: text
-    config:
-      required: false
-    label: first_item_cost
-  - name: first_item_ingredients
-    type: text
-    config:
-      required: false
-    label: first item ingredients
-  config:
-    min: 
-    max: 
-    labelField: 
-  label: drink types
 pages:
 - food.md
