@@ -107,59 +107,6 @@ categories:
     product_description: Labneh, zaatar & pumpkin seeds
     product_price: '36'
 menu:
-- menu_group_title: Drinks
-  categories:
-  - category_title: CELLAR WINE BY THE GLASS
-    products:
-    - product_title: Robert Weil
-      product_description: 'Vintage: 2018 Appellation: Rheingau, Germany ABV: 8.5%'
-      product_price: "150"
-    - product_title: Robert Weil
-      product_description: 'Vintage: 2018 Appellation: Rheingau, Germany ABV: 8.5%'
-      product_price: "150"
-    - product_title: Robert Weil
-      product_description: 'Vintage: 2018 Appellation: Rheingau, Germany ABV: 8.5%'
-      product_price: "150"
-    - product_title: Robert Weil
-      product_description: 'Vintage: 2018 Appellation: Rheingau, Germany ABV: 8.5%'
-      product_price: "150"
-    - product_title: Robert Weil
-      product_description: 'Vintage: 2018 Appellation: Rheingau, Germany ABV: 8.5%'
-      product_price: "150"
-  - category_title: NON ALCOHOLIC DIGESTIVE
-    products:
-    - product_title: Blue Lagoon
-      product_description: Vodka, Blue curaçao, Lemonade
-      product_price: "90"
-    - product_title: Blue Lagoon
-      product_description: Vodka, Blue curaçao, Lemonade
-      product_price: "90"
-    - product_title: Blue Lagoon
-      product_description: Vodka, Blue curaçao, Lemonade
-      product_price: "90"
-    - product_title: Blue Lagoon
-      product_description: Vodka, Blue curaçao, Lemonade
-      product_price: "90"
-    - product_title: Blue Lagoon
-      product_description: Vodka, Blue curaçao, Lemonade
-      product_price: "90"
-  - category_title: SIGNATURE COCKTAILS
-    products:
-    - product_title: Cosmopolitan
-      product_description: Lemon vodka, triple sec, cranberry juice, lime juice ice
-      product_price: "80"
-    - product_title: Cosmopolitan
-      product_description: Lemon vodka, triple sec, cranberry juice, lime juice ice
-      product_price: "80"
-    - product_title: Cosmopolitan
-      product_description: Lemon vodka, triple sec, cranberry juice, lime juice ice
-      product_price: "80"
-    - product_title: Cosmopolitan
-      product_description: Lemon vodka, triple sec, cranberry juice, lime juice ice
-      product_price: "80"
-    - product_title: Cosmopolitan
-      product_description: Lemon vodka, triple sec, cranberry juice, lime juice ice
-      product_price: "80"
 - category_title: Food
   products: []
   menu_group_title: Food
@@ -215,6 +162,59 @@ menu:
     - product_title: Musquee de provence pumpkin
       product_description: Labneh, zaatar & pumpkin seeds
       product_price: "50"
+- menu_group_title: Drinks
+  categories:
+  - category_title: CELLAR WINE BY THE GLASS
+    products:
+    - product_title: Robert Weil
+      product_description: 'Vintage: 2018 Appellation: Rheingau, Germany ABV: 8.5%'
+      product_price: "150"
+    - product_title: Robert Weil
+      product_description: 'Vintage: 2018 Appellation: Rheingau, Germany ABV: 8.5%'
+      product_price: "150"
+    - product_title: Robert Weil
+      product_description: 'Vintage: 2018 Appellation: Rheingau, Germany ABV: 8.5%'
+      product_price: "150"
+    - product_title: Robert Weil
+      product_description: 'Vintage: 2018 Appellation: Rheingau, Germany ABV: 8.5%'
+      product_price: "150"
+    - product_title: Robert Weil
+      product_description: 'Vintage: 2018 Appellation: Rheingau, Germany ABV: 8.5%'
+      product_price: "150"
+  - category_title: NON ALCOHOLIC DIGESTIVE
+    products:
+    - product_title: Blue Lagoon
+      product_description: Vodka, Blue curaçao, Lemonade
+      product_price: "90"
+    - product_title: Blue Lagoon
+      product_description: Vodka, Blue curaçao, Lemonade
+      product_price: "90"
+    - product_title: Blue Lagoon
+      product_description: Vodka, Blue curaçao, Lemonade
+      product_price: "90"
+    - product_title: Blue Lagoon
+      product_description: Vodka, Blue curaçao, Lemonade
+      product_price: "90"
+    - product_title: Blue Lagoon
+      product_description: Vodka, Blue curaçao, Lemonade
+      product_price: "90"
+  - category_title: SIGNATURE COCKTAILS
+    products:
+    - product_title: Cosmopolitan
+      product_description: Lemon vodka, triple sec, cranberry juice, lime juice ice
+      product_price: "80"
+    - product_title: Cosmopolitan
+      product_description: Lemon vodka, triple sec, cranberry juice, lime juice ice
+      product_price: "80"
+    - product_title: Cosmopolitan
+      product_description: Lemon vodka, triple sec, cranberry juice, lime juice ice
+      product_price: "80"
+    - product_title: Cosmopolitan
+      product_description: Lemon vodka, triple sec, cranberry juice, lime juice ice
+      product_price: "80"
+    - product_title: Cosmopolitan
+      product_description: Lemon vodka, triple sec, cranberry juice, lime juice ice
+      product_price: "80"
 big_title: FOOD & DRINKS
 
 ---
