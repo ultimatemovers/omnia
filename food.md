@@ -74,6 +74,9 @@ drink_categories: []
 categories:
 - category_title: Food
   products:
+  - product_title: Dry aged honey roasted duck for two
+    product_description: Charred navel orange, Tokyo turnip & sauce a l’orang
+    product_price: "42"
   - product_title: Shared add-on
     product_description: ''
     product_price: "/"
