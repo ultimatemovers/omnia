@@ -162,7 +162,7 @@ menu:
     - product_title: Musquee de provence pumpkin
       product_description: Labneh, zaatar & pumpkin seeds
       product_price: "50"
-  menu-group-image: "/assets/images/food_main.jpg"
+  menu-group-image: ''
 - menu_group_title: Drinks
   categories:
   - category_title: CELLAR WINE BY THE GLASS
