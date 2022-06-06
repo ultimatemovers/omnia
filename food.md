@@ -113,7 +113,10 @@ menu:
   categories:
   - category_title: DESSERTS
     products:
-    - product_title: Blackmor
+    - product_title: Blackmore
+      product_description: " ‍Blue moon chips, peppercorn sauce "
+      product_price: "100"
+    - product_title: Blackmore
       product_description: " ‍Blue moon chips, peppercorn sauce "
       product_price: "100"
     - product_title: Blackmore
