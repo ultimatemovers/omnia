@@ -40,5 +40,6 @@ team_members:
     kitchen.
   img: "/assets/images/member1.jpg"
 bottom_img: "/assets/images/team_bottom.jpg"
+team_title: The people
 
 ---
