@@ -28,5 +28,14 @@ second_reward_text: Pssst. Fancy a drink inSouth Yarra but want to stay far from
 second_reward_date: 30 december 2020
 second_reward_author: New Your Times
 second_reward_img: "/assets/images/reward3.jpg"
+reviews:
+- title: Good food
+  text: "“So Omnia works. Omnia is delicious. Are you surprised, when the crew has
+    been picked like a fantasy football team? I'm not, and I'm glad for South Yarra
+    that another winner is on the cards.”"
+  img: "/assets/images/reward1.jpg"
+- title: ''
+  text: ''
+  img: ''
 
 ---
