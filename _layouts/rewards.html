@@ -6,7 +6,7 @@
   class="img-bottom-radius w-full -mt-8 mb-8 sm:mt-0 sm:mb-12 lg:mb-32">
   <div class="container mx-auto ">
   <h1 class="homepage-title">
-    BEST RECENT AWARD <br> HEADLINE
+    {{page.recent_title}}
   </h1>
   <div class="pt-64 pb-20 ">
     <div class="rewards-container">
@@ -15,50 +15,39 @@
   </div>
   <!----->
   <div class="flex justify-between flex-wrap">
-  <div class="pt-16 mb-20 w-1/2 reward-item reward-item--first">
-    <div  class="">
-  <img src="{{page.first_reward_img}}" class="img-radius">
-  </div>
-  <div class="pt-16 olive">
-    <p class="reward-date mb-10">{{page.first_reward_date}}</p>
-    <h3 class="author-title">{{page.first_reward_author}}</h3>
-    <h3 class="pb-8 review-title">{{page.first_reward_title}}</h3>
-    <p class="mb-12 olive">{{page.first_reward_text}}</p>
-    <button class="olive-btn">Find out more</button>
-  </div>
-  </div>
-    <div class="pt-16 mb-20 w-1/2 reward-item reward-item--second">
-      <div  class="">
-    <img src="{{page.second_reward_img}}" class="img-radius">
-    </div>
-    <div class="pt-16 olive">
-      <p class="reward-date mb-10">{{page.second_reward_date}}</p>
-      <h3 class="author-title">{{page.second_reward_author}}</h3>
-      <h3 class="pb-8 review-title">{{page.second_reward_title}}</h3>
-      <p class="mb-12 olive">{{page.second_reward_text}}</p>
-      <button class="olive-btn">Find out more</button>
-    </div>
-</div>
-</div>
-
-<h2 class="about-rewards-title mt-20 mb-20">Here is the title about Omnia reviews</h2>
-  <!----->
-  <div class="flex justify-between flex-wrap">
     {% for reward in page.rewards %}
   <div class="pt-16 mb-20 w-1/2 reward-item">
     <div  class="">
   <img src="{{reward.img}}" class="img-radius">
   </div>
   <div class="pt-16 olive">
-    <p class="reward-date mb-10">{{reward.date}}</p>
-    <h3 class="author-title">{{reward.author}}</h3>
-    <h3 class="pb-8 review-title">{{reward.title}}</h3>
-    <p class="mb-12 olive">{{reward.text}}</p>
+    <!--<p class="reward-date mb-10">{{reward.date}}</p>-->
+    <h3 class="author-title">{{reward.name_year}}</h3>
+    <h3 class="pb-8 review-title">{{reward.category}}</h3>
+    <p class="mb-12 olive">{{reward.to}}</p>
     <button class="olive-btn">Find out more</button>
   </div>
   </div>
   {% endfor %}
 </div>
+</div>
+
+<h2 class="about-rewards-title mt-20 mb-20">Here is the title about Omnia reviews</h2>
+<div class="flex justify-between flex-wrap">
+  {% for review in page.reviews %}
+<div class="pt-16 mb-20 w-1/2 reward-item">
+  <div  class="">
+<img src="{{review.img}}" class="img-radius">
+</div>
+<div class="pt-16 olive">
+  <!--<p class="reward-date mb-10">{{review.date}}</p>
+  <h3 class="author-title">{{review.author}}</h3>-->
+  <h3 class="pb-8 review-title">{{review.title}}</h3>
+  <p class="mb-12 olive">{{review.text}}</p>
+  <button class="olive-btn">Find out more</button>
+</div>
+</div>
+{% endfor %}
 </div>
   </div>
 </div>
