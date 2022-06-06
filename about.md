@@ -40,7 +40,7 @@ team_members:
     kitchen.
   img: "/assets/images/member1.jpg"
 bottom_img: "/assets/images/team_bottom.jpg"
-team_title: ''
-main_title: ''
+team_title: The people
+main_title: THE STORY BEHIND EVERY BITE
 
 ---
