@@ -2,7 +2,7 @@
 label: food
 hide_body: true
 fields:
-- name: food_categories
+- name: categories
   type: field_group_list
   fields:
   - name: category_title
@@ -37,43 +37,7 @@ fields:
     min: 
     max: 
     labelField: 
-  label: Food categories
-- name: drink_categories
-  type: field_group_list
-  fields:
-  - name: category_title
-    type: text
-    config:
-      required: false
-    label: Category title
-  - name: products
-    type: field_group_list
-    fields:
-    - name: product_title
-      type: text
-      config:
-        required: false
-      label: Product title
-    - name: product_description
-      type: text
-      config:
-        required: false
-      label: Product description
-    - name: product_price
-      type: text
-      config:
-        required: false
-      label: Product price
-    config:
-      min: 
-      max: 
-      labelField: 
-    label: Products
-  config:
-    min: 
-    max: 
-    labelField: 
-  label: Drink categories
+  label: Categories
 - name: layout
   type: text
   config:
