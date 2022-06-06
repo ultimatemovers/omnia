@@ -123,6 +123,9 @@ menu:
       product_description: " ‍Seaweed crusted, smoked fish consommé & kohlrabi"
       product_price: "75"
     - product_title: Murray cod
+      product_description: " ‍Seaweed crusted, smoked fish consommé & kohlrabi"
+      product_price: "75"
+    - product_title: Murray cod
       product_description: Seaweed crusted, smoked fish consommé & kohlrabi
       product_price: "75"
   - category_title: SNACKS & STARTER
