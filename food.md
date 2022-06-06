@@ -162,6 +162,7 @@ menu:
     - product_title: Musquee de provence pumpkin
       product_description: Labneh, zaatar & pumpkin seeds
       product_price: "50"
+  menu-group-image: ''
 - menu_group_title: Drinks
   categories:
   - category_title: CELLAR WINE BY THE GLASS
@@ -215,6 +216,7 @@ menu:
     - product_title: Cosmopolitan
       product_description: Lemon vodka, triple sec, cranberry juice, lime juice ice
       product_price: "80"
+  menu-group-image: "/assets/images/mask-group-20-2x.jpg"
 big_title: FOOD & DRINKS
 
 ---
