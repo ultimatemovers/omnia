@@ -34,8 +34,10 @@ reviews:
     been picked like a fantasy football team? I'm not, and I'm glad for South Yarra
     that another winner is on the cards.”"
   img: "/assets/images/reward1.jpg"
-- title: ''
-  text: ''
-  img: ''
+- title: Herald Sun
+  text: "“It's a glorious room; a soaring atrium filled with light and hanging greenery
+    and David Bromley prints giving way to a lowceiling, cellar-like moody space opposite
+    the open kitchen in which a phalanx of staff get on with feeding the 100-seater."
+  img: "/assets/images/reward2.jpg"
 
 ---
