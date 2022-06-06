@@ -107,6 +107,8 @@ categories:
     product_description: Labneh, zaatar & pumpkin seeds
     product_price: '36'
 menu:
+- menu_group_title: Drinks
+  categories: []
 - category_title: Food
   products: []
   menu_group_title: Food
