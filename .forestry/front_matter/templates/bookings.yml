@@ -14,15 +14,15 @@ fields:
   config:
     required: false
   label: big title
-- name: 1_column
+- name: first_column
   type: text
   config:
     required: false
-  label: 1 column
-- name: 2_column
+  label: first_column
+- name: second_column
   type: text
   config:
     required: false
-  label: 2 column
+  label: second column
 pages:
 - bookings.md
