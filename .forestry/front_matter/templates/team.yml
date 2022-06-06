@@ -47,6 +47,10 @@ fields:
   config:
     required: false
   label: team_title
+- name: main_title
+  type: text
+  config:
+    required: false
+  label: main_title
 pages:
 - about.md
-- team.md
