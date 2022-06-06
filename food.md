@@ -117,6 +117,9 @@ menu:
     - product_title: Robert Weil
       product_description: 'Vintage: 2018 Appellation: Rheingau, Germany ABV: 8.5%'
       product_price: "150"
+    - product_title: Robert Weil
+      product_description: 'Vintage: 2018 Appellation: Rheingau, Germany ABV: 8.5%'
+      product_price: "150"
   - category_title: NON ALCOHOLIC DIGESTIVE
     products:
     - product_title: Blue Lagoon
