@@ -29,10 +29,16 @@ team_members:
     that took him from his native Italy to London’s renowned Soho club scene and now
     to our very own Omnia bar. Take a sip and see what all the beverage buzz is about.
   img: "/assets/images/member2.jpg"
-- name: ''
-  title: ''
-  text: ''
-  img: ''
+- name: 'Evin Doherty '
+  title: Head Chef
+  text: As one of Melbourne’s most sought after up-and-coming culinary craftsmen,
+    Evin takes his kaleidoscope of experience and infuses creativity into every dish.
+    He began his career at a family hotel restaurant in Ireland and built an impressive
+    reputation working his way up in Michelin starred and hatted restaurants. His
+    restaurant repertoire has given birth to a talent for delivering casual bistro
+    dining with an added touch of class. See him work his magic in the Omnia open
+    kitchen.
+  img: "/assets/images/member1.jpg"
 bottom_img: ''
 team_title: ''
 
