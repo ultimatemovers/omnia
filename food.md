@@ -73,6 +73,9 @@ food_categories:
 drink_categories: []
 categories:
 - category_title: Food
-  products: []
+  products:
+  - product_title: Musquee de provence pumpkin
+    product_description: 'Labneh, zaatar & pumpkin seeds Murray cod '
+    product_price: "36"
 
 ---
