@@ -7,12 +7,18 @@ rewards:
   data: MAY 12, 2021
   text: Pssst. Fancy a drink inSouth Yarra but want to stay far from the madding Chapel
     St crowd? Head to 25 Toorak Rd. Push open the door, sashay past the duos dining…
+  name_year: Eat Drink Design Awards 2020
+  category: Best Restaurant Design - Shortlisted
+  to: Architects EAT for Omnia Bistro
 - img: "/assets/images/reward1.jpg"
   title: RAISING THE TEMP
   author: HERALD SUN
   data: OCTOBER 12, 2021
   text: Pssst. Fancy a drink inSouth Yarra but want to stay far from the madding Chapel
     St crowd? Head to 25 Toorak Rd. Push open the door, sashay past the duos dining…
+  name_year: ''
+  category: ''
+  to: ''
 first_reward_title: first reward title
 first_reward_date: 13 May 2022
 first_reward_author: Leo Tolstoy
