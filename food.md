@@ -111,6 +111,11 @@ menu:
   products: []
   menu_group_title: Food
   categories:
+  - category_title: MAINS & SIDE
+    products:
+    - product_title: Murray cod
+      product_description: Seaweed crusted, smoked fish consommé & kohlrabi
+      product_price: "75"
   - category_title: SNACKS & STARTER
     products:
     - product_title: Musquee de provence pumpkin
