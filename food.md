@@ -74,6 +74,9 @@ drink_categories: []
 categories:
 - category_title: Drinks
   products:
+  - product_title: Blackmore bavette steak
+    product_description: Blue moon chips, peppercorn sauce
+    product_price: "46"
   - product_title: Murray cod
     product_description: Seaweed crusted, smoked fish consommé & kohlrabi
     product_price: "44"
