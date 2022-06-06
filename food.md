@@ -116,5 +116,8 @@ menu:
     - product_title: Musquee de provence pumpkin
       product_description: Labneh, zaatar & pumpkin seeds
       product_price: "50"
+    - product_title: Musquee de provence pumpkin
+      product_description: Labneh, zaatar & pumpkin seeds
+      product_price: "50"
 
 ---
