@@ -109,5 +109,9 @@ categories:
 menu:
 - category_title: Food
   products: []
+  menu_group_title: Food
+  categories:
+  - category_title: SNACKS & STARTER
+    products: []
 
 ---
