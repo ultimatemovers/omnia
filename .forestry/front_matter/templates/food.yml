@@ -15,6 +15,11 @@ fields:
     config:
       required: false
     label: Menu Group Title
+  - name: menu-group-image
+    type: file
+    config:
+      maxSize: 64
+    label: Menu Group Image
   - name: categories
     type: field_group_list
     fields:
