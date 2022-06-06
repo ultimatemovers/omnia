@@ -394,6 +394,23 @@ nav ul.navigation li:hover a {
   color: #225367;
 }
 
+.cover-image {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  background-size: cover;
+  border-bottom-right-radius: 180px;
+  margin-bottom: 6rem;
+  position: relative;
+}
+
+.cover-image h1 {
+  font-size: 90px;
+  line-height: 70px;
+  text-transform: uppercase;
+  color: #F0E1AD;
+  margin-top: 600px;
+}
 
 
 
@@ -412,6 +429,7 @@ body#homepage {
   color: #F0E1AD;
   line-height: 120px;
   margin-top: -600px;
+  min-height: 240px;
 }
 
 .omnia-title {
@@ -481,6 +499,11 @@ margin-bottom: 15px;
 background-color: #F2E8C3;
 }
 
+#food .inner-container {
+  width: 900px;
+  margin: 0 auto;
+}
+
 .food-title {
 color: #C1A973;
 font-size: 90px;
@@ -493,18 +516,40 @@ margin: 0 auto;
 }
 
 
-.food-menu {
-width: 50%;
-padding-top: 100px;
-margin: 0 auto;
-/*padding-bottom: 40px;*/
+#food .menu-categories {
+  padding-top: 100px;
+  margin: 0 auto;
+}
+
+
+#food .menu-categories-title {
+  color: #A3A792;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+#food .menu-categories-title.active {
+  color: #5C7057;
+  text-decoration: underline;
+}
+
+#food .divider-line {
+  border-bottom: 2px solid #C1A973;
+}
+
+#food .product-title {
+  
+}
+#food .product-description,
+#food .product-price {
+  color: #A3A792
 }
 
 .drink-menu {
   width: 70%;
   padding-top: 100px;
   margin: 0 auto;
-  }
+}
 
 .inner-menu-item {
 color: #A3A792;
@@ -512,11 +557,6 @@ font-size: 20px;
 text-transform: uppercase;
 margin-left: 10px;
 margin-right: 10px;
-}
-
-.active {
-  color: #5C7057;
-  text-decoration: underline;
 }
 
 .cost {

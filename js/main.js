@@ -97,9 +97,9 @@
 
   document.body.addEventListener('onload', init())
 
-  window.onbeforeunload = () => {
-    window.scrollTo(0, 0);
-  }
+  // window.onbeforeunload = () => {
+  //   window.scrollTo(0, 0);
+  // }
 
 
 
