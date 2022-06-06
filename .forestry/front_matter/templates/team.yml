@@ -1,5 +1,5 @@
 ---
-label: team
+label: about
 hide_body: true
 fields:
 - name: layout
@@ -8,7 +8,7 @@ fields:
     required: false
   label: layout
   hidden: true
-  default: team
+  default: about
 - name: team_members
   type: field_group_list
   fields:
