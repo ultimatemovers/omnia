@@ -77,6 +77,9 @@ categories:
   - product_title: ''
     product_description: ''
     product_price: ''
+  - product_title: " Murray cod"
+    product_description: "‍Seaweed crusted, smoked fish consommé & kohlrabi"
+    product_price: "44"
   - product_title: Musquee de provence pumpkin
     product_description: Labneh, zaatar & pumpkin seeds
     product_price: "36"
