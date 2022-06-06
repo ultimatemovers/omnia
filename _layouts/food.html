@@ -12,26 +12,27 @@
     </div>
   </div>
   {% for menu in page.menu %}
-  {% if menu-group-image %}
-    <div>
-      <img src="/img/wine.jpg" alt="wine picture" class="img-bottom-radius w-full">
+  {% if menu.menu-group-image.size > 1 %}
+    <div class="mb-40">
+      <img src="{{ menu.menu-group-image }}" alt="wine picture" class="img-bottom-radius w-full">
     </div>
   {% endif %}
-  <div class="container mx-auto">
+  <div class="container mx-auto" id="{{menu.menu_group_name}}-menu"> 
     <h2 class="food-title">{{ menu.menu_group_title }}</h2>
 
     <div class="w-full flex justify-between mb-24" style="border-bottom: 2px solid #C1A973">
       <ul class="menu-categories flex justify-between inner-container">
         {% for category in menu.categories %}
-        <li class="menu-categories-title px-3 py-2 cursor-pointer" data-category-name="{{ category.category_title | slugify }}">
+        <li class="menu-category-title px-3 py-2 cursor-pointer" data-category-name="{{ category.category_title | slugify }}">
           {{ category.category_title }}
+          <div class="line"></div>
         </li>
         {% endfor %}
       </ul>
     </div>
-    <div class="inner-container">
+    <div class="inner-container" id="{{menu.menu_group_name}}-products">
       {% for category in menu.categories %}
-        <div class="w-full mb-40">
+        <div class="category-products w-full mb-32" data-category-products="{{ category.category_title | slugify }}">
           {% for product in category.products %}
             <div class="flex items-start justify-between">
               <div>
@@ -48,8 +49,5 @@
     </div>
   </div>
   {% endfor %}
-
-  <img src="/img/wine.jpg" alt="wine picture" class="img-bottom-radius w-full">
-
-  <!--</div>-->
-  {% include footer.html %}
+</div>
+{% include footer.html %}

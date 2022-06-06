@@ -1,28 +1,34 @@
-(function() {
+(function () {
   const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
   let TOGGLE_MENU = false;
+  let activeTabFood = 0
+  let activeTabDrink = 0
 
-  function init(){
+  function init() {
     // new SmoothScroll(target,speed,smooth)
-    new SmoothScroll(document,50,16)
+    new SmoothScroll(document, 50, 16)
   }
 
   function SmoothScroll(target, speed, smooth) {
     if (target === document)
-      target = (document.scrollingElement
-                || document.documentElement
-                || document.body.parentNode
-                || document.body)
+      target = (document.scrollingElement ||
+        document.documentElement ||
+        document.body.parentNode ||
+        document.body)
 
     let moving = false
     let pos = target.scrollTop
-    let frame = target === document.body
-                && document.documentElement
-                ? document.documentElement
-                : target
+    let frame = target === document.body &&
+      document.documentElement ?
+      document.documentElement :
+      target
 
-    target.addEventListener('mousewheel', scrolled, { passive: false })
-    target.addEventListener('DOMMouseScroll', scrolled, { passive: false })
+    target.addEventListener('mousewheel', scrolled, {
+      passive: false
+    })
+    target.addEventListener('DOMMouseScroll', scrolled, {
+      passive: false
+    })
 
     function scrolled(e) {
       e.preventDefault();
@@ -34,14 +40,14 @@
       if (!moving) update()
     }
 
-    function normalizeWheelDelta(e){
-      if(e.detail){
-        if(e.wheelDelta)
-          return e.wheelDelta/e.detail/40 * (e.detail>0 ? 1 : -1) // Opera
+    function normalizeWheelDelta(e) {
+      if (e.detail) {
+        if (e.wheelDelta)
+          return e.wheelDelta / e.detail / 40 * (e.detail > 0 ? 1 : -1) // Opera
         else
-          return -e.detail/3 // Firefox
-      }else
-        return e.wheelDelta/120 // IE,Safari,Chrome
+          return -e.detail / 3 // Firefox
+      } else
+        return e.wheelDelta / 120 // IE,Safari,Chrome
     }
 
     function update() {
@@ -56,14 +62,14 @@
         moving = false
     }
 
-    let requestFrame = function() { // requestAnimationFrame cross browser
+    let requestFrame = function () { // requestAnimationFrame cross browser
       return (
         window.requestAnimationFrame ||
         window.webkitRequestAnimationFrame ||
         window.mozRequestAnimationFrame ||
         window.oRequestAnimationFrame ||
         window.msRequestAnimationFrame ||
-        function(func) {
+        function (func) {
           window.setTimeout(func, 1000 / 50);
         }
       );
@@ -77,14 +83,14 @@
     const logo = document.querySelector('.logo')
     const navLogo = document.querySelector('.nav-logo')
 
-    if(!TOGGLE_MENU) {
+    if (!TOGGLE_MENU) {
       header.classList.remove('open-burger')
       navigationPage.classList.remove('hidden')
       navLogo.classList.remove('hidden')
       logo.classList.add('hidden')
     }
 
-    if(TOGGLE_MENU){
+    if (TOGGLE_MENU) {
       header.classList.add('open-burger')
       navigationPage.classList.add('hidden')
       navLogo.classList.add('hidden')
@@ -101,91 +107,48 @@
   //   window.scrollTo(0, 0);
   // }
 
+  
+  if(document.body.id === 'food') {
+    const foodItems = document.querySelectorAll('#food-menu .menu-category-title')
+    const foodItemsProducts = document.querySelectorAll('#food-products .category-products')
+    const drinkItems = document.querySelectorAll('#drink-menu .menu-category-title')
+    const drinkItemsProducts = document.querySelectorAll('#drink-products .category-products')
 
 
-    const categories = document.querySelectorAll('.inner-menu-item')
-    /*if(categories && categories.length && screen.width >=  1024 ) {*/
-      if(categories && categories.length) {
-      categories[0].classList.add('active')
-      //console.log( 'dataset.categoryName', categories[0].dataset.categoryName)
-
-      filterProducts(categories[0].dataset.categoryName)
-
-      categories.forEach((c) => {
-        c.addEventListener('click', (e) => {
-          c.scrollIntoView({
-            behavior: 'smooth',
-            block: 'nearest',
-            inline: 'center'
-        })
-          filterProducts(e.target.dataset.categoryName)
-          console.log('e.target.dataset.categoryName in filter products func',e.target.dataset.categoryName)
-        })
+    foodItems.forEach( ( fi, idx ) => {
+      fi.addEventListener('click', () => {
+        activeTabFood = idx
+        filterProducts(foodItems, foodItemsProducts, activeTabFood)
       })
-    }
-
- function filterProducts(category) {
-  const products = [...document.querySelector('.menu-container').children]
-  console.log('products', products.length)
-  console.log('menu-container', document.querySelector('.menu-container'))
-  console.log('category', category)
-
-  products.forEach((p, idx) => {
-    p.style = ''
-    p.classList.remove('hide')
-    p.style.opacity = 1
-    console.log('category p', p.dataset.category)
-    if(p.dataset.category !== category)
-      p.classList.add('hide')
-    else
-      experienceActiveTab = idx
     })
-  categories.forEach((c,idx) => {
-    //c.classList.add(idx%2 === 0 ? 'btn-zoom-in-out' : 'btn-zoom-in-out')
-    c.classList.remove('active')
-    if(c.dataset.categoryName === category)
-      c.classList.add('active')
-  })
-}
-
-
-   /*const categoriesSpaces = document.querySelectorAll('.inner-menu-item-spaces')
-    if (categoriesSpaces && categoriesSpaces.length && screen.width >=  1024) {
-      categoriesSpaces[0].classList.add('active')
-      filterRooms(categoriesSpaces[0].dataset.categoryName)
-
-      categoriesSpaces.forEach((c) => {
-        c.addEventListener('click', (e) => {
-          c.scrollIntoView({
-            behavior: 'smooth',
-            block: 'nearest',
-            inline: 'center'
-        })
-        filterRooms(e.target.dataset.categoryName)
-        })
+    drinkItems.forEach( ( di, idx ) => {
+      di.addEventListener('click', () => {
+        activeTabDrink = idx
+        filterProducts(drinkItems, drinkItemsProducts, activeTabDrink)
       })
-    }
-
-    function filterRooms(category) {
-      const rooms = [...document.querySelector('.spaces-container').children]
-      rooms.forEach((p) => {
-        p.style = ''
-        p.classList.remove('hide')
-        p.style.opacity = 1
-
-        if (p.dataset.category !== category)
-        p.classList.add('hide')
-
-        if (p.dataset.category !== 'bromley-co-gallery')
-        p.classList.add('coming-soon')
+    })
+    
+    filterProducts(foodItems, foodItemsProducts, activeTabFood)
+    filterProducts(drinkItems, drinkItemsProducts, activeTabDrink)
+    
+  }
 
 
-      })
-      categoriesSpaces.forEach((c,idx) => {
-        c.classList.remove('active')
-        if(c.dataset.categoryName === category)
-          c.classList.add('active')
-      })
-    }
-   */
+  function filterProducts(items, products, activeTab){
+    items.forEach( ( item, idx ) => {
+      if(idx === activeTab) 
+        item.classList.add('active')
+      else
+        item.classList.remove('active')
+    })
+    products.forEach( ( product, idx ) => {
+      if(idx === activeTab) 
+        product.classList.remove('hidden')
+      else
+        product.classList.add('hidden')
+    })
+  }
+
+
+
 })()
