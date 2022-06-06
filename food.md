@@ -108,7 +108,12 @@ categories:
     product_price: '36'
 menu:
 - menu_group_title: Drinks
-  categories: []
+  categories:
+  - category_title: SIGNATURE COCKTAILS
+    products:
+    - product_title: Cosmopolitan
+      product_description: Lemon vodka, triple sec, cranberry juice, lime juice ice
+      product_price: "80"
 - category_title: Food
   products: []
   menu_group_title: Food
