@@ -77,5 +77,15 @@ fields:
   config:
     required: false
   label: big title
+- name: event-little-title
+  type: text
+  config:
+    required: false
+  label: event-little-title
+- name: event-text
+  type: text
+  config:
+    required: false
+  label: event-text
 pages:
 - events.md

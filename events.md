@@ -72,5 +72,10 @@ third_column_first_text: Beverages will be charged on consumption and a $500 dep
 third_column_second_text: For special occasions, we would also be glad to custom make
   your favourite cake.
 big_title: FUTURE MEMORIES ON THE MENU
+event-little-title: Save the Date for our special events.
+event-text: Holidays, special occasions and “just because we feel like it” celebrations.
+  Whether it’s a regular gig or a rare treat, our world-class kitchen, talented artists
+  and friendly staff will make it an experience to remember. Watch this space for
+  upcoming events and follow our socials to never miss a beat.
 
 ---
