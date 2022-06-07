@@ -740,6 +740,10 @@ background-color: #EEEDE5;
 background-color: #AEB3A1;
 }
 
+.border-class  {
+  border-bottom: 2px solid #A3A792;;
+}
+
 .member-item:nth-child(even) .img-border-radius {
   border-bottom-right-radius: 90px;
   border-top-right-radius: 90px;

@@ -24,10 +24,10 @@
       <div class="pt-16 mb-20 member-item flex justify-between flex-row-reverse">
         {% endif %}
 
-        <div class="pt-16 olive w-1/2 member-text">
-          <h3 class="pb-8">{{team_member.name}}</h3>
-          <h3 class="pb-8">{{team_member.title}}</h3>
-          <p class="mb-12 olive">{{team_member.text}}</p>
+        <div class="pt-16 blue w-1/2 member-text">
+          <h3 class="pb-8 middle-white-title">{{team_member.name}}</h3>
+          <h3 class="pb-4 mb-4 border-class uppercase">{{team_member.title}}</h3>
+          <p class="mb-12 blue">{{team_member.text}}</p>
           <button class="olive-btn">Book a table</button>
         </div>
         <div class="w-1/2 member-img">
@@ -53,7 +53,7 @@
         </div>
         <div>
           <h2 class="events-title">{{page.produce_title}}</h2>
-          <h3 class="middle-olive-text mt-8">{{page.produce_little-title}}</h3>
+          <h3 class="middle-olive-text olive mt-8">{{page.produce_little-title}}</h3>
           <p class="olive">{{page.produce_text}}</p>
           {% for partner in page.partners %}
           <div class="pt-16 olive w-1/2">
@@ -67,15 +67,15 @@
           {% endfor %}
         </div>
         <div>
-          <h2 class="events-title">{{page.hospitality_title}}</h2>
-          <h2 class="">{{page.hospitality_text}}</h2>
+          <h2 class="events-title ">{{page.hospitality_title}}</h2>
+          <h3 class="middle-olive-text mt-8 olive">{{page.hospitality_text}}</h3>
           {% for project in page.projects %}
           {% assign index = forloop.index0 | modulo: 2 %}
 
           {% if index == 0 %}
-          <div class=" pt-16 mb-20 member-item flex justify-between flex-row">
+          <div class=" pt-16 mb-20 member-item flex justify-between flex-row-reverse">
             {% else %}
-            <div class=" pt-16 mb-20 member-item flex justify-between flex-row-reverse">
+            <div class=" pt-16 mb-20 member-item flex justify-between flex-row">
               {% endif %}
 
               <div class="pt-16 blue w-1/2 member-text">
