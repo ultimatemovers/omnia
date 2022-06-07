@@ -11,12 +11,19 @@
     </div>
   </div>
   {% for menu in page.menu %}
+  {% assign index = forloop.index0 | modulo: 2 %}
   {% if menu.menu-group-image.size > 1 %}
     <div class="mb-12 md:mb-40">
       <img src="{{ menu.menu-group-image }}" alt="wine picture" class="img-bottom-radius w-full">
     </div>
   {% endif %}
-  <div class="container mx-auto" id="{{menu.menu_group_name}}-menu"> 
+  
+  {% if index == 0 %}
+    <div class="container mx-auto" id="food-menu">
+  {% else %}
+    <div class="container mx-auto" id="drink-menu">
+  {% endif %}
+
     <h2 class="food-title">{{ menu.menu_group_title }}</h2>
 
     <div class="w-full flex justify-between mb-24" style="border-bottom: 2px solid #C1A973">
@@ -29,7 +36,11 @@
         {% endfor %}
       </ul>
     </div>
-    <div class="inner-container" id="{{menu.menu_group_name}}-products">
+    {% if index == 0 %}
+      <div class="inner-container" id="food-products">
+    {% else %}
+      <div class="inner-container" id="drink-products">
+    {% endif %} 
       {% for category in menu.categories %}
         <div class="category-products w-full mb-32" data-category-products="{{ category.category_title | slugify }}">
           {% for product in category.products %}
