@@ -82,5 +82,15 @@ fields:
   config:
     required: false
   label: place text
+- name: place_img
+  type: file
+  config:
+    maxSize: 64
+  label: place_img
+- name: space_img
+  type: file
+  config:
+    maxSize: 64
+  label: space_img
 pages:
 - about.md
