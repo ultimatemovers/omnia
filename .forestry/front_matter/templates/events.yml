@@ -72,5 +72,10 @@ fields:
   config:
     required: false
   label: third column second text
+- name: big_title
+  type: text
+  config:
+    required: false
+  label: big title
 pages:
 - events.md
