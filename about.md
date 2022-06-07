@@ -73,5 +73,17 @@ place_text: Situated on the iconic corner of Chapel Street and Toorak Road is th
   by an award-winning chef.
 place_img: "/assets/images/food_main.jpg"
 space_img: "/assets/images/mask-group-20-2x.jpg"
+partners:
+- title: 'Jonella Farm '
+  text: 'Blessed with rich soil and over 40 years of experience, Jonella is a local
+    grower of some of our menu must-haves such as asparagus and sweet corn. '
+- title: ''
+  text: ''
+- title: ''
+  text: ''
+- title: ''
+  text: ''
+- title: ''
+  text: ''
 
 ---
