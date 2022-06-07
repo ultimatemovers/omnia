@@ -14,17 +14,24 @@
   </div>
 
   {% for team_member in page.team_members %}
-  <div class=" pt-16 mb-20 member-item flex justify-between flex-row">
-  <div class="pt-16 olive w-1/2 member-text">
-    <h3 class="pb-8">{{team_member.name}}</h3>
-    <h3 class="pb-8">{{team_member.title}}</h3>
-    <p class="mb-12 olive">{{team_member.text}}</p>
-    <button class="olive-btn">Book a table</button>
-  </div>
-  <div  class="w-1/2 member-img">
-    <img src="{{team_member.img}}" class="img-border-radius">
+  {% assign index = forloop.index0 | modulo: 2 %}
+
+    {% if index == 0 %}
+      <div class=" pt-16 mb-20 member-item flex justify-between flex-row">
+    {% else %}
+      <div class=" pt-16 mb-20 member-item flex justify-between flex-row-reverse">
+    {% endif %}
+    
+      <div class="pt-16 olive w-1/2 member-text">
+        <h3 class="pb-8">{{team_member.name}}</h3>
+        <h3 class="pb-8">{{team_member.title}}</h3>
+        <p class="mb-12 olive">{{team_member.text}}</p>
+        <button class="olive-btn">Book a table</button>
+      </div>
+      <div  class="w-1/2 member-img">
+      <img src="{{team_member.img}}" class="img-border-radius">
+      </div>
     </div>
-</div>
   {% endfor %}
   </div>
 

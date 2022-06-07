@@ -155,29 +155,6 @@ button {
 button:focus {
     outline: none;
 }
-/* @keyframes bodyLoad {
-  0% {
-    opacity: 0;
-  }
-  50% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
-@-webkit-keyframes bodyLoad {
-  0% {
-    opacity: 0;
-  }
-  50% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-} */
 
 /*font-styles*/
 th {
@@ -245,6 +222,24 @@ th {
 body.noscroll{
   position:fixed;
   overflow:hidden;
+}
+
+.cover-image {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  background-size: cover;
+  border-bottom-right-radius: 180px;
+  margin-bottom: 6rem;
+  position: relative;
+}
+
+.cover-image h1 {
+  font-size: 90px;
+  line-height: 70px;
+  text-transform: uppercase;
+  color: #F0E1AD;
+  margin-top: 600px;
 }
 
 /* -------------------------------------- */
@@ -394,24 +389,10 @@ nav ul.navigation li:hover a {
   color: #225367;
 }
 
-.cover-image {
-  width: 100%;
-  height: 100vh;
-  overflow: hidden;
-  background-size: cover;
-  border-bottom-right-radius: 180px;
-  margin-bottom: 6rem;
-  position: relative;
+#navigation-page,
+.nav-logo {
+  animation: loadNav ease-out forwards 1s;
 }
-
-.cover-image h1 {
-  font-size: 90px;
-  line-height: 70px;
-  text-transform: uppercase;
-  color: #F0E1AD;
-  margin-top: 600px;
-}
-
 
 
 /* -------------------------------------- */
@@ -527,7 +508,7 @@ background-color: #F2E8C3;
 }
 #food .menu-category-title:hover .line{
   background-color: #5C7057;
-  animation: load ease-out forwards 0.5s;
+  animation: loadLine ease-out forwards 0.5s;
 }
 
 #food .menu-category-title.active {
@@ -826,7 +807,17 @@ margin-left: 80px;
 
 /* Animations */
 
-@keyframes load {
+@keyframes loadLine {
   0% { width: 0%; }
   100% { width: 100%; }
+}
+
+@keyframes loadNav {
+  0% { opacity: 0 }
+  100% { opacity: 1 }
+}
+
+@keyframes closeNav {
+  0% { opacity: 1 }
+  100% { opacity: 0 }
 }
