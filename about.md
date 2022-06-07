@@ -97,5 +97,20 @@ partners:
 produce_little-title: FRESH IS ALWAYS IN FASHION
 produce_text: 'Seasons change, but we are loyal to our proven produce partners. Some
   of our favourite suppliers include:'
+projects:
+- title: Yugen Tea Bar
+  text: Yugen Tea Bar has perfected tea to an art. Its collection, curated by tea
+    sommelier Thibaut Chuzeville, features over forty specialty teas from ten different
+    countries. Staff will help you select the perfect blend and complement your aromatic
+    cup with a decadent pastry by John Demetrios. This intimate space with an intriguing
+    interior and stylish retail assortment, sets the perfect scene for an immersive
+    journey of the senses.
+  img: "/assets/images/reward4.jpg"
+- title: ''
+  text: ''
+  img: ''
+- title: ''
+  text: ''
+  img: ''
 
 ---
