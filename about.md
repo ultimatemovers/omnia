@@ -121,5 +121,9 @@ projects:
     art pieces, this event venue is a one-of-a-kind setting for any wedding, private
     dining or other events. '
   img: "/assets/images/reward4.jpg"
+hospitality_text: 'Omnia is part of an impressive quartet of LK Hospitality venues
+  at Capitol Grand. We are happy to offer patrons the perfect space for a memorable
+  experience and pride ourselves on a tradition of setting new standards in the Australian
+  hospitality landscape. '
 
 ---
