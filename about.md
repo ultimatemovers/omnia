@@ -1,14 +1,6 @@
 ---
 layout: about
 team_members:
-- name: Laurent Tapumilla
-  title: Restaurant Manager
-  text: Manager Laurent Tapumilla brings a wealth of experience and a dash of French
-    flair to the table. His background in hotel and restaurant establishments means
-    that he runs a smooth operation as Omnia’s team leader, even on the busiest days
-    in our popular bar and bistro. Laurent is here to ensure you enjoy a comfortable,
-    quality experience on every occasion.
-  img: "/assets/images/member2.jpg"
 - name: Stephen Nairn
   title: CULINARY DIRECTOR
   text: Award-winning Chef Stephen Nairn is the mastermind behind the Omnia menu -
@@ -20,14 +12,13 @@ team_members:
     an opus of his international experience and ability to source impeccable ingredients
     for each dish.
   img: "/assets/images/member1.jpg"
-- name: Orlando Marzo
-  title: Cocktail creator
-  text: When the time came to define a vision for bespoke beverages in our bar and
-    bistro, we recruited the very best. Orlando Marzo is the recipient of the 2018
-    World Class Global Bartender of the Year award and an international expert in
-    cocktail and food pairing. His reputation as a mixologist skyrocketed on a journey
-    that took him from his native Italy to London’s renowned Soho club scene and now
-    to our very own Omnia bar. Take a sip and see what all the beverage buzz is about.
+- name: Laurent Tapumilla
+  title: Restaurant Manager
+  text: Manager Laurent Tapumilla brings a wealth of experience and a dash of French
+    flair to the table. His background in hotel and restaurant establishments means
+    that he runs a smooth operation as Omnia’s team leader, even on the busiest days
+    in our popular bar and bistro. Laurent is here to ensure you enjoy a comfortable,
+    quality experience on every occasion.
   img: "/assets/images/member2.jpg"
 - name: 'Evin Doherty '
   title: Head Chef
@@ -39,6 +30,15 @@ team_members:
     dining with an added touch of class. See him work his magic in the Omnia open
     kitchen.
   img: "/assets/images/member1.jpg"
+- name: Orlando Marzo
+  title: Cocktail creator
+  text: When the time came to define a vision for bespoke beverages in our bar and
+    bistro, we recruited the very best. Orlando Marzo is the recipient of the 2018
+    World Class Global Bartender of the Year award and an international expert in
+    cocktail and food pairing. His reputation as a mixologist skyrocketed on a journey
+    that took him from his native Italy to London’s renowned Soho club scene and now
+    to our very own Omnia bar. Take a sip and see what all the beverage buzz is about.
+  img: "/assets/images/member2.jpg"
 bottom_img: "/assets/images/team_bottom.jpg"
 team_title: The people
 main_title: THE STORY BEHIND EVERY BITE
