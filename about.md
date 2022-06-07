@@ -107,11 +107,11 @@ projects:
     journey of the senses.
   img: "/assets/images/reward4.jpg"
 - title: Yugen
-  text: An exciting subterranean space that welcomes patrons for amazing dishes, drinks
-    and even dancing. It embraces the concept of “dining to after dark” in a mesmerising
-    and modern underground setting. Two bars, a restaurant and an omakase mezzanine
-    vibe in perfect harmony for a holistic hospitality experience that serves up incredible
-    gastronomy and a memorable night out
+  text: An exciting  subterranean space that welcomes patrons for amazing dishes,
+    drinks and even dancing. It embraces the concept of “dining to after dark” in
+    a mesmerising and modern underground setting. Two bars, a restaurant and an omakase
+    mezzanine vibe in perfect harmony for a holistic hospitality experience that serves
+    up incredible gastronomy and a memorable night out
   img: "/assets/images/reward4.jpg"
 - title: Bromley Event Space
   text: 'An opulent venue that exudes style and culture, with just a hint of dark
