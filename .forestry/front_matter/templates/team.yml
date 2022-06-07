@@ -77,5 +77,10 @@ fields:
   config:
     required: false
   label: space text
+- name: place_text
+  type: text
+  config:
+    required: false
+  label: place text
 pages:
 - about.md
