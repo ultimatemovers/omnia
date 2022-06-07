@@ -663,13 +663,12 @@ text-transform: uppercase;
 }
 
 .private-title {
-color: #BB968F;
-font-size: 60px;
-line-height: 60px;
-text-transform: uppercase;
-width: 50%;
-padding-bottom: 25px;
-border-bottom: 2px solid #AEB3A1;
+  color: #BB968F;
+  font-size: 60px;
+  line-height: 60px;
+  text-transform: uppercase;
+  padding-bottom: 25px;
+  border-bottom: 2px solid #AEB3A1;
 }
 
 .columns {
@@ -880,7 +879,8 @@ border-bottom: 2px solid #A3A792;;
     height: auto;
   }
   
-  #bookings .burger-line {
+  #bookings .burger-line,
+  #events .burger-line {
     background-color: #5C7057;
   }
 
@@ -934,6 +934,42 @@ border-bottom: 2px solid #A3A792;;
   #bookings select.select,
   #bookings .form-button {
     min-width: 100%;
+  }
+
+
+  /*  ------------------  */
+  /*   E  V  E  N  T  S   */
+  /*  ------------------  */
+
+  .event-text{
+    margin-left: 24px;
+    margin-right: 24px;
+    padding-right: 0;
+  }
+
+  .event-img,
+  .event-item:nth-child(odd) .event-img {
+    margin: 0;
+  }
+
+  .event-item:nth-child(odd) .event-text {
+    margin-left: 24px;
+    margin-right: 24px;
+    padding-right: 0px;
+  }
+
+  .private-title {
+    font-size: 44px;
+    line-height: 48px;
+    margin: 0;
+    padding: 40px 0;
+  }
+
+  #events form input,
+  #events form .form-button {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
   }
 
 }
