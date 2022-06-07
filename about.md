@@ -90,7 +90,9 @@ partners:
     producing 100% fullblood Wagyu beef for 30 years. Blackmore boasts a complete
     approach to their product, from conception to plate, setting them apart from other
     beef brands.
-- title: ''
-  text: ''
+- title: Mark Folletta
+  text: "- Benalla farmer Mark Foletta is known as “The Cherry Man” and he grows 1200
+    cherry trees on his 10 hectare property. This Victorian farmer comes from a family
+    of growers and his cherries perfectly complement dishes such as our roasted duck."
 
 ---
