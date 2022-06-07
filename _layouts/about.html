@@ -2,43 +2,44 @@
 {% include head.html %}
 {% include nav.html %}
 <div id="team">
-  <img src="/img/events_main.jpg" alt="interior picture"
-  class="img-bottom-radius w-full -mt-8 mb-8 sm:mt-0 sm:mb-12 lg:mb-32">
-  <div class="container mx-auto">
-  <h1 class="homepage-title">
-   About <br> headline
-  </h1>
-  <div class="pt-24 mt-48">
-    <div>
-  <h2 class="events-title">{{team.team_title}}</h2>
+  <div class="cover-image mb-12 md:mb-24" style="background-image: url('/img/events_main.jpg');">
+    <div class="container mx-auto">
+      <h1>
+        <!-- {{ page.big_title }} -->
+        About <br> headline
+      </h1>
+    </div>
   </div>
+  <div class="container mx-auto">
+    <div>
+      <h2 class="events-title">{{page.team_title}}</h2>
+    </div>
 
-  {% for team_member in page.team_members %}
-  {% assign index = forloop.index0 | modulo: 2 %}
+    {% for team_member in page.team_members %}
+    {% assign index = forloop.index0 | modulo: 2 %}
 
     {% if index == 0 %}
-      <div class=" pt-16 mb-20 member-item flex justify-between flex-row">
-    {% else %}
-      <div class=" pt-16 mb-20 member-item flex justify-between flex-row-reverse">
-    {% endif %}
-    
-      <div class="pt-16 olive w-1/2 member-text">
-        <h3 class="pb-8">{{team_member.name}}</h3>
-        <h3 class="pb-8">{{team_member.title}}</h3>
-        <p class="mb-12 olive">{{team_member.text}}</p>
-        <button class="olive-btn">Book a table</button>
-      </div>
-      <div  class="w-1/2 member-img">
-      <img src="{{team_member.img}}" class="img-border-radius">
-      </div>
-    </div>
-  {% endfor %}
-  </div>
+    <div class="pt-16 mb-20 member-item flex justify-between flex-row">
+      {% else %}
+      <div class="pt-16 mb-20 member-item flex justify-between flex-row-reverse">
+        {% endif %}
 
-
-<div  class="mt-32">
-    <img src="{{page.bottom_img}}" class="team-bottom-img">
+        <div class="pt-16 olive w-1/2 member-text">
+          <h3 class="pb-8">{{team_member.name}}</h3>
+          <h3 class="pb-8">{{team_member.title}}</h3>
+          <p class="mb-12 olive">{{team_member.text}}</p>
+          <button class="olive-btn">Book a table</button>
+        </div>
+        <div class="w-1/2 member-img">
+          <img src="{{team_member.img}}" class="img-border-radius">
+        </div>
+      </div>
+      {% endfor %}
     </div>
 
-</div>
-{% include footer.html %}
+
+    <div class="mt-32">
+      <img src="{{page.bottom_img}}" class="team-bottom-img">
+    </div>
+
+    {% include footer.html %}

@@ -83,18 +83,30 @@
     const logo = document.querySelector('.logo')
     const navLogo = document.querySelector('.nav-logo')
 
+    // opens menu
     if (!TOGGLE_MENU) {
+      
+      if(window.innerWidth > 450) {
+        navLogo.classList.remove('hidden')
+        logo.classList.add('hidden')
+      }
+      else {
+        document.body.style = "height: 100vh; overflow:hidden"
+      }
       header.classList.remove('open-burger')
       navigationPage.classList.remove('hidden')
-      navLogo.classList.remove('hidden')
-      logo.classList.add('hidden')
     }
 
     if (TOGGLE_MENU) {
-      header.classList.add('open-burger')
-      navigationPage.classList.add('hidden')
+      document.body.style = ""
+      navigationPage.classList.add('close')
       navLogo.classList.add('hidden')
       logo.classList.remove('hidden')
+      header.classList.add('open-burger')
+      setTimeout(()=> {
+        navigationPage.classList.add('hidden')
+        navigationPage.classList.remove('close')
+      }, 500)
     }
 
     TOGGLE_MENU = !TOGGLE_MENU
@@ -111,12 +123,22 @@
     foodItems.forEach( ( fi, idx ) => {
       fi.addEventListener('click', () => {
         activeTabFood = idx
+        fi.scrollIntoView({
+          behavior: 'smooth',
+          block: 'nearest',
+          inline: 'center'
+      })
         filterProducts(foodItems, foodItemsProducts, activeTabFood)
       })
     })
     drinkItems.forEach( ( di, idx ) => {
       di.addEventListener('click', () => {
         activeTabDrink = idx
+        di.scrollIntoView({
+          behavior: 'smooth',
+          block: 'nearest',
+          inline: 'center'
+      })
         filterProducts(drinkItems, drinkItemsProducts, activeTabDrink)
       })
     })
@@ -144,10 +166,10 @@
 
 
 
-  document.body.addEventListener('onload', init())
+  // document.body.addEventListener('onload', init())
 
-  window.onbeforeunload = () => {
-    window.scrollTo(0, 0);
-  }
+  // window.onbeforeunload = () => {
+  //   window.scrollTo(0, 0);
+  // }
 
 })()

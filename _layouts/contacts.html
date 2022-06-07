@@ -2,17 +2,19 @@
 {% include head.html %}
 {% include nav.html %}
 <div id="contacts">
-  <img src="/img/contacts_main.jpg" alt="interior picture"
-  class="img-bottom-radius w-full -mt-8 mb-8 sm:mt-0 sm:mb-12 lg:mb-32">
+  <div class="cover-image mb-12 md:mb-24" style="background-image: url('/img/contacts_main.jpg');">
+    <div class="container mx-auto">
+      <h1>
+        <!-- {{ page.big_title }} -->
+        Contact <br> headline
+      </h1>
+    </div>
+  </div>
   <div class="container mx-auto">
-  <h1 class="homepage-title">
-   Contact <br> headline
-  </h1>
-  <div class="pt-64 pb-20">
-  <p class="pt-20 middle-olive-text">You’ll find us at the base of the glamorous Capitol Grand
-    Building, where two of Melbourne’s most iconic streets
-    meet for a perfect restaurant rendezvous. </p>
+    <p class="pt-20 middle-olive-text">You’ll find us at the base of the glamorous Capitol Grand
+      Building, where two of Melbourne’s most iconic streets
+      meet for a perfect restaurant rendezvous. </p>
     <button class="contact-button mt-20 w-64">Book a table</button>
-</div>
+  </div>
 </div>
 {% include footer.html %}

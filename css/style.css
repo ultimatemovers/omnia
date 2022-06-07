@@ -109,17 +109,11 @@ body {
           animation: 3s bodyLoad forwards; */
 }
 
-
-footer {
-  /*padding: 4rem;*/
-}
-
 .footer-bottom {
   padding-top: 20px;
   border-top: 1px solid  #A3A792;
 
 }
-
 
 .footer-bottom p {
   font-size: 14px;
@@ -230,16 +224,24 @@ body.noscroll{
   overflow: hidden;
   background-size: cover;
   border-bottom-right-radius: 180px;
-  margin-bottom: 6rem;
   position: relative;
 }
 
 .cover-image h1 {
   font-size: 90px;
-  line-height: 70px;
+  line-height: 90px;
   text-transform: uppercase;
   color: #F0E1AD;
-  margin-top: 600px;
+  margin-top: 500px;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 }
 
 /* -------------------------------------- */
@@ -251,21 +253,21 @@ header.site-header{
   left: 0;
   right: 0;
   top: 80px;
-  margin: 0 80px;
+  padding: 0 80px;
 }
 
-header .voucher-btn a{
+.voucher-btn a{
   font-size: 14px;
   color: #fff;
   font-weight: 600;
   text-underline-offset: 4px;
 }
 
-header .voucher-btn a:hover {
+.voucher-btn a:hover {
   text-decoration: underline;
 }
 
-header .make-booking-btn{
+.make-booking-btn{
   font-size: 14px;
   font-weight: 600;
   border-top-right-radius: 30px;
@@ -273,7 +275,7 @@ header .make-booking-btn{
   margin: 0 90px;
 }
 
-header .make-booking-btn:hover {
+.make-booking-btn:hover {
   background-color: #225367;
 }
 
@@ -391,7 +393,11 @@ nav ul.navigation li:hover a {
 
 #navigation-page,
 .nav-logo {
-  animation: loadNav ease-out forwards 1s;
+  animation: loadNav ease-out forwards .8s;
+}
+
+#navigation-page.close {
+  animation: closeNav ease-out forwards .5s;
 }
 
 
@@ -495,6 +501,16 @@ background-color: #F2E8C3;
   margin: 0 auto;
 }
 
+.food-title {
+  color: #C1A973;
+  font-size: 90px;
+  padding-bottom: 15px;
+  border-bottom: 2px solid #C1A973;
+  width: 400px;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 0 auto;
+}
 
 #food .menu-category-title {
   color: #A3A792;
@@ -803,6 +819,99 @@ margin-left: 80px;
     background-color: #BC984F;
     color: white;
   }
+
+
+@media (max-width: 960px) {
+  #food .inner-container {
+    width: 100%;
+    padding: 0 16px;
+  }
+}
+
+@media (max-width: 450px) {
+  header.site-header {
+    top: 40px;
+    padding: 0 16px;
+  }
+
+  nav {
+    margin-left: 40px;
+    margin-bottom: 0px;
+  }
+
+  nav ul.navigation li a {
+    font-size: 28px;
+  }
+
+  nav .promotion-headline {
+    font-size: 18px;
+    margin-top: 32px;
+  }
+
+  #navigation-page .make-booking-btn {
+    margin: 8px 0 40px 0;
+  }
+
+  #navigation-page .voucher-btn a{
+    display: inline-block;
+    width: 100%;
+  }
+
+  footer table th {
+    width: 40%;
+  }
+
+  footer table {
+    width: 100%;
+  }
+
+  footer table td {
+    width: 60%;
+    padding: 0;
+  }
+
+  footer .flex-wrap {
+    flex-wrap: nowrap;
+  }
+
+  .cover-image {
+    aspect-ratio: 16/9;
+    border-bottom-right-radius: 80px;
+    height: auto;
+  }
+
+  /*  -------------------------  */
+
+  #food .img-bottom-radius {
+    border-bottom-right-radius: 80px
+  }
+
+  #food .menu-categories {
+    padding-top: 12px;
+  }
+
+  #food .menu-category-title {
+    flex: 0 0 auto;
+  }
+
+  #food .food-title {
+    font-size: 72px;
+  }
+
+  #food .product-price {
+    margin-right: 8px;
+  }
+
+
+}
+
+
+
+
+
+
+
+
 
 
 /* Animations */

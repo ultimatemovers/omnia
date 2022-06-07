@@ -2,75 +2,71 @@
 {% include head.html %}
 {% include nav.html %}
 <div id="events">
-  <img src="/img/events_main.jpg" alt="interior picture"
-  class="img-bottom-radius w-full -mt-8 mb-8 sm:mt-0 sm:mb-12 lg:mb-32">
+  <div class="cover-image mb-12 md:mb-24" style="background-image: url('/img/events_main.jpg');">
+    <div class="container mx-auto">
+      <h1>
+        <!-- {{ page.big_title }} -->
+        Events <br> headline
+      </h1>
+    </div>
+  </div>
   <div class="container mx-auto">
-  <h1 class="homepage-title">
-   Events <br> headline
-  </h1>
-  <div class="pt-24 mt-48">
     <div>
-  <h2 class="events-title">Events</h2>
-  </div>
-  {% for event in page.events %}
-  <div class="flex justify-between pt-16 mb-20 event-item" >
-    <div  class="w-1/2 event-img">
-  <img src="{{event.img}}" class="img-radius ">
-  </div>
-  <div class="pt-16 olive w-1/2 event-text"><!---ml-10 pr-20-->
-    <h3 class="pb-8 section-title">{{event.title}}</h3>
-    <p class="mb-12 olive">{{event.text}}</p>
-    <button class="olive-btn">Book a table</button>
-  </div>
-  </div>
-  {% endfor %}
-  </div>
-    <div class="">
-      <h2 class="events-title">EXCLUSIVE Events</h2>
-      <h3 class="private-title mt-24">HOST YOUR PRIVATE EVENT AT OMNIA</h3>
+      <h2 class="events-title">Events</h2>
+    </div>
+    {% for event in page.events %}
+    <div class="flex justify-between pt-16 mb-20 event-item">
+      <div class="w-1/2 event-img">
+        <img src="{{event.img}}" class="img-radius ">
       </div>
+      <div class="pt-16 olive w-1/2 event-text">
+        <!---ml-10 pr-20-->
+        <h3 class="pb-8 section-title">{{event.title}}</h3>
+        <p class="mb-12 olive">{{event.text}}</p>
+        <button class="olive-btn">Book a table</button>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+  <div class="">
+    <h2 class="events-title">EXCLUSIVE Events</h2>
+    <h3 class="private-title mt-24">HOST YOUR PRIVATE EVENT AT OMNIA</h3>
+  </div>
 
-      <div class="flex justify-between pt-12 pb-16 columns">
-        <div class="1/3 mr-4">
-        <p class="pb-8 blue">{{page.first_column_first_text}}</p>
-        <p class="pb-8 blue">{{page.first_column_second_text}}</p>
-        </div>
-        <div class=" 1/3 mr-4">
-          <p class="pb-8 blue">{{page.second_column_first_text}}</p>
-          <p class="pb-8 blue">{{page.second_column_second_text}}</p>
-          <p class="pb-8 blue">{{page.second_column_third_text}}</p>
-          <p class="pb-8 blue">{{page.second_column_fourth_text}}</p>
-      </div>
-        <div class=" 1/3 mr-4">
-        <p class="pb-8 blue">{{page.third_column_first_text}}</p>
-        <p class="pb-8 blue">{{page.third_column_second_text}}</p>
-      </div>
-      </div>
-      <h2 class="form-title">FOR EXCLUSIVE EVENT INQUIRIES PLEASE CONTACT OUR TEAM USING THE FORM BELOW:</h2>
-      <form class="mb-40">
-        <div class="flex justify-between">
-        <input type="text" id="fname" name="name" class="input mr-4"
-        placeholder="Your Name">
-        <input type="text" id="lname" name="phone" class="input ml-4"
-        placeholder="Your Phone">
-        </div>
-        <div class="flex justify-between">
-        <input type="text" id="fname" name="email" class="input mr-4"
-        placeholder="Your Email">
-        <input type="text" id="lname" name="event-type" class="input ml-4"
-        placeholder="Event Type">
-      </div>
-      <div class="flex justify-between">
-        <input type="text" id="fname" name="number" class="input mr-4"
-        placeholder="Number of Guests">
-        <input type="text" id="lname" name="date" class="input ml-4"
-        placeholder="Prefered date">
-      </div>
-      <div class="flex justify-between">
-        <input type="text" id="lname" name="details" class="input mr-4"
-        placeholder="Event Details">
-        <button class="form-button ml-4">Enquire now</button>
-        </div>
-      </form>
+  <div class="flex justify-between pt-12 pb-16 columns">
+    <div class="1/3 mr-4">
+      <p class="pb-8 blue">{{page.first_column_first_text}}</p>
+      <p class="pb-8 blue">{{page.first_column_second_text}}</p>
+    </div>
+    <div class=" 1/3 mr-4">
+      <p class="pb-8 blue">{{page.second_column_first_text}}</p>
+      <p class="pb-8 blue">{{page.second_column_second_text}}</p>
+      <p class="pb-8 blue">{{page.second_column_third_text}}</p>
+      <p class="pb-8 blue">{{page.second_column_fourth_text}}</p>
+    </div>
+    <div class=" 1/3 mr-4">
+      <p class="pb-8 blue">{{page.third_column_first_text}}</p>
+      <p class="pb-8 blue">{{page.third_column_second_text}}</p>
+    </div>
+  </div>
+  <h2 class="form-title">FOR EXCLUSIVE EVENT INQUIRIES PLEASE CONTACT OUR TEAM USING THE FORM BELOW:</h2>
+  <form class="mb-40">
+    <div class="flex justify-between">
+      <input type="text" id="fname" name="name" class="input mr-4" placeholder="Your Name">
+      <input type="text" id="lname" name="phone" class="input ml-4" placeholder="Your Phone">
+    </div>
+    <div class="flex justify-between">
+      <input type="text" id="fname" name="email" class="input mr-4" placeholder="Your Email">
+      <input type="text" id="lname" name="event-type" class="input ml-4" placeholder="Event Type">
+    </div>
+    <div class="flex justify-between">
+      <input type="text" id="fname" name="number" class="input mr-4" placeholder="Number of Guests">
+      <input type="text" id="lname" name="date" class="input ml-4" placeholder="Prefered date">
+    </div>
+    <div class="flex justify-between">
+      <input type="text" id="lname" name="details" class="input mr-4" placeholder="Event Details">
+      <button class="form-button ml-4">Enquire now</button>
+    </div>
+  </form>
 </div>
 {% include footer.html %}

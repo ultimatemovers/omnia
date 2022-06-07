@@ -1,15 +1,15 @@
-<header class="site-header open-burger flex justify-between items-start z-50">
-  <div class="logo">
+<header class="site-header open-burger flex justify-between items-center lg:items-start z-50">
+  <div class="logo pt-2 md:pt-0">
     <img src="/img/logo.svg" alt="logo_omnia">
   </div>
   <div class="nav-logo hidden">
     <img src="/img/nav-logo.png" alt="logo_omnia">
   </div>
-  <div class="flex items-center mt-4">
-    <div class="voucher-btn cursor-pointer px-4">
+  <div class="flex items-center lg:mt-4">
+    <div class="voucher-btn cursor-pointer px-4 hidden sm:block">
       <a class="uppercase p-2" href="#">Voucer</a>
     </div>
-    <a class="make-booking-btn custom-beige-dark custom-bg-brown py-2 px-8 uppercase cursor-pointer">
+    <a class="make-booking-btn custom-beige-dark custom-bg-brown py-2 px-8 uppercase cursor-pointer hidden sm:block">
       Make a booking
     </a>
     <div id="burger-menu" class="burger flex flex-col items-end p-3">
@@ -19,12 +19,12 @@
   </div>
 </header>
 
-<div id="navigation-page" class="fixed z-40 h-screen w-full flex hidden" style="background-color: #C1A973 ;">
-  <div class="nav-image">
+<div id="navigation-page" class="fixed top-0 z-40 h-screen w-full flex hidden" style="background-color: #C1A973 ;">
+  <div class="nav-image hidden md:block">
     <img src="/img/nav-image.png" alt="nav-image">
   </div>
   <nav class="flex flex-col justify-end">
-    <ul class="navigation">
+    <ul class="navigation mb-8 sm:mb-0">
       <li class=""><a href="/about">About us</a></li>
       <li class=""><a href="/food">Food & Drinks</a></li>
       <li class=""><a href="/rewards">Rewards & reviews</a></li>
@@ -32,13 +32,21 @@
       <li class=""><a href="/events">Events</a></li>
       <li class=""><a href="/contacts">Contacts</a></li>
     </ul>
-    <div class="promotion-headline">
+
+    <div class="voucher-btn cursor-pointer sm:hidden">
+      <a class="uppercase p-2 " href="#">Voucer</a>
+    </div>
+    <a class="make-booking-btn custom-beige-dark custom-bg-brown py-2 px-8 uppercase cursor-pointer sm:hidden">
+      Make a booking
+    </a>
+
+    <div class="promotion-headline hidden md:block">
       SUBSCRIBE PROMOTION HEADLINE <br> GOES HERE
     </div>
-    <div class="newsletter">
+    <div class="newsletter hidden md:block">
       <span>SUBSCRIBE TO OUR NEWSLETTER</span>
     </div>
-    <div class="terms-conditions">
+    <div class="terms-conditions hidden md:block">
        <div class="mb-3"><a href="#">PRIVACY POLICY</a></div>
        <div><a href="#">TERMS & CONDITIONS</a></div>
     </div>
