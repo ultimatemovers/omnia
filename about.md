@@ -113,8 +113,13 @@ projects:
     vibe in perfect harmony for a holistic hospitality experience that serves up incredible
     gastronomy and a memorable night out
   img: "/assets/images/reward4.jpg"
-- title: ''
-  text: ''
-  img: ''
+- title: Bromley Event Space
+  text: 'An opulent venue that exudes style and culture, with just a hint of dark
+    mystery. The Bromley and Co Gallery is a combination of four individual event
+    spaces that can be connected to host 20 to 300 people. With spectacular floor
+    to ceiling windows and unique light fixtures illuminating original David Bromley
+    art pieces, this event venue is a one-of-a-kind setting for any wedding, private
+    dining or other events. '
+  img: "/assets/images/reward4.jpg"
 
 ---
