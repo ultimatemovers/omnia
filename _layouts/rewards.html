@@ -1,7 +1,7 @@
 {% assign current_page = 'rewards' %}
 {% include head.html %}
 {% include nav.html %}
-<div id="rewards">
+<div id="rewards" class="mt-32 md:mt-0">
   <div class="cover-image mb-12 md:mb-24" style="background-image: url('/img/rewards_main.jpg');">
     <div class="container mx-auto">
       <h1>
@@ -10,15 +10,15 @@
     </div>
   </div>
 
-  <div class="container mx-auto ">
+  <div class="container mx-auto  px-4 md:px-0">
     <div class="rewards-container">
       <div>
         <h2 class="rewards-title">NEWS & REWARDS</h2>
       </div>
       <!----->
-      <div class="flex justify-between flex-wrap">
+      <div class="flex justify-between flex-wrap mt-8 md:mt-0">
         {% for reward in page.rewards %}
-        <div class="pt-16 mb-20 w-1/2 reward-item">
+        <div class="pt-16 mb-20 md:w-1/2 reward-item">
           <div class="">
             <img src="{{reward.img}}" class="img-radius">
           </div>
@@ -34,10 +34,10 @@
       </div>
     </div>
 
-    <h2 class="about-rewards-title mt-20 mb-20">Here is the title about Omnia reviews</h2>
+    <h2 class="about-rewards-title md:w-1/2 mt-20 mb-20">Here is the title about Omnia reviews</h2>
     <div class="flex justify-between flex-wrap">
       {% for review in page.reviews %}
-      <div class="pt-16 mb-20 w-1/2 reward-item">
+      <div class="pt-16 mb-20 md:w-1/2 reward-item">
         <div class="">
           <img src="{{review.img}}" class="img-radius">
         </div>

@@ -622,17 +622,14 @@ text-transform: uppercase;
 }
 
 .about-rewards-title {
-color: #A3A792;
-font-size: 40px;
-line-height: 40px;
-text-transform: uppercase;
-width: 50%;
-padding-bottom: 15px;
-border-bottom: 2px solid #A3A792;
+  color: #A3A792;
+  font-size: 40px;
+  line-height: 40px;
+  text-transform: uppercase;
+  padding-bottom: 15px;
+  border-bottom: 2px solid #A3A792;
 }
 
-.rewards-container {
-}
 
 /*EVENTS*/
 
@@ -884,7 +881,15 @@ border-bottom: 2px solid #A3A792;;
     height: auto;
   }
 
-  /*  -------------------------  */
+  .rewards-title,
+  .food-title {
+    font-size: 60px ;
+    line-height: 72px;
+  }
+
+  /*  -----------------  */
+  /*    F   O   O   D    */
+  /*  -----------------  */
 
   #food .img-bottom-radius {
     border-bottom-right-radius: 80px
@@ -898,13 +903,27 @@ border-bottom: 2px solid #A3A792;;
     flex: 0 0 auto;
   }
 
-  #food .food-title {
-    font-size: 72px;
-  }
-
   #food .product-price {
     margin-right: 8px;
   }
+
+
+  /*  -----------------  */
+  /*    R E W A R D S    */
+  /*  -----------------  */
+
+  .reward-item:nth-child(odd){
+    padding: 0;
+  }
+  .reward-item:nth-child(even){
+    padding: 0;
+  }
+
+  .olive-btn {
+    width: 100%;
+  }
+  .about-rewards-title
+
 
 
 }
