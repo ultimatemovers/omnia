@@ -163,7 +163,7 @@ th {
 }
 
 .middle-white-title {
-  color: #EFEADB;
+  color:  #F2E8C3;
   font-family: 'Calisto MT';
   font-size: 30px;
 }
@@ -771,6 +771,10 @@ margin-left: 80px;
 .team-bottom-img {
   border-top-right-radius: 90px;
   border-top-left-radius: 90px;
+}
+
+.member-title {
+border-bottom: 2px solid #A3A792;;
 }
 
 

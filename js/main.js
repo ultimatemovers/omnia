@@ -112,7 +112,7 @@
     TOGGLE_MENU = !TOGGLE_MENU
   })
 
-  
+
   if(document.body.id === 'food') {
     const foodItems = document.querySelectorAll('#food-menu .menu-category-title')
     const foodItemsProducts = document.querySelectorAll('#food-products .category-products')
@@ -142,22 +142,22 @@
         filterProducts(drinkItems, drinkItemsProducts, activeTabDrink)
       })
     })
-    
+
     filterProducts(foodItems, foodItemsProducts, activeTabFood)
     filterProducts(drinkItems, drinkItemsProducts, activeTabDrink)
-    
+
   }
 
 
   function filterProducts(items, products, activeTab){
     items.forEach( ( item, idx ) => {
-      if(idx === activeTab) 
+      if(idx === activeTab)
         item.classList.add('active')
       else
         item.classList.remove('active')
     })
     products.forEach( ( product, idx ) => {
-      if(idx === activeTab) 
+      if(idx === activeTab)
         product.classList.remove('hidden')
       else
         product.classList.add('hidden')
@@ -166,10 +166,10 @@
 
 
 
-  // document.body.addEventListener('onload', init())
+  /*document.body.addEventListener('onload', init())
 
-  // window.onbeforeunload = () => {
-  //   window.scrollTo(0, 0);
-  // }
+  window.onbeforeunload = () => {
+    window.scrollTo(0, 0);
+  }*/
 
 })()

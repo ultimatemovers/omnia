@@ -52,25 +52,101 @@ fields:
   config:
     required: false
   label: main_title
-- name: place_title
-  type: text
-  config:
-    required: false
-  label: place_title
 - name: space_title
   type: text
   config:
     required: false
   label: space_title
-- name: produce
+- name: space_text
   type: text
   config:
     required: false
-  label: produce
+  label: space text
 - name: hospitality_title
   type: text
   config:
     required: false
   label: hospitality_title
+- name: place_title
+  type: text
+  config:
+    required: false
+  label: place_title
+- name: place_text
+  type: text
+  config:
+    required: false
+  label: place text
+- name: place_img
+  type: file
+  config:
+    maxSize: 64
+  label: place_img
+- name: space_img
+  type: file
+  config:
+    maxSize: 64
+  label: space_img
+- name: produce_title
+  type: text
+  config:
+    required: false
+  label: produce_title
+- name: produce_little-title
+  type: text
+  config:
+    required: false
+  label: produce_little-title
+- name: produce_text
+  type: text
+  config:
+    required: false
+  label: produce_text
+- name: partners
+  type: field_group_list
+  fields:
+  - name: title
+    type: text
+    config:
+      required: false
+    label: title
+  - name: text
+    type: text
+    config:
+      required: false
+    label: text
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: partners
+- name: projects
+  type: field_group_list
+  fields:
+  - name: title
+    type: text
+    config:
+      required: false
+    label: title
+  - name: text
+    type: text
+    config:
+      required: false
+    label: text
+  - name: img
+    type: file
+    config:
+      maxSize: 64
+    label: img
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: projects
+- name: hospitality_text
+  type: text
+  config:
+    required: false
+  label: hospitality_text
 pages:
 - about.md

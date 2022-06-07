@@ -37,6 +37,58 @@
       {% endfor %}
     </div>
 
+  <div class="pt-24 mt-48">
+    <div class="pt-8 pb-8">
+  <h2 class="events-title">{{page.place_title}}</h2>
+  <div class="">
+  <img src="{{page.place_img}}" class="img-border-radius mt-8 ">
+  <p class="mt-8 olive">{{page.place_text}}</p>
+  </div>
+  </div>
+  <div class="">
+    <h2 class="events-title">{{page.space_title}}</h2>
+    <img src="{{page.space_img}}" class="img-border-radius mt-8">
+    <p class="mt-8 olive">{{page.space_text}}</p>
+    </div>
+  <div>
+    <h2 class="events-title">{{page.produce_title}}</h2>
+    <h3 class="middle-olive-text mt-8">{{page.produce_little-title}}</h3>
+    <p class="olive">{{page.produce_text}}</p>
+    {% for partner in page.partners %}
+    <div class="pt-16 olive w-1/2">
+      <h3 class="pb-8 middle-olive-text">{{partner.title}}</h3>
+      <p class="mb-12 olive">{{partner.text}}</p>
+    </div>
+    <!--<div  class="w-1/2 member-img">
+    <img src="{{team_member.img}}" class="img-border-radius">
+    </div>-->
+  <!--</div>-->
+    {% endfor %}
+  </div>
+  <div>
+    <h2 class="events-title">{{page.hospitality_title}}</h2>
+    <h2 class="">{{page.hospitality_text}}</h2>
+    {% for project in page.projects %}
+  {% assign index = forloop.index0 | modulo: 2 %}
+
+    {% if index == 0 %}
+      <div class=" pt-16 mb-20 member-item flex justify-between flex-row">
+    {% else %}
+      <div class=" pt-16 mb-20 member-item flex justify-between flex-row-reverse">
+    {% endif %}
+
+      <div class="pt-16 blue w-1/2 member-text">
+        <h3 class="pb-8 middle-white-title">{{project.title}}</h3>
+        <p class="mb-12 blue">{{project.text}}</p>
+      </div>
+      <div  class="w-1/2 member-img">
+      <img src="{{project.img}}" class="img-border-radius">
+      </div>
+    </div>
+  {% endfor %}
+    </div>
+</div>
+
 
     <div class="mt-32">
       <img src="{{page.bottom_img}}" class="team-bottom-img">
