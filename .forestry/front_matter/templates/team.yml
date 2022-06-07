@@ -52,31 +52,26 @@ fields:
   config:
     required: false
   label: main_title
-- name: place_title
-  type: text
-  config:
-    required: false
-  label: place_title
 - name: space_title
   type: text
   config:
     required: false
   label: space_title
-- name: produce_title
-  type: text
-  config:
-    required: false
-  label: produce_title
-- name: hospitality_title
-  type: text
-  config:
-    required: false
-  label: hospitality_title
 - name: space_text
   type: text
   config:
     required: false
   label: space text
+- name: hospitality_title
+  type: text
+  config:
+    required: false
+  label: hospitality_title
+- name: place_title
+  type: text
+  config:
+    required: false
+  label: place_title
 - name: place_text
   type: text
   config:
@@ -92,6 +87,21 @@ fields:
   config:
     maxSize: 64
   label: space_img
+- name: produce_title
+  type: text
+  config:
+    required: false
+  label: produce_title
+- name: produce_little-title
+  type: text
+  config:
+    required: false
+  label: produce_little-title
+- name: produce_text
+  type: text
+  config:
+    required: false
+  label: produce_text
 - name: partners
   type: field_group_list
   fields:
@@ -110,15 +120,5 @@ fields:
     max: 
     labelField: 
   label: partners
-- name: produce_little-title
-  type: text
-  config:
-    required: false
-  label: produce_little-title
-- name: produce_text
-  type: text
-  config:
-    required: false
-  label: produce_text
 pages:
 - about.md
