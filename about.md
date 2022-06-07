@@ -77,8 +77,10 @@ partners:
 - title: 'Jonella Farm '
   text: 'Blessed with rich soil and over 40 years of experience, Jonella is a local
     grower of some of our menu must-haves such as asparagus and sweet corn. '
-- title: ''
-  text: ''
+- title: Moonlight Flat Oysters
+  text: Steve Feletti is the undisputed Oyster King of Australia. His dedication to
+    quality has shaped the oyster culture and made his brand renowned for its Claire
+    de Lune, Moonlight Kiss and Rusty Wire oysters.
 - title: ''
   text: ''
 - title: ''
