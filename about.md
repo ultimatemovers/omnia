@@ -71,7 +71,7 @@ place_text: Situated on the iconic corner of Chapel Street and Toorak Road is th
   this landmark location and it’s the ideal place to immerse yourself in the stunning
   interior, friendly vibe, botanical-inspired cocktails and a mouthwatering menu curated
   by an award-winning chef.
-place_img: "/assets/images/mask-group-21-2x.png"
-space_img: "/assets/images/mask-group-21-2x.png"
+place_img: "/assets/images/reward1.jpg"
+space_img: "/assets/images/reward1.jpg"
 
 ---
