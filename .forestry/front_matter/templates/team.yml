@@ -120,5 +120,28 @@ fields:
     max: 
     labelField: 
   label: partners
+- name: projects
+  type: field_group_list
+  fields:
+  - name: title
+    type: text
+    config:
+      required: false
+    label: title
+  - name: text
+    type: text
+    config:
+      required: false
+    label: text
+  - name: img
+    type: file
+    config:
+      maxSize: 64
+    label: img
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: projects
 pages:
 - about.md
