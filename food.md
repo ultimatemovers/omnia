@@ -164,6 +164,7 @@ menu:
       product_price: "50"
   menu-group-image: ''
   menu_group_name: food
+  menu_group_text: ''
 - menu_group_title: Beverages
   categories:
   - category_title: CELLAR WINE BY THE GLASS
@@ -219,6 +220,14 @@ menu:
       product_price: "80"
   menu-group-image: "/assets/images/mask-group-20-2x.jpg"
   menu_group_name: drink
+  menu_group_text: The Omnia bar is stocked with an array of internationally renowned
+    beverages and many local favourites. The wine list has more than 200 new and old-world
+    varieties of various bouquets and budgets, as well as an enticing collection of
+    champagnes. Acclaimed mixologist Orlando Marzo has crafted a cocktail menu of
+    botanical-inspired beverages with flavours ranging from floral notes to earthy
+    tones. The bar also offers a non-alcoholic program with a range of mocktails and
+    an original non-alcoholic digestive that changes periodically, in harmony with
+    its seasonal ingredients.
 big_title: DISCOVER FLAVOUR AT ITS FINEST
 
 ---
