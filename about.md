@@ -82,9 +82,9 @@ partners:
     quality has shaped the oyster culture and made his brand renowned for its Claire
     de Lune, Moonlight Kiss and Rusty Wire oysters.
 - title: 'Jones Potatoes '
-  text: "– Led by Gordon Jones, Jones Potatoes have been growers for four generations.
+  text: 'Led by Gordon Jones, Jones Potatoes have been growers for four generations.
     During this time, they developed a remarkable quality of seed and soil and have
-    secured their place as the favourite potato farm among Victorian foodies. "
+    secured their place as the favourite potato farm among Victorian foodies. '
 - title: ''
   text: ''
 - title: ''
