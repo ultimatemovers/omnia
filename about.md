@@ -94,5 +94,8 @@ partners:
   text: "- Benalla farmer Mark Foletta is known as “The Cherry Man” and he grows 1200
     cherry trees on his 10 hectare property. This Victorian farmer comes from a family
     of growers and his cherries perfectly complement dishes such as our roasted duck."
+produce_little-title: FRESH IS ALWAYS IN FASHION
+produce_text: 'Seasons change, but we are loyal to our proven produce partners. Some
+  of our favourite suppliers include:'
 
 ---
