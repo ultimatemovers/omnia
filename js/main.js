@@ -100,13 +100,6 @@
     TOGGLE_MENU = !TOGGLE_MENU
   })
 
-
-  document.body.addEventListener('onload', init())
-
-  // window.onbeforeunload = () => {
-  //   window.scrollTo(0, 0);
-  // }
-
   
   if(document.body.id === 'food') {
     const foodItems = document.querySelectorAll('#food-menu .menu-category-title')
@@ -150,5 +143,11 @@
   }
 
 
+
+  document.body.addEventListener('onload', init())
+
+  window.onbeforeunload = () => {
+    window.scrollTo(0, 0);
+  }
 
 })()

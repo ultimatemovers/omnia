@@ -509,18 +509,6 @@ background-color: #F2E8C3;
   margin: 0 auto;
 }
 
-.food-title {
-color: #C1A973;
-font-size: 90px;
-padding-bottom: 15px;
-border-bottom: 2px solid #C1A973;
-width: 400px;
-text-transform: uppercase;
-text-align: center;
-margin: 0 auto;
-}
-
-
 #food .menu-categories {
   padding-top: 100px;
   margin: 0 auto;
