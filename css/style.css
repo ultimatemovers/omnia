@@ -168,9 +168,16 @@ th {
   font-size: 30px;
 }
 
+.little-grey-text {
+  color: #A3A792;
+  /*font-family: 'Avenir LT Std';*/
+  font-size: 18px;
+  font-weight: lighter;
+}
+
 .little-white-text {
   color: #EFEADB;
-  /*font-family: 'Avenir LT Std';*/
+  font-family: 'Avenir LT Std';
   font-size: 18px;
   font-weight: lighter;
 }
