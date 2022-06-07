@@ -465,8 +465,9 @@ body#homepage {
 font-size: 40px;
 line-height: 40px;
 padding-bottom: 15px;
-border-bottom: 1px solid #5C7057;
+/*border-bottom: 1px solid #5C7057;*/
 margin-bottom: 15px;
+text-transform: uppercase;
 }
 
 
@@ -739,6 +740,13 @@ background-color: #EEEDE5;
  color: #225367;
 }
 
+.second-title {
+  color: #BB968F;
+  font-size: 60px;
+  text-align: left;
+  text-transform: uppercase;
+}
+
 
 /*about us*/
 
@@ -748,7 +756,7 @@ background-color: #AEB3A1;
 }
 
 .border-class  {
-  border-bottom: 2px solid #A3A792;;
+  border-bottom: 2px solid #A3A792;
 }
 
 .member-item:nth-child(even) .img-border-radius {
@@ -894,6 +902,7 @@ border-bottom: 2px solid #A3A792;;
     border-bottom-right-radius: 80px;
     height: auto;
   }
+
 
   /*  -------------------------  */
 
