@@ -62,11 +62,11 @@ fields:
   config:
     required: false
   label: space_title
-- name: produce
+- name: produce_title
   type: text
   config:
     required: false
-  label: produce
+  label: produce_title
 - name: hospitality_title
   type: text
   config:
