@@ -1,7 +1,7 @@
 {% assign current_page = 'bookings' %}
 {% include head.html %}
 {% include nav.html %}
-<div id="bookings">
+<div id="bookings" class="mt-32 md:mt-0">
   <div class="cover-image mb-12 md:mb-24" style="background-image: url('/img/bookings_main.jpg');">
     <div class="container mx-auto">
       <h1>
@@ -9,21 +9,21 @@
       </h1>
     </div>
   </div>
-  <div class="container mx-auto">
+  <div class="container mx-auto px-4 md:px-0">
     <div>
       <h2 class="events-title">Group bookings</h2>
     </div>
-    <div class="flex pt-12 pb-16 columns">
-      <div class="w-1/3 mr-4">
+    <div class="md:flex pt-12 pb-16 columns">
+      <div class="md:w-1/3 mr-4">
         <p class="pb-8 blue">{{page.first_column}}</p>
       </div>
-      <div class="w-1/3 mr-4">
+      <div class="md:w-1/3 mr-4">
         <p class="pb-8 blue">{{page.second_column}}</p>
       </div>
     </div>
-    <h2 class="form-title">FOR EXCLUSIVE EVENT INQUIRIES PLEASE CONTACT OUR TEAM USING THE FORM BELOW:</h2>
-    <form class="">
-      <div class="flex justify-between">
+    <h2 class="form-title md:w-1/2">FOR EXCLUSIVE EVENT INQUIRIES PLEASE CONTACT OUR TEAM USING THE FORM BELOW:</h2>
+    <form class="pb-12 md:pb-0 mb-8">
+      <div class="flex flex-wrap justify-between">
         <select name="cars" id="number" class="select mr-4 blue">
           <option value="1-10" class="option">1-10</option>
           <option value="10-50">10-50</option>

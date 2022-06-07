@@ -677,25 +677,24 @@ border-bottom: 2px solid #AEB3A1;
 }
 
 .form-title {
-color: #A3A792;
-text-transform: uppercase;
-font-size: 32px;
-line-height: 32px;
-margin-bottom: 40px;
-width: 50%;
+  color: #A3A792;
+  text-transform: uppercase;
+  font-size: 32px;
+  line-height: 32px;
+  margin-bottom: 48px;
 }
 
 .input {
-border: 1px solid #AEB3A1;
-height: 60px;
-padding: 5px;
-padding-left: 15px;
-width: 50%;
-margin-bottom: 25px;
-border-bottom-right-radius: 8px;
-border-top-right-radius: 8px;
-outline: none;
-background-color: #EEEDE5;
+  border: 1px solid #AEB3A1;
+  height: 60px;
+  padding: 5px;
+  padding-left: 15px;
+  width: 50%;
+  margin-bottom: 25px;
+  border-bottom-right-radius: 8px;
+  border-top-right-radius: 8px;
+  outline: none;
+  background-color: #EEEDE5;
 }
 
 .input:focus {
@@ -880,9 +879,14 @@ border-bottom: 2px solid #A3A792;;
     border-bottom-right-radius: 80px;
     height: auto;
   }
+  
+  #bookings .burger-line {
+    background-color: #5C7057;
+  }
 
   .rewards-title,
-  .food-title {
+  .food-title,
+  .events-title {
     font-size: 60px ;
     line-height: 72px;
   }
@@ -922,9 +926,15 @@ border-bottom: 2px solid #A3A792;;
   .olive-btn {
     width: 100%;
   }
-  .about-rewards-title
 
+  /*  -----------------  */
+  /*    B O O K I N G    */
+  /*  -----------------  */
 
+  #bookings select.select,
+  #bookings .form-button {
+    min-width: 100%;
+  }
 
 }
 
