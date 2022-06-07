@@ -72,5 +72,10 @@ fields:
   config:
     required: false
   label: hospitality_title
+- name: space_text
+  type: text
+  config:
+    required: false
+  label: space text
 pages:
 - about.md
