@@ -64,5 +64,12 @@ space_text: Omnia Bar & Bistro is a venue that serves up experiences for every m
   and enjoy front row seats to the Chef’s show at the restaurant’s third space – a
   smaller area with an open kitchen and surrounding seating that gives uninterrupted
   views of the kitchen team in their element.
+place_text: Situated on the iconic corner of Chapel Street and Toorak Road is the
+  Capitol Grand in all its glory. South Yarra’s most stylish development is the epitome
+  of hospitality and hedonism, making it the perfect spot for our European style bistro
+  and bar – Omnia. The restaurant is the first of several LK Hospitality venues at
+  this landmark location and it’s the ideal place to immerse yourself in the stunning
+  interior, friendly vibe, botanical-inspired cocktails and a mouthwatering menu curated
+  by an award-winning chef.
 
 ---
