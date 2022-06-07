@@ -1,7 +1,13 @@
 ---
 layout: events
 events:
-- title: Event 3 title
+- title: Omnia Vista Social Club – Live music Wednesday nights
+  img: "/assets/images/reward2.jpg"
+  text: After a successful month of Wednesday Nights at The Embers, we're bringing
+    back live music nights at Omnia! Inspired by the Buena Vista Social Club, Omnia
+    will be host to great live music and specialty drinks every Wednesday. Come along
+    and visit 'Omnia Vista Social Club' for a night out to dinner or drinks.
+- title: 'Event 3 title '
   img: "/assets/images/reward3.jpg"
   text: Morbi in commodo lectus, in semper erat. Nullam et arcu fermentum, condimentum
     dui id, lobortis purus. Suspendisse congue tempus mauris. Lorem ipsum dolor sit
@@ -11,14 +17,6 @@ events:
     dictum imperdiet, dolor nisi aliquet mauris, vitae mattis ex lacus sit amet nibh.
 - title: Event 2 title
   img: "/assets/images/reward3.jpg"
-  text: Morbi in commodo lectus, in semper erat. Nullam et arcu fermentum, condimentum
-    dui id, lobortis purus. Suspendisse congue tempus mauris. Lorem ipsum dolor sit
-    amet, consectetur adipiscing elit. Donec consectetur vulputate ipsum, eget dignissim
-    arcu efficitur et. Praesent eu blandit nulla. Vivamus sed dolor ornare, mattis
-    sem in, sodales risus. Nunc eget faucibus nulla. Vestibulum aliquet, tortor eget
-    dictum imperdiet, dolor nisi aliquet mauris, vitae mattis ex lacus sit amet nibh.
-- title: Event 1 title
-  img: "/assets/images/reward2.jpg"
   text: Morbi in commodo lectus, in semper erat. Nullam et arcu fermentum, condimentum
     dui id, lobortis purus. Suspendisse congue tempus mauris. Lorem ipsum dolor sit
     amet, consectetur adipiscing elit. Donec consectetur vulputate ipsum, eget dignissim
@@ -73,5 +71,21 @@ third_column_first_text: Beverages will be charged on consumption and a $500 dep
   will be required to secure the venue
 third_column_second_text: For special occasions, we would also be glad to custom make
   your favourite cake.
+big_title: FUTURE MEMORIES ON THE MENU
+event-little-title: Save the Date for our special events.
+event-text: Holidays, special occasions and “just because we feel like it” celebrations.
+  Whether it’s a regular gig or a rare treat, our world-class kitchen, talented artists
+  and friendly staff will make it an experience to remember. Watch this space for
+  upcoming events and follow our socials to never miss a beat.
+event_little_title: Save the Date for our special events.
+event_text: Holidays, special occasions and “just because we feel like it” celebrations.
+  Whether it’s a regular gig or a rare treat, our world-class kitchen, talented artists
+  and friendly staff will make it an experience to remember. Watch this space for
+  upcoming events and follow our socials to never miss a beat.
+little_title: Save the Date for our special events.
+text: Holidays, special occasions and “just because we feel like it” celebrations.
+  Whether it’s a regular gig or a rare treat, our world-class kitchen, talented artists
+  and friendly staff will make it an experience to remember. Watch this space for
+  upcoming events and follow our socials to never miss a beat.
 
 ---

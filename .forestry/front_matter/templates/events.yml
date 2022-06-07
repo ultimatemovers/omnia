@@ -72,5 +72,20 @@ fields:
   config:
     required: false
   label: third column second text
+- name: big_title
+  type: text
+  config:
+    required: false
+  label: big title
+- name: little_title
+  type: text
+  config:
+    required: false
+  label: little title
+- name: text
+  type: text
+  config:
+    required: false
+  label: text
 pages:
 - events.md

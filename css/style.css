@@ -168,9 +168,16 @@ th {
   font-size: 30px;
 }
 
+.little-grey-text {
+  color: #A3A792;
+  /*font-family: 'Avenir LT Std';*/
+  font-size: 18px;
+  font-weight: lighter;
+}
+
 .little-white-text {
   color: #EFEADB;
-  /*font-family: 'Avenir LT Std';*/
+  font-family: 'Avenir LT Std';
   font-size: 18px;
   font-weight: lighter;
 }
@@ -458,8 +465,9 @@ body#homepage {
 font-size: 40px;
 line-height: 40px;
 padding-bottom: 15px;
-border-bottom: 1px solid #5C7057;
+/*border-bottom: 1px solid #5C7057;*/
 margin-bottom: 15px;
+text-transform: uppercase;
 }
 
 
@@ -506,7 +514,7 @@ background-color: #F2E8C3;
   font-size: 90px;
   padding-bottom: 15px;
   border-bottom: 2px solid #C1A973;
-  width: 400px;
+  width: 600px;
   text-transform: uppercase;
   text-align: center;
   margin: 0 auto;
@@ -727,12 +735,23 @@ text-transform: uppercase;
  color: #225367;
 }
 
+.second-title {
+  color: #BB968F;
+  font-size: 60px;
+  text-align: left;
+  text-transform: uppercase;
+}
+
 
 /*about us*/
 
 
 #about {
 background-color: #AEB3A1;
+}
+
+.border-class  {
+  border-bottom: 2px solid #A3A792;
 }
 
 .member-item:nth-child(even) .img-border-radius {
