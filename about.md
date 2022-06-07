@@ -47,5 +47,22 @@ space_title: The Space
 produce: The produce
 hospitality_title: LK Hospitality
 produce_title: The produce
+space_text: Omnia Bar & Bistro is a venue that serves up experiences for every mood.
+  It’s cool, comfortable and eclectic in its ability to host everything from a bustling
+  business lunch to an intimate dinner date. Like everything in this building, the
+  venue has an air of elegance, yet it is grounded by the abundant greenery, variety
+  of stone and leather textures and impressive collection of modern artwork. It’s
+  a friendly ambience with just the right amount of fancifulness. The main dining
+  room is a vibrant area flooded with natural lights provided by floor-to-ceiling
+  windows looking out onto the landmark location. Its high ceilings are decorated
+  with whimsical vines of greenery descending between majestic columns and providing
+  a contrast to the bold marble bar and statement stone surfaces. The walls of Omnia
+  display unique paintings by resident artist David Bromley and you’ll also come across
+  his bronze sculptures as you venture into the second dining room, which provides
+  a more intimate atmosphere set with old-school chandeliers, wooden floors and leather
+  seating. Finally, the bistro invites you to immerse yourself in the culinary experience
+  and enjoy front row seats to the Chef’s show at the restaurant’s third space – a
+  smaller area with an open kitchen and surrounding seating that gives uninterrupted
+  views of the kitchen team in their element.
 
 ---
