@@ -110,5 +110,15 @@ fields:
     max: 
     labelField: 
   label: partners
+- name: produce_little-title
+  type: text
+  config:
+    required: false
+  label: produce_little-title
+- name: produce_text
+  type: text
+  config:
+    required: false
+  label: produce_text
 pages:
 - about.md
