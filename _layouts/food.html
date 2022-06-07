@@ -17,7 +17,7 @@
       <img src="{{ menu.menu-group-image }}" alt="wine picture" class="img-bottom-radius w-full">
     </div>
   {% endif %}
-  
+
   {% if index == 0 %}
     <div class="container mx-auto" id="food-menu">
   {% else %}
@@ -25,6 +25,7 @@
   {% endif %}
 
     <h2 class="food-title">{{ menu.menu_group_title }}</h2>
+    <p class="mt-24 olive">{{ menu.menu_group_text }}</p>
 
     <div class="w-full flex justify-between mb-24" style="border-bottom: 2px solid #C1A973">
       <ul class="menu-categories flex justify-between inner-container overflow-x-auto md:overflow-x-hidden">
@@ -40,7 +41,7 @@
       <div class="inner-container" id="food-products">
     {% else %}
       <div class="inner-container" id="drink-products">
-    {% endif %} 
+    {% endif %}
       {% for category in menu.categories %}
         <div class="category-products w-full mb-32" data-category-products="{{ category.category_title | slugify }}">
           {% for product in category.products %}
