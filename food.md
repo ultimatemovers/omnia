@@ -164,7 +164,7 @@ menu:
       product_price: "50"
   menu-group-image: ''
   menu_group_name: food
-- menu_group_title: Drinks
+- menu_group_title: Beverages
   categories:
   - category_title: CELLAR WINE BY THE GLASS
     products:
@@ -219,6 +219,6 @@ menu:
       product_price: "80"
   menu-group-image: "/assets/images/mask-group-20-2x.jpg"
   menu_group_name: drink
-big_title: FOOD & DRINKS
+big_title: DISCOVER FLAVOUR AT ITS FINEST
 
 ---
