@@ -676,7 +676,6 @@ text-transform: uppercase;
   line-height: 60px;
   text-transform: uppercase;
   padding-bottom: 25px;
-  border-bottom: 2px solid #AEB3A1;
 }
 
 .columns {
@@ -981,7 +980,7 @@ border-bottom: 2px solid #A3A792;;
     font-size: 44px;
     line-height: 48px;
     margin: 0;
-    padding: 40px 0;
+    padding: 40px 0 40px;
   }
 
   #events form input,
