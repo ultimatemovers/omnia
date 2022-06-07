@@ -77,15 +77,15 @@ fields:
   config:
     required: false
   label: big title
-- name: event_little_title
+- name: little_title
   type: text
   config:
     required: false
-  label: event little title
-- name: event_text
+  label: little title
+- name: text
   type: text
   config:
     required: false
-  label: event text
+  label: text
 pages:
 - events.md

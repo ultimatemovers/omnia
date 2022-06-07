@@ -82,5 +82,10 @@ event_text: Holidays, special occasions and “just because we feel like it” c
   Whether it’s a regular gig or a rare treat, our world-class kitchen, talented artists
   and friendly staff will make it an experience to remember. Watch this space for
   upcoming events and follow our socials to never miss a beat.
+little_title: Save the Date for our special events.
+text: Holidays, special occasions and “just because we feel like it” celebrations.
+  Whether it’s a regular gig or a rare treat, our world-class kitchen, talented artists
+  and friendly staff will make it an experience to remember. Watch this space for
+  upcoming events and follow our socials to never miss a beat.
 
 ---
