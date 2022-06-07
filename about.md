@@ -85,8 +85,11 @@ partners:
   text: 'Led by Gordon Jones, Jones Potatoes have been growers for four generations.
     During this time, they developed a remarkable quality of seed and soil and have
     secured their place as the favourite potato farm among Victorian foodies. '
-- title: ''
-  text: ''
+- title: 'Wagyu Blackmore '
+  text: An award-winning family business run by David Blackmore, this team has been
+    producing 100% fullblood Wagyu beef for 30 years. Blackmore boasts a complete
+    approach to their product, from conception to plate, setting them apart from other
+    beef brands.
 - title: ''
   text: ''
 
