@@ -920,6 +920,7 @@ border-bottom: 2px solid #A3A792;;
     background-color: #5C7057;
   }
 
+  .omnia-title,
   .rewards-title,
   .food-title,
   .events-title {
@@ -933,6 +934,10 @@ border-bottom: 2px solid #A3A792;;
 
   .btn {
     width: 100%;
+  }
+
+  #homepage .section-title {
+    font-size: 32px;
   }
 
 
