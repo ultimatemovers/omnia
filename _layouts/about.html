@@ -1,7 +1,8 @@
 {% assign current_page = 'about' %}
 {% include head.html %}
 {% include nav.html %}
-<div id="team">
+
+<div id="team" class="pt-32 md:pt-0">
   <div class="cover-image mb-12 md:mb-24" style="background-image: url('/img/events_main.jpg');">
     <div class="container mx-auto">
       <h1>
@@ -9,7 +10,7 @@
       </h1>
     </div>
   </div>
-  <div class="container mx-auto">
+  <div class="container mx-auto px-4 md:px-0">
     <div>
       <h2 class="events-title">{{page.team_title}}</h2>
     </div>
@@ -17,79 +18,76 @@
     {% for team_member in page.team_members %}
     {% assign index = forloop.index0 | modulo: 2 %}
 
-    {% if index == 0 %}
-    <div class="pt-16 member-item flex justify-between flex-row">
+      {% if index == 0 %}
+        <div class="flex justify-between flex-col-reverse md:flex-row pt-24 member-item">
       {% else %}
-      <div class="pt-16 mb-20 member-item flex justify-between flex-row-reverse">
-        {% endif %}
+        <div class="flex justify-between flex-col-reverse md:flex-row-reverse pt-24 member-item">
+      {% endif %}
 
-        <div class="pt-16 blue w-1/2 member-text">
-          <h3 class="pb-8 middle-white-title">{{team_member.name}}</h3>
-          <h3 class="pb-4 mb-4  border-class uppercase">{{team_member.title}}</h3>
-          <p class="mb-12 blue">{{team_member.text}}</p>
-          <button class="olive-btn">Book a table</button>
+          <div class="pt-8 md:pt-16 blue md:w-1/2 member-text">
+            <h3 class="pb-8 middle-white-title">{{team_member.name}}</h3>
+            <h3 class="pb-4 mb-4  border-class uppercase">{{team_member.title}}</h3>
+            <p class="mb-12 blue">{{team_member.text}}</p>
+            <button class="olive-btn">Book a table</button>
+          </div>
+          <div class="md:w-1/2 member-img">
+            <img src="{{team_member.img}}" class="img-border-radius">
+          </div>
         </div>
-        <div class="w-1/2 member-img">
-          <img src="{{team_member.img}}" class="img-border-radius">
-        </div>
-      </div>
-      {% endfor %}
-    </div>
+    {% endfor %}
 
-    <div class="container mx-auto">
-      <div class="pt-24"><!-- mt-48-->
+      <div class="pt-24">
+        <!-- mt-48-->
         <div class="pt-8 pb-8">
           <h2 class="events-title">{{page.place_title}}</h2>
-          <div class="">
+          <div class="flex flex-col-reverse md:flex-col">
             <div class="flex justify-center">
-            <p class="mt-12 olive w-1/2 inline">{{page.place_text}}</p>
-          </div>
+              <p class="mt-12 olive md:w-1/2 inline">{{page.place_text}}</p>
+            </div>
             <img src="{{page.place_img}}" class="img-border-radius mt-12">
           </div>
         </div>
         <div class="pt-24">
           <h2 class="events-title">{{page.space_title}}</h2>
-          <div class="flex justify-center">
-          <p class="mt-12 olive w-1/2">{{page.space_text}}</p>
-        </div>
-          <img src="{{page.space_img}}" class="img-border-radius mt-12">
+          <div class="flex flex-col-reverse md:flex-col">
+            <div class="flex justify-center">
+              <p class="mt-12 olive md:w-1/2">{{page.space_text}}</p>
+            </div>
+            <img src="{{page.space_img}}" class="img-border-radius mt-12">
+          </div>
         </div>
         <div class="pt-24">
           <h2 class="events-title">{{page.produce_title}}</h2>
-          <div class="flex justify-between items-start pt-12">
-          <h3 class="produce-middle-title  w-1/2 flex">{{page.produce_little-title}}</h3>
-          <p class="produce-little-text olive w-1/2 flex">{{page.produce_text}}</p>
+          <div class="flex flex-col md:flex-row justify-between items-start pt-12">
+            <h3 class="md:w-1/2 flex produce-middle-title">{{page.produce_little-title}}</h3>
+            <p class="flex olive md:w-1/2 produce-little-text ">{{page.produce_text}}</p>
           </div>
           {% for partner in page.partners %}
-          <div class="pt-16 olive w-1/2">
+          <div class="pt-16 olive md:w-1/2">
             <h3 class="pb-8 middle-olive-text">{{partner.title}}</h3>
             <p class="mb-12 olive">{{partner.text}}</p>
           </div>
-          <!--<div  class="w-1/2 member-img">
-      <img src="{{team_member.img}}" class="img-border-radius">
-      </div>-->
-          <!--</div>-->
           {% endfor %}
         </div>
-        <div  class="pt-24">
+        <div class="pt-24">
           <h2 class="events-title ">{{page.hospitality_title}}</h2>
           <div class="flex justify-center">
-          <p class=" mt-8 olive w-1/2 inline">{{page.hospitality_text}}</p>
+            <p class="mt-8 olive md:w-1/2 inline">{{page.hospitality_text}}</p>
           </div>
           {% for project in page.projects %}
           {% assign index = forloop.index0 | modulo: 2 %}
 
           {% if index == 0 %}
-          <div class="pt-16 mb-20 member-item flex justify-between flex-row-reverse">
-            {% else %}
-            <div class="pt-16 mb-20 member-item flex justify-between flex-row">
-              {% endif %}
+            <div class="flex justify-between flex-col-reverse md:flex-row-reverse pt-16 mb-8 md:mb-20 member-item ">
+          {% else %}
+            <div class="flex justify-between flex-col-reverse md:flex-row pt-16 mb-8 md:mb-20 member-item ">
+          {% endif %}
 
-              <div class="pt-16 blue w-1/2 member-text">
+              <div class="pt-8 md:pt-16 blue md:w-1/2 member-text">
                 <h3 class="pb-8 middle-white-title">{{project.title}}</h3>
-                <p class="mb-12 olive">{{project.text}}</p>
+                <p class="md:mb-12 olive">{{project.text}}</p>
               </div>
-              <div class="w-1/2 member-img">
+              <div class="md:w-1/2 member-img">
                 <img src="{{project.img}}" class="img-border-radius">
               </div>
             </div>
@@ -98,7 +96,7 @@
         </div>
 
 
-        <div class="mt-32">
+        <div class="mt-16 md:mt-32">
           <img src="{{page.bottom_img}}" class="team-bottom-img">
         </div>
       </div>
