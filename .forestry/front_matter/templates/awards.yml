@@ -70,5 +70,10 @@ fields:
   config:
     required: false
   label: recent_title
+- name: reviews_title
+  type: text
+  config:
+    required: false
+  label: reviews_title
 pages:
 - rewards.md
