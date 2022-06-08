@@ -920,12 +920,26 @@ border-bottom: 2px solid #A3A792;;
     background-color: #5C7057;
   }
 
+  .omnia-title,
   .rewards-title,
   .food-title,
   .events-title {
     font-size: 60px ;
     line-height: 72px;
   }
+
+  /*  --------------------------  */
+  /*    H  O  M  E  P  A  G  E    */
+  /*  --------------------------  */
+
+  .btn {
+    width: 100%;
+  }
+
+  #homepage .section-title {
+    font-size: 32px;
+  }
+
 
   /*  -----------------  */
   /*    F   O   O   D    */
