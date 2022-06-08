@@ -2,7 +2,7 @@
 {% include head.html %}
 {% include nav.html %}
 
-<div id="food" class="mt-32 md:mt-0">
+<div id="food" class="pt-32 md:pt-0">
   <div class="cover-image mb-12 md:mb-24" style="background-image: url('/img/food_main.jpg');">
     <div class="container mx-auto">
       <h1>
@@ -19,9 +19,9 @@
   {% endif %}
 
   {% if index == 0 %}
-    <div class="container mx-auto" id="food-menu">
+    <div class="container mx-auto px-4 md:px-0" id="food-menu">
   {% else %}
-    <div class="container mx-auto" id="drink-menu">
+    <div class="container mx-auto px-4 md:px-0" id="drink-menu">
   {% endif %}
 
     <h2 class="food-title">{{ menu.menu_group_title }}</h2>
