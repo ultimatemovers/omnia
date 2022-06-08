@@ -920,7 +920,8 @@ border-bottom: 2px solid #A3A792;;
     font-size: 60px;
     line-height: 60px;
     position: absolute;
-    bottom: 100px;
+    bottom: 120px;
+    margin-top: 0;
   }
 
   #bookings .burger-line,
