@@ -18,7 +18,7 @@
     {% assign index = forloop.index0 | modulo: 2 %}
 
     {% if index == 0 %}
-    <div class="pt-16 mb-20 member-item flex justify-between flex-row">
+    <div class="pt-16 member-item flex justify-between flex-row">
       {% else %}
       <div class="pt-16 mb-20 member-item flex justify-between flex-row-reverse">
         {% endif %}
@@ -37,23 +37,29 @@
     </div>
 
     <div class="container mx-auto">
-      <div class="pt-24 mt-48">
+      <div class="pt-24"><!-- mt-48-->
         <div class="pt-8 pb-8">
           <h2 class="events-title">{{page.place_title}}</h2>
           <div class="">
-            <img src="{{page.place_img}}" class="img-border-radius mt-8 ">
-            <p class="mt-8 olive">{{page.place_text}}</p>
+            <div class="flex justify-center">
+            <p class="mt-12 olive w-1/2 inline">{{page.place_text}}</p>
+          </div>
+            <img src="{{page.place_img}}" class="img-border-radius mt-12">
           </div>
         </div>
-        <div class="">
+        <div class="pt-24">
           <h2 class="events-title">{{page.space_title}}</h2>
-          <img src="{{page.space_img}}" class="img-border-radius mt-8">
-          <p class="mt-8 olive">{{page.space_text}}</p>
+          <div class="flex justify-center">
+          <p class="mt-12 olive w-1/2">{{page.space_text}}</p>
         </div>
-        <div>
+          <img src="{{page.space_img}}" class="img-border-radius mt-12">
+        </div>
+        <div class="pt-24">
           <h2 class="events-title">{{page.produce_title}}</h2>
-          <h3 class="private-title mt-8">{{page.produce_little-title}}</h3>
-          <p class="olive middle-olive-text">{{page.produce_text}}</p>
+          <div class="flex justify-between items-start pt-12">
+          <h3 class="private-title w-1/2 flex">{{page.produce_little-title}}</h3>
+          <p class="middle-olive-text olive w-1/2 flex">{{page.produce_text}}</p>
+          </div>
           {% for partner in page.partners %}
           <div class="pt-16 olive w-1/2">
             <h3 class="pb-8 middle-olive-text">{{partner.title}}</h3>
@@ -65,9 +71,11 @@
           <!--</div>-->
           {% endfor %}
         </div>
-        <div>
+        <div  class="pt-24">
           <h2 class="events-title ">{{page.hospitality_title}}</h2>
-          <h3 class=" mt-8 olive">{{page.hospitality_text}}</h3>
+          <div class="flex justify-center">
+          <p class=" mt-8 olive w-1/2 inline">{{page.hospitality_text}}</p>
+          </div>
           {% for project in page.projects %}
           {% assign index = forloop.index0 | modulo: 2 %}
 
@@ -79,7 +87,7 @@
 
               <div class="pt-16 blue w-1/2 member-text">
                 <h3 class="pb-8 middle-white-title">{{project.title}}</h3>
-                <p class="mb-12 blue">{{project.text}}</p>
+                <p class="mb-12 olive">{{project.text}}</p>
               </div>
               <div class="w-1/2 member-img">
                 <img src="{{project.img}}" class="img-border-radius">

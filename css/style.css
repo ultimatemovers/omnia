@@ -790,6 +790,9 @@ margin-left: 80px;
 border-bottom: 2px solid #A3A792;;
 }
 
+.produce-middle-title  {
+}
+
 
 /*bookings*/
 
@@ -896,7 +899,7 @@ border-bottom: 2px solid #A3A792;;
     border-bottom-right-radius: 80px;
     height: auto;
   }
-  
+
   #bookings .burger-line,
   #events .burger-line {
     background-color: #5C7057;
