@@ -34,7 +34,7 @@
       </div>
     </div>
 
-    <h2 class="about-rewards-title md:w-1/2 mt-20 mb-20">Here is the title about Omnia reviews</h2>
+    <h2 class="about-rewards-title md:w-1/2 mt-20 mb-20">{{page.reviews_title}}</h2>
     <div class="flex justify-between flex-wrap">
       {% for review in page.reviews %}
       <div class="pt-16 mb-20 md:w-1/2 reward-item">
@@ -52,5 +52,6 @@
       {% endfor %}
     </div>
   </div>
-  
-  {% include footer.html %}
+</div>
+
+{% include footer.html %}

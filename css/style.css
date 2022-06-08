@@ -749,6 +749,8 @@ text-transform: uppercase;
 background-color: #AEB3A1;
 }
 
+/*color: #F0E1AD;*/
+
 .border-class  {
   border-bottom: 2px solid #A3A792;
 }
@@ -788,6 +790,22 @@ margin-left: 80px;
 
 .member-title {
 border-bottom: 2px solid #A3A792;;
+}
+
+.produce-middle-title  {
+    font-size: 60px;
+    line-height: 60px;
+    text-transform: uppercase;
+    padding-bottom: 25px;
+    color: #5C7057;
+}
+
+.produce-little-text {
+  color: #F0E1AD;
+  /*font-family: 'Avenir LT Std';*/
+  text-transform: uppercase;
+  font-size: 26px;
+  line-height: 28px;
 }
 
 
@@ -896,7 +914,7 @@ border-bottom: 2px solid #A3A792;;
     border-bottom-right-radius: 80px;
     height: auto;
   }
-  
+
   #bookings .burger-line,
   #events .burger-line {
     background-color: #5C7057;
