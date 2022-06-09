@@ -13,40 +13,44 @@
   <div class="container mx-auto px-4 md:px-0">
     <div class="rewards-container">
       <div>
-        <h2 class="rewards-title">NEWS & REWARDS</h2>
+        <h2 class="rewards-title reveal">NEWS & REWARDS</h2>
       </div>
       <!----->
       <div class="flex justify-between flex-wrap mt-8 md:mt-0">
         {% for reward in page.rewards %}
-        <div class="pt-16 mb-20 md:w-1/2 reward-item">
+        {% assign index = forloop.index0 | modulo: 2 %}
+        <div class="pt-16 mb-20 md:w-1/2 reward-item reveal-delay-{{ index | plus: 1 | times: 3 }}00">
           <div class="">
             <img src="{{reward.img}}" class="img-radius">
           </div>
           <div class="pt-16 olive">
             <!--<p class="reward-date mb-10">{{reward.date}}</p>-->
-            <h3 class="author-title">{{reward.name_year}}</h3>
-            <h3 class="pb-8 review-title">{{reward.category}}</h3>
-            <p class="mb-12 olive">{{reward.to}}</p>
-            <button class="olive-btn">Find out more</button>
+            <h3 class="author-title reveal-delay-{{ index | plus: 1 | times: 3 }}00">{{reward.name_year}}</h3>
+            <h3 class="pb-8 review-title reveal-delay-{{ index | plus: 1 | times: 3 }}00">{{reward.category}}</h3>
+            <p class="mb-12 olive reveal-delay-{{ index | plus: 1 | times: 3 }}00">{{reward.to}}</p>
+            <button class="olive-btn reveal-delay-{{ index | plus: 1 | times: 3 }}00">Find out more</button>
           </div>
         </div>
         {% endfor %}
       </div>
     </div>
 
-    <h2 class="about-rewards-title md:w-1/2 mt-20 mb-20">{{page.reviews_title}}</h2>
-    <div class="flex justify-between flex-wrap">
+    <h2 class="about-rewards-title md:w-1/2 mt-20 mb-20 reveal">
+      {{page.reviews_title}}
+    </h2>
+    <div class="flex justify-between flex-wrap mb-20">
       {% for review in page.reviews %}
-      <div class="pt-16 mb-20 md:w-1/2 reward-item">
+      {% assign index = forloop.index0 | modulo: 2 %}
+      <div class="pt-16 mb-20 md:w-1/2 reward-item reveal-delay-{{ index | plus: 1 | times: 3 }}00">
         <div class="">
           <img src="{{review.img}}" class="img-radius">
         </div>
         <div class="pt-16 olive">
           <!--<p class="reward-date mb-10">{{review.date}}</p>
-  <h3 class="author-title">{{review.author}}</h3>-->
-          <h3 class="pb-8 review-title">{{review.title}}</h3>
-          <p class="mb-12 olive">{{review.text}}</p>
-          <button class="olive-btn">Find out more</button>
+          <h3 class="author-title">{{review.author}}</h3>-->
+          <h3 class="pb-8 review-title reveal-delay-{{ index | plus: 1 | times: 3 }}00">{{review.title}}</h3>
+          <p class="mb-12 olive reveal-delay-{{ index | plus: 1 | times: 3 }}00">{{review.text}}</p>
+          <button class="olive-btn reveal-delay-{{ index | plus: 1 | times: 3 }}00">Find out more</button>
         </div>
       </div>
       {% endfor %}

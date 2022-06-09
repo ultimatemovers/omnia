@@ -5,15 +5,24 @@
     </a>
   </div>
   <div class="nav-logo hidden">
-    <a href="/">
+    <a href="/" class="animate__animated animate__fadeInLeft">
       <img src="/img/nav-logo.png" alt="logo_omnia">
     </a>
   </div>
   <div class="flex items-center lg:mt-4">
     <div class="voucher-btn cursor-pointer px-4 hidden sm:block">
-      <a class="uppercase p-2" href="#">Voucher</a>
+      <a 
+        href="https://omnia.vouchercart.com/11641/omnia-voucher" 
+        class="uppercase p-2"
+      >
+        Voucher
+      </a>
+      <div class="line"></div>
     </div>
-    <a class="make-booking-btn custom-beige-dark custom-bg-brown py-2 px-8 uppercase cursor-pointer hidden sm:block">
+    <a 
+      href="https://www.opentable.com.au/r/omnia-bistro-reservations-south-yarra?restref=60050&lang=en-AU"  
+      class="make-booking-btn custom-beige-dark custom-bg-brown py-2 px-8 uppercase cursor-pointer hidden sm:block"
+    >
       Make a booking
     </a>
     <div id="burger-menu" class="burger flex flex-col items-end p-3">
@@ -24,17 +33,17 @@
 </header>
 
 <div id="navigation-page" class="fixed top-0 bottom-0 left-0 z-40 h-screen w-full flex hidden" style="background-color: #C1A973 ;">
-  <div class="nav-image hidden md:block">
+  <div class="nav-image hidden md:block animate__animated animate__fadeInLeft">
     <img src="/img/nav-image.png" alt="nav-image">
   </div>
   <nav class="flex flex-col justify-end">
     <ul class="navigation mb-8 sm:mb-0">
-      <li class=""><a href="/about">About us</a></li>
-      <li class=""><a href="/food">Food & Drinks</a></li>
-      <li class=""><a href="/rewards">Rewards & reviews</a></li>
-      <li class=""><a href="/bookings">Group bookings</a></li>
-      <li class=""><a href="/events">Events</a></li>
-      <li class=""><a href="/contacts">Contacts</a></li>
+      <li class="animate__animated animate__fadeInUp"><a href="/about">About us</a></li>
+      <li class="animate__animated animate__fadeInUp"><a href="/food">Food & Drinks</a></li>
+      <li class="animate__animated animate__fadeInUp"><a href="/rewards">Rewards & reviews</a></li>
+      <li class="animate__animated animate__fadeInUp"><a href="/bookings">Group bookings</a></li>
+      <li class="animate__animated animate__fadeInUp"><a href="/events">Events</a></li>
+      <li class="animate__animated animate__fadeInUp"><a href="/contacts">Contacts</a></li>
     </ul>
 
     <div class="voucher-btn cursor-pointer sm:hidden">
@@ -44,16 +53,18 @@
       Make a booking
     </a>
 
-    <div class="uppercase promotion-headline hidden md:block">
-      Sign up for your serving of the latest <br>
-      news, special invitations and more.
-    </div>
-    <div class="newsletter hidden md:block">
-      <span>SUBSCRIBE TO OUR NEWSLETTER</span>
-    </div>
-    <div class="terms-conditions hidden md:block">
-       <div class="mb-3"><a href="#">PRIVACY POLICY</a></div>
-       <div><a href="#">TERMS & CONDITIONS</a></div>
+    <div class="animate__animated animate__fadeInUp animate__delay-1s">
+      <div class="uppercase promotion-headline hidden md:block">
+        Sign up for your serving of the latest <br>
+        news, special invitations and more.
+      </div>
+      <div class="newsletter hidden md:block">
+        <span>SUBSCRIBE TO OUR NEWSLETTER</span>
+      </div>
+      <div class="terms-conditions hidden md:block">
+         <div class="mb-3"><a href="/privacy">PRIVACY POLICY</a></div>
+         <div><a href="/terms">TERMS & CONDITIONS</a></div>
+      </div>
     </div>
   </nav>
 </div>

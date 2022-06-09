@@ -116,7 +116,8 @@ body {
 
 }
 
-.footer-bottom p {
+.footer-bottom p,
+.footer-bottom p a {
   font-size: 14px;
 }
 
@@ -144,7 +145,7 @@ body {
 
 button {
   cursor: pointer;
-  transition: 0.4s;
+  transition: 0.3s;
 }
 
 button:focus {
@@ -269,11 +270,11 @@ header.site-header{
   color: #fff;
   font-weight: 600;
   text-underline-offset: 4px;
-  transition: 0.4s;
 }
 
-.voucher-btn a:hover {
-  text-decoration: underline;
+.voucher-btn:hover .line {
+  background-color: #fff;
+  animation: loadLine ease-out forwards 0.3s;
 }
 
 .make-booking-btn{
@@ -391,6 +392,31 @@ nav ul.navigation li {
   margin-bottom: 8px;
   cursor: pointer;
   transition: 0.4s;
+}
+
+nav ul.navigation li:nth-child(2) {
+  animation-delay: .2s
+}
+nav ul.navigation li:nth-child(3) {
+  animation-delay: .3s
+}
+nav ul.navigation li:nth-child(4) {
+  animation-delay: .4s
+}
+nav ul.navigation li:nth-child(5) {
+  animation-delay: .5s
+}
+nav ul.navigation li:nth-child(6) {
+  animation-delay: .6s
+}
+nav ul.navigation li:nth-child(7) {
+  animation-delay: .7s
+}
+nav ul.navigation li:nth-child(8) {
+  animation-delay: .8s
+}
+nav ul.navigation li:nth-child(9) {
+  animation-delay: .9s
 }
 
 nav ul.navigation li a {
@@ -898,32 +924,100 @@ border-bottom: 2px solid #A3A792;;
   border-top-right-radius: 8px;
   outline: none;
   background-color: #EEEDE5;
-  }
+}
 
-  .select .option {
-    background-color: darkgreen;
-  }
+.select .option {
+  background-color: darkgreen;
+}
 
-  .select:focus {
-    outline: none;
-  }
+.select:focus {
+  outline: none;
+}
 
-  .contact-button {
-    text-transform: uppercase;
-    color: white;
-    border-bottom-right-radius: 30px;
-    border-top-right-radius: 30px;
-    background-color:  #225367;
-    height: 58px;
-    padding: 3px;
-    font-size: 12px;
-    font-weight: 600;
-  }
+.contact-button {
+  text-transform: uppercase;
+  color: white;
+  border-bottom-right-radius: 30px;
+  border-top-right-radius: 30px;
+  background-color:  #225367;
+  height: 58px;
+  padding: 3px;
+  font-size: 12px;
+  font-weight: 600;
+}
 
-  .contact-button:hover {
-    background-color: #BC984F;
-    color: white;
-  }
+.contact-button:hover {
+  background-color: #BC984F;
+  color: white;
+}
+
+/* PRIVACY PAGE */
+
+#privacy,
+#terms {
+  background-color: #EEEDE5;
+}
+
+/* #privacy h1 {
+  font-size: 38px;
+  margin-bottom: 30px;
+  line-height: 48px;
+  text-transform: capitalize;
+  color: #5C7057
+} */
+
+#privacy h2,
+#terms h2 {
+  margin-bottom: 20px;
+  font-size: 32px;
+  line-height: 40px;
+  font-weight: 400;
+  letter-spacing: 0.3px;
+  color: #5C7057
+}
+
+#privacy h3,
+#terms h3 {
+  margin-top: 24px;
+  margin-bottom: 12px;
+  font-size: 28px;
+  line-height: 32px;
+  font-weight: bold;
+  color: #5C7057
+}
+
+#privacy h4,
+#terms h4 {
+  font-size: 20px;
+  line-height: 28px;
+  margin-top: 20px;
+  margin-bottom: 12px;
+  font-weight: 600;
+  padding-left: 12px;
+  color: #5C7057
+}
+
+#privacy h5,
+#terms h5 {
+  margin-top: 12px;
+  margin-bottom: 12px;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 700;
+  color: #5C7057
+}
+
+#privacy p,
+#terms p {
+  font-size: 14px;
+  color: #5C7057;
+}
+
+#privacy p strong,
+#terms p strong {
+  display: block;
+  margin-top: 24px;
+}
 
 
 @media (max-width: 1441px) {
