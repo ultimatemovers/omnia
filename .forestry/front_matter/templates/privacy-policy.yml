@@ -12,8 +12,8 @@ fields:
   config:
     required: false
   label: Subtitle
-- name: privacy_policy
+- name: main_text
   type: text
   config:
     required: false
-  label: Privacy Policy
+  label: Main Text
