@@ -21,3 +21,5 @@ fields:
     schema:
       format: markdown
   label: Main Text
+pages:
+- privacy policy.md
