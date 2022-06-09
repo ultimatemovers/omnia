@@ -167,7 +167,24 @@
 
   /* partners - farms */
 
+  (function () {
+    let partnerSection = document.querySelector(".partners");
 
+    partnerSection.addEventListener("click", function (event) {
+      let target = event.target;
+      target.classList.add('accordion-opened')
+      console.log('open' )
+      if (target.classList.contains("partner-title")) {
+        let hiddenInfo = target.nextElementSibling;
+        if (hiddenInfo.style.display === "block") {
+          hiddenInfo.style.display = "none";
+          target.classList.remove('accordion-opened')
+        } else {
+          hiddenInfo.style.display = "block";
+        }
+      }
+    });
+  })();
 
 
   /*document.body.addEventListener('onload', init())

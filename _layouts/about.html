@@ -57,20 +57,25 @@
         </div>
         <div class="pt-24">
           <h2 class="events-title">{{page.produce_title}}</h2>
-          <div class="flex flex-col md:flex-row justify-between items-start pt-12">
+          <div class="flex flex-col md:flex-row justify-between items-start pt-24">
             <h3 class="md:w-1/2 flex produce-middle-title">{{page.produce_little-title}}</h3>
             <p class="md:w-1/2  flex middle-olive-text ">{{page.produce_text}}</p><!---produce-middle-title-->
           </div>
+          <div class="partners pt-24">
           {% for partner in page.partners %}
-          <div class="pt-16 olive md:w-1/2 partner">
-            <h3 class="pb-8 middle-olive-text partner-title">{{partner.title}}</h3>
-            <p class="mb-12 olive partner-text">{{partner.text}}</p>
-            <p class="mb-12 olive partner-text">{{partner.text}}</p>
+
+          <div class="pt-16 olive partner ">
+                <h3 class="partner-title">{{partner.title}}</h3><!---partner-title -->
+
+            <div class="pt-4 partner-text hidden md:w-1/2">
+            <p class="olive">{{partner.text}}</p>
           </div>
+        </div>
           {% endfor %}
         </div>
+        </div>
         <div class="pt-24">
-          <h2 class="events-title ">{{page.hospitality_title}}</h2>
+          <h2 class="events-title">{{page.hospitality_title}}</h2>
           <div class="flex justify-center">
             <p class="mt-8  inline  section-text olive">{{page.hospitality_text}}</p>
           </div>
@@ -83,9 +88,9 @@
             <div class="flex justify-between flex-col-reverse md:flex-row pt-16 mb-8 md:mb-20 member-item ">
           {% endif %}
 
-              <div class="blue md:w-1/2 member-text"><!--pt-8 md:pt-16-->
-                <h3 class="pb-8 project-title ">{{project.title}}</h3>
-                <p class="md:mb-12 project-text olive ">{{project.text}}</p>
+              <div class="blue md:w-1/2 member-text">
+                <h3 class="pb-8 project-title">{{project.title}}</h3>
+                <p class="project-text olive">{{project.text}}</p>
               </div>
               <div class="md:w-1/2 member-img">
                 <img src="{{project.img}}" class="img-border-radius">
