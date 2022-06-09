@@ -23,3 +23,4 @@ fields:
   label: Main Text
 pages:
 - "./privacy.md.md"
+- privacy.md
