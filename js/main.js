@@ -85,7 +85,7 @@
 
     // opens menu
     if (!TOGGLE_MENU) {
-      
+
       if(window.innerWidth > 450) {
         navLogo.classList.remove('hidden')
         logo.classList.add('hidden')
@@ -163,6 +163,10 @@
         product.classList.add('hidden')
     })
   }
+
+
+  /* partners - farms */
+
 
 
 
