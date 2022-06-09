@@ -608,6 +608,7 @@ text-transform: uppercase;
   padding-bottom: 15px;
   margin-bottom: 15px;
   text-transform: uppercase;
+  min-height: 95px;
 }
 
 /*.reward-item {
@@ -860,6 +861,21 @@ border-bottom: 2px solid #A3A792;;
     color: white;
   }
 
+
+@media (max-width: 1441px) {
+  nav {
+    margin-left: 180px;
+    margin-bottom: 60px;
+  }
+  nav ul.navigation li a {
+    font-size: 28px;
+  }
+
+  .cover-image h1 {
+    font-size: 80px;
+    line-height: 80px;
+  }
+}
 
 @media (max-width: 960px) {
   #food .inner-container {
