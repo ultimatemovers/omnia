@@ -269,6 +269,7 @@ header.site-header{
   color: #fff;
   font-weight: 600;
   text-underline-offset: 4px;
+  transition: 0.4s;
 }
 
 .voucher-btn a:hover {
@@ -281,6 +282,7 @@ header.site-header{
   border-top-right-radius: 30px;
   border-bottom-right-radius: 30px;
   margin: 0 90px;
+  transition: 0.4s;
 }
 
 .make-booking-btn:hover {
@@ -358,6 +360,7 @@ nav .terms-conditions div a{
 
 nav .newsletter {
   margin: 40px 0;
+  transition: 0.4s;
 }
 
 nav .newsletter span{
@@ -387,12 +390,14 @@ nav .promotion-headline {
 nav ul.navigation li {
   margin-bottom: 8px;
   cursor: pointer;
+  transition: 0.4s;
 }
 
 nav ul.navigation li a {
   font-size: 36px;
   text-transform: uppercase;
   color: #F0E1AD;
+  transition: 0.4s;
 }
 
 nav ul.navigation li:hover a {
@@ -974,7 +979,7 @@ border-bottom: 2px solid #A3A792;;
   /*    A  B  O  U  T    */
   /* ------------------  */
 
-  
+
 
   #about .member-item:nth-child(even) .member-text {
     margin-right: 0;
