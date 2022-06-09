@@ -85,7 +85,7 @@
 
     // opens menu
     if (!TOGGLE_MENU) {
-      
+
       if(window.innerWidth > 450) {
         navLogo.classList.remove('hidden')
         logo.classList.add('hidden')
@@ -164,6 +164,25 @@
     })
   }
 
+
+  /* partners - farms */
+
+    (function () {
+  let partnerSection = document.querySelector(".partner");
+
+  partnerSection.addEventListener("click", function (event) {
+    let target = event.target;
+    console.log('hello')
+    if (target.classList.contains("partner-title")) {
+      let hiddenInfo = target.nextElementSibling;
+      if (hiddenInfo.style.maxHeight) {
+        hiddenInfo.style.maxHeight = null;
+      } else {
+        hiddenInfo.style.maxHeight = hiddenInfo.scrollHeight + "px";
+      }
+    }
+  });
+})();
 
 
   /*document.body.addEventListener('onload', init())

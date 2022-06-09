@@ -420,6 +420,7 @@ nav ul.navigation li:hover a {
 
 body#homepage {
   background-color: #AEB3A1;
+
 }
 
 .homepage-title {
@@ -569,10 +570,6 @@ background-color: #F2E8C3;
 
 .grey {
   color: #A3A792;
-}
-
-.hide {
-  /*background-color: coral;*/
 }
 
 #rewards {
@@ -1021,6 +1018,10 @@ border-bottom: 2px solid #A3A792;;
   #about .team-bottom-img {
     border-top-right-radius: 30px;
     border-top-left-radius: 30px
+  }
+
+  .hide {
+    display: none;
   }
 
 
