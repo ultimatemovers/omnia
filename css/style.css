@@ -883,28 +883,31 @@ border-bottom: 2px solid #A3A792;;
 
 /* PRIVACY PAGE */
 
-#privacy {
+#privacy,
+#terms {
   background-color: #EEEDE5;
 }
 
-#privacy h1 {
+/* #privacy h1 {
   font-size: 38px;
   margin-bottom: 30px;
   line-height: 48px;
   text-transform: capitalize;
   color: #5C7057
-}
+} */
 
-#privacy h2 {
+#privacy h2,
+#terms h2 {
   margin-bottom: 20px;
-  font-size: 18px;
-  line-height: 28px;
+  font-size: 32px;
+  line-height: 40px;
   font-weight: 400;
   letter-spacing: 0.3px;
   color: #5C7057
 }
 
-#privacy h3 {
+#privacy h3,
+#terms h3 {
   margin-top: 24px;
   margin-bottom: 12px;
   font-size: 28px;
@@ -913,7 +916,8 @@ border-bottom: 2px solid #A3A792;;
   color: #5C7057
 }
 
-#privacy h4 {
+#privacy h4,
+#terms h4 {
   font-size: 20px;
   line-height: 28px;
   margin-top: 20px;
@@ -923,7 +927,8 @@ border-bottom: 2px solid #A3A792;;
   color: #5C7057
 }
 
-#privacy h5 {
+#privacy h5,
+#terms h5 {
   margin-top: 12px;
   margin-bottom: 12px;
   font-size: 14px;
@@ -932,12 +937,14 @@ border-bottom: 2px solid #A3A792;;
   color: #5C7057
 }
 
-#privacy p {
+#privacy p,
+#terms p {
   font-size: 14px;
   color: #5C7057;
 }
 
-#privacy p strong {
+#privacy p strong,
+#terms p strong {
   display: block;
   margin-top: 24px;
 }
