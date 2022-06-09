@@ -1,4 +1,21 @@
 ---
 label: privacy
 hide_body: false
-fields: []
+fields:
+- name: layout
+  type: text
+  config:
+    required: false
+  label: layout
+  hidden: true
+  default: privacy
+- name: big_title
+  type: text
+  config:
+    required: false
+  label: Big title
+- name: subtitle
+  type: text
+  config:
+    required: false
+  label: Subtitle
