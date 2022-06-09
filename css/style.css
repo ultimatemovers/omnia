@@ -116,7 +116,8 @@ body {
 
 }
 
-.footer-bottom p {
+.footer-bottom p,
+.footer-bottom p a {
   font-size: 14px;
 }
 
@@ -269,11 +270,11 @@ header.site-header{
   color: #fff;
   font-weight: 600;
   text-underline-offset: 4px;
-  transition: 0.4s;
 }
 
-.voucher-btn a:hover {
-  text-decoration: underline;
+.voucher-btn:hover .line {
+  background-color: #fff;
+  animation: loadLine ease-out forwards 0.3s;
 }
 
 .make-booking-btn{
