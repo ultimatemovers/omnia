@@ -167,24 +167,26 @@
 
   /* partners - farms */
 
-  (function () {
-    let partnerSection = document.querySelector(".partners");
-
-    partnerSection.addEventListener("click", function (event) {
-      let target = event.target;
-      target.classList.add('accordion-opened')
-      console.log('open' )
-      if (target.classList.contains("partner-title")) {
-        let hiddenInfo = target.nextElementSibling;
-        if (hiddenInfo.style.display === "block") {
-          hiddenInfo.style.display = "none";
-          target.classList.remove('accordion-opened')
-        } else {
-          hiddenInfo.style.display = "block";
+  if(document.body.id === 'about'){
+    (function () {
+      let partnerSection = document.querySelector(".partners");
+  
+      partnerSection.addEventListener("click", function (event) {
+        let target = event.target;
+        target.classList.add('accordion-opened')
+        console.log('open' )
+        if (target.classList.contains("partner-title")) {
+          let hiddenInfo = target.nextElementSibling;
+          if (hiddenInfo.style.display === "block") {
+            hiddenInfo.style.display = "none";
+            target.classList.remove('accordion-opened')
+          } else {
+            hiddenInfo.style.display = "block";
+          }
         }
-      }
-    });
-  })();
+      });
+    })();
+  }
 
 
 
@@ -228,9 +230,6 @@
   if(document.querySelector('.reveal-delay-700')) {
     ScrollReveal().reveal('.reveal-delay-700', { delay: 700, distance: '120px', duration: 1300, origin: 'bottom', easing: 'ease-in-out' });
   }
-  if(document.querySelector('.reveal-footer')) {
-    ScrollReveal().reveal('.reveal-footer', { delay: 100, distance: '20px', duration:1300, origin: 'bottom', easing: 'ease-in-out' });
-  }
   if(document.querySelector('.reveal-left')) {
     ScrollReveal().reveal('.reveal-left', { distance: '150px', origin: 'left', opacity: 0, delay: 150, duration: 1100, easing: 'ease-in-out'})
   }
@@ -263,11 +262,11 @@
     if(document.querySelector('.reveal-delay-4000')) {
       ScrollReveal().reveal('.reveal-delay-4000', { delay: 130, distance: '80px', duration: 1200, origin: 'bottom', easing: 'cubic-bezier(.17,1.05,.88,1)' });
     }
-    if(document.querySelector('.reveal-delay-2200')) {
-      ScrollReveal().reveal('.reveal-delay-2200', { delay: 1700, distance: '120px', duration: 1200, origin: 'bottom', easing: 'cubic-bezier(.17,1.05,.88,1)' });
+    if(document.querySelector('.reveal-left')) {
+      ScrollReveal().reveal('.reveal-left', { distance: '80px', origin: 'bottom', opacity: 0,  duration: 1100, easing: 'ease-in-out'})
     }
-    if(document.querySelector('.reveal-footer')) {
-      ScrollReveal().reveal('.reveal-footer', { delay: 60, distance: '20px', duration: 1200, origin: 'bottom', easing: 'cubic-bezier(.17,1.05,.88,1)' });
+    if(document.querySelector('.reveal-right')) {
+      ScrollReveal().reveal('.reveal-right', { distance: '80px', origin: 'bottom', opacity: 0, duration: 1100, easing: 'ease-in-out'})
     }
   }
 
