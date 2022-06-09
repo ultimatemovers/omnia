@@ -13,7 +13,7 @@
   {% for menu in page.menu %}
   {% assign index = forloop.index0 | modulo: 2 %}
   {% if menu.menu-group-image.size > 1 %}
-    <div class="mb-12 md:mb-">
+    <div class="mb-12 md:mb-16">
       <img src="{{ menu.menu-group-image }}" alt="wine picture" class="img-bottom-radius w-full">
     </div>
   {% endif %}
@@ -25,9 +25,9 @@
   {% endif %}
 
     <h2 class="food-title">{{ menu.menu_group_title }}</h2>
-    <p class="mt-24 olive">{{ menu.menu_group_text }}</p>
+    <p class="mt-12 md:mt-24 mb-12 md:mb-0 olive">{{ menu.menu_group_text }}</p>
 
-    <div class="w-full flex justify-between mb-24" style="border-bottom: 2px solid #C1A973">
+    <div class="w-full flex justify-between mb-16 md:mb-24" style="border-bottom: 2px solid #C1A973">
       <ul class="menu-categories flex justify-between inner-container overflow-x-auto md:overflow-x-hidden">
         {% for category in menu.categories %}
         <li class="menu-category-title px-3 py-2 cursor-pointer" data-category-name="{{ category.category_title | slugify }}">

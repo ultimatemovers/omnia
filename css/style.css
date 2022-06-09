@@ -82,6 +82,7 @@
 }
 
 body {
+  height: 100%;
   /* opacity: 0;
   animation: loadBody 4s forwards; */
 }
@@ -815,6 +816,10 @@ border-bottom: 2px solid #A3A792;;
 
 
 /*bookings*/
+
+#bookings {
+  background-color: #EEEDE5;
+}
 
 
 #contacts{
