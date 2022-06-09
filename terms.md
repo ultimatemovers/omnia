@@ -2,7 +2,6 @@
 layout: terms
 big_title: Subscribe Terms And Conditions
 subtitle: Follow Omnia and Subscribe to Win a $250 Dining Experience
-published: false
 
 ---
 Promotion Conditions of Entry
