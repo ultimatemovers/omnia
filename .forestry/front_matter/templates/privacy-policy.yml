@@ -1,5 +1,5 @@
 ---
-label: privacy policy
+label: privacy
 hide_body: false
 fields:
 - name: big_title
@@ -22,4 +22,5 @@ fields:
       format: markdown
   label: Main Text
 pages:
-- privacy policy.md
+- "./privacy.md.md"
+- privacy.md
