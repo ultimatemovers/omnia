@@ -1,6 +1,6 @@
 ---
 label: privacy
-hide_body: false
+hide_body: true
 fields:
 - name: layout
   type: text
@@ -19,5 +19,90 @@ fields:
   config:
     required: false
   label: Subtitle
+- name: promotion_conditions_of_entry
+  type: text
+  config:
+    required: false
+  label: Promotion Conditions of Entry
+  default: ''
+- name: promotion_conditions_of_entry_text
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Promotion Conditions of Entry Text
+- name: eligibility_and_entry
+  type: text
+  config:
+    required: false
+  label: Eligibility and Entry
+- name: eligibility_and_entry_text
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Eligibility and Entry Text
+- name: eligible_applications
+  type: text
+  config:
+    required: false
+  label: Eligible Applications
+- name: eligible_applications_text
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Eligible Applications Text
+- name: prize_draw
+  type: text
+  config:
+    required: false
+  label: Prize Draw
+- name: prize_draw_text
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Prize Draw Text
+- name: redemption_and_use_of_prize
+  type: text
+  config:
+    required: false
+  label: Redemption and Use of Prize
+- name: redemption_and_use_of_prize_text
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Redemption and Use of Prize Text
+- name: general
+  type: text
+  config:
+    required: false
+  label: General
+- name: general_text
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: General Text
 pages:
 - privacy.md
