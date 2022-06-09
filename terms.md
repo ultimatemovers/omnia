@@ -1,6 +1,6 @@
 ---
 layout: terms
-big_title: Subscribe Terms And Conditions
+big_title: Terms And Conditions
 subtitle: Promotion Conditions of Entry
 
 ---
