@@ -22,4 +22,5 @@ fields:
       format: markdown
   label: Main Text
 pages:
+- "./privacy.md.md"
 - privacy policy.md
