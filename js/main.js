@@ -91,7 +91,7 @@
         logo.classList.add('hidden')
       }
       else {
-        document.body.style = "height: 100vh; overflow:hidden"
+        document.body.style = "height: 100vh;"
       }
       header.classList.remove('open-burger')
       navigationPage.classList.remove('hidden')
