@@ -1,4 +1,21 @@
 ---
 label: terms
 hide_body: false
-fields: []
+fields:
+- name: big_title
+  type: text
+  config:
+    required: false
+  label: Big Title
+- name: subtitle
+  type: text
+  config:
+    required: false
+  label: Subtitle
+- name: layout
+  type: text
+  config:
+    required: false
+  hidden: true
+  label: layout
+  default: terms
