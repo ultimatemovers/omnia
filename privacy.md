@@ -1,7 +1,7 @@
 ---
+layout: privacy
 big_title: Omnia Privacy Policy
 subtitle: Our privacy commitment
-main_text: ''
 
 ---
 LK Hospitality Pty Ltd, trading as Omnia (‘we’, ‘us’, ‘our’ and ‘Omnia’) is committed to protecting the privacy of your personal information. This policy explains how Omnia manages the personal information that we collect, use and disclose and how to contact us if you have any further queries about our management of your personal information. This policy does not cover personal information collected or held by Omnia or any of its related bodies corporate (as applicable) about its employees.
