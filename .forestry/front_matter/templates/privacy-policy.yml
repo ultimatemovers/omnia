@@ -1,0 +1,25 @@
+---
+label: privacy policy
+hide_body: false
+fields:
+- name: big_title
+  type: text
+  config:
+    required: false
+  label: Big title
+- name: subtitle
+  type: text
+  config:
+    required: false
+  label: Subtitle
+- name: main_text
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Main Text
+pages:
+- privacy policy.md

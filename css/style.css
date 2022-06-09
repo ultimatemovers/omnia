@@ -759,6 +759,23 @@ background-color: #AEB3A1;
 
 /*color: #F0E1AD;*/
 
+.section-text {
+  font-size: 24px;
+  /*text-transform: uppercase ;*/
+  padding-right: 90px;
+
+}
+
+.project-title  {
+  color: #F2E8C3;
+  font-family: 'Calisto MT';
+  font-size: 36px;
+}
+
+.project-text {
+  font-size: 20px;
+}
+
 .border-class  {
   border-bottom: 2px solid #A3A792;
 }
