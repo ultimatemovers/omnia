@@ -21,5 +21,12 @@ fields:
     schema:
       format: markdown
   label: Main Text
+- name: layout
+  type: text
+  config:
+    required: false
+  label: layout
+  default: privacy
+  hidden: true
 pages:
 - privacy.md
