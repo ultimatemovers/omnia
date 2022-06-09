@@ -11,38 +11,40 @@
   </div>
   <div class="container mx-auto px-4 md:px-0">
     <div>
-      <h2 class="events-title">Group bookings</h2>
+      <h2 class="events-title reveal">Group bookings</h2>
     </div>
     <div class="md:flex pt-12 pb-16 columns">
       <div class="md:w-1/3 mr-4">
-        <p class="pb-8 blue">{{page.first_column}}</p>
+        <p class="pb-8 blue reveal-delay-200">{{page.first_column}}</p>
       </div>
       <div class="md:w-1/3 mr-4">
-        <p class="pb-8 blue">{{page.second_column}}</p>
+        <p class="pb-8 blue reveal-delay-400">{{page.second_column}}</p>
       </div>
     </div>
-    <h2 class="form-title md:w-1/2">FOR EXCLUSIVE EVENT INQUIRIES PLEASE CONTACT OUR TEAM USING THE FORM BELOW:</h2>
-    <form class="pb-12 md:pb-0 mb-8">
+    <h2 class="form-title md:w-1/2 reveal">
+      FOR EXCLUSIVE EVENT INQUIRIES PLEASE CONTACT OUR TEAM USING THE FORM BELOW:
+    </h2>
+    <form class="pb-12 md:pb-0 mb-24">
       <div class="flex flex-col md:flex-row justify-between">
-        <select name="cars" id="number" class="select mr-4 blue">
+        <select name="cars" id="number" class="select mr-4 blue reveal-delay-200">
           <option value="1-10" class="option">1-10</option>
           <option value="10-50">10-50</option>
           <option value="50-100">50-100</option>
           <option value="100-1000">100-1000</option>
         </select>
-        <select name="cars" id="date" class="select mr-4 blue">
+        <select name="cars" id="date" class="select mr-4 blue reveal-delay-300">
           <option value="volvo">Volvo</option>
           <option value="saab">Saab</option>
           <option value="mercedes">Mercedes</option>
           <option value="audi">Audi</option>
         </select>
-        <select name="time" id="time" class="select mr-4 blue">
+        <select name="time" id="time" class="select mr-4 blue reveal-delay-400">
           <option value="9.30">9.30</option>
           <option value="10.30">10.30</option>
           <option value="11.30">11.30</option>
           <option value="12.30">12.30</option>
         </select>
-        <button class="form-button">Book a table</button>
+        <button class="form-button reveal-delay-500">Book a table</button>
         <!---->
     </form>
   </div>
