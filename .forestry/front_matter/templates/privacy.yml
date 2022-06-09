@@ -19,3 +19,5 @@ fields:
   config:
     required: false
   label: Subtitle
+pages:
+- privacy.md
