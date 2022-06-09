@@ -13,7 +13,11 @@ fields:
     required: false
   label: Subtitle
 - name: main_text
-  type: text
+  type: textarea
+  default: ''
   config:
     required: false
+    wysiwyg: false
+    schema:
+      format: markdown
   label: Main Text
