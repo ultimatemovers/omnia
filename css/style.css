@@ -253,6 +253,21 @@ body.noscroll{
   scrollbar-width: none;
 }
 
+.footer-contact-title{
+  min-width: 60px;
+  color: #EFEADB;
+  font-family: 'Avenir LT Std';
+  font-size: 18px;
+  font-weight: lighter; 
+}
+.footer-opening-title {
+  min-width: 90px;
+  color: #EFEADB;
+  font-family: 'Avenir LT Std';
+  font-size: 18px;
+  font-weight: lighter; 
+}
+
 /* -------------------------------------- */
 /*    H     E     A     D     E     R     */
 /* -------------------------------------- */
