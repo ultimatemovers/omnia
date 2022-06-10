@@ -77,12 +77,17 @@
           <div class="partners pt-24">
             {% for partner in page.partners %}
 
-            <div class="pt-16 olive partner reveal">
-              <h3 class="partner-title">{{partner.title}}</h3>
+            <div class="pt-16 olive cursor-pointer accordion partner reveal">
+              <div class="flex items-center justify-between">
+                <h3 class="partner-title olive">{{partner.title}}</h3>
+                <div style="width: 32px; margin-left: 20px">
+                  <img class="open-accordion" src="/img/plus.svg" alt="">
+                </div>
+              </div>
               <!---partner-title -->
 
-              <div class="pt-4 partner-text hidden md:w-1/2">
-                <p class="olive">{{partner.text}}</p>
+              <div class="accordion-description partner-text md:w-1/2 olive">
+                {{partner.text}}
               </div>
             </div>
             {% endfor %}

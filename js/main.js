@@ -168,24 +168,18 @@
   /* partners - farms */
 
   if(document.body.id === 'about'){
-    (function () {
-      let partnerSection = document.querySelector(".partners");
-  
-      partnerSection.addEventListener("click", function (event) {
-        let target = event.target;
-        target.classList.add('accordion-opened')
-        console.log('open' )
-        if (target.classList.contains("partner-title")) {
-          let hiddenInfo = target.nextElementSibling;
-          if (hiddenInfo.style.display === "block") {
-            hiddenInfo.style.display = "none";
-            target.classList.remove('accordion-opened')
-          } else {
-            hiddenInfo.style.display = "block";
-          }
+    const accordions = document.querySelectorAll('.accordion')
+    accordions.forEach((a) => {
+      a.addEventListener('click', () => {
+        if(a.classList.contains('accordion-opened')) {
+          a.classList.remove('accordion-opened')
+          return
         }
-      });
-    })();
+        else{
+          a.classList.add('accordion-opened')
+        }
+      })
+    })
   }
 
 
@@ -273,8 +267,8 @@
 
   document.body.addEventListener('onload', init())
 
-  window.onbeforeunload = () => {
-    window.scrollTo(0, 0);
-  }
+  // window.onbeforeunload = () => {
+  //   window.scrollTo(0, 0);
+  // }
 
 })()
