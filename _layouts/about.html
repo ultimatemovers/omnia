@@ -3,7 +3,6 @@
 {% include nav.html %}
 
 <div id="about">
-  <!--<div class="cover-image mb-12 md:mb-24" style="background-image: url('/img/events_main.jpg');">-->
     <div class="cover-image mb-12 md:mb-24" style="background-image: url({{page.main_img}});">
     <div class="container mx-auto">
       <h1>
@@ -48,16 +47,16 @@ class="img-svg">
       <div class="flex justify-between flex-col-reverse md:flex-row-reverse pt-24 member-item">
         {% endif %}
 
-        <div class="pt-8 md:pt-16 blue md:w-1/2 member-text">
+        <div class=" blue md:w-1/2 member-text"><!--pt-8 md:pt-16-->
           {% if index == 0 %}
-            <h3 class="pb-8 middle-white-title reveal-left">{{team_member.name}}</h3>
-            <h3 class="pb-4 mb-4  border-class uppercase reveal-left">{{team_member.title}}</h3>
+            <h3 class="pb-4 middle-white-title reveal-left">{{team_member.name}}</h3>
+            <h3 class="pb-2 mb-2  border-class uppercase reveal-left">{{team_member.title}}</h3>
             <p class="mb-12 blue reveal-left">{{team_member.text}}</p>
             <button class="olive-btn reveal-left">Book a table</button>
           {% else %}
             <h3 class="pb-8 middle-white-title reveal-right">{{team_member.name}}</h3>
             <h3 class="pb-4 mb-4 border-class uppercase reveal-right">{{team_member.title}}</h3>
-            <p class="mb-12 blue reveal-right">{{team_member.text}}</p>
+            <p class="mb-8 blue reveal-right">{{team_member.text}}</p>
             <button class="olive-btn reveal-right">Book a table</button>
           {% endif %}
         </div>
