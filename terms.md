@@ -2,6 +2,7 @@
 layout: terms
 big_title: Terms And Conditions
 subtitle: Promotion Conditions of Entry
+main_img: "/assets/images/contacts_main.jpg"
 
 ---
 ##### (Effective 12 May 2021)
