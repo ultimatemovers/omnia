@@ -87,5 +87,6 @@ text: Holidays, special occasions and “just because we feel like it” celebra
   Whether it’s a regular gig or a rare treat, our world-class kitchen, talented artists
   and friendly staff will make it an experience to remember. Watch this space for
   upcoming events and follow our socials to never miss a beat.
+main_img: "/assets/images/events_main.jpg"
 
 ---
