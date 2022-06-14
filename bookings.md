@@ -13,5 +13,6 @@ first_column: When it’s time to organise your birthday dinner, a big family lu
 second_column: 'Group bookings with a set menu are available for groups of 7 and more
   and include a special selection of dishes created by the chef to incorporate the
   finest seasonal produce. '
+main_img: "/assets/images/bookings_main.jpg"
 
 ---
