@@ -148,5 +148,10 @@ fields:
   config:
     required: false
   label: hospitality_text
+- name: main_img
+  type: file
+  config:
+    maxSize: 64
+  label: main_img
 pages:
 - about.md
