@@ -258,14 +258,114 @@ body.noscroll{
   color: #EFEADB;
   font-family: 'Avenir LT Std';
   font-size: 18px;
-  font-weight: lighter; 
+  font-weight: lighter;
 }
 .footer-opening-title {
   min-width: 100px;
   color: #EFEADB;
   font-family: 'Avenir LT Std';
   font-size: 18px;
-  font-weight: lighter; 
+  font-weight: lighter;
+}
+
+
+/* */
+
+.img-svg {
+  height: 50px;
+  max-width: 15px;
+  position: absolute;
+  bottom: 2%;
+  left: 50%;
+}
+
+.chevron {
+  fill: white;
+  fill-opacity: 1;
+
+}
+
+.chevron:nth-child(2) {
+  fill: white;
+  /*fill-opacity: 1;*/
+}
+
+.chevron:nth-child(3) {
+  fill: white;
+  /*fill-opacity: 1;*/
+}
+
+#TopChevron {
+  animation: topChevron 2s infinite;
+}
+
+#MiddleChevron {
+  animation: middleChevron 2s infinite;
+}
+
+#BottomChevron {
+  animation: bottomChevron 2s infinite;
+}
+
+
+@keyframes topChevron {
+  0% {
+    fill-opacity: 0;
+  }
+  5% {
+    fill-opacity: 1;
+  }
+  70% {
+    fill-opacity: 1;
+  }
+  75% {
+    fill-opacity: 0;
+  }
+  100% {
+    fill-opacity: 0;
+  }
+}
+
+@keyframes middleChevron {
+  0% {
+    fill-opacity: 0;
+  }
+  5% {
+    fill-opacity: 0;
+  }
+  10% {
+    fill-opacity: 1;
+  }
+  75% {
+    fill-opacity: 1;
+  }
+  80% {
+    fill-opacity: 0;
+  }
+  100% {
+    fill-opacity: 0;
+  }
+}
+
+@keyframes bottomChevron {
+  0% {
+    fill-opacity: 0;
+  }
+  10% {
+    fill-opacity: 0;
+  }
+  15% {
+    fill-opacity: 1;
+  }
+  80% {
+    fill-opacity: 1;
+  }
+  85% {
+    fill-opacity: 0;
+  }
+  100% {
+    fill-opacity: 0;
+  }
 }
 
 /* -------------------------------------- */
@@ -1128,6 +1228,7 @@ border-bottom: 2px solid #A3A792;;
     border-bottom-right-radius: 80px;
     height: 100vh;
     padding: 0 16px;
+    position: relative;
   }
 
   .cover-image h1 {
