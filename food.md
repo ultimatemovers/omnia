@@ -237,5 +237,6 @@ menu:
     an original non-alcoholic digestive that changes periodically, in harmony with
     its seasonal ingredients.
 big_title: DISCOVER FLAVOUR AT ITS FINEST
+main_img: "/assets/images/food_main.jpg"
 
 ---
