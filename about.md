@@ -125,6 +125,6 @@ hospitality_text: 'Omnia is part of an impressive quartet of LK Hospitality venu
   at Capitol Grand. We are happy to offer patrons the perfect space for a memorable
   experience and pride ourselves on a tradition of setting new standards in the Australian
   hospitality landscape. '
-main_img: "/assets/images/mask-group-20-2x.jpg"
+main_img: "/assets/images/team_main.jpg"
 
 ---
