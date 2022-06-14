@@ -75,5 +75,10 @@ fields:
   config:
     required: false
   label: reviews_title
+- name: main_img
+  type: file
+  config:
+    maxSize: 64
+  label: main_img
 pages:
 - rewards.md
