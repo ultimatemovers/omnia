@@ -4,6 +4,19 @@
   let activeTabFood = 0
   let activeTabDrink = 0
 
+
+  let downButton = document.getElementById('Chevrons')
+  let mainContent = document.querySelector('.main-content')
+
+  function scrollDownScreen () {
+    mainContent.scrollIntoView({
+      behavior: 'smooth'
+  })
+  }
+
+
+  downButton.addEventListener('click', scrollDownScreen )
+
   function init() {
     // new SmoothScroll(target,speed,smooth)
     new SmoothScroll(document, 40, 16)
@@ -187,7 +200,7 @@
   // ------------------------------ //
   //       O L D   S E T U P        //
   // ------------------------------ //
-  
+
 
   // if(document.querySelector('.reveal'))
   //   ScrollReveal().reveal('.reveal', { distance: '150px', duration: 700, origin: 'bottom', easing: 'cubic-bezier(0.25,1.05,1,1)' });

@@ -272,11 +272,12 @@ body.noscroll{
 /* */
 
 .img-svg {
-  height: 50px;
+  height: 100px;
   max-width: 15px;
   position: absolute;
   bottom: 2%;
   left: 50%;
+  cursor: pointer;
 }
 
 .chevron {
