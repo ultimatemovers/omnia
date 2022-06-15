@@ -14,5 +14,10 @@ fields:
   config:
     maxSize: 64
   label: main_img
+- name: text
+  type: text
+  config:
+    required: false
+  label: text
 pages:
 - contacts.md
