@@ -1,7 +1,7 @@
 ---
 layout: homepage
 hero_image: "/assets/images/mask-group-21-2x.png"
-hero_title: COMFORTABLE AND ELEGANT test
+hero_title: 'COMFORTABLE AND ELEGANT '
 big_title: OMNIA
 sections:
 - section_image: "/assets/images/mask-group-19-2x.png"
