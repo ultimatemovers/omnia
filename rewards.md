@@ -48,5 +48,6 @@ reviews:
 recent_title: "“OMNIA MARKS THE RETURN OF SOUTH YARRA’S GLAMOUR DAYS.” – HERALD SUN"
 reviews_title: REVIEWS
 main_img: "/assets/images/rewards_main.jpg"
+title: Awards & Reviews
 
 ---
