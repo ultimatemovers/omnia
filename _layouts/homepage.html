@@ -39,19 +39,6 @@ class="img-svg">
     <div>
       <h2 class="omnia-title reveal">{{page.big_title}}</h2>
     </div>
-    <!--{% for section in page.sections %}
-    <div class="md:flex justify-between pt-16 mb-20">
-
-      <div class="md:w-1/2 ">
-        <img src="/img/homepage_1.jpg" class="img-radius reveal-left">
-      </div>
-      <div class="pt-16 olive md:w-1/2 md:ml-10 md:pr-20 reveal-right">
-        <h3 class="pb-8 section-title reveal">{{section.section_title}}</h3>
-        <p class="mb-12 olive reveal">{{section.section_description}}</p>
-        <button class="btn reveal">{{section.button_text}}</button>
-      </div>
-    </div>
-    {% endfor %}-->
        {% for section in page.sections %}
     {% assign index = forloop.index0 | modulo: 2 %}
     <div class="md:flex justify-between pt-8 md:pt-16 mb-20 event-item">
