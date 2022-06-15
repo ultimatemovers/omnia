@@ -67,4 +67,5 @@ fields:
     maxSize: 64
   label: main_img
 pages:
+- "./index.md.md"
 - homepage.md
