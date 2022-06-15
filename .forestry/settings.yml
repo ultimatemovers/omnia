@@ -5,7 +5,7 @@ admin_path: admin-editor
 webhook_url: 
 sections:
 - type: heading
-  label: Content
+  label: Pages
 - type: jekyll-pages
   label: Pages
   create: all
