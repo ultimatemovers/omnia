@@ -26,6 +26,6 @@ sections:
     sit amet nibh.
   button_text: browse our menu
   button_url: "#"
-main_img: "/assets/images/mask-group-21-2x.png"
+main_img: "/assets/images/homepage_main.jpg"
 
 ---
