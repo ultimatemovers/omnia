@@ -28,6 +28,5 @@ sections:
   button_url: "#"
 main_img: "/assets/images/homepage_main.jpg"
 title: index.md
-published: false
 
 ---
