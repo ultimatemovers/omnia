@@ -80,5 +80,10 @@ fields:
   config:
     maxSize: 64
   label: main_img
+- name: title
+  type: text
+  config:
+    required: false
+  label: title
 pages:
 - rewards.md
