@@ -6,7 +6,7 @@
 <div id="homepage" >
   <div class="cover-image mb-12 md:mb-24"
   style="background-image: url({{page.main_img}});">
-    <div class="container mx-auto">
+    <div class="container md:px-4 mx-auto">
       <h1 class="">
         {{ page.hero_title }}
       </h1>
@@ -35,21 +35,21 @@ class="img-svg">
       </div>
     </div>
   </div>
-  <div class="main-content container mx-auto p-4 md:p-0"><!--p-12 md:p-24-->
+  <div class="main-content container mx-auto p-4 md:px-4"><!--p-12 md:p-24-->
     <div>
       <h2 class="omnia-title reveal">{{page.big_title}}</h2>
     </div>
        {% for section in page.sections %}
     {% assign index = forloop.index0 | modulo: 2 %}
-    <div class="md:flex justify-between pt-8 md:pt-16 mb-20 event-item">
-      <div class="md:w-1/2 event-img">
+    <div class="lg:flex justify-between pt-8 lg:pt-16 mb-20 event-item">
+      <div class="lg:w-1/2 event-img">
         {% if index == 0 %}
           <img src="{{section.section_image}}" class="img-radius reveal-left">
         {% else %}
           <img src="{{section.section_image}}" class="img-radius reveal-right">
         {% endif %}
       </div>
-      <div class="pt-8 md:pt-16 olive md:w-1/2 event-text">
+      <div class="pt-8  lg:pt-16 olive lg:w-1/2 event-text">
         {% if index == 0 %}
           <h3 class="pb-8 section-title border-class reveal-right">{{section.section_title}}</h3>
           <p class="mb-12 olive reveal-right">{{section.section_description}}</p>
