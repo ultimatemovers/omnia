@@ -892,6 +892,16 @@ text-transform: uppercase;
 background-color: #AEB3A1;
 }
 
+#about .member-item:nth-child(odd) .img-border-radius,
+#about .member-item:nth-child(even) .img-border-radius {
+  border-radius: 40px;
+}
+
+#about .produce-middle-title{
+  font-size: 40px;
+  line-height: 44px;
+}
+
 .partners {
   width: 70%;
   margin: 0 auto;
@@ -989,24 +999,6 @@ background-color: #AEB3A1;
   border-bottom-left-radius: 90px;
   border-top-left-radius: 90px;
 };
-
-
-.member-item:nth-child(odd)  {
-  flex-direction: row-reverse;
-  background-color: darkgoldenrod;
-  border: 1px solid red;
-}
-
-.member-item:nth-child(even) .member-text {
-  margin-right: 80px;
-  padding-right: 80px;
-  }
-
-.member-item:nth-child(odd) .member-text {
-margin-right: 0;
-padding-right: 80px;
-margin-left: 80px;
-}
 
 .team-bottom-img {
   border-top-right-radius: 90px;
@@ -1212,6 +1204,16 @@ border-bottom: 2px solid #A3A792;;
     padding-right: 80px;
   }
 
+  .member-item:nth-child(even) .member-text {
+    margin-right: 80px;
+    padding-right: 80px;
+    }
+
+  .member-item:nth-child(odd) .member-text {
+    margin-right: 0;
+    padding-right: 80px;
+    margin-left: 80px;
+  }
 }
 
 @media (min-width: 1280px) {
@@ -1322,16 +1324,6 @@ border-bottom: 2px solid #A3A792;;
   #about .member-item:nth-child(odd) .member-text {
     margin-left: 0;
     padding-right: 0;
-  }
-
-  #about .member-item:nth-child(odd) .img-border-radius,
-  #about .member-item:nth-child(even) .img-border-radius {
-    border-radius: 40px;
-  }
-
-  #about .produce-middle-title{
-    font-size: 40px;
-    line-height: 44px;
   }
 
   #about .team-bottom-img {

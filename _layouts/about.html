@@ -4,7 +4,7 @@
 
 <div id="about">
     <div class="cover-image mb-12 md:mb-24" style="background-image: url({{page.main_img}});">
-    <div class="container mx-auto">
+    <div class="container mx-auto px-4">
       <h1>
         {{ page.main_title }}
       </h1>
@@ -33,7 +33,7 @@ class="img-svg">
       </div>
     </div>
   </div>
-  <div class="container mx-auto main-content p-12 md:p-24">
+  <div class="container mx-auto main-content p-12 md:p-24 md:px-4">
     <div>
       <h2 class="events-title reveal">{{page.team_title}}</h2>
     </div>
@@ -42,12 +42,12 @@ class="img-svg">
     {% assign index = forloop.index0 | modulo: 2 %}
 
     {% if index == 0 %}
-    <div class="flex justify-between flex-col-reverse md:flex-row pt-24 member-item">
+    <div class="flex justify-between flex-col-reverse lg:flex-row pt-24 member-item">
       {% else %}
-      <div class="flex justify-between flex-col-reverse md:flex-row-reverse pt-24 member-item">
+      <div class="flex justify-between flex-col-reverse lg:flex-row-reverse pt-24 member-item">
         {% endif %}
 
-        <div class=" blue md:w-1/2 member-text"><!--pt-8 md:pt-16-->
+        <div class=" blue lg:w-1/2 member-text"><!--pt-8 md:pt-16-->
           {% if index == 0 %}
             <h3 class="pb-4 middle-white-title reveal-left">{{team_member.name}}</h3>
             <h3 class="pb-2 mb-2  border-class uppercase reveal-left">{{team_member.title}}</h3>
@@ -60,7 +60,7 @@ class="img-svg">
             <button class="olive-btn reveal-right">Book a table</button>
           {% endif %}
         </div>
-        <div class="md:w-1/2 member-img">
+        <div class="lg:w-1/2 member-img">
           {% if index == 0 %}
             <img src="{{team_member.img}}" class="img-border-radius reveal-right">
           {% else %}
@@ -125,12 +125,12 @@ class="img-svg">
           {% assign index = forloop.index0 | modulo: 2 %}
 
           {% if index == 0 %}
-          <div class="flex justify-between flex-col-reverse md:flex-row-reverse pt-16 mb-8 md:mb-20 member-item ">
+          <div class="flex justify-between flex-col-reverse lg:flex-row-reverse pt-16 mb-8 md:mb-20 member-item ">
             {% else %}
-            <div class="flex justify-between flex-col-reverse md:flex-row pt-16 mb-8 md:mb-20 member-item ">
+            <div class="flex justify-between flex-col-reverse lg:flex-row pt-16 mb-8 md:mb-20 member-item ">
               {% endif %}
 
-              <div class="blue md:w-1/2 member-text">
+              <div class="blue lg:w-1/2 member-text">
                 {% if index == 0 %}
                   <h3 class="pb-8 project-title reveal-right">{{project.title}}</h3>
                   <p class="project-text olive reveal-right">{{project.text}}</p>
@@ -140,7 +140,7 @@ class="img-svg">
                 {% endif %}
 
               </div>
-              <div class="md:w-1/2 member-img">
+              <div class="lg:w-1/2 member-img">
                 {% if index == 0 %}
                   <img src="{{project.img}}" class="img-border-radius reveal-left">
                 {% else %}
