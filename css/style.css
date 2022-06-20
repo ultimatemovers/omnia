@@ -814,11 +814,13 @@ text-transform: uppercase;
 }*/
 
 .private-title {
+  width: 50%;
   color: #BB968F;
   font-size: 60px;
   line-height: 60px;
   text-transform: uppercase;
   padding-bottom: 25px;
+  border-bottom: 2px solid #AEB3A1
 }
 
 .columns {
@@ -1408,6 +1410,7 @@ border-bottom: 2px solid #A3A792;;
   }
 
   .private-title {
+    width: 100%;
     font-size: 44px;
     line-height: 48px;
     margin: 0;

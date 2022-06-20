@@ -35,8 +35,8 @@ class="img-svg">
   <div class="container mx-auto main-content p-12 md:p-24">
     <div>
       <h2 class="events-title reveal">Upcoming Events</h2>
-      <h3 class="private-title mt-24 reveal">{{page.little_title}}</h3>
-      <p class="olive reveal">{{page.text}}</p>
+      <h3 class="private-title mt-24 md:mt-48 reveal">{{page.little_title}}</h3>
+      <p class="olive reveal lg:pt-12 pb-16 ">{{page.text}}</p>
     </div>
 
     {% for event in page.events %}
@@ -64,26 +64,26 @@ class="img-svg">
     {% endfor %}
     <div class="">
       <h2 class="events-title reveal">EXCLUSIVE Events</h2>
-      <h3 class="private-title lf:w-1/2 mt-24 reveal">HOST YOUR PRIVATE EVENT AT OMNIA</h3>
+      <h3 class="private-title mt-24 md:mt-48 reveal">HOST YOUR PRIVATE EVENT AT OMNIA</h3>
     </div>
 
     <div class="lg:flex justify-between lg:pt-12 pb-16 columns">
-      <div class="md:mr-4 border-b md:border-b-0 border-neutral-400 mb-4 md:mb-0" style="border-color: #AEB3A1;">
+      <div class="md:mr-4 md:w-1/3 md:pr-4 border-b md:border-b-0 border-neutral-400 mb-4 md:mb-0" style="border-color: #AEB3A1;">
         <p class="pb-4 md:pb-8 blue reveal-delay-200">{{page.first_column_first_text}}</p>
         <p class="pb-4 md:pb-8 blue reveal-delay-300">{{page.first_column_second_text}}</p>
       </div>
-      <div class="md:mr-4 border-b md:border-b-0 border-neutral-400 mb-4 md:mb-0" style="border-color: #AEB3A1;">
+      <div class="md:mr-4 md:w-1/3 md:px-8 border-b md:border-b-0 border-neutral-400 mb-4 md:mb-0" style="border-color: #AEB3A1;">
         <p class="pb-4 md:pb-8 blue reveal-delay-300">{{page.second_column_first_text}}</p>
         <p class="pb-4 md:pb-8 blue reveal-delay-400">{{page.second_column_second_text}}</p>
         <p class="pb-4 md:pb-8 blue reveal-delay-500">{{page.second_column_third_text}}</p>
         <p class="pb-4 md:pb-8 blue reveal-delay-600">{{page.second_column_fourth_text}}</p>
       </div>
-      <div class="md:mr-4">
+      <div class="md:mr-4 md:w-1/3">
         <p class="pb-4 md:pb-8 blue reveal-delay-400">{{page.third_column_first_text}}</p>
         <p class="pb-4 md:pb-8 blue reveal-delay-500">{{page.third_column_second_text}}</p>
       </div>
     </div>
-    <h2 class="form-title reveal">FOR EXCLUSIVE EVENT INQUIRIES PLEASE CONTACT OUR TEAM USING THE FORM BELOW:</h2>
+    <h2 class="form-title md:w-1/2 reveal">FOR EXCLUSIVE EVENT INQUIRIES PLEASE CONTACT OUR TEAM USING THE FORM BELOW:</h2>
     <form class="mb-40">
       <div class="md:flex justify-between">
         <input type="text" id="fname" name="name" placeholder="Your Name" class="input mr-4 reveal-delay-200">
