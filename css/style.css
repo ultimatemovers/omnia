@@ -373,7 +373,7 @@ header.site-header{
   right: 0;
   top: 80px;
   padding: 0 80px;
-  width: 92%;
+  /* width: 92%; */
 }
 
 .voucher-btn a{
@@ -1175,9 +1175,9 @@ border-bottom: 2px solid #A3A792;;
     width: 350px;
   }
 
-  header.site-header{
+  /* header.site-header{
     width: 90%;
-  }
+  } */
 }
 
 @media (min-width:1024px) {

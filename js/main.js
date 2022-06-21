@@ -95,6 +95,7 @@
     const header = document.querySelector('.site-header')
     const logo = document.querySelector('.logo')
     const navLogo = document.querySelector('.nav-logo')
+    navigationPage.style.height = window.innerHeight + 'px'
 
     // opens menu
     if (!TOGGLE_MENU) {
