@@ -6,30 +6,27 @@
     <div class="container mx-auto px-4">
       <h1>
         {{ page.big_title }}
-    </h1>
-    <div>
-      <svg id="Chevrons"
-xmlns="http://www.w3.org/2000/svg"
-viewBox="0 0 55 55"
-class="img-svg">
-  <defs>
-    <filter id="f1" x="0" y="0" width="200%" height="200%">
-      <feOffset result="offOut" in="SourceGraphic" dx="1" dy="0.5" />
-      <feGaussianBlur result="blurOut" in="offOut" stdDeviation="1" />
-      <feBlend in="SourceGraphic" in2="blurOut" mode="normal" />
-    </filter>
-  </defs>
-  <path class="chevron" id='TopChevron' d="M52,4.2L28,23.7c-0.1,0.1-0.3,0.2-0.5,0.2c-0.2,0-0.3-0.1-0.5-0.2L3,4.2c-0.3-0.2-0.4-0.7-0.1-1
+      </h1>
+      <div>
+        <svg id="Chevrons" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 55 55" class="img-svg">
+          <defs>
+            <filter id="f1" x="0" y="0" width="200%" height="200%">
+              <feOffset result="offOut" in="SourceGraphic" dx="1" dy="0.5" />
+              <feGaussianBlur result="blurOut" in="offOut" stdDeviation="1" />
+              <feBlend in="SourceGraphic" in2="blurOut" mode="normal" />
+            </filter>
+          </defs>
+          <path class="chevron" id='TopChevron' d="M52,4.2L28,23.7c-0.1,0.1-0.3,0.2-0.5,0.2c-0.2,0-0.3-0.1-0.5-0.2L3,4.2c-0.3-0.2-0.4-0.7-0.1-1
   C3,3,3.2,2.9,3.5,2.9H9c0.2,0,0.3,0.1,0.4,0.2l18,14.6L45.5,3c0.1-0.1,0.3-0.2,0.5-0.2h5.6c0.3,0,0.6,0.2,0.7,0.5
-  C52.3,3.7,52.2,4,52,4.2z"/>
-<path class="chevron" id='MiddleChevron' d="M52,31.8L28,51.3c-0.1,0.1-0.3,0.2-0.5,0.2c-0.2,0-0.3-0.1-0.5-0.2L3,31.8c-0.3-0.2-0.4-0.7-0.1-1
+  C52.3,3.7,52.2,4,52,4.2z" />
+          <path class="chevron" id='MiddleChevron' d="M52,31.8L28,51.3c-0.1,0.1-0.3,0.2-0.5,0.2c-0.2,0-0.3-0.1-0.5-0.2L3,31.8c-0.3-0.2-0.4-0.7-0.1-1
   c0.1-0.2,0.3-0.3,0.6-0.3H9c0.2,0,0.3,0.1,0.4,0.2l18,14.6l18-14.6c0.1-0.1,0.3-0.2,0.5-0.2h5.6c0.3,0,0.6,0.2,0.7,0.5
-  C52.3,31.3,52.2,31.6,52,31.8z"/>
-<path class="chevron" id='BottomChevron' d="M52,59.5L28,79c-0.1,0.1-0.3,0.2-0.5,0.2c-0.2,0-0.3-0.1-0.5-0.2L3,59.5c-0.3-0.2-0.4-0.7-0.1-1
+  C52.3,31.3,52.2,31.6,52,31.8z" />
+          <path class="chevron" id='BottomChevron' d="M52,59.5L28,79c-0.1,0.1-0.3,0.2-0.5,0.2c-0.2,0-0.3-0.1-0.5-0.2L3,59.5c-0.3-0.2-0.4-0.7-0.1-1
   c0.1-0.2,0.3-0.3,0.6-0.3H9c0.2,0,0.3,0.1,0.4,0.2l18,14.6l18-14.6c0.1-0.1,0.3-0.2,0.5-0.2h5.6c0.3,0,0.6,0.2,0.7,0.5
-  C52.3,59,52.2,59.3,52,59.5z"/>
-  </svg>
-    </div>
+  C52.3,59,52.2,59.3,52,59.5z" />
+        </svg>
+      </div>
     </div>
   </div>
   <div class="container mx-auto main-content p-12 md:p-24">
@@ -44,20 +41,22 @@ class="img-svg">
     <div class="lg:flex justify-between pt-8 lg:pt-16 mb-20 event-item">
       <div class="lg:w-1/2 event-img">
         {% if index == 0 %}
-          <img src="{{event.img}}" class="img-radius reveal-left">
+        <img src="{{event.img}}" class="img-radius reveal-left">
         {% else %}
-          <img src="{{event.img}}" class="img-radius reveal-right">
+        <img src="{{event.img}}" class="img-radius reveal-right">
         {% endif %}
       </div>
       <div class="pt-8 md:pt-16 olive lg:w-1/2 event-text">
         {% if index == 0 %}
-          <h3 class="pb-8 section-title border-class reveal-right">{{event.title}}</h3>
-          <p class="mb-12 olive reveal-right">{{event.text}}</p>
-          <button class="olive-btn reveal-right">Book a table</button>
+        <h3 class="pb-8 section-title border-class reveal-right">{{event.title}}</h3>
+        <p class="mb-12 olive reveal-right">{{event.text}}</p>
+        <a href="https://www.opentable.com.au/r/omnia-bistro-and-bar-reservations-south-yarra?restref=60050&ref=10813&lang=en-AU"
+          target="_blank" class="olive-btn reveal-right">Book a table</a>
         {% else %}
-          <h3 class="pb-8 section-title border-class reveal-left">{{event.title}}</h3>
-          <p class="mb-12 olive reveal-left">{{event.text}}</p>
-          <button class="olive-btn reveal-left">Book a table</button>
+        <h3 class="pb-8 section-title border-class reveal-left">{{event.title}}</h3>
+        <p class="mb-12 olive reveal-left">{{event.text}}</p>
+        <a href="https://www.opentable.com.au/r/omnia-bistro-and-bar-reservations-south-yarra?restref=60050&ref=10813&lang=en-AU"
+          target="_blank" class="olive-btn reveal-left">Book a table</a>
         {% endif %}
       </div>
     </div>
@@ -68,11 +67,13 @@ class="img-svg">
     </div>
 
     <div class="lg:flex justify-between lg:pt-12 pb-16 columns">
-      <div class="md:mr-4 md:w-1/3 md:pr-4 border-b md:border-b-0 border-neutral-400 mb-4 md:mb-0" style="border-color: #AEB3A1;">
+      <div class="md:mr-4 md:w-1/3 md:pr-4 border-b md:border-b-0 border-neutral-400 mb-4 md:mb-0"
+        style="border-color: #AEB3A1;">
         <p class="pb-4 md:pb-8 blue reveal-delay-200">{{page.first_column_first_text}}</p>
         <p class="pb-4 md:pb-8 blue reveal-delay-300">{{page.first_column_second_text}}</p>
       </div>
-      <div class="md:mr-4 md:w-1/3 md:px-8 border-b md:border-b-0 border-neutral-400 mb-4 md:mb-0" style="border-color: #AEB3A1;">
+      <div class="md:mr-4 md:w-1/3 md:px-8 border-b md:border-b-0 border-neutral-400 mb-4 md:mb-0"
+        style="border-color: #AEB3A1;">
         <p class="pb-4 md:pb-8 blue reveal-delay-300">{{page.second_column_first_text}}</p>
         <p class="pb-4 md:pb-8 blue reveal-delay-400">{{page.second_column_second_text}}</p>
         <p class="pb-4 md:pb-8 blue reveal-delay-500">{{page.second_column_third_text}}</p>
@@ -83,7 +84,8 @@ class="img-svg">
         <p class="pb-4 md:pb-8 blue reveal-delay-500">{{page.third_column_second_text}}</p>
       </div>
     </div>
-    <h2 class="form-title md:w-1/2 reveal">FOR EXCLUSIVE EVENT INQUIRIES PLEASE CONTACT OUR TEAM USING THE FORM BELOW:</h2>
+    <h2 class="form-title md:w-1/2 reveal">FOR EXCLUSIVE EVENT INQUIRIES PLEASE CONTACT OUR TEAM USING THE FORM BELOW:
+    </h2>
     <form class="mb-40">
       <div class="md:flex justify-between">
         <input type="text" id="fname" name="name" placeholder="Your Name" class="input mr-4 reveal-delay-200">
@@ -91,18 +93,33 @@ class="img-svg">
       </div>
       <div class="md:flex justify-between">
         <input type="text" id="fname" name="email" placeholder="Your Email" class="input mr-4 reveal-delay-200">
-        <input type="text" id="lname" name="event-type" placeholder="Event Type" class="input ml-4 reveal-delay-400">
+        <select name="event-type" id="event-type" class="select ml-4 blue reveal-delay-300">
+          <option value="" class="option" selected disabled>Event type</option>
+          <option value="lunch">Lunch</option>
+          <option value="dinner">Dinner</option>
+        </select>
       </div>
       <div class="md:flex justify-between">
-        <input type="text" id="fname" name="number" placeholder="Number of Guests" class="input mr-4 reveal-delay-200">
+        <select name="guests" id="guets" class="select mr-4 blue reveal-delay-200">
+          <option value="" class="option" selected disabled>Numbers of Guests</option>
+          <option value="8-12" class="option">8-12</option>
+          <option value="13-20">13-20</option>
+          <option value="21-30">21-30</option>
+          <option value="30+">30+</option>
+          <option value="50+">50+</option>
+        </select>
         <input type="text" id="lname" name="date" placeholder="Prefered date" class="input ml-4 reveal-delay-400">
       </div>
       <div class="md:flex justify-between">
-        <input type="text" id="lname" name="details"  placeholder="Event Details" class="input mr-4 reveal-delay-200">
+        <select name="event-details" id="event-details" class="select mr-4 blue reveal-delay-400">
+          <option value="" class="option" selected disabled>Event details</option>
+          <option value="sitdown">Sitdown</option>
+          <option value="cocktail">Cocktail</option>
+        </select>
         <button class="form-button ml-4 reveal-delay-400">Enquire now</button>
       </div>
     </form>
   </div>
 </div>
 
-  {% include footer.html %}
+{% include footer.html %}
