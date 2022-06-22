@@ -23,9 +23,13 @@ fields:
       maxSize: 64
     label: img
   - name: text
-    type: text
+    type: textarea
+    default: ''
     config:
       required: false
+      wysiwyg: false
+      schema:
+        format: markdown
     label: text
   config:
     min: 

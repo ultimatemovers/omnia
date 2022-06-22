@@ -7,15 +7,16 @@ events:
     back live music nights at Omnia! Inspired by the Buena Vista Social Club, Omnia
     will be host to great live music and specialty drinks every Wednesday. Come along
     and visit 'Omnia Vista Social Club' for a night out to dinner or drinks.
-- title: 'Event 3 title '
+- title: Bastille Day
   img: "/assets/images/reward3.jpg"
-  text: Morbi in commodo lectus, in semper erat. Nullam et arcu fermentum, condimentum
-    dui id, lobortis purus. Suspendisse congue tempus mauris. Lorem ipsum dolor sit
-    amet, consectetur adipiscing elit. Donec consectetur vulputate ipsum, eget dignissim
-    arcu efficitur et. Praesent eu blandit nulla. Vivamus sed dolor ornare, mattis
-    sem in, sodales risus. Nunc eget faucibus nulla. Vestibulum aliquet, tortor eget
-    dictum imperdiet, dolor nisi aliquet mauris, vitae mattis ex lacus sit amet nibh.
-- title: Event 2 title
+  text: Celebrate Bastille Day at Omnia with live music, french-speaking vocalists
+    and a classically French-inspired 5 course set menu. ⁠ ⁠ Begin your culinary journey
+    through France with share-style snacks. Then, continue the specially curated menu
+    including coq au vin and French cheeses. Finally be wowed by croquembouche and
+    hand-crafted Omnia trolleys filled with a show-stopping selection of mignardise
+    and digestifs brought right to your table. ⁠ ⁠ Music will be performed from 6:30pm
+    until 10pm. Join us on the 14th of July by booking at omniabistro.com.au ⁠
+- title: 'Event 3 title '
   img: "/assets/images/reward3.jpg"
   text: Morbi in commodo lectus, in semper erat. Nullam et arcu fermentum, condimentum
     dui id, lobortis purus. Suspendisse congue tempus mauris. Lorem ipsum dolor sit
