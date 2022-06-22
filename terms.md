@@ -5,7 +5,7 @@ subtitle: Promotion Conditions of Entry
 main_img: "/assets/images/contacts_main.jpg"
 
 ---
-#### Follow Omnia and Subscribe to Win a $250 Dining Experience
+### Follow Omnia and Subscribe to Win a $250 Dining Experience
 
 ##### (Effective 12 May 2021)
 
