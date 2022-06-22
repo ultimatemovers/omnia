@@ -558,6 +558,8 @@ nav ul.navigation li:hover a {
   background-color: #eeede5;
   max-width: 600px;
   pointer-events: auto;
+  max-height: 90vh;
+  overflow-y: scroll;
 }
 #newsletterPopupBox h2 {
   font-family: 'Calisto MT';
@@ -1350,6 +1352,14 @@ border-bottom: 2px solid #A3A792;;
   .events-title {
     font-size: 50px ;
     line-height: 60px;
+  }
+
+  #newsletterPopupBox h2 {
+    font-size: 28px;
+  }
+
+  #newsletterPopupBox #closePopup {
+    right: 4px;
   }
 
   #newsletterPopupBox .form-button{
