@@ -13,6 +13,7 @@ events:
     Celebrate Bastille Day at Omnia with live music, french-speaking vocalists and a classically French-inspired 5 course set menu. ⁠
 
     Begin your culinary journey through France with share-style snacks. Then, continue the specially curated menu including coq au vin and French cheeses. Finally be wowed by croquembouche and hand-crafted Omnia trolleys filled with a show-stopping selection of mignardise and digestifs brought right to your table.
+
     ⁠Music will be performed from 6:30pm until 10pm. Join us on the 14th of July.⁠
 - title: 'Event 3 title '
   img: "/assets/images/reward3.jpg"
