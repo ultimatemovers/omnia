@@ -550,6 +550,53 @@ nav ul.navigation li:hover a {
   animation: closeNav ease-out forwards .5s;
 }
 
+/* ------------------------------------------- */
+/*    N   E   W   S   L   E   T   T   E   R    */
+/* ------------------------------------------- */
+
+#newsletterPopupBox {
+  background-color: #eeede5;
+  max-width: 600px;
+  pointer-events: auto;
+}
+#newsletterPopupBox h2 {
+  font-family: 'Calisto MT';
+  font-size: 32px;
+}
+#newsletterPopupBox .newsletter-socials {
+  font-weight: 600;
+}
+
+#newsletterPopupBox .form-button{
+  width: 100%;
+  border-bottom-left-radius: 8px;
+  border-top-left-radius: 8px;
+  margin-top: 24px;
+}
+
+#newsletterPopupBox #closePopup {
+  top: 8px;
+  right: 8px;
+}
+
+#newsletterPopupBox input {
+  border-bottom-left-radius: 8px;
+  border-top-left-radius: 8px;
+  width: 100%;
+  height: 48px;
+  margin-bottom: 16px;
+  color: #225367;
+}
+
+#newsletterPopupBox .newsletterPopupAdditionalText div {
+  font-size: 12px;
+}
+
+#newsletterPopupBox .newsletterPrivacyTerms {
+  font-size: 12px;
+  font-weight: 600;
+}
+
 
 /* -------------------------------------- */
 /*      H   O   M   E   P   A   G  E      */
@@ -1096,7 +1143,7 @@ border-bottom: 2px solid #A3A792;;
 #privacy h2,
 #terms h2 {
   margin-bottom: 20px;
-  font-size: 32px;
+  font-size: 36px;
   line-height: 40px;
   font-weight: 400;
   letter-spacing: 0.3px;
@@ -1111,6 +1158,11 @@ border-bottom: 2px solid #A3A792;;
   line-height: 32px;
   font-weight: bold;
   color: #5C7057
+}
+
+#terms h3 {
+  font-size: 24px;
+  margin-bottom: 20px;
 }
 
 #privacy h4,
@@ -1299,6 +1351,16 @@ border-bottom: 2px solid #A3A792;;
     font-size: 50px ;
     line-height: 60px;
   }
+
+  #newsletterPopupBox .form-button{
+    margin-top: 12px;
+    height: 44px;
+  }
+
+  #newsletterPopupBox input {
+    height: 42px;
+  }
+  
 
   /*  --------------------------  */
   /*    H  O  M  E  P  A  G  E    */
