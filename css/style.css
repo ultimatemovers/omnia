@@ -1129,6 +1129,7 @@ border-bottom: 2px solid #A3A792;;
   padding: 3px;
   font-size: 12px;
   font-weight: 600;
+  display: block;
 }
 
 .contact-button:hover {
