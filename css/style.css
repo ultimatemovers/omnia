@@ -896,7 +896,7 @@ text-transform: uppercase;
   height: 60px;
   padding: 5px;
   padding-left: 15px;
-  width: 50%;
+  /*width: 50%;*/
   margin-bottom: 25px;
   border-bottom-right-radius: 8px;
   border-top-right-radius: 8px;
@@ -1102,7 +1102,8 @@ border-bottom: 2px solid #A3A792;;
   padding: 5px;
   padding-left: 15px;
   padding-right: 15px;
-  width: 50%;
+  /*width: 50%;*/
+  width: 100%;
   margin-bottom: 25px;
   border-bottom-right-radius: 8px;
   border-top-right-radius: 8px;
@@ -1235,6 +1236,10 @@ border-bottom: 2px solid #A3A792;;
 @media (min-width: 960px) {
   .omnia-title {
     width: 350px;
+  }
+
+  .select {
+    width: 50%;
   }
 
   /* header.site-header{
@@ -1378,7 +1383,7 @@ border-bottom: 2px solid #A3A792;;
   #newsletterPopupBox input {
     height: 42px;
   }
-  
+
 
   /*  --------------------------  */
   /*    H  O  M  E  P  A  G  E    */
