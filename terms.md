@@ -5,6 +5,8 @@ subtitle: Promotion Conditions of Entry
 main_img: "/assets/images/contacts_main.jpg"
 
 ---
+### Follow Omnia and Subscribe to Win a $250 Dining Experience
+
 ##### (Effective 12 May 2021)
 
 1\. These Terms & Conditions apply to the “Follow Omnia and Subscribe to Win a $250 Dining Experience” promotion and prize draw promoted by LK Hospitality Pty Ltd trading as Omnia Bistro & Bar ABN 38 992 903 904 of 625 Chapel Street, South Yarra, VIC 3141 (“Omnia” or the “Promoter”).

@@ -3,6 +3,7 @@
   let TOGGLE_MENU = false;
   let activeTabFood = 0
   let activeTabDrink = 0
+  let showPopup = false
 
 
   let downButton = document.getElementById('Chevrons')
@@ -95,6 +96,7 @@
     const header = document.querySelector('.site-header')
     const logo = document.querySelector('.logo')
     const navLogo = document.querySelector('.nav-logo')
+    navigationPage.style.height = window.innerHeight + 'px'
 
     // opens menu
     if (!TOGGLE_MENU) {
@@ -124,6 +126,31 @@
 
     TOGGLE_MENU = !TOGGLE_MENU
   })
+
+  document.querySelector('#closePopup').addEventListener('click', () => {
+    togglePopup(false)
+  })
+
+  document.querySelector('#newsletterPopupBck').addEventListener('click', (e) => { 
+    if(e.target.id == document.querySelector('#newsletterPopupBck').id)
+      togglePopup(false)
+  })
+
+  document.querySelectorAll('.openPopup').forEach(el => {
+    el.addEventListener('click', () => {
+      togglePopup(true)
+    })
+  })
+
+  function togglePopup(condition) {
+    showPopup = condition;
+
+    if(showPopup) {
+      document.getElementById('newsletterPopup').classList.remove('hidden')
+    } else {
+      document.getElementById('newsletterPopup').classList.add('hidden')
+    }
+  }
 
 
   if(document.body.id === 'food') {
