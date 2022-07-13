@@ -107,6 +107,12 @@ categories:
     product_description: Labneh, zaatar & pumpkin seeds
     product_price: '36'
 menu:
+- menu_group_title: Cellar WBTG
+  menu_group_name: cellar
+  menu_group_text: Omnia has an extensive wine list, offering 25 wines by the glass
+    consisting of 13 regular, and 12 selected by our sommelier.
+  menu-group-image: ''
+  categories: []
 - menu_group_title: non-alcoholic
   menu_group_name: Non-Alcoholic
   menu_group_text: A collaboration of our kitchen and wait teams. Non-alcoholic digestives
@@ -179,69 +185,6 @@ menu:
     end the night with our well loved Lemon Myrtle Gimlet and Saffron Negroni.
   menu-group-image: ''
   categories: []
-- menu_group_title: Beverages
-  categories:
-  - category_title: CELLAR WINE BY THE GLASS
-    products:
-    - product_title: Robert Weil
-      product_description: 'Vintage: 2018 Appellation: Rheingau, Germany ABV: 8.5%'
-      product_price: "150"
-    - product_title: Robert Weil
-      product_description: 'Vintage: 2018 Appellation: Rheingau, Germany ABV: 8.5%'
-      product_price: "150"
-    - product_title: Robert Weil
-      product_description: 'Vintage: 2018 Appellation: Rheingau, Germany ABV: 8.5%'
-      product_price: "150"
-    - product_title: Robert Weil
-      product_description: 'Vintage: 2018 Appellation: Rheingau, Germany ABV: 8.5%'
-      product_price: "150"
-    - product_title: Robert Weil
-      product_description: 'Vintage: 2018 Appellation: Rheingau, Germany ABV: 8.5%'
-      product_price: "150"
-  - category_title: NON ALCOHOLIC DIGESTIVE
-    products:
-    - product_title: Blue Lagoon
-      product_description: Vodka, Blue curaçao, Lemonade
-      product_price: "90"
-    - product_title: Blue Lagoon
-      product_description: Vodka, Blue curaçao, Lemonade
-      product_price: "90"
-    - product_title: Blue Lagoon
-      product_description: Vodka, Blue curaçao, Lemonade
-      product_price: "90"
-    - product_title: Blue Lagoon
-      product_description: Vodka, Blue curaçao, Lemonade
-      product_price: "90"
-    - product_title: Blue Lagoon
-      product_description: Vodka, Blue curaçao, Lemonade
-      product_price: "90"
-  - category_title: SIGNATURE COCKTAILS
-    products:
-    - product_title: Cosmopolitan
-      product_description: Lemon vodka, triple sec, cranberry juice, lime juice ice
-      product_price: "80"
-    - product_title: Cosmopolitan
-      product_description: Lemon vodka, triple sec, cranberry juice, lime juice ice
-      product_price: "80"
-    - product_title: Cosmopolitan
-      product_description: Lemon vodka, triple sec, cranberry juice, lime juice ice
-      product_price: "80"
-    - product_title: Cosmopolitan
-      product_description: Lemon vodka, triple sec, cranberry juice, lime juice ice
-      product_price: "80"
-    - product_title: Cosmopolitan
-      product_description: Lemon vodka, triple sec, cranberry juice, lime juice ice
-      product_price: "80"
-  menu-group-image: "/assets/images/mask-group-20-2x.jpg"
-  menu_group_name: drink
-  menu_group_text: The Omnia bar is stocked with an array of internationally renowned
-    beverages and many local favourites. The wine list has more than 200 new and old-world
-    varieties of various bouquets and budgets, as well as an enticing collection of
-    champagnes. Acclaimed mixologist Orlando Marzo has crafted a cocktail menu of
-    botanical-inspired beverages with flavours ranging from floral notes to earthy
-    tones. The bar also offers a non-alcoholic program with a range of mocktails and
-    an original non-alcoholic digestive that changes periodically, in harmony with
-    its seasonal ingredients.
 big_title: DISCOVER FLAVOUR AT ITS FINEST
 main_img: "/assets/images/food_main.jpg"
 
