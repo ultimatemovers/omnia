@@ -15,13 +15,11 @@ sections:
   button_url: "#"
 - section_image: "/assets/images/mask-group-18-2x.png"
   section_title: New dishes
-  section_description: Morbi in commodo lectus, in semper erat. Nullam et arcu fermentum,
-    condimentum dui id, lobortis purus. Suspendisse congue tempus mauris. Lorem ipsum
-    dolor sit amet, consectetur adipiscing elit. Donec consectetur vulputate ipsum,
-    eget dignissim arcu efficitur et. Praesent eu blandit nulla. Vivamus sed dolor
-    ornare, mattis sem in, sodales risus. Nunc eget faucibus nulla. Vestibulum aliquet,
-    tortor eget dictum imperdiet, dolor nisi aliquet mauris, vitae mattis ex lacus
-    sit amet nibh.
+  section_description: Our signature duck sourced locally from Macedon. Fourteen-day-
+    dry-aged, honey roasted duck finished with a spiced jus served alongside a confit
+    pressed duck leg, garnished with nashi pear. A dish both reminiscent and new.
+    A coming together of melt-in-your- mouth texture, bold yet balanced flavours,
+    and a charm accented by a restrained attentiveness.
   button_text: browse our menu
   button_url: "#"
 main_img: "/assets/images/homepage_main.jpg"
