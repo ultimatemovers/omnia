@@ -118,5 +118,10 @@ hospitality_text: 'Omnia is part of an impressive quartet of LK Hospitality venu
   experience and pride ourselves on a tradition of setting new standards in the Australian
   hospitality landscape. '
 main_img: "/assets/images/team_main.jpg"
+subtitle: |-
+  Omnia blends the energy of a European bistro with the stories of Australia’s best growers and producers. Dishes with backgrounds that speak to you, not at you. A neo-traditional twist on culinary classics served with the warmth of old- world hospitality. Take a seat in our light filled Conservatory, cosy Barrel Room, or at the bar.
+  A setting paired with a taste to answer the call of any occasion. Take a familiar nook. Come back time and time again. Become a regular. We’ll make it how you like without any questions asked. A drink, a meal, or just dessert. You’re welcome anytime.
+
+  Omnia Bistro makes its home at the base of Grand Capitol on the corner of Chapel Street and Toorak Road.
 
 ---
