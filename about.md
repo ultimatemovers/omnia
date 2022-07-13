@@ -73,9 +73,9 @@ partners:
   text: Growers, John and Pam Hobson, hold an impressive 40 years of hands-on knowledge.
     When in season, we use Jonella Farm’s baby corn, sweetcorn and asparagus.
 - title: Moonlight Flat Oysters
-  text: Steve Feletti is the undisputed Oyster King of Australia. His dedication to
-    quality has shaped the oyster culture and made his brand renowned for its Claire
-    de Lune, Moonlight Kiss and Rusty Wire oysters.
+  text: Farmer, Steve Feletti, produces under the motto of, “quality we would wish
+    to be served ourselves.” Oysters handled only by hand, where big and bulk isn’t
+    the desired result. We use Moonlight Flat’s Moonlight Kisses.
 - title: 'Jones Potatoes '
   text: 'Led by Gordon Jones, Jones Potatoes have been growers for four generations.
     During this time, they developed a remarkable quality of seed and soil and have
