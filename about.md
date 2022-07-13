@@ -95,6 +95,11 @@ produce_text: Omnia Bistro uses Australia’s best quality produce sourced throu
   our own. Our relationships allow us to showcase the season’s first harvest before
   anyone else.
 projects:
+- title: LK Hospitality Group
+  text: |-
+    LK Hospitality Group is the family behind Omnia Bistro. Finding
+    its home at Grand Capitol in South Yarra, LK Hospitality offers a range of culinary experiences through its suite of restaurants. Each venue has a personality that speaks to a different moment, with a universal promise of quality, service, and attention to detail.
+  img: "/assets/images/reward4.jpg"
 - title: Yugen Tea Bar
   text: Yugen Tea Bar showcases the art of tea, its history, cultivation, and rich
     culture. Let tea sommelier Thibaut Chuzeville take you on a journey with over
