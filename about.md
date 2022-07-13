@@ -3,14 +3,9 @@ layout: about
 team_members:
 - name: Stephen Nairn
   title: CULINARY DIRECTOR
-  text: Award-winning Chef Stephen Nairn is the mastermind behind the Omnia menu -
-    a collection of European favourites with an emphasis on seasonality and sustainability.
-    Stephen’s career began in Scotland and continued in New York, where he received
-    a prestigious scholarship and joined the team of 3-Michelin starred restaurant,
-    Eleven Madison Park. After venturing Down Under and honing his culinary craft,
-    he joined LK Hospitality in 2018 as Executive Advisory Chef. The Omnia menu is
-    an opus of his international experience and ability to source impeccable ingredients
-    for each dish.
+  text: |-
+    Stephen Nairn creates food with community at its focus. Produce driven dishes with stories
+    to be heard and tasted. Building relationships with Australian growers and producers, Stephen sources the best products and uses them at their peak. A career earmarked by a passion for every aspect of hospitality, where a memorable experience is defined by the details. Stephen’s award winning career has found him at Matilda, Vu de monde, and New York’s 3-Michelin Star institution, Eleven Madison Park.
   img: "/assets/images/member1.jpg"
 - name: Laurent Tapumilla
   title: Restaurant Manager
