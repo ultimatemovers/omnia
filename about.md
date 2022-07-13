@@ -94,12 +94,11 @@ produce_text: 'Seasons change, but we are loyal to our proven produce partners. 
   of our favourite suppliers include:'
 projects:
 - title: Yugen Tea Bar
-  text: Yugen Tea Bar has perfected tea to an art. Its collection, curated by tea
-    sommelier Thibaut Chuzeville, features over forty specialty teas from ten different
-    countries. Staff will help you select the perfect blend and complement your aromatic
-    cup with a decadent pastry by John Demetrios. This intimate space with an intriguing
-    interior and stylish retail assortment, sets the perfect scene for an immersive
-    journey of the senses.
+  text: Yugen Tea Bar showcases the art of tea, its history, cultivation, and rich
+    culture. Let tea sommelier Thibaut Chuzeville take you on a journey with over
+    40 speciality teas from 10 different countries. Choose from internationally inspired
+    pastries, chocolates, and desserts crafted to match the profile of each cup. A
+    calming, immersive destination to enjoy a perfectly brewed tea.
   img: "/assets/images/reward4.jpg"
 - title: Yugen
   text: An exciting  subterranean space that welcomes patrons for amazing dishes,
