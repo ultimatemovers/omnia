@@ -16,22 +16,26 @@ fields:
     type: text
     config:
       required: false
-    label: name
+    label: Name
   - name: title
     type: text
     config:
       required: false
-    label: title
+    label: Title
   - name: text
-    type: text
+    type: textarea
+    default: ''
     config:
       required: false
-    label: text
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Text
   - name: img
     type: file
     config:
       maxSize: 64
-    label: img
+    label: Img
   config:
     min: 
     max: 
