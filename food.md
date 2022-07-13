@@ -107,19 +107,6 @@ categories:
     product_description: Labneh, zaatar & pumpkin seeds
     product_price: '36'
 menu:
-- menu_group_title: Cellar WBTG
-  menu_group_name: cellar
-  menu_group_text: Omnia has an extensive wine list, offering 25 wines by the glass
-    consisting of 13 regular, and 12 selected by our sommelier.
-  menu-group-image: ''
-  categories: []
-- menu_group_title: non-alcoholic
-  menu_group_name: Non-Alcoholic
-  menu_group_text: A collaboration of our kitchen and wait teams. Non-alcoholic digestives
-    paired to the seasons. Combining seasonal produce with the desserts that highlight
-    them.
-  menu-group-image: ''
-  categories: []
 - category_title: Food
   products: []
   menu_group_title: Food
@@ -183,6 +170,19 @@ menu:
   menu_group_title: Cocktail
   menu_group_text: All the classics, with a few signature twists. Start, spend, or
     end the night with our well loved Lemon Myrtle Gimlet and Saffron Negroni.
+  menu-group-image: ''
+  categories: []
+- menu_group_title: Non-Alcoholic
+  menu_group_name: non-alcoholic
+  menu_group_text: A collaboration of our kitchen and wait teams. Non-alcoholic digestives
+    paired to the seasons. Combining seasonal produce with the desserts that highlight
+    them.
+  menu-group-image: ''
+  categories: []
+- menu_group_title: Cellar WBTG
+  menu_group_name: cellar
+  menu_group_text: Omnia has an extensive wine list, offering 25 wines by the glass
+    consisting of 13 regular, and 12 selected by our sommelier.
   menu-group-image: ''
   categories: []
 big_title: DISCOVER FLAVOUR AT ITS FINEST
