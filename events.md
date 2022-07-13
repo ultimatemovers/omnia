@@ -6,6 +6,8 @@ events:
   text: |-
     Bonne Fete Nationale. Come celebrate with us this Bastille Day. Our kitchen team has designed a five course menu offering all the culinary icons of France. Snacks to share, distinctly French dishes, cheese,
     and sweets to finish. Alongside our usual drink offering we’ll be serving French classics from our rolling trolley. A festive pairing of Champagne, Lillet, Grand Marnier, and wines by the magnum. A day of good food, fine drink, and live music to set the tone. Santé.
+
+    5 Course Menu $150 per person
 - title: Omnia Vista Social Club – Live music Wednesday nights
   img: "/assets/images/reward2.jpg"
   text: After a successful month of Wednesday Nights at The Embers, we're bringing
