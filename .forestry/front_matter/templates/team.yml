@@ -115,10 +115,14 @@ fields:
       required: false
     label: title
   - name: text
-    type: text
+    type: textarea
+    default: ''
     config:
       required: false
-    label: text
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Text
   config:
     min: 
     max: 
