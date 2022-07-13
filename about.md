@@ -107,13 +107,11 @@ projects:
     bar and Omakase Mezzanine. The spot where the evening continues past dinner, and
     well into the night.
   img: "/assets/images/reward4.jpg"
-- title: Bromley Event Space
-  text: 'An opulent venue that exudes style and culture, with just a hint of dark
-    mystery. The Bromley and Co Gallery is a combination of four individual event
-    spaces that can be connected to host 20 to 300 people. With spectacular floor
-    to ceiling windows and unique light fixtures illuminating original David Bromley
-    art pieces, this event venue is a one-of-a-kind setting for any wedding, private
-    dining or other events. '
+- title: Bromley & Co. Events Space
+  text: Dine amongst the works of renowned artist, David Bromley. A gallery turned
+    private event space lined with the artist’s ever evolving works. An inimitable
+    experience accented by curated menus, and carefully selected wines, to ensure
+    each event is never to be repeated.
   img: "/assets/images/reward4.jpg"
 hospitality_text: 'Omnia is part of an impressive quartet of LK Hospitality venues
   at Capitol Grand. We are happy to offer patrons the perfect space for a memorable
