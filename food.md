@@ -164,15 +164,8 @@ menu:
       product_price: "50"
   menu-group-image: ''
   menu_group_name: food
-  menu_group_text: Award-winning Chef Stephen Nairn emphasises sustainability and
-    seasonality, working closely with Australian growers, farmers and producers to
-    maintain exceptional quality from farm to plate. Our menu changes seasonally but
-    you are always sure to find something for every palette, including tastebud pleasers
-    such as honeyroasted duck and simple pleasures such as our trademark crispy sourdough
-    baguettes. Enjoy a casual atmosphere paired with high-class service, including
-    trolley service conducted by our friendly and dedicated staff. The dessert menu
-    is a symphony of sweetness, tangy citrus tones and velvety chocolate, perfectly
-    presented as a spectacular end to a meal or a treat on its own.
+  menu_group_text: A menu of seasonal produce, used at its peak, designed with all
+    tastes in mind. Familiar yet new, held together by our iconic duck and cheesecake.
 - menu_group_title: Beverages
   categories:
   - category_title: CELLAR WINE BY THE GLASS
