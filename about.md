@@ -77,14 +77,14 @@ partners:
     to be served ourselves.” Oysters handled only by hand, where big and bulk isn’t
     the desired result. We use Moonlight Flat’s Moonlight Kisses.
 - title: 'Jones Potatoes '
-  text: 'Led by Gordon Jones, Jones Potatoes have been growers for four generations.
-    During this time, they developed a remarkable quality of seed and soil and have
-    secured their place as the favourite potato farm among Victorian foodies. '
+  text: Grower, Gordon Jones, supplies us with the perfect potatoes for every dish.
+    Blue Moon potatoes make our rosti crisp on the outside, fluffy on the inside.
+    Andean Sunrise potatoes add the distinct crunch and flavour to our gaufrettes.
 - title: 'Wagyu Blackmore '
-  text: An award-winning family business run by David Blackmore, this team has been
-    producing 100% fullblood Wagyu beef for 30 years. Blackmore boasts a complete
-    approach to their product, from conception to plate, setting them apart from other
-    beef brands.
+  text: The pioneers of producing 100%, full blood wagyu beef in Australia. A family
+    business that has operated for over thirty years, across five generations of farmers.
+    Producers that are highly specialised in Japanese genetics, and the methodology
+    behind breeding, raising, and farming wagyu animals.
 - title: Mark Folletta
   text: "- Benalla farmer Mark Foletta is known as “The Cherry Man” and he grows 1200
     cherry trees on his 10 hectare property. This Victorian farmer comes from a family
