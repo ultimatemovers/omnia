@@ -7,14 +7,32 @@ events:
     Bonne Fete Nationale. Come celebrate with us this Bastille Day. Our kitchen team has designed a five course menu offering all the culinary icons of France. Snacks to share, distinctly French dishes, cheese,
     and sweets to finish. Alongside our usual drink offering we’ll be serving French classics from our rolling trolley. A festive pairing of Champagne, Lillet, Grand Marnier, and wines by the magnum. A day of good food, fine drink, and live music to set the tone. Santé.
 
-    5 Course Menu $150 per person
+    5 Course Menu $150 per person Menu
+
+    Shared Snacks
+    French country style pork and pistachio pâté, saucisson, marinated Mount Zero olives, freshly baked brioche with St David’s dairy cultured butter
+
+    Starter
+    Paul Bocuse style winter truffle soup with puff pastry
+
+    Main Course
+    Milawa organic coq au vin, bacon, Dijon mustard, champignon & pomme purée
+
+    Cheese
+    Brie de meaux, black truffle, quince & sourdough baguette
+
+    Dessert
+    Profiterole, spun sugar, crème pâtissière & sauce anglaise
+
+    Petit Fours
+    A classic selection of mignardise and digestifs presented in trolley format
 - title: Omnia Vista Social Club – Live music Wednesday nights
   img: "/assets/images/reward2.jpg"
   text: After a successful month of Wednesday Nights at The Embers, we're bringing
     back live music nights at Omnia! Inspired by the Buena Vista Social Club, Omnia
     will be host to great live music and specialty drinks every Wednesday. Come along
     and visit 'Omnia Vista Social Club' for a night out to dinner or drinks.
-- title: 'Event 3 title '
+- title: Omnia Got Soul
   img: "/assets/images/reward3.jpg"
   text: |-
     Join us every Wednesday between 7:00 PM and 10:30 PM for live music. Enjoy a soulful twist on the Omnia you know and love, as we serve speciality cocktails to match the beat of the music.
