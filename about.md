@@ -86,9 +86,9 @@ partners:
     Producers that are highly specialised in Japanese genetics, and the methodology
     behind breeding, raising, and farming wagyu animals.
 - title: Mark Folletta
-  text: "- Benalla farmer Mark Foletta is known as “The Cherry Man” and he grows 1200
-    cherry trees on his 10 hectare property. This Victorian farmer comes from a family
-    of growers and his cherries perfectly complement dishes such as our roasted duck."
+  text: The face behind the cherries we use seasonally in our duck, and the pumpkins
+    that decorate Omnia before they grace our taste buds. Mark delivers his produce
+    personally, and frequently joins us at our table for a meal.
 produce_little-title: FRESH IS ALWAYS IN FASHION
 produce_text: 'Seasons change, but we are loyal to our proven produce partners. Some
   of our favourite suppliers include:'
