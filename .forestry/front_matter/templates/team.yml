@@ -9,6 +9,11 @@ fields:
   label: layout
   hidden: true
   default: about
+- name: main_img
+  type: file
+  config:
+    maxSize: 64
+  label: main_img
 - name: team_members
   type: field_group_list
   fields:
@@ -41,11 +46,6 @@ fields:
     max: 
     labelField: 
   label: team_members
-- name: bottom_img
-  type: file
-  config:
-    maxSize: 64
-  label: bottom img
 - name: team_title
   type: text
   config:
@@ -160,10 +160,10 @@ fields:
     schema:
       format: markdown
   label: Hospitality Text
-- name: main_img
+- name: bottom_img
   type: file
   config:
     maxSize: 64
-  label: main_img
+  label: bottom img
 pages:
 - about.md
