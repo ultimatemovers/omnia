@@ -14,7 +14,7 @@ sections:
   button_text: browse our menu
   button_url: "#"
 - section_image: "/assets/images/mask-group-18-2x.png"
-  section_title: HERE IS THE HEADLINE ABOUT OMNIA.
+  section_title: New dishes
   section_description: Morbi in commodo lectus, in semper erat. Nullam et arcu fermentum,
     condimentum dui id, lobortis purus. Suspendisse congue tempus mauris. Lorem ipsum
     dolor sit amet, consectetur adipiscing elit. Donec consectetur vulputate ipsum,
