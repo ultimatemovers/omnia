@@ -86,11 +86,6 @@ fields:
   config:
     maxSize: 64
   label: space_img
-- name: hospitality_title
-  type: text
-  config:
-    required: false
-  label: hospitality_title
 - name: produce_title
   type: text
   config:
@@ -128,6 +123,11 @@ fields:
     max: 
     labelField: 
   label: partners
+- name: hospitality_title
+  type: text
+  config:
+    required: false
+  label: hospitality_title
 - name: projects
   type: field_group_list
   fields:
