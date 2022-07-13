@@ -152,10 +152,14 @@ fields:
     labelField: 
   label: projects
 - name: hospitality_text
-  type: text
+  type: textarea
+  default: ''
   config:
     required: false
-  label: hospitality_text
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Hospitality Text
 - name: main_img
   type: file
   config:
