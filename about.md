@@ -100,12 +100,12 @@ projects:
     pastries, chocolates, and desserts crafted to match the profile of each cup. A
     calming, immersive destination to enjoy a perfectly brewed tea.
   img: "/assets/images/reward4.jpg"
-- title: Yugen
-  text: An exciting  subterranean space that welcomes patrons for amazing dishes,
-    drinks and even dancing. It embraces the concept of “dining to after dark” in
-    a mesmerising and modern underground setting. Two bars, a restaurant and an omakase
-    mezzanine vibe in perfect harmony for a holistic hospitality experience that serves
-    up incredible gastronomy and a memorable night out
+- title: Yugen Dining
+  text: Yugen Dining celebrates the concept of, “dining after dark.” Recently established,
+    Yugen Dining is an Asian influenced bar and restaurant in a uniquely underground
+    setting. An industrial feel with refined details, divided by the ground floor
+    bar and Omakase Mezzanine. The spot where the evening continues past dinner, and
+    well into the night.
   img: "/assets/images/reward4.jpg"
 - title: Bromley Event Space
   text: 'An opulent venue that exudes style and culture, with just a hint of dark
