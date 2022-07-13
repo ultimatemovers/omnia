@@ -14,6 +14,15 @@ fields:
   config:
     required: false
   label: main_title
+- name: subtitle
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Subtitle
 - name: main_img
   type: file
   config:
