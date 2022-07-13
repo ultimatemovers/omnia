@@ -20,7 +20,7 @@ fields:
     config:
       required: false
     label: Menu Group Name
-    hidden: false
+    hidden: true
   - name: menu_group_text
     type: textarea
     default: ''
