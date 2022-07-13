@@ -30,7 +30,7 @@ fields:
       wysiwyg: false
       schema:
         format: markdown
-    label: text
+    label: Text
   config:
     min: 
     max: 
