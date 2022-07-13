@@ -90,8 +90,10 @@ partners:
     that decorate Omnia before they grace our taste buds. Mark delivers his produce
     personally, and frequently joins us at our table for a meal.
 produce_little-title: FRESH IS ALWAYS IN FASHION
-produce_text: 'Seasons change, but we are loyal to our proven produce partners. Some
-  of our favourite suppliers include:'
+produce_text: Omnia Bistro uses Australia’s best quality produce sourced through tight
+  knit networks. We champion our growers and producers and tell their stories alongside
+  our own. Our relationships allow us to showcase the season’s first harvest before
+  anyone else.
 projects:
 - title: Yugen Tea Bar
   text: Yugen Tea Bar showcases the art of tea, its history, cultivation, and rich
