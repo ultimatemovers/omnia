@@ -107,12 +107,6 @@ categories:
     product_description: Labneh, zaatar & pumpkin seeds
     product_price: '36'
 menu:
-- menu_group_name: ''
-  menu_group_title: Cocktail
-  menu_group_text: All the classics, with a few signature twists. Start, spend, or
-    end the night with our well loved Lemon Myrtle Gimlet and Saffron Negroni.
-  menu-group-image: ''
-  categories: []
 - category_title: Food
   products: []
   menu_group_title: Food
@@ -172,6 +166,12 @@ menu:
   menu_group_name: food
   menu_group_text: A menu of seasonal produce, used at its peak, designed with all
     tastes in mind. Familiar yet new, held together by our iconic duck and cheesecake.
+- menu_group_name: cocktail
+  menu_group_title: Cocktail
+  menu_group_text: All the classics, with a few signature twists. Start, spend, or
+    end the night with our well loved Lemon Myrtle Gimlet and Saffron Negroni.
+  menu-group-image: ''
+  categories: []
 - menu_group_title: Beverages
   categories:
   - category_title: CELLAR WINE BY THE GLASS

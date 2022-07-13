@@ -10,17 +10,17 @@ fields:
 - name: menu
   type: field_group_list
   fields:
+  - name: menu_group_title
+    type: text
+    config:
+      required: false
+    label: Menu Group Title
   - name: menu_group_name
     type: text
     config:
       required: false
     label: Menu Group Name
     hidden: false
-  - name: menu_group_title
-    type: text
-    config:
-      required: false
-    label: Menu Group Title
   - name: menu_group_text
     type: textarea
     default: ''
