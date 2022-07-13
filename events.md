@@ -16,12 +16,12 @@ events:
     and visit 'Omnia Vista Social Club' for a night out to dinner or drinks.
 - title: 'Event 3 title '
   img: "/assets/images/reward3.jpg"
-  text: Morbi in commodo lectus, in semper erat. Nullam et arcu fermentum, condimentum
-    dui id, lobortis purus. Suspendisse congue tempus mauris. Lorem ipsum dolor sit
-    amet, consectetur adipiscing elit. Donec consectetur vulputate ipsum, eget dignissim
-    arcu efficitur et. Praesent eu blandit nulla. Vivamus sed dolor ornare, mattis
-    sem in, sodales risus. Nunc eget faucibus nulla. Vestibulum aliquet, tortor eget
-    dictum imperdiet, dolor nisi aliquet mauris, vitae mattis ex lacus sit amet nibh.
+  text: |-
+    Join us every Wednesday between 7:00 PM and 10:30 PM for live music. Enjoy a soulful twist on the Omnia you know and love, as we serve speciality cocktails to match the beat of the music.
+    ***July 6th & 13th with Mimi Zaetta-Thomas***
+    Mimi Zaetta-Thomas has recorded and toured worldwide, supporting and performing alongside artists Christine Anu, Vince Jones, Vanessa Amerossi, and Hiatus Kaiyote.
+    ***July 20th with Pat Powell***
+    Pat Powell has a career that spans four decades, hailing from the close-knit Jamaican communities of 1960’s Bristol. Pat has supported and performed alongside James Brown, Queen, The Eurythmics, Boy George, Crowded House, Split Enz, and Kylie Minogue.
 columns:
 - text: Beverages will be charged on consumption and a $500 deposit will be required
     to secure the venue. For special occasions, we would also be glad to custom make
