@@ -128,6 +128,15 @@ fields:
   config:
     required: false
   label: hospitality_title
+- name: hospitality_text
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Hospitality Text
 - name: projects
   type: field_group_list
   fields:
@@ -151,15 +160,6 @@ fields:
     max: 
     labelField: 
   label: projects
-- name: hospitality_text
-  type: textarea
-  default: ''
-  config:
-    required: false
-    wysiwyg: false
-    schema:
-      format: markdown
-  label: Hospitality Text
 - name: bottom_img
   type: file
   config:
