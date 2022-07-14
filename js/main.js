@@ -210,11 +210,6 @@
     })
   }
 
-  if(document.body.id === 'contacts') {
-    console.log('tst')
-  }
-
-
   /* partners - farms */
 
   if (document.body.id === 'about') {
