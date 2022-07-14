@@ -31,11 +31,6 @@ fields:
       schema:
         format: markdown
     label: Text
-  - name: test
-    type: include
-    config: {}
-    template: food
-    label: test
   config:
     min: 
     max: 
