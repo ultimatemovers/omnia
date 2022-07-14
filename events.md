@@ -14,14 +14,14 @@ events:
     Snacks to share, distinctly French dishes, cheese,<br> and sweets to finish. Alongside
     our usual drink offering we’ll be serving French classics from our rolling trolley.
     A festive pairing of Champagne, Lillet, Grand Marnier, and wines by the magnum.
-    A day of good food, fine drink, and live music to set the tone. Santé.</p><h6><em>5
-    Course Menu $150 per person Menu</em></h6><p><em>Shared Snacks</em><br> French
-    country style pork and pistachio pâté, saucisson, marinated Mount Zero olives,
-    freshly baked brioche with St David’s dairy cultured butter</p><p><em>Starter</em><br>
-    Paul Bocuse style winter truffle soup with puff pastry</p><p><em>Main Course</em><br>
-    Milawa organic coq au vin, bacon, Dijon mustard, champignon &amp; pomme purée</p><p><em>Cheese</em><br>
-    Brie de meaux, black truffle, quince &amp; sourdough baguette</p><p><em>Dessert</em><br>
-    Profiterole, spun sugar, crème pâtissière &amp; sauce anglaise</p><p><em>Petit
+    A day of good food, fine drink, and live music to set the tone. Santé.</p><p></p><h6><strong><em>5
+    Course Menu $150 per person Menu</em></strong></h6><p></p><p><em>Shared Snacks</em><br>
+    French country style pork and pistachio pâté, saucisson, marinated Mount Zero
+    olives, freshly baked brioche with St David’s dairy cultured butter</p><p></p><p><em>Starter</em><br>
+    Paul Bocuse style winter truffle soup with puff pastry</p><p></p><p><em>Main Course</em><br>
+    Milawa organic coq au vin, bacon, Dijon mustard, champignon &amp; pomme purée</p><p></p><p><em>Cheese</em><br>
+    Brie de meaux, black truffle, quince &amp; sourdough baguette</p><p></p><p><em>Dessert</em><br>
+    Profiterole, spun sugar, crème pâtissière &amp; sauce anglaise</p><p></p><p><em>Petit
     Fours</em><br> A classic selection of mignardise and digestifs presented in trolley
     format</p>"
 - title: Omnia Got Soul
