@@ -9,29 +9,21 @@ events:
     and visit 'Omnia Vista Social Club' for a night out to dinner or drinks.
 - title: Bastille Day
   img: "/assets/images/reward3.jpg"
-  text: |-
-    Bonne Fete Nationale. Come celebrate with us this Bastille Day. Our kitchen team has designed a five course menu offering all the culinary icons of France. Snacks to share, distinctly French dishes, cheese,
-    and sweets to finish. Alongside our usual drink offering we’ll be serving French classics from our rolling trolley. A festive pairing of Champagne, Lillet, Grand Marnier, and wines by the magnum. A day of good food, fine drink, and live music to set the tone. Santé.
-
-    5 Course Menu $150 per person Menu
-
-    Shared Snacks
-    French country style pork and pistachio pâté, saucisson, marinated Mount Zero olives, freshly baked brioche with St David’s dairy cultured butter
-
-    Starter
-    Paul Bocuse style winter truffle soup with puff pastry
-
-    Main Course
-    Milawa organic coq au vin, bacon, Dijon mustard, champignon & pomme purée
-
-    Cheese
-    Brie de meaux, black truffle, quince & sourdough baguette
-
-    Dessert
-    Profiterole, spun sugar, crème pâtissière & sauce anglaise
-
-    Petit Fours
-    A classic selection of mignardise and digestifs presented in trolley format
+  text: "<p>Bonne Fete Nationale. Come celebrate with us this Bastille Day. Our kitchen
+    team has designed a five course menu offering all the culinary icons of France.
+    Snacks to share, distinctly French dishes, cheese,<br> and sweets to finish. Alongside
+    our usual drink offering we’ll be serving French classics from our rolling trolley.
+    A festive pairing of Champagne, Lillet, Grand Marnier, and wines by the magnum.
+    A day of good food, fine drink, and live music to set the tone. Santé.</p><h6><em>5
+    Course Menu $150 per person Menu</em></h6><p><em>Shared Snacks</em><br> French
+    country style pork and pistachio pâté, saucisson, marinated Mount Zero olives,
+    freshly baked brioche with St David’s dairy cultured butter</p><p><em>Starter</em><br>
+    Paul Bocuse style winter truffle soup with puff pastry</p><p><em>Main Course</em><br>
+    Milawa organic coq au vin, bacon, Dijon mustard, champignon &amp; pomme purée</p><p><em>Cheese</em><br>
+    Brie de meaux, black truffle, quince &amp; sourdough baguette</p><p><em>Dessert</em><br>
+    Profiterole, spun sugar, crème pâtissière &amp; sauce anglaise</p><p><em>Petit
+    Fours</em><br> A classic selection of mignardise and digestifs presented in trolley
+    format</p>"
 - title: Omnia Got Soul
   img: "/assets/images/reward3.jpg"
   text: |-
