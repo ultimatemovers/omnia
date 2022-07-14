@@ -49,12 +49,12 @@
       <div class="pt-8 md:pt-16 olive lg:w-1/2 event-text">
         {% if index == 0 %}
         <h3 class="pb-8 section-title border-class reveal-right">{{event.title}}</h3>
-        <p class="mb-12 olive reveal-right">{{event.text | markdownify}}</p>
+        <div class="mb-12 olive reveal-right">{{event.text | markdownify}}</div>
         <a href="https://www.opentable.com.au/r/omnia-bistro-and-bar-reservations-south-yarra?restref=60050&ref=10813&lang=en-AU"
           target="_blank" class="olive-btn reveal-right mt-4">Book a table</a>
         {% else %}
         <h3 class="pb-8 section-title border-class reveal-left">{{event.title}}</h3>
-        <p class="mb-12 olive reveal-left">{{event.text | markdownify}}</p>
+        <div class="mb-12 olive reveal-left">{{event.text | markdownify}}</div>
         <a href="https://www.opentable.com.au/r/omnia-bistro-and-bar-reservations-south-yarra?restref=60050&ref=10813&lang=en-AU"
           target="_blank" class="olive-btn reveal-left mt-4">Book a table</a>
         {% endif %}
