@@ -2,6 +2,13 @@
 label: terms
 hide_body: false
 fields:
+- name: layout
+  type: text
+  config:
+    required: false
+  hidden: true
+  label: layout
+  default: terms
 - name: big_title
   type: text
   config:
@@ -12,13 +19,6 @@ fields:
   config:
     required: false
   label: Subtitle
-- name: layout
-  type: text
-  config:
-    required: false
-  hidden: true
-  label: layout
-  default: terms
 - name: main_img
   type: file
   config:
