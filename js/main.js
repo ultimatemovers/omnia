@@ -9,14 +9,16 @@
   let downButton = document.getElementById('Chevrons')
   let mainContent = document.querySelector('.main-content')
 
-  function scrollDownScreen () {
+  function scrollDownScreen() {
     mainContent.scrollIntoView({
       behavior: 'smooth'
-  })
+    })
   }
 
 
-  downButton.addEventListener('click', scrollDownScreen )
+  if(downButton){
+    downButton.addEventListener('click', scrollDownScreen)
+  }
 
   function init() {
     // new SmoothScroll(target,speed,smooth)
@@ -101,11 +103,10 @@
     // opens menu
     if (!TOGGLE_MENU) {
 
-      if(window.innerWidth > 450) {
+      if (window.innerWidth > 450) {
         navLogo.classList.remove('hidden')
         logo.classList.add('hidden')
-      }
-      else {
+      } else {
         document.body.style = "height: 100vh;"
       }
       header.classList.remove('open-burger')
@@ -118,7 +119,7 @@
       navLogo.classList.add('hidden')
       logo.classList.remove('hidden')
       header.classList.add('open-burger')
-      setTimeout(()=> {
+      setTimeout(() => {
         navigationPage.classList.add('hidden')
         navigationPage.classList.remove('close')
       }, 500)
@@ -131,8 +132,13 @@
     togglePopup(false)
   })
 
-  document.querySelector('#newsletterPopupBck').addEventListener('click', (e) => { 
-    if(e.target.id == document.querySelector('#newsletterPopupBck').id)
+  document.addEventListener('keydown', (e) => {
+    if(e.key === 'Escape' || e.keyCode === 27)
+      togglePopup(false)
+  })
+
+  document.querySelector('#newsletterPopupBck').addEventListener('click', (e) => {
+    if (e.target.id == document.querySelector('#newsletterPopupBck').id)
       togglePopup(false)
   })
 
@@ -145,7 +151,7 @@
   function togglePopup(condition) {
     showPopup = condition;
 
-    if(showPopup) {
+    if (showPopup) {
       document.getElementById('newsletterPopup').classList.remove('hidden')
     } else {
       document.getElementById('newsletterPopup').classList.add('hidden')
@@ -153,32 +159,32 @@
   }
 
 
-  if(document.body.id === 'food') {
+  if (document.body.id === 'food') {
     const foodItems = document.querySelectorAll('#food-menu .menu-category-title')
     const foodItemsProducts = document.querySelectorAll('#food-products .category-products')
     const drinkItems = document.querySelectorAll('#drink-menu .menu-category-title')
     const drinkItemsProducts = document.querySelectorAll('#drink-products .category-products')
 
 
-    foodItems.forEach( ( fi, idx ) => {
+    foodItems.forEach((fi, idx) => {
       fi.addEventListener('click', () => {
         activeTabFood = idx
         fi.scrollIntoView({
           behavior: 'smooth',
           block: 'nearest',
           inline: 'center'
-      })
+        })
         filterProducts(foodItems, foodItemsProducts, activeTabFood)
       })
     })
-    drinkItems.forEach( ( di, idx ) => {
+    drinkItems.forEach((di, idx) => {
       di.addEventListener('click', () => {
         activeTabDrink = idx
         di.scrollIntoView({
           behavior: 'smooth',
           block: 'nearest',
           inline: 'center'
-      })
+        })
         filterProducts(drinkItems, drinkItemsProducts, activeTabDrink)
       })
     })
@@ -189,33 +195,36 @@
   }
 
 
-  function filterProducts(items, products, activeTab){
-    items.forEach( ( item, idx ) => {
-      if(idx === activeTab)
+  function filterProducts(items, products, activeTab) {
+    items.forEach((item, idx) => {
+      if (idx === activeTab)
         item.classList.add('active')
       else
         item.classList.remove('active')
     })
-    products.forEach( ( product, idx ) => {
-      if(idx === activeTab)
+    products.forEach((product, idx) => {
+      if (idx === activeTab)
         product.classList.remove('hidden')
       else
         product.classList.add('hidden')
     })
   }
 
+  if(document.body.id === 'contacts') {
+    console.log('tst')
+  }
+
 
   /* partners - farms */
 
-  if(document.body.id === 'about'){
+  if (document.body.id === 'about') {
     const accordions = document.querySelectorAll('.accordion')
     accordions.forEach((a) => {
       a.addEventListener('click', () => {
-        if(a.classList.contains('accordion-opened')) {
+        if (a.classList.contains('accordion-opened')) {
           a.classList.remove('accordion-opened')
           return
-        }
-        else{
+        } else {
           a.classList.add('accordion-opened')
         }
       })
@@ -243,64 +252,178 @@
   //   ScrollReveal().reveal('.reveal-top-delay', { delay: 300, distance: '30px', duration: 700, origin: 'bottom', easing: 'cubic-bezier(0.3,.62,1,1)' });
 
 
-  if(document.querySelector('.reveal')) {
-    ScrollReveal().reveal('.reveal', { distance: '150px', duration: 1300, origin: 'bottom', easing: 'cubic-bezier(.17,1.05,.88,1)' });
+  if (document.querySelector('.reveal')) {
+    ScrollReveal().reveal('.reveal', {
+      distance: '150px',
+      duration: 1300,
+      origin: 'bottom',
+      easing: 'cubic-bezier(.17,1.05,.88,1)'
+    });
   }
-  if(document.querySelector('.reveal-delay-200')) {
-    ScrollReveal().reveal('.reveal-delay-200', { delay: 200, distance: '120px', duration: 1300, origin: 'bottom', easing: 'ease-in-out' });
+  if (document.querySelector('.reveal-delay-200')) {
+    ScrollReveal().reveal('.reveal-delay-200', {
+      delay: 200,
+      distance: '120px',
+      duration: 1300,
+      origin: 'bottom',
+      easing: 'ease-in-out'
+    });
   }
-  if(document.querySelector('.reveal-delay-300')) {
-    ScrollReveal().reveal('.reveal-delay-300', { delay: 300, distance: '120px', duration: 1300, origin: 'bottom', easing: 'ease-in-out' });
+  if (document.querySelector('.reveal-delay-300')) {
+    ScrollReveal().reveal('.reveal-delay-300', {
+      delay: 300,
+      distance: '120px',
+      duration: 1300,
+      origin: 'bottom',
+      easing: 'ease-in-out'
+    });
   }
-  if(document.querySelector('.reveal-delay-400')) {
-    ScrollReveal().reveal('.reveal-delay-400', { delay: 400, distance: '120px', duration: 1300, origin: 'bottom', easing: 'ease-in-out' });
+  if (document.querySelector('.reveal-delay-400')) {
+    ScrollReveal().reveal('.reveal-delay-400', {
+      delay: 400,
+      distance: '120px',
+      duration: 1300,
+      origin: 'bottom',
+      easing: 'ease-in-out'
+    });
   }
-  if(document.querySelector('.reveal-delay-500')) {
-    ScrollReveal().reveal('.reveal-delay-500', { delay: 500, distance: '120px', duration: 1300, origin: 'bottom', easing: 'ease-in-out' });
+  if (document.querySelector('.reveal-delay-500')) {
+    ScrollReveal().reveal('.reveal-delay-500', {
+      delay: 500,
+      distance: '120px',
+      duration: 1300,
+      origin: 'bottom',
+      easing: 'ease-in-out'
+    });
   }
-  if(document.querySelector('.reveal-delay-600')) {
-    ScrollReveal().reveal('.reveal-delay-600', { delay: 600, distance: '120px', duration: 1300, origin: 'bottom', easing: 'ease-in-out' });
+  if (document.querySelector('.reveal-delay-600')) {
+    ScrollReveal().reveal('.reveal-delay-600', {
+      delay: 600,
+      distance: '120px',
+      duration: 1300,
+      origin: 'bottom',
+      easing: 'ease-in-out'
+    });
   }
-  if(document.querySelector('.reveal-delay-700')) {
-    ScrollReveal().reveal('.reveal-delay-700', { delay: 700, distance: '120px', duration: 1300, origin: 'bottom', easing: 'ease-in-out' });
+  if (document.querySelector('.reveal-delay-700')) {
+    ScrollReveal().reveal('.reveal-delay-700', {
+      delay: 700,
+      distance: '120px',
+      duration: 1300,
+      origin: 'bottom',
+      easing: 'ease-in-out'
+    });
   }
-  if(document.querySelector('.reveal-left')) {
-    ScrollReveal().reveal('.reveal-left', { distance: '150px', origin: 'left', opacity: 0, delay: 150, duration: 1100, easing: 'ease-in-out'})
+  if (document.querySelector('.reveal-left')) {
+    ScrollReveal().reveal('.reveal-left', {
+      distance: '150px',
+      origin: 'left',
+      opacity: 0,
+      delay: 150,
+      duration: 1100,
+      easing: 'ease-in-out'
+    })
   }
-  if(document.querySelector('.reveal-right')) {
-    ScrollReveal().reveal('.reveal-right', { distance: '150px', origin: 'right', opacity: 0, delay: 150, duration: 1100, easing: 'ease-in-out'})
+  if (document.querySelector('.reveal-right')) {
+    ScrollReveal().reveal('.reveal-right', {
+      distance: '150px',
+      origin: 'right',
+      opacity: 0,
+      delay: 150,
+      duration: 1100,
+      easing: 'ease-in-out'
+    })
   }
 
-  if(window.innerWidth < 450){
-    if(document.querySelector('.reveal')) {
-      ScrollReveal().reveal('.reveal', { distance: '80px', duration: 1100, origin: 'bottom', easing: 'cubic-bezier(.17,1.05,.88,1)' });
+  if (window.innerWidth < 450) {
+    if (document.querySelector('.reveal')) {
+      ScrollReveal().reveal('.reveal', {
+        distance: '80px',
+        duration: 1100,
+        origin: 'bottom',
+        easing: 'cubic-bezier(.17,1.05,.88,1)'
+      });
     }
-    if(document.querySelector('.reveal-delay-200')) {
-      ScrollReveal().reveal('.reveal-delay-200', { delay: 130, distance: '120px', duration: 1100, origin: 'bottom', easing: 'cubic-bezier(0.3,1.05,1,1)' });
+    if (document.querySelector('.reveal-delay-200')) {
+      ScrollReveal().reveal('.reveal-delay-200', {
+        delay: 130,
+        distance: '120px',
+        duration: 1100,
+        origin: 'bottom',
+        easing: 'cubic-bezier(0.3,1.05,1,1)'
+      });
     }
-    if(document.querySelector('.reveal-delay-300')) {
-      ScrollReveal().reveal('.reveal-delay-300', { delay: 200, distance: '80px', duration: 1200, origin: 'bottom', easing: 'cubic-bezier(.17,1.05,.88,1)' });
+    if (document.querySelector('.reveal-delay-300')) {
+      ScrollReveal().reveal('.reveal-delay-300', {
+        delay: 200,
+        distance: '80px',
+        duration: 1200,
+        origin: 'bottom',
+        easing: 'cubic-bezier(.17,1.05,.88,1)'
+      });
     }
-    if(document.querySelector('.reveal-delay-400')) {
-      ScrollReveal().reveal('.reveal-delay-400', { delay: 230, distance: '120px', duration: 1100, origin: 'bottom', easing: 'cubic-bezier(.17,1.05,.88,1)' });
+    if (document.querySelector('.reveal-delay-400')) {
+      ScrollReveal().reveal('.reveal-delay-400', {
+        delay: 230,
+        distance: '120px',
+        duration: 1100,
+        origin: 'bottom',
+        easing: 'cubic-bezier(.17,1.05,.88,1)'
+      });
     }
-    if(document.querySelector('.reveal-delay-500')) {
-      ScrollReveal().reveal('.reveal-delay-500', { delay: 360, distance: '80px', duration: 1100, origin: 'bottom', easing: 'cubic-bezier(.17,1.05,.88,1)' });
+    if (document.querySelector('.reveal-delay-500')) {
+      ScrollReveal().reveal('.reveal-delay-500', {
+        delay: 360,
+        distance: '80px',
+        duration: 1100,
+        origin: 'bottom',
+        easing: 'cubic-bezier(.17,1.05,.88,1)'
+      });
     }
-    if(document.querySelector('.reveal-delay-600')) {
-      ScrollReveal().reveal('.reveal-delay-600', { delay: 400, distance: '80px', duration: 1200, origin: 'bottom', easing: 'cubic-bezier(.17,1.05,.88,1)' });
+    if (document.querySelector('.reveal-delay-600')) {
+      ScrollReveal().reveal('.reveal-delay-600', {
+        delay: 400,
+        distance: '80px',
+        duration: 1200,
+        origin: 'bottom',
+        easing: 'cubic-bezier(.17,1.05,.88,1)'
+      });
     }
-    if(document.querySelector('.reveal-delay-700')) {
-      ScrollReveal().reveal('.reveal-delay-700', { delay: 430, distance: '80px', duration: 1200, origin: 'bottom', easing: 'cubic-bezier(.17,1.05,.88,1)' });
+    if (document.querySelector('.reveal-delay-700')) {
+      ScrollReveal().reveal('.reveal-delay-700', {
+        delay: 430,
+        distance: '80px',
+        duration: 1200,
+        origin: 'bottom',
+        easing: 'cubic-bezier(.17,1.05,.88,1)'
+      });
     }
-    if(document.querySelector('.reveal-delay-4000')) {
-      ScrollReveal().reveal('.reveal-delay-4000', { delay: 130, distance: '80px', duration: 1200, origin: 'bottom', easing: 'cubic-bezier(.17,1.05,.88,1)' });
+    if (document.querySelector('.reveal-delay-4000')) {
+      ScrollReveal().reveal('.reveal-delay-4000', {
+        delay: 130,
+        distance: '80px',
+        duration: 1200,
+        origin: 'bottom',
+        easing: 'cubic-bezier(.17,1.05,.88,1)'
+      });
     }
-    if(document.querySelector('.reveal-left')) {
-      ScrollReveal().reveal('.reveal-left', { distance: '80px', origin: 'bottom', opacity: 0,  duration: 1100, easing: 'ease-in-out'})
+    if (document.querySelector('.reveal-left')) {
+      ScrollReveal().reveal('.reveal-left', {
+        distance: '80px',
+        origin: 'bottom',
+        opacity: 0,
+        duration: 1100,
+        easing: 'ease-in-out'
+      })
     }
-    if(document.querySelector('.reveal-right')) {
-      ScrollReveal().reveal('.reveal-right', { distance: '80px', origin: 'bottom', opacity: 0, duration: 1100, easing: 'ease-in-out'})
+    if (document.querySelector('.reveal-right')) {
+      ScrollReveal().reveal('.reveal-right', {
+        distance: '80px',
+        origin: 'bottom',
+        opacity: 0,
+        duration: 1100,
+        easing: 'ease-in-out'
+      })
     }
   }
 

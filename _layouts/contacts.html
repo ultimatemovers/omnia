@@ -1,40 +1,110 @@
-{% assign current_page = 'events' %}
+{% assign current_page = 'contacts' %}
 {% include head.html %}
 {% include nav.html %}
 <div id="contacts">
-  <div class="cover-image mb-12 md:mb-24" style="background-image: url({{page.main_img}});">
-    <div class="container mx-auto px-4">
-      <h1>
-        Contact <br> headline
-      </h1>
-      <div>
-        <svg id="Chevrons" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 55 55" class="img-svg">
-          <defs>
-            <filter id="f1" x="0" y="0" width="200%" height="200%">
-              <feOffset result="offOut" in="SourceGraphic" dx="1" dy="0.5" />
-              <feGaussianBlur result="blurOut" in="offOut" stdDeviation="1" />
-              <feBlend in="SourceGraphic" in2="blurOut" mode="normal" />
-            </filter>
-          </defs>
-          <path class="chevron" id='TopChevron' d="M52,4.2L28,23.7c-0.1,0.1-0.3,0.2-0.5,0.2c-0.2,0-0.3-0.1-0.5-0.2L3,4.2c-0.3-0.2-0.4-0.7-0.1-1
-  C3,3,3.2,2.9,3.5,2.9H9c0.2,0,0.3,0.1,0.4,0.2l18,14.6L45.5,3c0.1-0.1,0.3-0.2,0.5-0.2h5.6c0.3,0,0.6,0.2,0.7,0.5
-  C52.3,3.7,52.2,4,52,4.2z" />
-          <path class="chevron" id='MiddleChevron' d="M52,31.8L28,51.3c-0.1,0.1-0.3,0.2-0.5,0.2c-0.2,0-0.3-0.1-0.5-0.2L3,31.8c-0.3-0.2-0.4-0.7-0.1-1
-  c0.1-0.2,0.3-0.3,0.6-0.3H9c0.2,0,0.3,0.1,0.4,0.2l18,14.6l18-14.6c0.1-0.1,0.3-0.2,0.5-0.2h5.6c0.3,0,0.6,0.2,0.7,0.5
-  C52.3,31.3,52.2,31.6,52,31.8z" />
-          <path class="chevron" id='BottomChevron' d="M52,59.5L28,79c-0.1,0.1-0.3,0.2-0.5,0.2c-0.2,0-0.3-0.1-0.5-0.2L3,59.5c-0.3-0.2-0.4-0.7-0.1-1
-  c0.1-0.2,0.3-0.3,0.6-0.3H9c0.2,0,0.3,0.1,0.4,0.2l18,14.6l18-14.6c0.1-0.1,0.3-0.2,0.5-0.2h5.6c0.3,0,0.6,0.2,0.7,0.5
-  C52.3,59,52.2,59.3,52,59.5z" />
-        </svg>
+  <div style="background-image: url({{page.main_img}});">
+    <div class="w-full h-auto md:h-screen flex items-end" style="background-color: rgba(0,0,0,0.7);">
+      <div class="container mx-auto pb-8 pt-20 md:pb-20 px-4">
+        <div class="flex flex-col md:flex-row justify-between mb-8 md:mb-12">
+          <div class="w-full md:w-1/2 lg:mr-10 mt-24 md:mt-0">
+            <h2 class="middle-olive-text mb-8">Opening hours</h2>
+            <div class="little-white-text">
+              <div class="flex">
+                <div class="w-2/5 md:w-auto footer-opening-title"> Sunday </div>
+                <div class="pl-0 md:pl-8 lg:pl-48 little-white-text"> Closed </div>
+              </div>
+              <div class="flex">
+                <div class="w-2/5 md:w-auto footer-opening-title"> Monday </div>
+                <div class="pl-0 md:pl-8 lg:pl-48 little-white-text"> Closed </div>
+              </div>
+              <div class="flex">
+                <div class="w-2/5 md:w-auto footer-opening-title"> Tuesday </div>
+                <div class="pl-0 md:pl-8 lg:pl-48 little-white-text"> 5:30pm till late </div>
+              </div>
+              <div class="flex">
+                <div class="w-2/5 md:w-auto footer-opening-title"> Wednesday </div>
+                <div class="pl-0 md:pl-8 lg:pl-48 little-white-text"> 5:30pm till late </div>
+              </div>
+              <div class="flex">
+                <div class="w-2/5 md:w-auto footer-opening-title"> Thursday </div>
+                <div class="pl-0 md:pl-8 lg:pl-48 little-white-text"> 12pm till 2:30pm <br> 5:30pm till late </div>
+              </div>
+              <div class="flex">
+                <div class="w-2/5 md:w-auto footer-opening-title"> Friday </div>
+                <div class="pl-0 md:pl-8 lg:pl-48 little-white-text"> 12pm till 2:30pm <br> 5:30pm till late </div>
+              </div>
+              <div class="flex">
+                <div class="w-2/5 md:w-auto footer-opening-title"> Saturday </div>
+                <div class="pl-0 md:pl-8 lg:pl-48 little-white-text"> 12pm till 2:30pm <br> 5:30pm till late </div>
+              </div>
+            </div>
+          </div>
+          <div class="w-full md:w-1/2 lg:ml-10 mt-16 md:mt-0">
+            <h2 class="middle-olive-text mb-8">Contact details</h2>
+            <div class="little-white-text">
+              <div class="flex">
+                <div class="w-2/5 md:w-auto footer-contact-title"> Phone </div>
+                <div class="pl-0 md:pl-8 lg:pl-48 little-white-text w-56 md:w-auto">
+                  <a class="little-white-text" href="tel:0380808080">03 8080 8080</a>
+                </div>
+              </div>
+              <div class="flex">
+                <div class="w-2/5 md:w-auto footer-contact-title"> Email </div>
+                <div class="pl-0 md:pl-8 lg:pl-48 little-white-text w-56 md:w-auto">
+                  <a
+                    class="little-white-text"
+                    href="mailto:info@omniabistro.com.au?subject=Omnia%20Bistro%20Email%20Enquiry"
+                  >
+                    info@omniabistro.com.au
+                  </a>
+                </div>
+              </div>
+              <div class="flex">
+                <div class="w-2/5 md:w-auto footer-contact-title"> Address </div>
+                <div class="pl-0 md:pl-8 lg:pl-48 w-56 md:w-auto">
+                  <a href="https://www.google.com/maps/place/Omnia+Bistro+And+Restaurant+South+Yarra/@-37.8389116,144.9953926,15z/data=!4m5!3m4!1s0x0:0x8354098583c6a976!8m2!3d-37.8389116!4d144.9953926"
+                    target="_blank">
+                    <div class="little-white-text">
+                      625 Chapel Street <br> South Yarra, VIC 3141 <br> (Cnr Chapel St & Toorak Rd)
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="flex flex-col md:flex-row">
+          <div class="w-full md:w-1/2 md:mr-10">
+            <h2 class='middle-white-title mb-8'>Careers</h2>
+            <p class="middle-olive-text mb-12">Are you interested in <br> joining our team? </p>
+            <a href="mailto:hannah.malka@wallst.com.au" target="_blank" class="olive-btn flex justify-center items-center">join now</a>
+          </div>
+          <div class="w-full md:w-1/2 md:ml-10 mt-16 md:mt-0">
+            <h2 class='middle-white-title mb-8'>Subscribe</h2>
+            <p class="middle-olive-text mb-12">JOIN THE OMNIA FAMILY FOR YOUR CHANCE TO WIN
+              A $250 DINING EXPERIENCE </p>
+            <button class="olive-btn openPopup">SUBSCRIBE TO OUR NEWSLETTER</button>
+          </div>
+        </div>
+        <div class="footer-bottom md:flex md:flex-wrap md:justify-between md:hidden mt-16">
+          <div class="flex flex-col md:flex-row md:items-center border-b md:border-0" style="border-color: #A3A792;">
+            <div class="flex mb-3 md:mb-0">
+              <a href="https://www.instagram.com/omniabistro/" target="_blank">
+                <img class="mr-2" src="/img/instagram.svg" alt="instagram icon"></a>
+              <a href="https://www.facebook.com/omniabistro/" target="_blank">
+                <img class="mr-2" src="/img/facebook.svg" alt="facebook icon"></a>
+            </div>
+            <p class="mb-3 md:mb-0 md:mx-8">
+              <a href="https://www.google.com/maps/place/Omnia+Bistro+And+Restaurant+South+Yarra/@-37.8389116,144.9953926,15z/data=!4m5!3m4!1s0x0:0x8354098583c6a976!8m2!3d-37.8389116!4d144.9953926"
+                target="_blank">625 Chapel Street South Yarra</a>
+            </p>
+            <p class="mb-3 md:mb-0">
+              <a href="mailto:info@omniabistro.com.au"> info@omniabistro.com.au</a>
+            </p>
+          </div>
+          <p class="w-full md:w-auto md:text-left mt-4 md:mt-0">Copiright &copy; 2022 Omnia Bistro</p>
+        </div>
       </div>
-    </div>
-  </div>
-  <div class="container mx-auto main-content p-12 md:p-24">
-    <p class="pt-20 pb-8 middle-olive-text reveal">{{page.text}} </p>
-    <a href="https://www.opentable.com.au/r/omnia-bistro-and-bar-reservations-south-yarra?restref=60050&ref=10813&lang=en-AU"
-      target="_blank" class="contact-button mt-20  reveal-delay-200 p-4  w-full md:w-64">
-      <p class="text-white p-3">Book a table</p>
-    </a><!--w-full md:w-80-->
+    </div> 
   </div>
 </div>
-{% include footer.html %}

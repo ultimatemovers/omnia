@@ -712,7 +712,7 @@ background-color: #F2E8C3;
   font-size: 90px;
   padding-bottom: 15px;
   border-bottom: 2px solid #C1A973;
-  width: 600px;
+  width: 800px;
   text-transform: uppercase;
   text-align: center;
   margin: 0 auto;
@@ -841,17 +841,26 @@ text-transform: uppercase;
 }
 
 #events select {
-  font-size: 12px;
+  font-size: 16px;
+}
+
+.event-text p {
+  margin-top: 12px;
+}
+
+.event-text h6 em{
+  font-size: 1.1em;
+}
+
+.event-text p em{
+  font-size: 1.1em;
+  text-decoration: underline;
 }
 
 /*.event-img {
   margin-right: 40px;
 }
 
-.event-text {
-  margin-left: 40px;
-  padding-right: 80px;
-}
 
 .event-item:nth-child(odd) {
   flex-direction: row-reverse;
@@ -904,6 +913,9 @@ text-transform: uppercase;
   background-color: #EEEDE5;
 }
 
+.input::placeholder {
+  font-size: 16px;
+}
 
 .input:focus {
   outline: none;
@@ -1258,6 +1270,7 @@ border-bottom: 2px solid #A3A792;;
     padding-right: 80px;
   }
 
+
   .event-item:nth-child(odd) {
     flex-direction: row-reverse;
   }
@@ -1275,11 +1288,22 @@ border-bottom: 2px solid #A3A792;;
   }
 
   .member-item:nth-child(even) .member-text {
-    margin-right: 80px;
+    margin-left: 80px;
     padding-right: 80px;
-    }
+  }
 
   .member-item:nth-child(odd) .member-text {
+    margin-right: 0;
+    padding-right: 80px;
+    margin-right: 80px;
+  }
+
+  .venue-item:nth-child(even) .member-text {
+    margin-right: 80px;
+    padding-right: 80px;
+  }
+
+  .venue-item:nth-child(odd) .member-text {
     margin-right: 0;
     padding-right: 80px;
     margin-left: 80px;
@@ -1423,6 +1447,14 @@ border-bottom: 2px solid #A3A792;;
     width: 100%;
   }
 
+  .section-text {
+    padding-right: 0;
+  }
+
+  .project-title  {
+    margin-top: 12px;
+  }
+
 
   /*  -----------------  */
   /*    F   O   O   D    */
@@ -1509,6 +1541,19 @@ border-bottom: 2px solid #A3A792;;
     margin-left: 0;
     margin-right: 0;
   }
+
+  /*  ------------------  */
+  /*   C O N T A C T S    */
+  /*  ------------------  */
+
+
+  #contacts > div {
+    background-image: none !important;
+  }
+  #contacts > div > div{
+    background-color: rgba(0,0,0,0) !important
+  }
+
 
 }
 

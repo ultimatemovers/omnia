@@ -30,7 +30,10 @@
       </div>
     </div>
   </div>
-  <div class="container mx-auto main-content p-12 md:p-24 md:px-4">
+  <div class="container mx-auto main-content py-8 px-4 md:p-12 md:p-24 md:px-4">
+    <h3 class="olive mb-32 md:-mt-20 text-xl">
+      {{ page.subtitle }}
+    </h3>
     <div>
       <h2 class="events-title reveal">{{page.team_title}}</h2>
     </div>
@@ -125,9 +128,9 @@
           {% assign index = forloop.index0 | modulo: 2 %}
 
           {% if index == 0 %}
-          <div class="flex justify-between flex-col-reverse lg:flex-row-reverse pt-16 mb-8 md:mb-20 member-item ">
+          <div class="flex justify-between flex-col-reverse lg:flex-row-reverse pt-16 mb-8 md:mb-20 venue-item">
             {% else %}
-            <div class="flex justify-between flex-col-reverse lg:flex-row pt-16 mb-8 md:mb-20 member-item ">
+            <div class="flex justify-between flex-col-reverse lg:flex-row pt-16 mb-8 md:mb-20 venue-item">
               {% endif %}
 
               <div class="blue lg:w-1/2 member-text">
