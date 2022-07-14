@@ -38,7 +38,7 @@
 
     {% for event in page.events %}
     {% assign index = forloop.index0 | modulo: 2 %}
-    <div class="lg:flex justify-between pt-8 lg:pt-16 mb-20 event-item">
+    <div class="lg:flex justify-between items-center pt-8 lg:pt-16 mb-20 event-item">
       <div class="lg:w-1/2 event-img">
         {% if index == 0 %}
         <img src="{{event.img}}" class="img-radius reveal-left">
@@ -46,7 +46,7 @@
         <img src="{{event.img}}" class="img-radius reveal-right">
         {% endif %}
       </div>
-      <div class="pt-8 md:pt-16 olive lg:w-1/2 event-text">
+      <div class="pt-8 md:pt-0 olive lg:w-1/2 event-text">
         {% if index == 0 %}
         <h3 class="pb-8 section-title border-class reveal-right">{{event.title}}</h3>
         <div class="mb-12 olive reveal-right">{{event.text | markdownify}}</div>
