@@ -1006,7 +1006,7 @@ background-color: #AEB3A1;
 
 .accordion-opened .accordion-description {
   /* padding-top: 16px; */
-  max-height: 30px;
+  max-height: 300px;
   -webkit-transition: max-height 0.8s ease-in;
   -o-transition: max-height 0.8s ease-in;
   transition: max-height 0.8s ease-in;
