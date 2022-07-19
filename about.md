@@ -41,7 +41,7 @@ place_title: The Place
 space_title: The Space
 produce: The produce
 hospitality_title: LK Hospitality
-produce_title: The produce
+produce_title: Key suppliers
 space_text: Omnia Bar & Bistro is a venue that serves up experiences for every mood.
   It’s cool, comfortable and eclectic in its ability to host everything from a bustling
   business lunch to an intimate dinner date. Like everything in this building, the
