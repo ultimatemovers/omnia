@@ -30,9 +30,9 @@
       </div>
     </div>
   </div>
-  <div class="container mx-auto main-content py-8 px-4 md:p-12 md:p-24 md:px-4">
+  <div class="container mx-auto main-content py-8 px-4 md:p-12 md:p-24 md:px-4 md:pt-1">
     <h3 class="olive mb-32 md:-mt-20 text-xl reveal">
-      {{ page.subtitle }}
+      <!-- {{ page.subtitle }} -->
     </h3>
     <div>
       <h2 class="events-title reveal">{{page.team_title}}</h2>
@@ -41,41 +41,44 @@
     {% for team_member in page.team_members %}
     {% assign index = forloop.index0 | modulo: 2 %}
 
-    {% if index == 0 %}
-    <div class="flex justify-between flex-col-reverse lg:flex-row pt-24 member-item">
+      {% if index == 0 %}
+        <div class="flex justify-between flex-col-reverse lg:flex-row pt-24 member-item">
       {% else %}
-      <div class="flex justify-between flex-col-reverse lg:flex-row-reverse pt-24 member-item">
+        <div class="flex justify-between flex-col-reverse lg:flex-row-reverse pt-24 member-item">
+      {% endif %}
+
+      <div class=" blue lg:w-1/2 member-text">
+        <!--pt-8 md:pt-16-->
+        {% if index == 0 %}
+        <h3 class="pb-4 middle-white-title reveal-left">{{team_member.name}}</h3>
+        <h3 class="pb-2 mb-2  border-class uppercase reveal-left">{{team_member.title}}</h3>
+        <p class="mb-12 blue reveal-left">{{team_member.text}}</p>
+        <a href="https://www.opentable.com.au/r/omnia-bistro-and-bar-reservations-south-yarra?restref=60050&ref=10813&lang=en-AU"
+          target="_blank" class="olive-btn reveal-left">Book a table</a>
+        {% else %}
+        <h3 class="pb-8 middle-white-title reveal-right">{{team_member.name}}</h3>
+        <h3 class="pb-4 mb-4 border-class uppercase reveal-right">{{team_member.title}}</h3>
+        <p class="mb-8 blue reveal-right">{{team_member.text}}</p>
+        <a href="https://www.opentable.com.au/r/omnia-bistro-and-bar-reservations-south-yarra?restref=60050&ref=10813&lang=en-AU"
+          target="_blank" class="olive-btn reveal-right">Book a table</a>
         {% endif %}
-
-        <div class=" blue lg:w-1/2 member-text">
-          <!--pt-8 md:pt-16-->
-          {% if index == 0 %}
-          <h3 class="pb-4 middle-white-title reveal-left">{{team_member.name}}</h3>
-          <h3 class="pb-2 mb-2  border-class uppercase reveal-left">{{team_member.title}}</h3>
-          <p class="mb-12 blue reveal-left">{{team_member.text}}</p>
-          <a href="https://www.opentable.com.au/r/omnia-bistro-and-bar-reservations-south-yarra?restref=60050&ref=10813&lang=en-AU"
-            target="_blank" class="olive-btn reveal-left">Book a table</a>
-          {% else %}
-          <h3 class="pb-8 middle-white-title reveal-right">{{team_member.name}}</h3>
-          <h3 class="pb-4 mb-4 border-class uppercase reveal-right">{{team_member.title}}</h3>
-          <p class="mb-8 blue reveal-right">{{team_member.text}}</p>
-          <a href="https://www.opentable.com.au/r/omnia-bistro-and-bar-reservations-south-yarra?restref=60050&ref=10813&lang=en-AU"
-            target="_blank" class="olive-btn reveal-right">Book a table</a>
-          {% endif %}
-        </div>
-        <div class="lg:w-1/2 member-img">
-          {% if index == 0 %}
+      </div>
+      
+      <div class="lg:w-1/2 member-img">
+        {% if index == 0 %}
           <img src="{{team_member.img}}" class="img-border-radius reveal-right">
-          {% else %}
+        {% else %}
           <img src="{{team_member.img}}" class="img-border-radius reveal-left">
-          {% endif %}
-
+        {% endif %}
         </div>
       </div>
       {% endfor %}
 
       <div class="pt-24">
-        <div class="pt-8 pb-8">
+
+        <!-- THE PLACE section -->
+
+        <!-- <div class="pt-8 pb-8">
           <h2 class="events-title reveal">{{page.place_title}}</h2>
           <div class="flex flex-col-reverse md:flex-col">
             <div class="flex justify-center">
@@ -83,8 +86,11 @@
             </div>
             <img src="{{page.place_img}}" class="img-border-radius mt-12 reveal">
           </div>
-        </div>
-        <div class="pt-24">
+        </div> -->
+
+        <!-- THE SPACE section -->
+
+        <!-- <div class="pt-24">
           <h2 class="events-title reveal">{{page.space_title}}</h2>
           <div class="flex flex-col-reverse md:flex-col">
             <div class="flex justify-center">
@@ -92,12 +98,13 @@
             </div>
             <img src="{{page.space_img}}" class="img-border-radius mt-12 reveal">
           </div>
-        </div>
+        </div> -->
+
         <div class="pt-24">
           <h2 class="events-title reveal">{{page.produce_title}}</h2>
           <div class="flex flex-col md:flex-row justify-between items-start pt-24">
-            <h3 class="md:w-1/2 flex produce-middle-title reveal-delay-200">{{page.produce_little-title}}</h3>
-            <p class="md:w-1/2  flex middle-olive-text reveal-delay-400">{{page.produce_text}}</p>
+            <!-- <h3 class="md:w-1/2 flex produce-middle-title reveal-delay-200">{{page.produce_little-title}}</h3> -->
+            <p class="flex middle-olive-text reveal-delay-400">{{page.produce_text}}</p>
             <!---produce-middle-title-->
           </div>
           <div class="partners pt-24">
@@ -110,7 +117,6 @@
                   <img class="open-accordion" src="/img/plus.svg" alt="">
                 </div>
               </div>
-              <!---partner-title -->
 
               <div class="accordion-description partner-text md:w-1/2 olive">
                 {{partner.text}}
@@ -122,32 +128,31 @@
         <div class="pt-24">
           <h2 class="events-title reveal">{{page.hospitality_title}}</h2>
           <div class="flex justify-center">
-            <p class="mt-8  inline  section-text olive reveal">{{page.hospitality_text}}</p>
+            <p class="mt-8  inline  section-text olive reveal mb-20">{{page.hospitality_text}}</p>
           </div>
           {% for project in page.projects %}
           {% assign index = forloop.index0 | modulo: 2 %}
 
           {% if index == 0 %}
-          <div class="flex justify-between flex-col-reverse lg:flex-row-reverse pt-16 mb-8 md:mb-20 venue-item">
-            {% else %}
-            <div class="flex justify-between flex-col-reverse lg:flex-row pt-16 mb-8 md:mb-20 venue-item">
-              {% endif %}
+            <div class="flex justify-between flex-col-reverse lg:flex-row-reverse pt-12 mb-8 md:mb-16 venue-item">
+          {% else %}
+            <div class="flex justify-between flex-col-reverse lg:flex-row pt-12 mb-8 md:mb-16 venue-item">
+          {% endif %}
 
-              <div class="blue lg:w-1/2 member-text">
+              <div class="blue lg:w-3/5 member-text">
                 {% if index == 0 %}
-                <h3 class="pb-8 project-title reveal-right">{{project.title}}</h3>
-                <p class="project-text olive reveal-right">{{project.text}}</p>
+                  <h3 class="pb-8 project-title reveal-right">{{project.title}}</h3>
+                  <p class="project-text olive reveal-right">{{project.text}}</p>
                 {% else %}
-                <h3 class="pb-8 project-title reveal-left">{{project.title}}</h3>
-                <p class="project-text olive reveal-left">{{project.text}}</p>
+                  <h3 class="pb-8 project-title reveal-left">{{project.title}}</h3>
+                  <p class="project-text olive reveal-left">{{project.text}}</p>
                 {% endif %}
-
               </div>
-              <div class="lg:w-1/2 member-img">
+              <div class="lg:w-2/5 member-img">
                 {% if index == 0 %}
-                <img src="{{project.img}}" class="img-border-radius reveal-left">
+                  <img src="{{project.img}}" class="img-border-radius reveal-left">
                 {% else %}
-                <img src="{{project.img}}" class="img-border-radius reveal-right">
+                  <img src="{{project.img}}" class="img-border-radius reveal-right">
                 {% endif %}
               </div>
             </div>

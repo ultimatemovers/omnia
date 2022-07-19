@@ -374,16 +374,24 @@ header.site-header{
   position: fixed;
   left: 0;
   right: 0;
-  top: 80px;
+  top: 60px;
   padding: 0 80px;
   /* width: 92%; */
 }
+
 
 .voucher-btn a{
   font-size: 14px;
   color: #fff;
   font-weight: 600;
   text-underline-offset: 4px;
+}
+
+header .voucher-btn a{
+  font-size: 13px;
+}
+header .make-booking-btn {
+  font-size: 12px;
 }
 
 .voucher-btn:hover .line {
@@ -474,7 +482,7 @@ nav .terms-conditions div a{
 }
 
 nav .newsletter {
-  margin: 40px 0;
+  margin: 28px 0 40px;
   transition: 0.4s;
 }
 
@@ -498,7 +506,7 @@ nav .newsletter span:hover {
 
 nav .promotion-headline {
   color: #225367;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 20px;
   margin-top: 40px;
 }
@@ -534,7 +542,7 @@ nav ul.navigation li:nth-child(9) {
 }
 
 nav ul.navigation li a {
-  font-size: 36px;
+  font-size: 34px;
   text-transform: uppercase;
   color: #F0E1AD;
   transition: 0.4s;
@@ -982,7 +990,7 @@ background-color: #AEB3A1;
   border: 1px solid #F0E1AD;
   margin-bottom: 40px;
   border-radius: 25px;
-  padding: 30px;
+  padding: 24px 32px;
   position: relative;
 
 }
@@ -998,7 +1006,7 @@ background-color: #AEB3A1;
 
 .accordion-opened .accordion-description {
   /* padding-top: 16px; */
-  max-height: 400px;
+  max-height: 30px;
   -webkit-transition: max-height 0.8s ease-in;
   -o-transition: max-height 0.8s ease-in;
   transition: max-height 0.8s ease-in;
@@ -1023,12 +1031,9 @@ background-color: #AEB3A1;
   -webkit-transition: all 0.2s ease-in-out;
   -o-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
-}
-
-.partner-title {
-   font-size: 32px;
-   text-transform: uppercase;
-   width: 100%;
+  font-size: 26px;
+  text-transform: uppercase;
+  width: 100%;
 }
 
 .partner-text p {
@@ -1037,12 +1042,8 @@ background-color: #AEB3A1;
   transition: all 0.3s ease-in-out;
 }
 
-
-/*color: #F0E1AD;*/
-
 .section-text {
   font-size: 24px;
-  /*text-transform: uppercase ;*/
   padding-right: 90px;
 
 }
@@ -1329,7 +1330,7 @@ border-bottom: 2px solid #A3A792;;
   }
 
   nav ul.navigation li a {
-    font-size: 28px;
+    font-size: 26px;
   }
 
   nav .promotion-headline {
