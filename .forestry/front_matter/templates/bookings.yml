@@ -64,5 +64,10 @@ fields:
   config:
     required: false
   label: third column first text
+- name: third_column_second_text
+  type: text
+  config:
+    required: false
+  label: third column second text
 pages:
 - bookings.md
