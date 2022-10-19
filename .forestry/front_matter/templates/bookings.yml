@@ -14,16 +14,16 @@ fields:
   config:
     required: false
   label: big title
-- name: first_column
+- name: first_text
   type: text
   config:
     required: false
-  label: first_column
-- name: second_column
+  label: first_text
+- name: second_text
   type: text
   config:
     required: false
-  label: second column
+  label: second_text
 - name: main_img
   type: file
   config:
