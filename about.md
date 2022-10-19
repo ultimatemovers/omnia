@@ -1,12 +1,6 @@
 ---
 layout: about
 team_members:
-- name: Stephen Nairn
-  title: CULINARY DIRECTOR
-  text: |-
-    Stephen Nairn creates food with community at its focus. Produce driven dishes with stories
-    to be heard and tasted. Building relationships with Australian growers and producers, Stephen sources the best products and uses them at their peak. A career earmarked by a passion for every aspect of hospitality, where a memorable experience is defined by the details. Stephen’s award winning career has found him at Matilda, Vu de monde, and New York’s 3-Michelin Star institution, Eleven Madison Park.
-  img: "/assets/images/member1.jpg"
 - name: Laurent Tapumilla
   title: Restaurant Manager
   text: Manager Laurent Tapumilla brings a wealth of experience and a dash of French
