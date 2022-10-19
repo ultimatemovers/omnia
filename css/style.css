@@ -973,7 +973,7 @@ background-color: #AEB3A1;
 
 #about .member-item:nth-child(odd) .img-border-radius,
 #about .member-item:nth-child(even) .img-border-radius {
-  border-radius: 40px;
+  border-radius: 65px;
 }
 
 #about .produce-middle-title{
@@ -1055,7 +1055,7 @@ background-color: #AEB3A1;
 }
 
 .project-text {
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .border-class  {

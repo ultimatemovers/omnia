@@ -48,7 +48,6 @@
       {% endif %}
 
       <div class=" blue lg:w-1/2 member-text">
-        <!--pt-8 md:pt-16-->
         {% if index == 0 %}
         <h3 class="pb-4 middle-white-title reveal-left">{{team_member.name}}</h3>
         <h3 class="pb-2 mb-2  border-class uppercase reveal-left">{{team_member.title}}</h3>
@@ -103,9 +102,7 @@
         <div class="pt-24">
           <h2 class="events-title reveal">{{page.produce_title}}</h2>
           <div class="flex flex-col md:flex-row justify-between items-start pt-24">
-            <!-- <h3 class="md:w-1/2 flex produce-middle-title reveal-delay-200">{{page.produce_little-title}}</h3> -->
             <p class="flex middle-olive-text reveal-delay-400">{{page.produce_text}}</p>
-            <!---produce-middle-title-->
           </div>
           <div class="partners pt-24">
             {% for partner in page.partners %}
@@ -125,18 +122,19 @@
             {% endfor %}
           </div>
         </div>
-        <div class="pt-24">
+        <div class="pt-24 ">
           <h2 class="events-title reveal">{{page.hospitality_title}}</h2>
           <div class="flex justify-center">
-            <p class="mt-8  inline  section-text olive reveal mb-20">{{page.hospitality_text}}</p>
+            <p class="mt-8  inline  section-text olive reveal mb-10">{{page.hospitality_text}}</p>
           </div>
+          <div class="md:px-16">
           {% for project in page.projects %}
           {% assign index = forloop.index0 | modulo: 2 %}
 
           {% if index == 0 %}
-            <div class="flex justify-between flex-col-reverse lg:flex-row-reverse pt-12 mb-8 md:mb-16 venue-item">
+            <div class="flex justify-between flex-col-reverse lg:flex-row-reverse pt-8 mb-8 venue-item"><!--md:mb-16-->
           {% else %}
-            <div class="flex justify-between flex-col-reverse lg:flex-row pt-12 mb-8 md:mb-16 venue-item">
+            <div class="flex justify-between flex-col-reverse lg:flex-row pt-8 mb-8 venue-item"><!--md:mb-16-->
           {% endif %}
 
               <div class="blue lg:w-3/5 member-text">
@@ -148,7 +146,7 @@
                   <p class="project-text olive reveal-left">{{project.text}}</p>
                 {% endif %}
               </div>
-              <div class="lg:w-2/5 member-img">
+              <div class="lg:w-1/3 member-img">
                 {% if index == 0 %}
                   <img src="{{project.img}}" class="img-border-radius reveal-left">
                 {% else %}
@@ -159,6 +157,7 @@
             {% endfor %}
           </div>
         </div>
+        <div>
 
 
         <div class="mt-16 md:mt-32 md:mb-16">

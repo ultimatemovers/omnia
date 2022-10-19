@@ -51,21 +51,17 @@
         <div class="reveal-right">
           <h3 class="pb-8 section-title border-class">{{event.title}}</h3>
           <div class="mb-12 olive">{{event.text | markdownify}}</div>
-          <a href="https://www.opentable.com.au/r/omnia-bistro-and-bar-reservations-south-yarra?restref=60050&ref=10813&lang=en-AU"
-            target="_blank" class="olive-btn mt-4">Book a table</a>
         </div>
         {% else %}
         <div class="reveal-left">
           <h3 class="pb-8 section-title border-class">{{event.title}}</h3>
           <div class="mb-12 olive">{{event.text | markdownify}}</div>
-          <a href="https://www.opentable.com.au/r/omnia-bistro-and-bar-reservations-south-yarra?restref=60050&ref=10813&lang=en-AU"
-            target="_blank" class="olive-btn mt-4">Book a table</a>
         </div>
         {% endif %}
       </div>
     </div>
     {% endfor %}
-    <div class="">
+    <!--<div class="">
       <h2 class="events-title reveal">EXCLUSIVE Events</h2>
       <h3 class="private-title mt-24 md:mt-48 reveal">HOST YOUR PRIVATE EVENT AT OMNIA</h3>
     </div>
@@ -87,7 +83,7 @@
         <p class="pb-4 md:pb-8 blue reveal">{{page.third_column_first_text}}</p>
         <p class="pb-4 md:pb-8 blue reveal">{{page.third_column_second_text}}</p>
       </div>
-    </div>
+    </div>-->
     <h2 class="form-title md:w-1/2 reveal">FOR EXCLUSIVE EVENT INQUIRIES PLEASE CONTACT OUR TEAM USING THE FORM BELOW:
     </h2>
     <form class="mb-40" method="POST" action="https://formsubmit.co/362e1c9da30cac6214d550bd9280f7f0">
