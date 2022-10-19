@@ -29,5 +29,40 @@ fields:
   config:
     maxSize: 64
   label: main_img
+- name: first_column_first_text
+  type: text
+  config:
+    required: false
+  label: first column first text
+- name: first_column_second_text
+  type: text
+  config:
+    required: false
+  label: first column second text
+- name: second_column_first_text
+  type: text
+  config:
+    required: false
+  label: second column first text
+- name: second_column_second_text
+  type: text
+  config:
+    required: false
+  label: second column second text
+- name: second_column_third_text
+  type: text
+  config:
+    required: false
+  label: second column third text
+- name: second_column_fourth_text
+  type: text
+  config:
+    required: false
+  label: second column fourth text
+- name: third_column_first_text
+  type: text
+  config:
+    required: false
+  label: third column first text
 pages:
 - bookings.md
