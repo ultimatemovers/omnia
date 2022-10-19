@@ -19,5 +19,10 @@ fields:
   config:
     required: false
   label: text
+- name: career_text
+  type: text
+  config:
+    required: false
+  label: career text
 pages:
 - contacts.md
