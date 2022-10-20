@@ -1,33 +1,12 @@
 ---
 layout: about
 team_members:
-- name: Laurent Tapumilla
-  title: Restaurant Manager
-  text: Manager Laurent Tapumilla brings a wealth of experience and a dash of French
-    flair to the table. His background in hotel and restaurant establishments means
-    that he runs a smooth operation as Omnia’s team leader, even on the busiest days
-    in our popular bar and bistro. Laurent is here to ensure you enjoy a comfortable,
-    quality experience on every occasion.
-  img: "/assets/images/member2.jpg"
-- name: Evin Doherty
-  title: Head Chef
-  text: As one of Melbourne’s most sought after up-and-coming culinary craftsmen,
-    Evin takes his kaleidoscope of experience and infuses creativity into every dish.  He
-    began his career at a family hotel restaurant in Ireland and built an impressive
-    reputation working his way up in Michelin starred and hatted restaurants. His
-    restaurant repertoire has given birth to a talent for delivering casual bistro
-    dining with an added touch of class. See him work his magic in the Omnia open
-    kitchen.
+- name: Stephen Nairn
+  title: Culinary director
+  text: |-
+    Our menu changes seasonally, supporting Australian growers, producers and farmers.
+    From legasy giants to rockstar growers and producers, our wine list features a selection of our personal favorites from Australia and around the world, including an enticing collection of Champagnes.
   img: "/assets/images/member1.jpg"
-- name: Orlando Marzo
-  title: Cocktail creator
-  text: When the time came to define a vision for bespoke beverages in our bar and
-    bistro, we recruited the very best. Orlando Marzo is the recipient of the 2018  World
-    Class Global Bartender of the Year award and an international expert in cocktail
-    and food pairing. His reputation as a mixologist skyrocketed on a journey that
-    took him from his native Italy to London’s renowned Soho club scene and now to
-    our very own Omnia bar. Take a sip and see what all the beverage buzz is about.
-  img: "/assets/images/member2.jpg"
 bottom_img: "/assets/images/team_bottom.jpg"
 team_title: The people
 main_title: THE STORY BEHIND EVERY BITE
