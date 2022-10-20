@@ -1,11 +1,13 @@
 ---
 layout: about
 team_members:
-- name: Stephen Nairn
-  title: Culinary director
-  text: |-
-    Our menu changes seasonally, supporting Australian growers, producers and farmers.
-    From legasy giants to rockstar growers and producers, our wine list features a selection of our personal favorites from Australia and around the world, including an enticing collection of Champagnes.
+- name: Laurent Tapumilla
+  title: Restaurant Manager
+  text: Manager Laurent Tapumilla brings a wealth of experience and a dash of French
+    flair to the table. His background in hotel and restaurant establishments means
+    that he runs a smooth operation as Omnia’s team leader, even on the busiest days
+    in our popular bar and bistro. Laurent is here to ensure you enjoy a comfortable,
+    quality experience on every occasion.
   img: "/assets/images/member1.jpg"
 bottom_img: "/assets/images/team_bottom.jpg"
 team_title: The people
