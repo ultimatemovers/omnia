@@ -103,6 +103,7 @@ html, body, div, p {
   color: #251C16;
 }
 
+
 .footer-bottom {
   padding-top: 20px;
   border-top: 1px solid  #A3A792;
@@ -113,8 +114,6 @@ html, body, div, p {
 .footer-bottom p a {
   font-size: 14px;
 }
-
-
 
 .olive-btn {
   display: block;
@@ -179,6 +178,10 @@ th {
   font-family: 'Avenir LT Std';
   font-size: 18px;
   font-weight: lighter;
+}
+
+.custom-bg-yellow {
+  background-color: #F2E8C3;
 }
 
 .custom-bg-gray {
@@ -1319,10 +1322,37 @@ border-bottom: 2px solid #A3A792;;
 }
 
 @media (max-width: 450px) {
+
+  
   header.site-header {
-    top: 40px;
-    padding: 0 16px;
+    /*top: 40px;*/
+    top: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 16px;
+    padding-right: 16px;
+    /*padding: 0 16px;*/
   }
+
+  header.site-header.green {
+   background-color: #AEB3A1;
+   top: 0px;
+  }
+
+  header.site-header.yellow { 
+    background-color: #F2E8C3;
+    top: 0px;
+   }
+
+  header.site-header.white {
+    background-color: #EEEDE5;
+   }
+
+
+   header.site-header.transparent {
+    background-color: transparent;
+   }
+
 
   nav {
     margin-left: 40px;

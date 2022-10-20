@@ -15,6 +15,27 @@
     })
   }
 
+  let siteHeader = document.querySelector('.site-header')
+
+  window.addEventListener('scroll', function() {
+    let scroll = window.scrollY;
+    if (scroll > 30 ) {
+       if (document.URL.includes("food") ){
+        siteHeader.classList.add('yellow')
+      }
+      else  if (document.URL.includes("bookings") || document.URL.includes("events") ){
+        siteHeader.classList.add('white')
+      }
+      else {
+        siteHeader.classList.add('green')
+      }
+      } else {
+      siteHeader.classList.remove('yellow')
+      siteHeader.classList.remove('white')
+      siteHeader.classList.remove('green')
+    }
+});
+
 
   if(downButton){
     downButton.addEventListener('click', scrollDownScreen)
@@ -102,7 +123,7 @@
 
     // opens menu
     if (!TOGGLE_MENU) {
-
+      siteHeader.classList.add('transparent') //for navigation page on mobile
       if (window.innerWidth > 450) {
         navLogo.classList.remove('hidden')
         logo.classList.add('hidden')
@@ -114,6 +135,7 @@
     }
 
     if (TOGGLE_MENU) {
+      siteHeader.classList.remove('transparent') //for navigation page on mobile
       document.body.style = ""
       navigationPage.classList.add('close')
       navLogo.classList.add('hidden')
