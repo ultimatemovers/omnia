@@ -209,8 +209,11 @@ menu:
     end the night with our well loved Lemon Myrtle Gimlet and Saffron Negroni.
   menu-group-image: ''
   categories:
-  - category_title: Signature coctails
-    products: []
+  - category_title: martini
+    products:
+    - product_title: Gazander Oyster Martini
+      product_description: Oyster infused gin, dry vermouth
+      product_price: "30"
   - category_title: Non Alcoholic digestive
     products: []
   - category_title: Cellar wine by the glass
