@@ -168,9 +168,9 @@ menu:
     - product_title: Honest egg, curry, chive & buckwheat
       product_description: ''
       product_price: "11"
-    - product_title: product title
+    - product_title: Jonella farm asparagus, zucchini & mint puree
       product_description: ''
-      product_price: ''
+      product_price: "24"
     - product_title: product title
       product_description: ''
       product_price: ''
