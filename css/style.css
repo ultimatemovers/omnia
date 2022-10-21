@@ -625,23 +625,13 @@ body#homepage {
 
 }
 
-.homepage-title {
-  color: #F0E1AD;
-  /*font-family: 'Avenir LT Std';*/
+#homepage .cover-image h1 {
   text-transform: uppercase;
-  font-size: 20px;
-  line-height: 28px;
+  font-size: 40px;
+  line-height: 45px;
 }
 
-.homepage-title {
-  font-size: 40px;
-  line-height: 50px;
-  text-transform: uppercase;
-  color: #F0E1AD;
-  max-width: 60%;
-  margin-top: -600px;
-  min-height: 240px;
-}
+
 
 .omnia-title {
   color: #F0E1AD;
