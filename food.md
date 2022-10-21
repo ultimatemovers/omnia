@@ -122,9 +122,9 @@ menu:
     - product_title: Liquid centre cheesecake with passionfruit sorbet
       product_description: " "
       product_price: "16"
-    - product_title: Blackmore
-      product_description: " ‍Blue moon chips, peppercorn sauce "
-      product_price: "100"
+    - product_title: Bitter almond mousse, frozen coconut & mango caramel
+      product_description: ''
+      product_price: "16"
     - product_title: Blackmore
       product_description: " ‍Blue moon chips, peppercorn sauce "
       product_price: "100"
