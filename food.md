@@ -245,9 +245,10 @@ menu:
       product_description: Belverede vodka, jasmine, strawberry and rose jus fraise,
         fresh roses
       product_price: "25"
-    - product_title: product title
-      product_description: ''
-      product_price: ''
+    - product_title: Elderflower
+      product_description: Tanqueray gin, st Germain, elderflower cardial, orange
+        blossom
+      product_price: "25"
 - menu_group_title: Non Alcoholic selection
   menu_group_name: ''
   menu_group_text: A collaboration of our kitchen and wait teams. Non-alcoholic digestives
