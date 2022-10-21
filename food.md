@@ -265,9 +265,9 @@ menu:
     - product_title: Plantation Espresso
       product_description: Plantation rum, coffee liqueur, salted caramel
       product_price: "24"
-    - product_title: product title
-      product_description: ''
-      product_price: ''
+    - product_title: White Chocolate Negroni
+      product_description: Tanquery gin, drty vermouth, creme de cacao
+      product_price: "23"
 - menu_group_title: Non Alcoholic selection
   menu_group_name: ''
   menu_group_text: A collaboration of our kitchen and wait teams. Non-alcoholic digestives
