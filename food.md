@@ -282,6 +282,9 @@ menu:
   categories:
   - category_title: Non alcoholic spirits
     products:
+    - product_title: Cosmopolitan
+      product_description: ''
+      product_price: "18"
     - product_title: 'Seedlip Grove 42: Orange, Ginger & Lemongrass'
       product_price: ''
       product_description: ''
