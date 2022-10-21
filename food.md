@@ -174,9 +174,9 @@ menu:
     - product_title: Hand picked spanner crab, cucumber, dill & avocado
       product_description: ''
       product_price: "42"
-    - product_title: product title
+    - product_title: Glazed confit chicken wings, smoked eel & pickled turnip
       product_description: ''
-      product_price: ''
+      product_price: "29"
     - product_title: product title
       product_description: ''
       product_price: ''
