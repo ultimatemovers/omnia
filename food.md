@@ -229,9 +229,9 @@ menu:
         bitters
       product_price: "25"
       product_title: Saffron Negroni
-    - product_title: product title
-      product_description: ''
-      product_price: ''
+    - product_title: Lemon Myrtle Gimlet
+      product_description: Tanquery rangpur, lemon myrtle infusion, fresh lemon zest
+      product_price: "24"
     - product_title: product title
       product_description: ''
       product_price: ''
