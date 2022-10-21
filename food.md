@@ -119,9 +119,9 @@ menu:
     - product_title: Strawberry, rosé & vanilla trifle
       product_description: ''
       product_price: "19"
-    - product_title: Blackmore
-      product_description: " ‍Blue moon chips, peppercorn sauce "
-      product_price: "100"
+    - product_title: Liquid centre cheesecake with passionfruit sorbet
+      product_description: " "
+      product_price: "16"
     - product_title: Blackmore
       product_description: " ‍Blue moon chips, peppercorn sauce "
       product_price: "100"
