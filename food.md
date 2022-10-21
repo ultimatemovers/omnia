@@ -223,8 +223,18 @@ menu:
     - product_title: Gazander Oyster Martini
       product_description: Oyster infused gin, dry vermouth
       product_price: "30"
-  - category_title: Non Alcoholic digestive
-    products: []
+  - category_title: STIRRED DOWN
+    products:
+    - product_description: Saffron infused gin, rinomato, sweet vermouth, rhubarb
+        bitters
+      product_price: "25"
+      product_title: Saffron Negroni
+    - product_title: product title
+      product_description: ''
+      product_price: ''
+    - product_title: product title
+      product_description: ''
+      product_price: ''
   - category_title: Cellar wine by the glass
     products: []
 - menu_group_title: Non Alcoholic selection
