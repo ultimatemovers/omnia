@@ -204,7 +204,7 @@ menu:
   menu_group_text: A menu of seasonal produce, used at its peak, designed with all
     tastes in mind. Familiar yet new, held together by our iconic duck and cheesecake.
 - menu_group_name: cocktail
-  menu_group_title: Cocktail
+  menu_group_title: Drinks
   menu_group_text: All the classics, with a few signature twists. Start, spend, or
     end the night with our well loved Lemon Myrtle Gimlet and Saffron Negroni.
   menu-group-image: ''
