@@ -158,9 +158,9 @@ menu:
     - product_title: Blue Moon potato rosti, shallot, chive & sour cream
       product_description: ''
       product_price: "16"
-    - product_title: product title
+    - product_title: Green beans, saffron with lemon dressing
       product_description: ''
-      product_price: ''
+      product_price: "16"
     - product_title: product title
       product_description: ''
       product_price: ''
