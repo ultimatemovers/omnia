@@ -130,9 +130,9 @@ menu:
       product_price: "100"
   - category_title: MAINS & SIDE
     products:
-    - product_title: Murray cod
-      product_description: " ‍Seaweed crusted, smoked fish consommé & kohlrabi"
-      product_price: "75"
+    - product_title: Ricotta agnolotti, burro acido, Swiss chard & brassicas
+      product_description: ''
+      product_price: "38"
     - product_title: Murray cod
       product_description: " ‍Seaweed crusted, smoked fish consommé & kohlrabi"
       product_price: "75"
