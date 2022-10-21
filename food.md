@@ -181,8 +181,10 @@ menu:
   categories: []
 - menu_group_title: Cellar WBTG
   menu_group_name: cellar
-  menu_group_text: Omnia has an extensive wine list, offering 25 wines by the glass
-    consisting of 13 regular, and 12 selected by our sommelier.
+  menu_group_text: |-
+    Omnia has an extensive wine list, offering 25 wines by the glass consisting of 13 regular, and 12 premier
+    wines selected by our sommelier. Found a new favourite, or have a friend on the way? Our whole
+    selection is available in half bottles.
   menu-group-image: ''
   categories: []
 big_title: DISCOVER FLAVOUR AT ITS FINEST
