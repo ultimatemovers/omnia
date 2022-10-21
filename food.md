@@ -301,7 +301,7 @@ menu:
       product_price: ''
       product_title: 'Seedlip Spice 94: Jamaican spiced berries, Cardamon & Citrus
         peel'
-    - product_title: product title
+    - product_title: 'Seedlip Garden 108: Peas, Hay & Herbs'
       product_description: ''
       product_price: ''
     subcategory:
