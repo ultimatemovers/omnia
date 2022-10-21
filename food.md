@@ -145,6 +145,9 @@ menu:
     - product_title: McIvor Farm’s pork chop, crushed peas, mustard & wild garlic
       product_description: ''
       product_price: "48"
+    - product_title: 'Steak frites with béarnaise sauce:'
+      product_description: 'Cape Grim sirloin: 57, Sher Wag yu MB9+ sirloin: 90'
+      product_price: ''
   - category_title: SNACKS & STARTER
     products:
     - product_title: House sourdough baguette with St David Dairy cultured butter
