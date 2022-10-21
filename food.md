@@ -148,6 +148,12 @@ menu:
     - product_title: 'Steak frites with béarnaise sauce:'
       product_description: ''
       product_price: ''
+    - product_title: ''
+      product_description: Cape Grim sirloin
+      product_price: "57"
+    - product_title: product title
+      product_description: ''
+      product_price: ''
     - product_description: Duck leg presse, orange & spiced duck jus *Please allow
         45 minutes
       product_price: "110"
