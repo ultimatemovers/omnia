@@ -274,7 +274,7 @@ menu:
   categories:
   - category_title: Non alcoholic spirits
     products: []
-  - category_title: ''
+  - category_title: Zero proof
     products: []
 - menu_group_title: CELLAR WBTG
   menu_group_name: ''
