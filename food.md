@@ -133,9 +133,9 @@ menu:
     - product_title: Ricotta agnolotti, burro acido, Swiss chard & brassicas
       product_description: ''
       product_price: "38"
-    - product_title: Murray cod
-      product_description: " ‍Seaweed crusted, smoked fish consommé & kohlrabi"
-      product_price: "75"
+    - product_title: Humpty Doo barramundi, potato salad, dill, capers & savoury consommé
+      product_description: ''
+      product_price: "48"
     - product_title: Murray cod
       product_description: " ‍Seaweed crusted, smoked fish consommé & kohlrabi"
       product_price: "75"
