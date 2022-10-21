@@ -254,9 +254,9 @@ menu:
     - product_title: Cinnamon Frappé
       product_description: House whiskey, cinnamon, cacao, malt
       product_price: "24"
-    - product_title: product title
-      product_description: ''
-      product_price: ''
+    - product_title: Plantation Espresso
+      product_description: Plantation rum, coffee liqueur, salted caramel
+      product_price: "24"
     - product_title: product title
       product_description: ''
       product_price: ''
