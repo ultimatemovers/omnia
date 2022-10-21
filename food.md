@@ -107,6 +107,11 @@ categories:
     product_description: Labneh, zaatar & pumpkin seeds
     product_price: '36'
 menu:
+- menu_group_title: Non Alcoholic selection
+  menu_group_name: ''
+  menu_group_text: ''
+  menu-group-image: ''
+  categories: []
 - category_title: Food
   products: []
   menu_group_title: Food
