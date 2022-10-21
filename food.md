@@ -271,7 +271,11 @@ menu:
     paired to the seasons. Combining seasonal produce with the desserts that highlight
     them.
   menu-group-image: ''
-  categories: []
+  categories:
+  - category_title: Non alcoholic spirits
+    products: []
+  - category_title: ''
+    products: []
 - menu_group_title: CELLAR WBTG
   menu_group_name: ''
   menu_group_text: Omnia has an extensive wine list, offering 25 wines by the glass
