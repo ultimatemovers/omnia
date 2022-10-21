@@ -229,9 +229,9 @@ menu:
     - product_title: Lemon Myrtle Gimlet
       product_description: Tanquery rangpur, lemon myrtle infusion, fresh lemon zest
       product_price: "24"
-    - product_title: product title
-      product_description: ''
-      product_price: ''
+    - product_title: Spiced Old Fashioned
+      product_description: Bulleit bourbon,  spiced infused demerara, vanilla, bitters
+      product_price: "24"
   - category_title: HIGHBALL
     products:
     - product_title: Blood Orange and Kyoho Grape
