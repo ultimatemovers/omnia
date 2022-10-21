@@ -291,9 +291,9 @@ menu:
     - product_title: Blood Orange "Aperol"
       product_description: Fresh blood orange juice, lemon verbena infusion
       product_price: "18"
-    - product_title: product title
-      product_description: ''
-      product_price: ''
+    - product_title: Strawberry and Rose "Rosé"
+      product_description: Carbonated strawberry and rose jus fraise
+      product_price: "18"
     - product_title: product title
       product_description: ''
       product_price: ''
