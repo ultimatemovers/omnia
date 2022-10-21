@@ -282,7 +282,7 @@ menu:
   categories:
   - category_title: Non alcoholic spirits
     products:
-    - product_title: product title
+    - product_title: 'Seedlip Grove 42: Orange, Ginger & Lemongrass'
       product_price: ''
       product_description: ''
     subcategory:
