@@ -307,8 +307,8 @@ menu:
     - product_title: Espresso Martini
       product_description: ''
       product_price: "18"
-    - product_title: product title
-      product_price: ''
+    - product_title: Negroni
+      product_price: "18"
       product_description: ''
     - product_title: 'Seedlip Garden 108: Peas, Hay & Herbs'
       product_description: ''
