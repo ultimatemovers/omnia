@@ -146,7 +146,7 @@ menu:
       product_description: ''
       product_price: "48"
     - product_title: 'Steak frites with béarnaise sauce:'
-      product_description: 'Cape Grim sirloin: 57, Sher Wag yu MB9+ sirloin: 90'
+      product_description: ''
       product_price: ''
     - product_description: Duck leg presse, orange & spiced duck jus *Please allow
         45 minutes
