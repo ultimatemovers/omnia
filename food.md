@@ -285,7 +285,8 @@ menu:
     - product_title: product title
       product_price: ''
       product_description: ''
-    subcategory: []
+    subcategory:
+    - title: first sub
   - category_title: Zero proof
     products:
     - product_title: Garden spiritz
