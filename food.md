@@ -150,9 +150,9 @@ menu:
     - product_title: House sourdough baguette with St David Dairy cultured butter
       product_description: ''
       product_price: 5 pp
-    - product_title: Musquee de provence pumpkin
-      product_description: Labneh, zaatar & pumpkin seeds
-      product_price: "50"
+    - product_title: Marinated Mount Zero olives
+      product_description: ''
+      product_price: "9"
     - product_title: Musquee de provence pumpkin
       product_description: Labneh, zaatar & pumpkin seeds
       product_price: "50"
