@@ -285,9 +285,9 @@ menu:
     - product_title: North Side
       product_description: Apple, lemon, mint
       product_price: "18"
-    - product_title: product title
-      product_description: ''
-      product_price: ''
+    - product_title: Watermelon Mojito
+      product_description: Seedlip garden 108, watermelon, lime, mint
+      product_price: "18"
     - product_title: product title
       product_description: ''
       product_price: ''
