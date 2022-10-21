@@ -162,6 +162,24 @@ menu:
     - product_title: Barrel aged anchovy, guindillas & green olive
       product_description: ''
       product_price: 8 ea
+    - product_description: ''
+      product_price: 9 ea
+      product_title: Celery, salsa verde, parmesan custard & lavosh
+    - product_title: product title
+      product_description: ''
+      product_price: ''
+    - product_title: product title
+      product_description: ''
+      product_price: ''
+    - product_title: product title
+      product_description: ''
+      product_price: ''
+    - product_title: product title
+      product_description: ''
+      product_price: ''
+    - product_title: product title
+      product_description: ''
+      product_price: ''
   menu-group-image: ''
   menu_group_name: food
   menu_group_text: A menu of seasonal produce, used at its peak, designed with all
