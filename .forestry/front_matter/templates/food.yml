@@ -68,19 +68,6 @@ fields:
         max: 
         labelField: 
       label: Products
-    - name: subcategory
-      type: field_group_list
-      fields:
-      - name: title
-        type: text
-        config:
-          required: false
-        label: title
-      config:
-        min: 
-        max: 
-        labelField: 
-      label: subcategory
     config:
       min: 
       max: 
