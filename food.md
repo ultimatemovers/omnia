@@ -248,7 +248,7 @@ menu:
       product_price: "25"
   - category_title: SHAKEN
     products:
-    - product_title: JALAPEÑO Margarita
+    - product_title: Jalapeño Margarita
       product_description: Ilegal mezcal, tequila, jalapeño agave, chile de ancho
       product_price: "24"
     - product_title: MONTENEGRO SOUR
