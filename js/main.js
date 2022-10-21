@@ -2,7 +2,9 @@
   const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
   let TOGGLE_MENU = false;
   let activeTabFood = 0
-  let activeTabDrink = 0
+  let activeTabCocktails = 0
+  let activeTabNonAlchoholic = 0
+  let activeTabWines = 0
   let showPopup = false
 
 
@@ -184,8 +186,14 @@
   if (document.body.id === 'food') {
     const foodItems = document.querySelectorAll('#food-menu .menu-category-title')
     const foodItemsProducts = document.querySelectorAll('#food-products .category-products')
-    const drinkItems = document.querySelectorAll('#drink-menu .menu-category-title')
-    const drinkItemsProducts = document.querySelectorAll('#drink-products .category-products')
+    // const drinkItems = document.querySelectorAll('#drink-menu .menu-category-title')
+    // const drinkItemsProducts = document.querySelectorAll('#drink-products .category-products')
+    const cocktailsItems = document.querySelectorAll('#cocktails-menu .menu-category-title')
+    const cocktailsItemsProducts = document.querySelectorAll('#cocktails-products .category-products')
+    const nonAlchoholicItems = document.querySelectorAll('#non-alchoholic-menu .menu-category-title')
+    const nonAlchoholicItemsProducts = document.querySelectorAll('#non-alchoholic-products .category-products')
+    const winesItems = document.querySelectorAll('#wines-menu .menu-category-title')
+    const winesItemsProducts = document.querySelectorAll('#wines-products .category-products')
 
 
     foodItems.forEach((fi, idx) => {
@@ -199,7 +207,29 @@
         filterProducts(foodItems, foodItemsProducts, activeTabFood)
       })
     })
-    drinkItems.forEach((di, idx) => {
+    cocktailsItems.forEach((di, idx) => {
+      di.addEventListener('click', () => {
+        activeTabCocktails = idx
+        di.scrollIntoView({
+          behavior: 'smooth',
+          block: 'nearest',
+          inline: 'center'
+        })
+        filterProducts(cocktailsItems, cocktailsItemsProducts, activeTabCocktails)
+      })
+    })
+    nonAlchoholicItems.forEach((di, idx) => {
+      di.addEventListener('click', () => {
+        activeTabNonAlchoholic = idx
+        di.scrollIntoView({
+          behavior: 'smooth',
+          block: 'nearest',
+          inline: 'center'
+        })
+        filterProducts(nonAlchoholicItems, nonAlchoholicItemsProducts, activeTabNonAlchoholic)
+      })
+    })
+    winesItems.forEach((di, idx) => {
       di.addEventListener('click', () => {
         activeTabDrink = idx
         di.scrollIntoView({
@@ -207,13 +237,14 @@
           block: 'nearest',
           inline: 'center'
         })
-        filterProducts(drinkItems, drinkItemsProducts, activeTabDrink)
+        filterProducts(winesItems, winesItemsProducts, activeTabWines)
       })
     })
 
     filterProducts(foodItems, foodItemsProducts, activeTabFood)
-    filterProducts(drinkItems, drinkItemsProducts, activeTabDrink)
-
+    filterProducts(cocktailsItems, cocktailsItemsProducts, activeTabCocktails)
+    filterProducts(nonAlchoholicItems, nonAlchoholicItemsProducts, activeTabNonAlchoholic)
+    filterProducts(winesItems, winesItemsProducts, activeTabWines)
   }
 
 
