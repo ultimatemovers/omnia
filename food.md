@@ -213,7 +213,7 @@ menu:
     products: []
   - category_title: Non Alcoholic digestive
     products: []
-  - category_title: ''
+  - category_title: Cellar wine by the glass
     products: []
 - menu_group_title: Non-Alcoholic
   menu_group_name: non-alcoholic
