@@ -282,21 +282,21 @@ menu:
   categories:
   - category_title: Non alcoholic spirits
     products:
-    - product_title: Margarita
-      product_description: ''
-      product_price: "18"
-    - product_title: Mimosa
-      product_description: ''
-      product_price: "18"
-    - product_title: Cosmopolitan
-      product_description: ''
-      product_price: "18"
     - product_title: 'Seedlip Grove 42: Orange, Ginger & Lemongrass'
       product_price: ''
       product_description: ''
     - product_title: Recommended with Fever Tree Tonic
       product_description: ''
       product_price: "11"
+    - product_title: Cosmopolitan
+      product_description: ''
+      product_price: "18"
+    - product_title: Mimosa
+      product_description: ''
+      product_price: "18"
+    - product_title: Margarita
+      product_description: ''
+      product_price: "18"
     subcategory:
     - title: second sub
     - title: first sub
