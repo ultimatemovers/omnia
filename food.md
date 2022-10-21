@@ -211,7 +211,7 @@ menu:
   categories:
   - category_title: Signature coctails
     products: []
-  - category_title: ''
+  - category_title: Non Alcoholic digestive
     products: []
   - category_title: ''
     products: []
