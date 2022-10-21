@@ -209,7 +209,7 @@ menu:
     end the night with our well loved Lemon Myrtle Gimlet and Saffron Negroni.
   menu-group-image: ''
   categories:
-  - category_title: Martini
+  - category_title: MARTINI
     products:
     - product_title: Black Truffle Martini
       product_description: Black truffle vodka, mezcal, selection of stuffed olives
