@@ -235,8 +235,18 @@ menu:
     - product_title: product title
       product_description: ''
       product_price: ''
-  - category_title: Cellar wine by the glass
-    products: []
+  - category_title: HIGHBALL
+    products:
+    - product_title: Blood Orange and Kyoho Grape
+      product_description: starward whiskey, blood orange infusion, compressed kyoho
+        grape
+      product_price: "25"
+    - product_title: product title
+      product_description: ''
+      product_price: ''
+    - product_title: product title
+      product_description: ''
+      product_price: ''
 - menu_group_title: Non Alcoholic selection
   menu_group_name: ''
   menu_group_text: A collaboration of our kitchen and wait teams. Non-alcoholic digestives
