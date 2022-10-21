@@ -251,7 +251,7 @@ menu:
     - product_title: Jalapeño Margarita
       product_description: Ilegal mezcal, tequila, jalapeño agave, chile de ancho
       product_price: "24"
-    - product_title: MONTENEGRO SOUR
+    - product_title: Montenegro sour
       product_description: Amaro Montenegro, lemon, bitters, whites
       product_price: "23"
   - category_title: AFTER DINNER
