@@ -36,7 +36,7 @@ class="img-svg">
   {% for menu in page.menu %}
   {% assign index = forloop.index0 | modulo: 2 %}
   {% if menu.menu-group-image.size > 1 %}
-    <div class="mb-12 md:mb-16 reveal">
+    <div class="mb-12 md:mb-16"><!--reveal-->
       <img src="{{ menu.menu-group-image }}" alt="wine picture" class="img-bottom-radius w-full">
     </div>
   {% endif %}
@@ -47,14 +47,14 @@ class="img-svg">
     <div class="container mx-auto main-content px-4 md:px-12" id="drink-menu">
   {% endif %}
 
-    <h2 class="food-title reveal">{{ menu.menu_group_title }}</h2>
-    <p class="mt-12 md:mt-24 mb-12 md:mb-0 olive text-center reveal">{{ menu.menu_group_text }}</p>
+    <h2 class="food-title">{{ menu.menu_group_title }}</h2><!--reveal-->
+    <p class="mt-12 md:mt-24 mb-12 md:mb-0 olive text-center">{{ menu.menu_group_text }}</p><!--reveal-->
 
-    <div class="w-full flex justify-between mb-16 md:mb-24 reveal" style="border-bottom: 2px solid #C1A973">
+    <div class="w-full flex justify-between mb-16 md:mb-24 " style="border-bottom: 2px solid #C1A973"><!--reveal-->
       <ul class="menu-categories flex justify-between inner-container overflow-x-auto md:overflow-x-hidden">
         {% for category in menu.categories %}
         <li
-          class="menu-category-title px-3 py-2 cursor-pointer reveal"
+          class="menu-category-title px-3 py-2 cursor-pointer"
           data-category-name="{{ category.category_title | slugify }}"
         >
           {{ category.category_title }}
@@ -71,7 +71,7 @@ class="img-svg">
       {% for category in menu.categories %}
         <div class="category-products w-full mb-32" data-category-products="{{ category.category_title | slugify }}">
           {% for product in category.products %}
-            <div class="flex items-start justify-between reveal">
+            <div class="flex items-start justify-between "><!--reveal-->
               <div>
                 <div class="product-title">{{ product.product_title }}</div>
                 <div class="product-description pt-2 pb-12">{{ product.product_description }}</div>
