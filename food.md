@@ -148,9 +148,9 @@ menu:
     - product_title: 'Steak frites with béarnaise sauce:'
       product_description: Cape Grim sirloin
       product_price: "57"
-    - product_title: ''
-      product_description: Cape Grim sirloin
-      product_price: "57"
+    - product_title: 'Steak frites with béarnaise sauce:'
+      product_description: " Sher Wag yu MB9+ sirloin"
+      product_price: "90"
     - product_title: ''
       product_description: Sher Wag yu MB9+ sirloin
       product_price: "90"
