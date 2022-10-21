@@ -304,9 +304,9 @@ menu:
     - product_title: Recommended with Fever Tree tonic or Fever Tree Soda Water
       product_description: ''
       product_price: "18"
-    - product_title: product title
+    - product_title: Espresso Martini
       product_description: ''
-      product_price: ''
+      product_price: "18"
     - product_title: product title
       product_price: ''
       product_description: ''
