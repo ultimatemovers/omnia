@@ -159,7 +159,7 @@ menu:
     - product_title: Smoked ocean trout cigar
       product_description: ''
       product_price: 9 ea
-    - product_title: Musquee de provence pumpkin
+    - product_title: Barrel aged anchovy, guindillas & green olive
       product_description: Labneh, zaatar & pumpkin seeds
       product_price: "50"
   menu-group-image: ''
