@@ -282,9 +282,9 @@ menu:
     - product_title: Orange blossom
       product_description: Verjus, lemon, orange blossom, honey
       product_price: "18"
-    - product_title: product title
-      product_description: ''
-      product_price: ''
+    - product_title: North Side
+      product_description: Apple, lemon, mint
+      product_price: "18"
     - product_title: product title
       product_description: ''
       product_price: ''
