@@ -155,6 +155,15 @@ menu:
         45 minutes
       product_price: "110"
       product_title: Dry aged honey roasted duck for two
+    - product_title: Blue Moon potato rosti, shallot, chive & sour cream
+      product_description: ''
+      product_price: "16"
+    - product_title: product title
+      product_description: ''
+      product_price: ''
+    - product_title: product title
+      product_description: ''
+      product_price: ''
   - category_title: SNACKS & STARTER
     products:
     - product_title: House sourdough baguette with St David Dairy cultured butter
