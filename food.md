@@ -107,7 +107,7 @@ categories:
     product_description: Labneh, zaatar & pumpkin seeds
     product_price: '36'
 menu:
-- menu_group_title: Non Alcoholic selection
+- menu_group_title: CELLAR WBTG
   menu_group_name: ''
   menu_group_text: ''
   menu-group-image: ''
@@ -220,6 +220,11 @@ menu:
     products: []
   - category_title: Cellar wine by the glass
     products: []
+- menu_group_title: Non Alcoholic selection
+  menu_group_name: ''
+  menu_group_text: ''
+  menu-group-image: ''
+  categories: []
 big_title: DISCOVER FLAVOUR AT ITS FINEST
 main_img: "/assets/images/food_main.jpg"
 
