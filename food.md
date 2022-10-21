@@ -171,9 +171,9 @@ menu:
     - product_title: Jonella farm asparagus, zucchini & mint puree
       product_description: ''
       product_price: "24"
-    - product_title: product title
+    - product_title: Hand picked spanner crab, cucumber, dill & avocado
       product_description: ''
-      product_price: ''
+      product_price: "42"
     - product_title: product title
       product_description: ''
       product_price: ''
