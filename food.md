@@ -208,7 +208,13 @@ menu:
   menu_group_text: All the classics, with a few signature twists. Start, spend, or
     end the night with our well loved Lemon Myrtle Gimlet and Saffron Negroni.
   menu-group-image: ''
-  categories: []
+  categories:
+  - category_title: Signature coctails
+    products: []
+  - category_title: ''
+    products: []
+  - category_title: ''
+    products: []
 - menu_group_title: Non-Alcoholic
   menu_group_name: non-alcoholic
   menu_group_text: A collaboration of our kitchen and wait teams. Non-alcoholic digestives
