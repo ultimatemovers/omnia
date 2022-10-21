@@ -142,9 +142,9 @@ menu:
     - product_title: Lamb rump, parsley puree, lamb jus, yoghurt & sheep sorrel
       product_description: ''
       product_price: "48"
-    - product_title: Murray cod
-      product_description: Seaweed crusted, smoked fish consommé & kohlrabi
-      product_price: "75"
+    - product_title: McIvor Farm’s pork chop, crushed peas, mustard & wild garlic
+      product_description: ''
+      product_price: "48"
   - category_title: SNACKS & STARTER
     products:
     - product_title: House sourdough baguette with St David Dairy cultured butter
