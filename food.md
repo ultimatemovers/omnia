@@ -148,6 +148,10 @@ menu:
     - product_title: 'Steak frites with béarnaise sauce:'
       product_description: 'Cape Grim sirloin: 57, Sher Wag yu MB9+ sirloin: 90'
       product_price: ''
+    - product_description: Duck leg presse, orange & spiced duck jus *Please allow
+        45 minutes
+      product_price: "110"
+      product_title: Dry aged honey roasted duck for two
   - category_title: SNACKS & STARTER
     products:
     - product_title: House sourdough baguette with St David Dairy cultured butter
