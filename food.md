@@ -316,9 +316,9 @@ menu:
     - product_title: Recommended with Fever Tree Ginger Ale
       product_price: "18"
       product_description: ''
-    - product_title: product title
+    - product_title: Sour
       product_description: ''
-      product_price: ''
+      product_price: "18"
     - product_title: product title
       product_description: ''
       product_price: ''
