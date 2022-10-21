@@ -116,9 +116,9 @@ menu:
     - product_title: Chocolate and hazelnut mousse with praline & iced fudge cake
       product_description: " "
       product_price: "19"
-    - product_title: Blackmore
-      product_description: " ‍Blue moon chips, peppercorn sauce "
-      product_price: "100"
+    - product_title: Strawberry, rosé & vanilla trifle
+      product_description: ''
+      product_price: "19"
     - product_title: Blackmore
       product_description: " ‍Blue moon chips, peppercorn sauce "
       product_price: "100"
