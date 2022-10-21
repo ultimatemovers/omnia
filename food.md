@@ -313,8 +313,8 @@ menu:
     - product_title: 'Seedlip Garden 108: Peas, Hay & Herbs'
       product_description: ''
       product_price: ''
-    - product_title: product title
-      product_price: ''
+    - product_title: Recommended with Fever Tree Ginger Ale
+      product_price: "18"
       product_description: ''
     - product_title: product title
       product_description: ''
