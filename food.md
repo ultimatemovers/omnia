@@ -241,9 +241,10 @@ menu:
       product_description: starward whiskey, blood orange infusion, compressed kyoho
         grape
       product_price: "25"
-    - product_title: product title
-      product_description: ''
-      product_price: ''
+    - product_title: Strawberry and Rose
+      product_description: Belverede vodka, jasmine, strawberry and rose jus fraise,
+        fresh roses
+      product_price: "25"
     - product_title: product title
       product_description: ''
       product_price: ''
