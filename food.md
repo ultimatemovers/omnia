@@ -288,9 +288,9 @@ menu:
     - product_title: Watermelon Mojito
       product_description: Seedlip garden 108, watermelon, lime, mint
       product_price: "18"
-    - product_title: product title
-      product_description: ''
-      product_price: ''
+    - product_title: Blood Orange 'Aperol'
+      product_description: Fresh blood orange juice, lemon verbena infusion
+      product_price: "18"
     - product_title: product title
       product_description: ''
       product_price: ''
