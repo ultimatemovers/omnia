@@ -279,9 +279,9 @@ menu:
     - product_title: Garden spiritz
       product_price: "18"
       product_description: Seedlip garden 108, cucumber, grapefruit
-    - product_title: product title
-      product_description: ''
-      product_price: ''
+    - product_title: Orange blossom
+      product_description: Verjus, lemon, orange blossom, honey
+      product_price: "18"
     - product_title: product title
       product_description: ''
       product_price: ''
