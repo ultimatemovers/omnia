@@ -146,8 +146,8 @@ menu:
       product_description: ''
       product_price: "48"
     - product_title: 'Steak frites with béarnaise sauce:'
-      product_description: ''
-      product_price: ''
+      product_description: Cape Grim sirloin
+      product_price: "57"
     - product_title: ''
       product_description: Cape Grim sirloin
       product_price: "57"
