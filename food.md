@@ -204,24 +204,30 @@ menu:
   menu_group_text: A menu of seasonal produce, used at its peak, designed with all
     tastes in mind. Familiar yet new, held together by our iconic duck and cheesecake.
 - menu_group_name: cocktail
-  menu_group_title: Cocktail
+  menu_group_title: Signature coctails
   menu_group_text: All the classics, with a few signature twists. Start, spend, or
     end the night with our well loved Lemon Myrtle Gimlet and Saffron Negroni.
   menu-group-image: ''
-  categories: []
-- menu_group_title: Non-Alcoholic
-  menu_group_name: non-alcoholic
+  categories:
+  - category_title: Signature coctails
+    products: []
+  - category_title: Non Alcoholic digestive
+    products: []
+  - category_title: Cellar wine by the glass
+    products: []
+- menu_group_title: Non Alcoholic selection
+  menu_group_name: ''
   menu_group_text: A collaboration of our kitchen and wait teams. Non-alcoholic digestives
     paired to the seasons. Combining seasonal produce with the desserts that highlight
     them.
   menu-group-image: ''
   categories: []
-- menu_group_title: Cellar WBTG
-  menu_group_name: cellar
-  menu_group_text: |-
-    Omnia has an extensive wine list, offering 25 wines by the glass consisting of 13 regular, and 12 premier
-    wines selected by our sommelier. Found a new favourite, or have a friend on the way? Our whole
-    selection is available in half bottles.
+- menu_group_title: CELLAR WBTG
+  menu_group_name: ''
+  menu_group_text: Omnia has an extensive wine list, offering 25 wines by the glass
+    consisting of 13 regular, and 12 premier wines selected by our sommelier. Found
+    a new favourite, or have a friend on the way? Our whole selection is available
+    in half bottles.
   menu-group-image: ''
   categories: []
 big_title: DISCOVER FLAVOUR AT ITS FINEST
