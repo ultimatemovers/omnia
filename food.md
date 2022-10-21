@@ -285,6 +285,9 @@ menu:
     - product_title: 'Seedlip Grove 42: Orange, Ginger & Lemongrass'
       product_price: ''
       product_description: ''
+    - product_title: Recommended with Fever Tree Tonic
+      product_description: ''
+      product_price: "11"
     subcategory:
     - title: second sub
     - title: first sub
