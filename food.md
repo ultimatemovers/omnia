@@ -249,6 +249,19 @@ menu:
       product_description: Tanqueray gin, st Germain, elderflower cardial, orange
         blossom
       product_price: "25"
+  - category_title: AFTER DINNER
+    products:
+    - product_title: Cinnamon Frappé
+      product_description: House whiskey, cinnamon, cacao, malt
+      product_price: "24"
+    - product_title: product title
+      product_description: ''
+      product_price: ''
+    - product_title: product title
+      product_description: ''
+      product_price: ''
+  - category_title: ''
+    products: []
 - menu_group_title: Non Alcoholic selection
   menu_group_name: ''
   menu_group_text: A collaboration of our kitchen and wait teams. Non-alcoholic digestives
