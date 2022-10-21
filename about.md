@@ -1,13 +1,14 @@
 ---
 layout: about
 team_members:
-- name: Laurent Tapumilla
-  title: Restaurant Manager
-  text: Manager Laurent Tapumilla brings a wealth of experience and a dash of French
-    flair to the table. His background in hotel and restaurant establishments means
-    that he runs a smooth operation as Omnia’s team leader, even on the busiest days
-    in our popular bar and bistro. Laurent is here to ensure you enjoy a comfortable,
-    quality experience on every occasion.
+- name: Stephen Nairn
+  title: Culinary Director
+  text: |-
+    Stephen Nairn creates food with community at its focus. Produce driven dishes with stories to be heard
+    and tasted. Building relationships with Australian growers and producers, Stephen sources the best
+    products and uses them at their peak. A career earmarked by a passion for every aspect of hospitality,
+    where a memorable experience is defined by the details. Stephen’s award winning career has found him
+    at Matilda, Vu de monde, and New York’s 3-Michelin Star institution, Eleven Madison Park.
   img: "/assets/images/member1.jpg"
 bottom_img: "/assets/images/team_bottom.jpg"
 team_title: The people
