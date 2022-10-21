@@ -286,6 +286,7 @@ menu:
       product_price: ''
       product_description: ''
     subcategory:
+    - title: second sub
     - title: first sub
   - category_title: Zero proof
     products:
