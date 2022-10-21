@@ -294,9 +294,9 @@ menu:
     - product_title: Strawberry and Rose "Rosé"
       product_description: Carbonated strawberry and rose jus fraise
       product_price: "18"
-    - product_title: product title
-      product_description: ''
-      product_price: ''
+    - product_title: P "PX"
+      product_description: Roasted sultana, chocolate & spices
+      product_price: "18"
 - menu_group_title: CELLAR WBTG
   menu_group_name: ''
   menu_group_text: Omnia has an extensive wine list, offering 25 wines by the glass
