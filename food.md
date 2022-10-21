@@ -319,11 +319,11 @@ menu:
     - product_title: Sour
       product_description: ''
       product_price: "18"
-    - product_title: product title
+    - product_title: Dry Martini with Olives
       product_description: ''
-      product_price: ''
-    - product_title: product title
-      product_price: ''
+      product_price: "18"
+    - product_title: Royale
+      product_price: "18"
       product_description: ''
     subcategory:
     - title: second sub
