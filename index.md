@@ -1,7 +1,9 @@
 ---
 layout: homepage
 hero_image: "/assets/images/mask-group-21-2x.png"
-hero_title: 'COMFORTABLE AND ELEGANT '
+hero_title: A European bistro filled with Australian stories. A new familiar. Produce
+  led dishes met with old-world hospitality. The spot where all walks meet. For you
+  and everyone else.
 big_title: OMNIA
 sections:
 - section_image: "/assets/images/mask-group-19-2x.png"
