@@ -301,9 +301,9 @@ menu:
       product_price: ''
       product_title: 'Seedlip Spice 94: Jamaican spiced berries, Cardamon & Citrus
         peel'
-    - product_title: product title
+    - product_title: Recommended with Fever Tree tonic or Fever Tree Soda Water
       product_description: ''
-      product_price: ''
+      product_price: "18"
     - product_title: product title
       product_description: ''
       product_price: ''
