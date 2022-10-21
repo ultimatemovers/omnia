@@ -165,9 +165,9 @@ menu:
     - product_description: ''
       product_price: 9 ea
       product_title: Celery, salsa verde, parmesan custard & lavosh
-    - product_title: product title
+    - product_title: Honest egg, curry, chive & buckwheat
       product_description: ''
-      product_price: ''
+      product_price: "11"
     - product_title: product title
       product_description: ''
       product_price: ''
