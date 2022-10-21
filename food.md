@@ -211,6 +211,9 @@ menu:
   categories:
   - category_title: martini
     products:
+    - product_title: Omnia Olive Martini
+      product_description: four pillars olive gin, dry vermouth, gordal olive
+      product_price: "25"
     - product_title: Gazander Oyster Martini
       product_description: Oyster infused gin, dry vermouth
       product_price: "30"
