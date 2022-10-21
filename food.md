@@ -161,9 +161,9 @@ menu:
     - product_title: Green beans, saffron with lemon dressing
       product_description: ''
       product_price: "16"
-    - product_title: product title
+    - product_title: Leafy salad with herb dressing
       product_description: ''
-      product_price: ''
+      product_price: "16"
   - category_title: SNACKS & STARTER
     products:
     - product_title: House sourdough baguette with St David Dairy cultured butter
