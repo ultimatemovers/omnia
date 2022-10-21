@@ -128,6 +128,7 @@ menu:
     - product_title: Cheese trolley selection
       product_description: ''
       product_price: "44"
+    subcategory: []
   - category_title: MAINS & SIDE
     products:
     - product_title: Ricotta agnolotti, burro acido, Swiss chard & brassicas
@@ -164,6 +165,7 @@ menu:
     - product_title: Leafy salad with herb dressing
       product_description: ''
       product_price: "16"
+    subcategory: []
   - category_title: SNACKS & STARTER
     products:
     - product_title: House sourdough baguette with St David Dairy cultured butter
@@ -199,6 +201,7 @@ menu:
     - product_title: Omnia house caviar with fromage blanc bavarois
       product_description: ''
       product_price: "50"
+    subcategory: []
   menu-group-image: ''
   menu_group_name: food
   menu_group_text: A menu of seasonal produce, used at its peak, designed with all
@@ -220,6 +223,7 @@ menu:
     - product_title: Gazander Oyster Martini
       product_description: Oyster infused gin, dry vermouth
       product_price: "30"
+    subcategory: []
   - category_title: STIRRED DOWN
     products:
     - product_description: Saffron infused gin, rinomato, sweet vermouth, rhubarb
@@ -232,6 +236,7 @@ menu:
     - product_title: Spiced Old Fashioned
       product_description: Bulleit bourbon,  spiced infused demerara, vanilla, bitters
       product_price: "24"
+    subcategory: []
   - category_title: HIGHBALL
     products:
     - product_title: Blood Orange and Kyoho Grape
@@ -246,6 +251,7 @@ menu:
       product_description: Tanqueray gin, st Germain, elderflower cardial, orange
         blossom
       product_price: "25"
+    subcategory: []
   - category_title: SHAKEN
     products:
     - product_title: Jalapeño Margarita
@@ -254,6 +260,7 @@ menu:
     - product_title: Montenegro sour
       product_description: Amaro Montenegro, lemon, bitters, whites
       product_price: "23"
+    subcategory: []
   - category_title: AFTER DINNER
     products:
     - product_title: Cinnamon Frappé
@@ -265,6 +272,7 @@ menu:
     - product_title: White Chocolate Negroni
       product_description: Tanquery gin, drty vermouth, creme de cacao
       product_price: "23"
+    subcategory: []
 - menu_group_title: Non Alcoholic selection
   menu_group_name: ''
   menu_group_text: A collaboration of our kitchen and wait teams. Non-alcoholic digestives
@@ -273,7 +281,11 @@ menu:
   menu-group-image: ''
   categories:
   - category_title: Non alcoholic spirits
-    products: []
+    products:
+    - product_title: product title
+      product_price: ''
+      product_description: ''
+    subcategory: []
   - category_title: Zero proof
     products:
     - product_title: Garden spiritz
@@ -297,6 +309,7 @@ menu:
     - product_title: P "PX"
       product_description: Roasted sultana, chocolate & spices
       product_price: "18"
+    subcategory: []
 - menu_group_title: CELLAR WBTG
   menu_group_name: ''
   menu_group_text: Omnia has an extensive wine list, offering 25 wines by the glass
