@@ -209,7 +209,7 @@ menu:
     end the night with our well loved Lemon Myrtle Gimlet and Saffron Negroni.
   menu-group-image: ''
   categories:
-  - category_title: martini
+  - category_title: Martini
     products:
     - product_title: Omnia Olive Martini
       product_description: four pillars olive gin, dry vermouth, gordal olive
