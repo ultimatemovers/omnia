@@ -275,7 +275,28 @@ menu:
   - category_title: Non alcoholic spirits
     products: []
   - category_title: Zero proof
-    products: []
+    products:
+    - product_title: Garden spiritz
+      product_price: "18"
+      product_description: Seedlip garden 108, cucumber, grapefruit
+    - product_title: product title
+      product_description: ''
+      product_price: ''
+    - product_title: product title
+      product_description: ''
+      product_price: ''
+    - product_title: product title
+      product_description: ''
+      product_price: ''
+    - product_title: product title
+      product_description: ''
+      product_price: ''
+    - product_title: product title
+      product_description: ''
+      product_price: ''
+    - product_title: product title
+      product_description: ''
+      product_price: ''
 - menu_group_title: CELLAR WBTG
   menu_group_name: ''
   menu_group_text: Omnia has an extensive wine list, offering 25 wines by the glass
