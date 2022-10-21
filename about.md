@@ -11,7 +11,7 @@ team_members:
   img: "/assets/images/member1.jpg"
 bottom_img: "/assets/images/team_bottom.jpg"
 team_title: The people
-main_title: THE STORY BEHIND EVERY BITE
+main_title: Omnia Bistro - Extended
 place_title: The Place
 space_title: The Space
 produce: The produce
@@ -101,9 +101,15 @@ hospitality_text: 'Omnia is part of an impressive quartet of LK Hospitality venu
   hospitality landscape. '
 main_img: "/assets/images/team_main.jpg"
 subtitle: |-
-  Omnia blends the energy of a European bistro with the stories of Australia’s best growers and producers. Dishes with backgrounds that speak to you, not at you. A neo-traditional twist on culinary classics served with the warmth of old- world hospitality. Take a seat in our light filled Conservatory, cosy Barrel Room, or at the bar.
-  A setting paired with a taste to answer the call of any occasion. Take a familiar nook. Come back time and time again. Become a regular. We’ll make it how you like without any questions asked. A drink, a meal, or just dessert. You’re welcome anytime.
-
-  Omnia Bistro makes its home at the base of Grand Capitol on the corner of Chapel Street and Toorak Road.
+  Omnia blends the energy of a European bistro with the stories of Australia’s best growers and producers.
+  Dishes with backgrounds that speak to you, not at you. A contemporary take on culinary classics served
+  with the warmth of old-world hospitality. Take a seat in our light filled Conservatory, cosy Barrel Room, or
+  lean into the vibrant ambience of the bar. A setting paired with a taste to answer the call of any occasion.
+  Leave us with the finer details, we’ll make it one to remember. A table for one, or for ten. Take a familiar
+  nook. Come back time and time again. Become a regular. We’ll make it how you like without any
+  questions asked, because that’s what friends are for. A quiet drink, a long meal, or just dessert. Stop by.
+  You’re welcome anytime.
+  Omnia Bistro makes its home at the base of Grand Capitol on the corner of Chapel Street and Toorak
+  Road.
 
 ---
