@@ -151,9 +151,6 @@ menu:
     - product_title: 'Steak frites with béarnaise sauce:'
       product_description: " Sher Wag yu MB9+ sirloin"
       product_price: "90"
-    - product_title: ''
-      product_description: Sher Wag yu MB9+ sirloin
-      product_price: "90"
     - product_description: Duck leg presse, orange & spiced duck jus *Please allow
         45 minutes
       product_price: "110"
