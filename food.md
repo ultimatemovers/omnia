@@ -125,9 +125,9 @@ menu:
     - product_title: Bitter almond mousse, frozen coconut & mango caramel
       product_description: ''
       product_price: "16"
-    - product_title: Blackmore
-      product_description: " ‍Blue moon chips, peppercorn sauce "
-      product_price: "100"
+    - product_title: Cheese trolley selection
+      product_description: ''
+      product_price: "44"
   - category_title: MAINS & SIDE
     products:
     - product_title: Ricotta agnolotti, burro acido, Swiss chard & brassicas
