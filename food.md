@@ -282,7 +282,7 @@ menu:
   categories:
   - category_title: Non alcoholic spirits
     products:
-    - product_title: 'Seedlip Grove 42: Orange, Ginger & Lemongrass'
+    - product_title: 'Seedlip Grove 42: Orange, Ginger & Lemongrass '
       product_price: ''
       product_description: ''
     - product_title: Recommended with Fever Tree Tonic
