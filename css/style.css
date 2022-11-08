@@ -975,9 +975,12 @@ background-color: #AEB3A1;
 #about .member-item:nth-child(odd) .img-border-radius,
 #about .member-item:nth-child(even) .img-border-radius {
   border-radius: 65px;
+  width: 600px;
+  height: 600px;
+  object-fit: cover;
 }
 
-#about .produce-middle-title{
+#about .produce-middle-title {
   font-size: 40px;
   line-height: 44px;
 }
@@ -1253,9 +1256,8 @@ border-bottom: 2px solid #A3A792;;
     height: 500px;
     width: 500px;
     object-fit: cover;
-    
   }
-  
+
   .omnia-title {
     width: 350px;
   }
