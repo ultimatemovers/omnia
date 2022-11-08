@@ -153,7 +153,6 @@ th {
   font-weight: lighter;
 }
 
-
 .middle-olive-text {
   color: #F0E1AD;
   /*font-family: 'Avenir LT Std';*/
@@ -1250,6 +1249,13 @@ border-bottom: 2px solid #A3A792;;
 }
 
 @media (min-width: 960px) {
+  .img-homepage {
+    height: 500px;
+    width: 500px;
+    object-fit: cover;
+    
+  }
+  
   .omnia-title {
     width: 350px;
   }
