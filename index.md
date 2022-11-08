@@ -1,6 +1,6 @@
 ---
 layout: homepage
-hero_image: "/assets/images/mask-group-21-2x.png"
+hero_image: "/assets/images/homepage-first-photo-hero-duck.jpg"
 hero_title: A European bistro filled with Australian stories. A new familiar. Produce
   led dishes met with old-world hospitality. The spot where all walks meet. For you
   and everyone else.
