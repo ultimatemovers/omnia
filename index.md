@@ -1,12 +1,12 @@
 ---
 layout: homepage
-hero_image: ''
+hero_image: "/assets/images/homepage-first-photo-hero-duck.jpeg"
 hero_title: A European bistro filled with Australian stories. A new familiar. Produce
   led dishes met with old-world hospitality. The spot where all walks meet. For you
   and everyone else.
 big_title: OMNIA
 sections:
-- section_image: ''
+- section_image: "/assets/images/homepage-2nd-photo1.jpeg"
   section_title: Omnia bistro - Condensed
   section_description: |-
     Omnia blends the energy of a European bistro with the stories of Australia’s best growers and producers.
