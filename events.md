@@ -2,7 +2,7 @@
 layout: events
 events:
 - title: Omnia Vista Social Club – Live music Wednesday nights
-  img: "/assets/images/omnia-events-2nd-photo.jpg"
+  img: "/assets/images/omnia-events-2nd-photo1.jpeg"
   text: After a successful month of Wednesday Nights at The Embers, we're bringing
     back live music nights at Omnia! Inspired by the Buena Vista Social Club, Omnia
     will be host to great live music and specialty drinks every Wednesday. Come along
