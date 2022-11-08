@@ -14,7 +14,7 @@ second_column: Plan your next celebration with us at Omnia Bistro. We’re here 
   about dietary specifics and little extras to make your experience memorable. Parties
   of seven or more are invited to enjoy our curated set menu featuring our seasonally
   sourced dishes, and timeless classics.
-main_img: "/assets/images/bookings_main.jpg"
+main_img: "/assets/images/group-bookings-1st-photo.jpg"
 first_text: When it’s time to organise your birthday dinner, a big family lunch or
   a meal with your business partners, a group booking is the perfect way to simplify
   ordering while still getting the most out our Chef’s repertoire
