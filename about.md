@@ -9,7 +9,7 @@ team_members:
     products and uses them at their peak. A career earmarked by a passion for every aspect of hospitality,
     where a memorable experience is defined by the details. Stephen’s award winning career has found him
     at Matilda, Vu de monde, and New York’s 3-Michelin Star institution, Eleven Madison Park.
-  img: "/assets/images/about-us-stephen-profile.jpg"
+  img: ''
 bottom_img: "/assets/images/team_bottom.jpg"
 team_title: The people
 main_title: Omnia Bistro - Extended
@@ -100,7 +100,7 @@ hospitality_text: 'Omnia is part of an impressive quartet of LK Hospitality venu
   at Capitol Grand. We are happy to offer patrons the perfect space for a memorable
   experience and pride ourselves on a tradition of setting new standards in the Australian
   hospitality landscape. '
-main_img: "/assets/images/about-us-1st-photo-sn-ed.jpg"
+main_img: ''
 subtitle: |-
   Omnia blends the energy of a European bistro with the stories of Australia’s best growers and producers.
   Dishes with backgrounds that speak to you, not at you. A contemporary take on culinary classics served
