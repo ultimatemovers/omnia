@@ -18,7 +18,7 @@ sections:
     Road.
   button_text: browse our menu
   button_url: "#"
-- section_image: "/assets/images/homepage-3rd-photo-new-dish-1-lamb.jpeg"
+- section_image: "/assets/images/my-project.jpeg"
   section_title: New dishes
   section_description: |-
     Our signature duck sourced locally from Macedon. Fourteen-day-dry-aged, honey roasted duck finished
