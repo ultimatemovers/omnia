@@ -9,7 +9,7 @@ team_members:
     products and uses them at their peak. A career earmarked by a passion for every aspect of hospitality,
     where a memorable experience is defined by the details. Stephen’s award winning career has found him
     at Matilda, Vu de monde, and New York’s 3-Michelin Star institution, Eleven Madison Park.
-  img: ''
+  img: "/assets/images/about-us-stephen-profile.jpeg"
 bottom_img: "/assets/images/team_bottom.jpg"
 team_title: The people
 main_title: Omnia Bistro - Extended
