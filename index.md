@@ -29,7 +29,7 @@ sections:
     that tempts another visit, time and time again.
   button_text: browse our menu
   button_url: "#"
-main_img: "/assets/images/homepage_main.jpg"
+main_img: "/assets/images/homepage-first-photo-hero-duck.jpeg"
 title: index.md
 
 ---
