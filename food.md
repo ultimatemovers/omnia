@@ -361,6 +361,6 @@ menu:
   menu-group-image: ''
   categories: []
 big_title: DISCOVER FLAVOUR AT ITS FINEST
-main_img: "/assets/images/food_main.jpg"
+main_img: "/assets/images/food-bev-1st-photo-asparagus.jpg"
 
 ---
