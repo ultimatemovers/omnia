@@ -980,6 +980,12 @@ text-transform: uppercase;
 background-color: #AEB3A1;
 }
 
+#about .cover-image {
+background-position: 30% 40%;
+}
+
+
+
 #about .member-item:nth-child(odd) .img-border-radius,
 #about .member-item:nth-child(even) .img-border-radius {
   border-radius: 65px;
@@ -1260,6 +1266,18 @@ border-bottom: 2px solid #A3A792;;
 }
 
 @media (min-width: 960px) {
+  #about .cover-image {
+    background-position: 50% 10%;
+    }
+
+  #events .cover-image {
+      background-position: 20% 20%;
+    }  
+
+    #homepage .cover-image {
+      background-position: 20% 30%;
+    }
+
   .img-homepage {
     height: 500px;
     width: 500px;
