@@ -853,6 +853,14 @@ text-transform: uppercase;
   font-size: 16px;
 }
 
+#events .img-radius ,
+#events .img-radius  {
+  border-radius: 65px;
+  width: 600px;
+  height: 600px;
+  object-fit: cover;
+}
+
 .event-text p {
   margin-top: 12px;
 }
@@ -1463,6 +1471,12 @@ border-bottom: 2px solid #A3A792;;
 
   #homepage .section-title {
     font-size: 32px;
+  }
+
+  .img-homepage {
+    height: 500px;
+    object-fit: cover;
+    margin: 0;
   }
 
   /*  -----------------  */
