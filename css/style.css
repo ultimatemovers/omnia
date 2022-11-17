@@ -1018,7 +1018,7 @@ background-position: 30% 40%;
 
 .accordion-opened .accordion-description {
   /* padding-top: 16px; */
-  max-height: 150px;
+  max-height: 200px;
   -webkit-transition: max-height 0.4s ease-in;
   -o-transition: max-height 0.4s ease-in;
   transition: max-height 0.4s ease-in;
@@ -1549,6 +1549,10 @@ border-bottom: 2px solid #A3A792;;
 
   .project-title  {
     margin-top: 12px;
+  }
+
+  .accordion-opened .accordion-description {
+    max-width: 250px;
   }
 
 
