@@ -2,9 +2,10 @@
   const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
   let TOGGLE_MENU = false;
   let activeTabFood = 0
-  let activeTabCocktails = 0
-  let activeTabNonAlchoholic = 0
-  let activeTabWines = 0
+  let activeTabDrink = 0
+  // let activeTabCocktails = 0
+  // let activeTabNonAlchoholic = 0
+  // let activeTabWines = 0
   let showPopup = false
 
 
@@ -184,16 +185,19 @@
 
 
   if (document.body.id === 'food') {
+    if(document.querySelector('.product-title.text-xl.italic.pt-10')){
+      document.querySelector('.product-title.text-xl.italic.pt-10').style.paddingTop = '0px'
+    }
     const foodItems = document.querySelectorAll('#food-menu .menu-category-title')
     const foodItemsProducts = document.querySelectorAll('#food-products .category-products')
-    // const drinkItems = document.querySelectorAll('#drink-menu .menu-category-title')
-    // const drinkItemsProducts = document.querySelectorAll('#drink-products .category-products')
-    const cocktailsItems = document.querySelectorAll('#cocktails-menu .menu-category-title')
-    const cocktailsItemsProducts = document.querySelectorAll('#cocktails-products .category-products')
-    const nonAlchoholicItems = document.querySelectorAll('#non-alchoholic-menu .menu-category-title')
-    const nonAlchoholicItemsProducts = document.querySelectorAll('#non-alchoholic-products .category-products')
-    const winesItems = document.querySelectorAll('#wines-menu .menu-category-title')
-    const winesItemsProducts = document.querySelectorAll('#wines-products .category-products')
+    const drinkItems = document.querySelectorAll('#drink-menu .menu-category-title')
+    const drinkItemsProducts = document.querySelectorAll('#drink-products .category-products')
+    // const cocktailsItems = document.querySelectorAll('#cocktails-menu .menu-category-title')
+    // const cocktailsItemsProducts = document.querySelectorAll('#cocktails-products .category-products')
+    // const nonAlchoholicItems = document.querySelectorAll('#non-alchoholic-menu .menu-category-title')
+    // const nonAlchoholicItemsProducts = document.querySelectorAll('#non-alchoholic-products .category-products')
+    // const winesItems = document.querySelectorAll('#wines-menu .menu-category-title')
+    // const winesItemsProducts = document.querySelectorAll('#wines-products .category-products')
 
 
     foodItems.forEach((fi, idx) => {
@@ -207,29 +211,7 @@
         filterProducts(foodItems, foodItemsProducts, activeTabFood)
       })
     })
-    cocktailsItems.forEach((di, idx) => {
-      di.addEventListener('click', () => {
-        activeTabCocktails = idx
-        di.scrollIntoView({
-          behavior: 'smooth',
-          block: 'nearest',
-          inline: 'center'
-        })
-        filterProducts(cocktailsItems, cocktailsItemsProducts, activeTabCocktails)
-      })
-    })
-    nonAlchoholicItems.forEach((di, idx) => {
-      di.addEventListener('click', () => {
-        activeTabNonAlchoholic = idx
-        di.scrollIntoView({
-          behavior: 'smooth',
-          block: 'nearest',
-          inline: 'center'
-        })
-        filterProducts(nonAlchoholicItems, nonAlchoholicItemsProducts, activeTabNonAlchoholic)
-      })
-    })
-    winesItems.forEach((di, idx) => {
+    drinkItems.forEach((di, idx) => {
       di.addEventListener('click', () => {
         activeTabDrink = idx
         di.scrollIntoView({
@@ -237,14 +219,36 @@
           block: 'nearest',
           inline: 'center'
         })
-        filterProducts(winesItems, winesItemsProducts, activeTabWines)
+        filterProducts(drinkItems, drinkItemsProducts, activeTabDrink)
       })
     })
+    // nonAlchoholicItems.forEach((di, idx) => {
+    //   di.addEventListener('click', () => {
+    //     activeTabNonAlchoholic = idx
+    //     di.scrollIntoView({
+    //       behavior: 'smooth',
+    //       block: 'nearest',
+    //       inline: 'center'
+    //     })
+    //     filterProducts(nonAlchoholicItems, nonAlchoholicItemsProducts, activeTabNonAlchoholic)
+    //   })
+    // })
+    // winesItems.forEach((di, idx) => {
+    //   di.addEventListener('click', () => {
+    //     activeTabDrink = idx
+    //     di.scrollIntoView({
+    //       behavior: 'smooth',
+    //       block: 'nearest',
+    //       inline: 'center'
+    //     })
+    //     filterProducts(winesItems, winesItemsProducts, activeTabWines)
+    //   })
+    // })
 
     filterProducts(foodItems, foodItemsProducts, activeTabFood)
-    filterProducts(cocktailsItems, cocktailsItemsProducts, activeTabCocktails)
-    filterProducts(nonAlchoholicItems, nonAlchoholicItemsProducts, activeTabNonAlchoholic)
-    filterProducts(winesItems, winesItemsProducts, activeTabWines)
+    filterProducts(drinkItems, drinkItemsProducts, activeTabDrink)
+    // filterProducts(nonAlchoholicItems, nonAlchoholicItemsProducts, activeTabNonAlchoholic)
+    // filterProducts(winesItems, winesItemsProducts, activeTabWines)
   }
 
 
@@ -272,32 +276,26 @@
         if (a.classList.contains('accordion-opened')) {
           a.classList.remove('accordion-opened')
           return
-        } else {
-          a.classList.add('accordion-opened')
         }
+        
+        let useSetTimeout = false
+
+        accordions.forEach((ac) => {
+          if (ac.classList.contains('accordion-opened')) {
+            ac.classList.remove('accordion-opened')
+            useSetTimeout = true
+          }
+        }) 
+
+        setTimeout(() => {
+          a.classList.add('accordion-opened')
+          useSetTimeout = false
+          console.log('ehej')
+        }, useSetTimeout ? 1 : 1)
+          
       })
     })
   }
-
-
-
-  // ------------------------------ //
-  //       O L D   S E T U P        //
-  // ------------------------------ //
-
-
-  // if(document.querySelector('.reveal'))
-  //   ScrollReveal().reveal('.reveal', { distance: '150px', duration: 700, origin: 'bottom', easing: 'cubic-bezier(0.25,1.05,1,1)' });
-  // if(document.querySelector('.reveal-left'))
-  //   ScrollReveal().reveal('.reveal-left', { distance: '30px', duration: 700, origin: 'left', easing: 'cubic-bezier(0.3,.62,1,1)' });
-  // if(document.querySelector('.reveal-right'))
-  //   ScrollReveal().reveal('.reveal-right', { distance: '30px', duration: 700, origin: 'right', easing: 'cubic-bezier(0.3,.62,1,1)' });
-  // if(document.querySelector('.reveal-top'))
-  //   ScrollReveal().reveal('.reveal-top', { delay: 300, distance: '30px', duration: 1000, origin: 'bottom', easing: 'cubic-bezier(0.3,.62,1,1)' });
-  // if(document.querySelector('.reveal-top-fast'))
-  //   ScrollReveal().reveal('.reveal-top-fast', { delay: 200, distance: '50px', duration: 800, origin: 'bottom', easing: 'cubic-bezier(0.3,.62,1,1)' });
-  // if(document.querySelector('.reveal-top-delay'))
-  //   ScrollReveal().reveal('.reveal-top-delay', { delay: 300, distance: '30px', duration: 700, origin: 'bottom', easing: 'cubic-bezier(0.3,.62,1,1)' });
 
 
   if (document.querySelector('.reveal')) {

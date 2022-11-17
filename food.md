@@ -114,13 +114,13 @@ menu:
   - category_title: DESSERTS
     products:
     - product_title: Chocolate and hazelnut mousse with praline & iced fudge cake
-      product_description: " "
+      product_description: ""
       product_price: "19"
     - product_title: Strawberry, rosé & vanilla trifle
       product_description: ''
       product_price: "19"
     - product_title: Liquid centre cheesecake with passionfruit sorbet
-      product_description: " "
+      product_description: ""
       product_price: "16"
     - product_title: Bitter almond mousse, frozen coconut & mango caramel
       product_description: ''
@@ -206,161 +206,168 @@ menu:
   menu_group_name: food
   menu_group_text: A menu of seasonal produce, used at its peak, designed with all
     tastes in mind. Familiar yet new, held together by our iconic duck and cheesecake.
-- menu_group_name: cocktail
-  menu_group_title: Signature coctails
-  menu_group_text: All the classics, with a few signature twists. Start, spend, or
-    end the night with our well loved Lemon Myrtle Gimlet and Saffron Negroni.
-  menu-group-image: ''
-  categories:
-  - category_title: MARTINI
-    products:
-    - product_title: Black Truffle Martini
-      product_description: Black truffle vodka, mezcal, selection of stuffed olives
-      product_price: "35"
-    - product_title: Omnia Olive Martini
-      product_description: four pillars olive gin, dry vermouth, gordal olive
-      product_price: "25"
-    - product_title: Gazander Oyster Martini
-      product_description: Oyster infused gin, dry vermouth
-      product_price: "30"
-    subcategory: []
-  - category_title: STIRRED DOWN
-    products:
-    - product_description: Saffron infused gin, rinomato, sweet vermouth, rhubarb
-        bitters
-      product_price: "25"
-      product_title: Saffron Negroni
-    - product_title: Lemon Myrtle Gimlet
-      product_description: Tanquery rangpur, lemon myrtle infusion, fresh lemon zest
-      product_price: "24"
-    - product_title: Spiced Old Fashioned
-      product_description: Bulleit bourbon,  spiced infused demerara, vanilla, bitters
-      product_price: "24"
-    subcategory: []
-  - category_title: HIGHBALL
-    products:
-    - product_title: Blood Orange and Kyoho Grape
-      product_description: starward whiskey, blood orange infusion, compressed kyoho
-        grape
-      product_price: "25"
-    - product_title: Strawberry and Rose
-      product_description: Belverede vodka, jasmine, strawberry and rose jus fraise,
-        fresh roses
-      product_price: "25"
-    - product_title: Elderflower
-      product_description: Tanqueray gin, st Germain, elderflower cardial, orange
-        blossom
-      product_price: "25"
-    subcategory: []
-  - category_title: SHAKEN
-    products:
-    - product_title: Jalapeño Margarita
-      product_description: Ilegal mezcal, tequila, jalapeño agave, chile de ancho
-      product_price: "24"
-    - product_title: Montenegro sour
-      product_description: Amaro Montenegro, lemon, bitters, whites
-      product_price: "23"
-    subcategory: []
-  - category_title: AFTER DINNER
-    products:
-    - product_title: Cinnamon Frappé
-      product_description: House whiskey, cinnamon, cacao, malt
-      product_price: "24"
-    - product_title: Plantation Espresso
-      product_description: Plantation rum, coffee liqueur, salted caramel
-      product_price: "24"
-    - product_title: White Chocolate Negroni
-      product_description: Tanquery gin, drty vermouth, creme de cacao
-      product_price: "23"
-    subcategory: []
-- menu_group_title: Non Alcoholic selection
-  menu_group_name: ''
-  menu_group_text: A collaboration of our kitchen and wait teams. Non-alcoholic digestives
-    paired to the seasons. Combining seasonal produce with the desserts that highlight
-    them.
-  menu-group-image: ''
-  categories:
-  - category_title: Non alcoholic spirits
-    products:
-    - product_title: 'Seedlip Grove 42: Orange, Ginger & Lemongrass '
-      product_price: ''
-      product_description: ''
-    - product_title: Recommended with Fever Tree Tonic
-      product_description: ''
-      product_price: "11"
-    - product_title: Cosmopolitan
-      product_description: ''
-      product_price: "18"
-    - product_title: Mimosa
-      product_description: ''
-      product_price: "18"
-    - product_title: Margarita
-      product_description: ''
-      product_price: "18"
-    - product_description: ''
-      product_price: ''
-      product_title: 'Seedlip Spice 94: Jamaican spiced berries, Cardamon & Citrus
-        peel'
-    - product_title: Recommended with Fever Tree tonic or Fever Tree Soda Water
-      product_description: ''
-      product_price: "18"
-    - product_title: Espresso Martini
-      product_description: ''
-      product_price: "18"
-    - product_title: Negroni
-      product_price: "18"
-      product_description: ''
-    - product_title: 'Seedlip Garden 108: Peas, Hay & Herbs'
-      product_description: ''
-      product_price: ''
-    - product_title: Recommended with Fever Tree Ginger Ale
-      product_price: "18"
-      product_description: ''
-    - product_title: Sour
-      product_description: ''
-      product_price: "18"
-    - product_title: Dry Martini with Olives
-      product_description: ''
-      product_price: "18"
-    - product_title: Royale
-      product_price: "18"
-      product_description: ''
-    subcategory:
-    - title: second sub
-    - title: first sub
-  - category_title: Zero proof
-    products:
-    - product_title: Garden spiritz
-      product_price: "18"
-      product_description: Seedlip garden 108, cucumber, grapefruit
-    - product_title: Orange blossom
-      product_description: Verjus, lemon, orange blossom, honey
-      product_price: "18"
-    - product_title: North Side
-      product_description: Apple, lemon, mint
-      product_price: "18"
-    - product_title: Watermelon Mojito
-      product_description: Seedlip garden 108, watermelon, lime, mint
-      product_price: "18"
-    - product_title: Blood Orange "Aperol"
-      product_description: Fresh blood orange juice, lemon verbena infusion
-      product_price: "18"
-    - product_title: Strawberry and Rose "Rosé"
-      product_description: Carbonated strawberry and rose jus fraise
-      product_price: "18"
-    - product_title: P "PX"
-      product_description: Roasted sultana, chocolate & spices
-      product_price: "18"
-    subcategory: []
-- menu_group_title: CELLAR WBTG
-  menu_group_name: ''
-  menu_group_text: Omnia has an extensive wine list, offering 25 wines by the glass
-    consisting of 13 regular, and 12 premier wines selected by our sommelier. Found
-    a new favourite, or have a friend on the way? Our whole selection is available
-    in half bottles.
-  menu-group-image: ''
-  categories: []
+
+- menu_group_title: Drink
+  menu_group_name: drink
+  menu_group_text: ''
+  menu_group_image: ''
+  drink_categories:
+    - drink_category_name: cocktail
+      drink_category_title: Signature coctails
+      drink_category_text: All the classics, with a few signature twists. Start, spend, or
+        end the night with our well loved Lemon Myrtle Gimlet and Saffron Negroni.
+      drink_category_image: ''
+      categories:
+      - category_title: Martini
+        products:
+        - product_title: Black Truffle Martini
+          product_description: Black truffle vodka, mezcal, selection of stuffed olives
+          product_price: "35"
+        - product_title: Omnia Olive Martini
+          product_description: four pillars olive gin, dry vermouth, gordal olive
+          product_price: "25"
+        - product_title: Gazander Oyster Martini
+          product_description: Oyster infused gin, dry vermouth
+          product_price: "30"
+        subcategory: []
+      - category_title: Stirred Down
+        products:
+        - product_description: Saffron infused gin, rinomato, sweet vermouth, rhubarb
+            bitters
+          product_price: "25"
+          product_title: Saffron Negroni
+        - product_title: Lemon Myrtle Gimlet
+          product_description: Tanquery rangpur, lemon myrtle infusion, fresh lemon zest
+          product_price: "24"
+        - product_title: Spiced Old Fashioned
+          product_description: Bulleit bourbon,  spiced infused demerara, vanilla, bitters
+          product_price: "24"
+        subcategory: []
+      - category_title: Highball
+        products:
+        - product_title: Blood Orange and Kyoho Grape
+          product_description: starward whiskey, blood orange infusion, compressed kyoho
+            grape
+          product_price: "25"
+        - product_title: Strawberry and Rose
+          product_description: Belverede vodka, jasmine, strawberry and rose jus fraise,
+            fresh roses
+          product_price: "25"
+        - product_title: Elderflower
+          product_description: Tanqueray gin, st Germain, elderflower cardial, orange
+            blossom
+          product_price: "25"
+        subcategory: []
+      - category_title: Shaken
+        products:
+        - product_title: Jalapeño Margarita
+          product_description: Ilegal mezcal, tequila, jalapeño agave, chile de ancho
+          product_price: "24"
+        - product_title: Montenegro sour
+          product_description: Amaro Montenegro, lemon, bitters, whites
+          product_price: "23"
+        subcategory: []
+      - category_title: After Dinner
+        products:
+        - product_title: Cinnamon Frappé
+          product_description: House whiskey, cinnamon, cacao, malt
+          product_price: "24"
+        - product_title: Plantation Espresso
+          product_description: Plantation rum, coffee liqueur, salted caramel
+          product_price: "24"
+        - product_title: White Chocolate Negroni
+          product_description: Tanquery gin, drty vermouth, creme de cacao
+          product_price: "23"
+        subcategory: []
+    - drink_category_title: Non Alcoholic selection
+      drink_category_name: 'non-alcoholic-selection'
+      drink_category_text: A collaboration of our kitchen and wait teams. Non-alcoholic digestives
+        paired to the seasons. Combining seasonal produce with the desserts that highlight
+        them.
+      drink_category_image: ''
+      categories:
+      - category_title: Non alcoholic spirits
+        products:
+        - product_title: 'Seedlip Grove 42: Orange, Ginger & Lemongrass '
+          product_price: ''
+          product_description: ''
+        - product_title: Recommended with Fever Tree Tonic
+          product_description: ''
+          product_price: "11"
+        - product_title: Cosmopolitan
+          product_description: ''
+          product_price: "18"
+        - product_title: Mimosa
+          product_description: ''
+          product_price: "18"
+        - product_title: Margarita
+          product_description: ''
+          product_price: "18"
+        - product_description: ''
+          product_price: ''
+          product_title: 'Seedlip Spice 94: Jamaican spiced berries, Cardamon & Citrus
+            peel'
+        - product_title: Recommended with Fever Tree tonic or Fever Tree Soda Water
+          product_description: ''
+          product_price: "18"
+        - product_title: Espresso Martini
+          product_description: ''
+          product_price: "18"
+        - product_title: Negroni
+          product_price: "18"
+          product_description: ''
+        - product_title: 'Seedlip Garden 108: Peas, Hay & Herbs'
+          product_description: ''
+          product_price: ''
+        - product_title: Recommended with Fever Tree Ginger Ale
+          product_price: "18"
+          product_description: ''
+        - product_title: Sour
+          product_description: ''
+          product_price: "18"
+        - product_title: Dry Martini with Olives
+          product_description: ''
+          product_price: "18"
+        - product_title: Royale
+          product_price: "18"
+          product_description: ''
+        subcategory:
+        - title: second sub
+        - title: first sub
+      - category_title: Zero proof
+        products:
+        - product_title: Garden spiritz
+          product_price: "18"
+          product_description: Seedlip garden 108, cucumber, grapefruit
+        - product_title: Orange blossom
+          product_description: Verjus, lemon, orange blossom, honey
+          product_price: "18"
+        - product_title: North Side
+          product_description: Apple, lemon, mint
+          product_price: "18"
+        - product_title: Watermelon Mojito
+          product_description: Seedlip garden 108, watermelon, lime, mint
+          product_price: "18"
+        - product_title: Blood Orange "Aperol"
+          product_description: Fresh blood orange juice, lemon verbena infusion
+          product_price: "18"
+        - product_title: Strawberry and Rose "Rosé"
+          product_description: Carbonated strawberry and rose jus fraise
+          product_price: "18"
+        - product_title: P "PX"
+          product_description: Roasted sultana, chocolate & spices
+          product_price: "18"
+        subcategory: []
+    - drink_category_title: CELLAR WBTG
+      drink_category_name: 'cellar-wbtg'
+      drink_category_text: Omnia has an extensive wine list, offering 25 wines by the glass
+        consisting of 13 regular, and 12 premier wines selected by our sommelier. Found
+        a new favourite, or have a friend on the way? Our whole selection is available
+        in half bottles.
+      drink_category_image: ''
+      categories: []
 big_title: DISCOVER FLAVOUR AT ITS FINEST
 main_img: "/assets/images/food-amp-bev-1st-photo-asparag1us.jpeg"
+
 
 ---

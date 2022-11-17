@@ -5,36 +5,38 @@
 <div id="food">
   <div class="cover-image mb-12 md:mb-24" style="background-image: url({{page.main_img}});">
     <div class="container mx-auto px-4">
-      <h1>
+      <!-- removed title from page because of readability  -->
+      <!-- <h1>
         {{ page.big_title }}
-      </h1>
+      </h1> -->
       <div>
         <svg id="Chevrons"
-xmlns="http://www.w3.org/2000/svg"
-viewBox="0 0 55 55"
-class="img-svg">
-  <defs>
-    <filter id="f1" x="0" y="0" width="200%" height="200%">
-      <feOffset result="offOut" in="SourceGraphic" dx="1" dy="0.5" />
-      <feGaussianBlur result="blurOut" in="offOut" stdDeviation="1" />
-      <feBlend in="SourceGraphic" in2="blurOut" mode="normal" />
-    </filter>
-  </defs>
-  <path class="chevron" id='TopChevron' d="M52,4.2L28,23.7c-0.1,0.1-0.3,0.2-0.5,0.2c-0.2,0-0.3-0.1-0.5-0.2L3,4.2c-0.3-0.2-0.4-0.7-0.1-1
-  C3,3,3.2,2.9,3.5,2.9H9c0.2,0,0.3,0.1,0.4,0.2l18,14.6L45.5,3c0.1-0.1,0.3-0.2,0.5-0.2h5.6c0.3,0,0.6,0.2,0.7,0.5
-  C52.3,3.7,52.2,4,52,4.2z"/>
-<path class="chevron" id='MiddleChevron' d="M52,31.8L28,51.3c-0.1,0.1-0.3,0.2-0.5,0.2c-0.2,0-0.3-0.1-0.5-0.2L3,31.8c-0.3-0.2-0.4-0.7-0.1-1
-  c0.1-0.2,0.3-0.3,0.6-0.3H9c0.2,0,0.3,0.1,0.4,0.2l18,14.6l18-14.6c0.1-0.1,0.3-0.2,0.5-0.2h5.6c0.3,0,0.6,0.2,0.7,0.5
-  C52.3,31.3,52.2,31.6,52,31.8z"/>
-<path class="chevron" id='BottomChevron' d="M52,59.5L28,79c-0.1,0.1-0.3,0.2-0.5,0.2c-0.2,0-0.3-0.1-0.5-0.2L3,59.5c-0.3-0.2-0.4-0.7-0.1-1
-  c0.1-0.2,0.3-0.3,0.6-0.3H9c0.2,0,0.3,0.1,0.4,0.2l18,14.6l18-14.6c0.1-0.1,0.3-0.2,0.5-0.2h5.6c0.3,0,0.6,0.2,0.7,0.5
-  C52.3,59,52.2,59.3,52,59.5z"/>
-  </svg>
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 55 55"
+          class="img-svg">
+            <defs>
+              <filter id="f1" x="0" y="0" width="200%" height="200%">
+                <feOffset result="offOut" in="SourceGraphic" dx="1" dy="0.5" />
+                <feGaussianBlur result="blurOut" in="offOut" stdDeviation="1" />
+                <feBlend in="SourceGraphic" in2="blurOut" mode="normal" />
+              </filter>
+            </defs>
+            <path class="chevron" id='TopChevron' d="M52,4.2L28,23.7c-0.1,0.1-0.3,0.2-0.5,0.2c-0.2,0-0.3-0.1-0.5-0.2L3,4.2c-0.3-0.2-0.4-0.7-0.1-1
+            C3,3,3.2,2.9,3.5,2.9H9c0.2,0,0.3,0.1,0.4,0.2l18,14.6L45.5,3c0.1-0.1,0.3-0.2,0.5-0.2h5.6c0.3,0,0.6,0.2,0.7,0.5
+            C52.3,3.7,52.2,4,52,4.2z"/>
+          <path class="chevron" id='MiddleChevron' d="M52,31.8L28,51.3c-0.1,0.1-0.3,0.2-0.5,0.2c-0.2,0-0.3-0.1-0.5-0.2L3,31.8c-0.3-0.2-0.4-0.7-0.1-1
+            c0.1-0.2,0.3-0.3,0.6-0.3H9c0.2,0,0.3,0.1,0.4,0.2l18,14.6l18-14.6c0.1-0.1,0.3-0.2,0.5-0.2h5.6c0.3,0,0.6,0.2,0.7,0.5
+            C52.3,31.3,52.2,31.6,52,31.8z"/>
+          <path class="chevron" id='BottomChevron' d="M52,59.5L28,79c-0.1,0.1-0.3,0.2-0.5,0.2c-0.2,0-0.3-0.1-0.5-0.2L3,59.5c-0.3-0.2-0.4-0.7-0.1-1
+            c0.1-0.2,0.3-0.3,0.6-0.3H9c0.2,0,0.3,0.1,0.4,0.2l18,14.6l18-14.6c0.1-0.1,0.3-0.2,0.5-0.2h5.6c0.3,0,0.6,0.2,0.7,0.5
+            C52.3,59,52.2,59.3,52,59.5z"/>
+        </svg>
       </div>
     </div>
   </div>
+
   {% for menu in page.menu %}
-  {% assign index = forloop.index0 | modulo: 4 %}
+  {% assign index = forloop.index0 | modulo: 2 %}
   {% if menu.menu-group-image.size > 1 %}
     <div class="mb-12 md:mb-16"><!--reveal-->
       <img src="{{ menu.menu-group-image }}" alt="wine picture" class="img-bottom-radius w-full">
@@ -42,67 +44,108 @@ class="img-svg">
   {% endif %}
 
   {% if index == 0 %}
+    <!-- F O O D -->
     <div class="container mx-auto main-content px-4 md:px-12" id="food-menu">
-  {% elsif index == 1 %}
-    <div class="container mx-auto main-content px-4 md:px-12" id="cocktails-menu">
-  {% elsif index == 2 %}
-    <div class="container mx-auto main-content px-4 md:px-12" id="non-alchoholic-menu">
-  {% elsif index == 3 %}
-    <div class="container mx-auto main-content px-4 md:px-12" id="wines-menu">
+      <h2 class="menu-title">{{ menu.menu_group_title }}</h2>
+
+      <div class="w-full flex justify-between mb-16 md:mb-24 " style="border-bottom: 2px solid rgb(242, 226, 178)"><!--reveal-->
+        <ul class="menu-categories flex justify-between inner-container overflow-x-auto md:overflow-x-hidden">
+          <!--     F  O  O  D  categories   -->
+          {% for category in menu.categories %}
+            <li
+            class="menu-category-title px-3 py-2 cursor-pointer"
+            data-category-name="{{ category.category_title | slugify }}"
+          >
+            {{ category.category_title }}
+            <div class="line"></div>
+          </li>
+          {% endfor %} 
+        </ul>
+      </div>
+    </div>
+  {% else %}
+    <!-- D R I N K  -->
+    <div class="container mx-auto main-content px-4 md:px-12" id="drink-menu">
+      <h2 class="menu-title">{{ menu.menu_group_title }}</h2>
+
+      <div class="w-full flex justify-between mb-16 md:mb-24 " style="border-bottom: 2px solid rgb(242, 226, 178)"><!--reveal-->
+        <ul class="menu-categories flex justify-between inner-container overflow-x-auto md:overflow-x-hidden">
+          <!--    D  R  I  N  K  categories  -->
+          {% for category in menu.drink_categories %}
+          <li
+            class="menu-category-title px-3 py-2 cursor-pointer"
+            data-category-name="{{ category.drink_category_name | slugify }}"
+          >
+            {{ category.drink_category_title }}
+            <div class="line"></div>
+          </li>
+          {% endfor %} 
+        </ul>
+      </div>
+    </div>
   {% endif %}
 
-    <h2 class="food-title">{{ menu.menu_group_title }}</h2><!--reveal-->
-    <p class="mt-12 md:mt-24 mb-12 md:mb-0 olive text-center">{{ menu.menu_group_text }}</p><!--reveal-->
-
-    <div class="w-full flex justify-between mb-16 md:mb-24 " style="border-bottom: 2px solid #C1A973"><!--reveal-->
-      <ul class="menu-categories flex justify-between inner-container overflow-x-auto md:overflow-x-hidden">
-        {% for category in menu.categories %}
-        <li
-          class="menu-category-title px-3 py-2 cursor-pointer"
-          data-category-name="{{ category.category_title | slugify }}"
-        >
-          {{ category.category_title }}
-          <div class="line"></div>
-        </li>
-        {% endfor %}
-      </ul>
-    </div>
     {% if index == 0 %}
+      <!--     F  O  O  D  products   -->
       <div class="inner-container" id="food-products">
-    {% elsif index == 1 %}
-      <div class="inner-container" id="cocktails-products">
-    {% elsif index == 2 %}
-      <div class="inner-container" id="non-alchoholic-products">
-    {% elsif index == 3 %}
-      <div class="inner-container" id="wines-products">
-    {% endif %}
-      {% for category in menu.categories %}
-        <div class="category-products w-full mb-32" data-category-products="{{ category.category_title | slugify }}">
-          {% for product in category.products %}
+        {% for category in menu.categories %}
+          <div class="category-products w-full mb-32" data-category-products="{{ category.category_title | slugify }}">
+            {% for product in category.products %}
 
-            <div class="flex items-start justify-between "><!--reveal-->
-              <div>
-                {% if product.product_price != ""  %}
-                  <div class="product-title">{{ product.product_title }}</div>
-                {% else %}
-                  <div class="product-title text-xl italic pt-10">{{ product.product_title }}</div>
-                {% endif %}
-                
-                {% if product.product_description != ""  %}
-                  <div class="product-description pt-2 pb-12">{{ product.product_description }}</div>
-                {% else %}
-                  <div class="pb-4"></div>
-                {% endif %}  
+              <div class="flex items-start justify-between "><!--reveal-->
+                <div>
+                  {% if product.product_price != ""  %}
+                    <div class="product-title">{{ product.product_title }}</div>
+                  {% else %}
+                    <div class="product-title text-xl italic pt-10">{{ product.product_title }}</div>
+                  {% endif %}
+                  
+                  {% if product.product_description != ""  %}
+                    <div class="product-description pt-2 pb-12">{{ product.product_description }}</div>
+                  {% else %}
+                    <div class="pb-4"></div>
+                  {% endif %}  
+                </div>
+                <div class="product-price">
+                  {{ product.product_price }}
+                </div>
               </div>
-              <div class="product-price">
-                {{ product.product_price }}
+            {% endfor %}
+          </div>
+        {% endfor %}
+      </div>
+    {% else %}
+      <!--    D  R  I  N  K  products  -->
+      <div class="inner-container" id="drink-products">
+        {% for drink_category in menu.drink_categories %}
+          <div class="category-products w-full mb-32" data-category-products="{{ category.category_title }}">
+            {% for category in drink_category.categories %}
+              <div class="drink-category-title pb-2 mb-8 pt-4 garamond-premier-pro-italic ">
+                {{ category.category_title }}
               </div>
-            </div>
-          {% endfor %}
-        </div>
-      {% endfor %}
-    </div>
-  </div>
-  {% endfor %}
+              {% for product in category.products %}
+                <div class="flex items-start justify-between "><!--reveal-->
+                  <div>
+                    {% if product.product_price != ""  %}
+                      <div class="product-title">{{ product.product_title }}</div>
+                    {% else %}
+                      <div class="product-title text-xl italic pt-10">{{ product.product_title }}</div>
+                    {% endif %}
+                    
+                    {% if product.product_description != ""  %}
+                      <div class="product-description pt-2 pb-12">{{ product.product_description }}</div>
+                    {% endif %}  
+                  </div>
+                  <div class="product-price">
+                    {{ product.product_price }}
+                  </div>
+                </div>
+              {% endfor %}
+            {% endfor %}
+          </div>
+        {% endfor %}
+      </div>
+    {% endif %}
+  {% endfor %}  
 </div>
 {% include footer.html %}
