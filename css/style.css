@@ -1367,6 +1367,9 @@ border-bottom: 2px solid #A3A792;;
     line-height: 25px;
   }
   
+  #food .inner-container {
+    padding: 0 16px
+  }
   
   header.site-header {
     /*top: 40px;*/
