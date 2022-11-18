@@ -173,8 +173,9 @@ body.noscroll{
   font-size: 90px;
   line-height: 90px;
   text-transform: uppercase;
-  color: #F0E1AD;
-  margin-top: 500px;
+  color: rgb(242, 226, 178);
+  margin-top: 600px;
+  font-family: 'Lulo Clean one', 'sans-serif';
 }
 
 .no-scrollbar::-webkit-scrollbar {
@@ -217,14 +218,6 @@ body.noscroll{
   fill: #F2E2B2;
   fill-opacity: 1;
 
-}
-
-.chevron:nth-child(2) {
-  /*fill-opacity: 1;*/
-}
-
-.chevron:nth-child(3) {
-  /*fill-opacity: 1;*/
 }
 
 #TopChevron {
@@ -1175,10 +1168,6 @@ border-bottom: 2px solid #A3A792;;
 
 /* PRIVACY PAGE */
 
-#privacy,
-#terms {
-  background-color: #EEEDE5;
-}
 
 /* #privacy h1 {
   font-size: 38px;
@@ -1195,7 +1184,8 @@ border-bottom: 2px solid #A3A792;;
   line-height: 40px;
   font-weight: 400;
   letter-spacing: 0.3px;
-  color: #5C7057
+  color: rgb(242, 226, 178);
+  font-family: 'Garamond Premier Pro italic', 'sans-serif';
 }
 
 #privacy h3,
@@ -1205,7 +1195,8 @@ border-bottom: 2px solid #A3A792;;
   font-size: 28px;
   line-height: 32px;
   font-weight: bold;
-  color: #5C7057
+  color: rgb(242, 226, 178);
+  font-family: 'Garamond Premier Pro italic', 'sans-serif';
 }
 
 #terms h3 {
@@ -1215,13 +1206,14 @@ border-bottom: 2px solid #A3A792;;
 
 #privacy h4,
 #terms h4 {
-  font-size: 20px;
-  line-height: 28px;
+  font-size: 24px;
+  line-height: 32px;
   margin-top: 20px;
   margin-bottom: 12px;
   font-weight: 600;
   padding-left: 12px;
-  color: #5C7057
+  color: rgb(242, 226, 178);
+  font-family: 'Garamond Premier Pro italic', 'sans-serif';
 }
 
 #privacy h5,
@@ -1231,13 +1223,14 @@ border-bottom: 2px solid #A3A792;;
   font-size: 14px;
   line-height: 18px;
   font-weight: 700;
-  color: #5C7057
+  color: rgb(242, 226, 178);
+  font-family: 'Garamond Premier Pro italic', 'sans-serif';
 }
 
 #privacy p,
 #terms p {
   font-size: 14px;
-  color: #5C7057;
+  color: rgb(242, 226, 178)
 }
 
 #privacy p strong,
