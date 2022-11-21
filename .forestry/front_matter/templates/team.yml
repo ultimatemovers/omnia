@@ -9,30 +9,11 @@ fields:
   label: layout
   hidden: true
   default: about
-- name: main_title
-  type: text
-  config:
-    required: false
-  label: main_title
-- name: subtitle
-  type: textarea
-  default: ''
-  config:
-    required: false
-    wysiwyg: false
-    schema:
-      format: markdown
-  label: Subtitle
 - name: main_img
   type: file
   config:
     maxSize: 64
   label: main_img
-- name: team_title
-  type: text
-  config:
-    required: false
-  label: team_title
 - name: team_members
   type: field_group_list
   fields:
@@ -70,21 +51,16 @@ fields:
   config:
     required: false
   label: produce_title
-- name: produce_image
-  type: file
-  config:
-    maxSize: 64
-  label: produce image
-- name: produce_little-title
-  type: text
-  config:
-    required: false
-  label: produce_little-title
 - name: produce_text
   type: text
   config:
     required: false
   label: produce_text
+- name: produce_image
+  type: file
+  config:
+    maxSize: 64
+  label: produce image
 - name: partners
   type: field_group_list
   fields:
@@ -107,46 +83,5 @@ fields:
     max: 
     labelField: 
   label: partners
-- name: hospitality_title
-  type: text
-  config:
-    required: false
-  label: hospitality_title
-- name: hospitality_text
-  type: textarea
-  default: ''
-  config:
-    required: false
-    wysiwyg: false
-    schema:
-      format: markdown
-  label: Hospitality Text
-- name: projects
-  type: field_group_list
-  fields:
-  - name: title
-    type: text
-    config:
-      required: false
-    label: title
-  - name: text
-    type: textarea
-    default: ''
-    config:
-      required: false
-      wysiwyg: false
-      schema:
-        format: markdown
-    label: Text
-  - name: img
-    type: file
-    config:
-      maxSize: 64
-    label: img
-  config:
-    min: 
-    max: 
-    labelField: 
-  label: projects
 pages:
 - about.md
