@@ -101,6 +101,5 @@ text: Holidays, special occasions and “just because we feel like it” celebra
   and friendly staff will make it an experience to remember. Watch this space for
   upcoming events and follow our socials to never miss a beat.
 main_img: "/assets/images/omnia-events-1st-photo1.jpeg"
-published: false
 
 ---
