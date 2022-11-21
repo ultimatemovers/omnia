@@ -7,35 +7,6 @@ events:
     back live music nights at Omnia! Inspired by the Buena Vista Social Club, Omnia
     will be host to great live music and specialty drinks every Wednesday. Come along
     and visit 'Omnia Vista Social Club' for a night out to dinner or drinks.
-- title: Bastille Day
-  img: "/assets/images/reward3.jpg"
-  text: "<p>Bonne Fete Nationale. Come celebrate with us this Bastille Day. Our kitchen
-    team has designed a five course menu offering all the culinary icons of France.
-    Snacks to share, distinctly French dishes, cheese,<br> and sweets to finish. Alongside
-    our usual drink offering we’ll be serving French classics from our rolling trolley.
-    A festive pairing of Champagne, Lillet, Grand Marnier, and wines by the magnum.
-    A day of good food, fine drink, and live music to set the tone. Santé.</p><p></p><h6><strong><em>5
-    Course Menu $150 per person Menu</em></strong></h6><p></p><p><em>Shared Snacks</em><br>
-    French country style pork and pistachio pâté, saucisson, marinated Mount Zero
-    olives, freshly baked brioche with St David’s dairy cultured butter</p><p></p><p><em>Starter</em><br>
-    Paul Bocuse style winter truffle soup with puff pastry</p><p></p><p><em>Main Course</em><br>
-    Milawa organic coq au vin, bacon, Dijon mustard, champignon &amp; pomme purée</p><p></p><p><em>Cheese</em><br>
-    Brie de meaux, black truffle, quince &amp; sourdough baguette</p><p></p><p><em>Dessert</em><br>
-    Profiterole, spun sugar, crème pâtissière &amp; sauce anglaise</p><p></p><p><em>Petit
-    Fours</em><br> A classic selection of mignardise and digestifs presented in trolley
-    format</p>"
-- title: Omnia Got Soul
-  img: "/assets/images/reward3.jpg"
-  text: "<p>Join us every Wednesday between 7:00 PM and 10:30 PM for live music. Enjoy
-    a soulful twist on the Omnia you know and love, as we serve speciality cocktails
-    to match the beat of the music.</p><p><strong><em>July 6th &amp; 13th with Mimi
-    Zaetta-Thom</em>as</strong></p><p>Mimi Zaetta-Thomas has recorded and toured worldwide,
-    supporting and performing alongside artists Christine Anu, Vince Jones, Vanessa
-    Amerossi, and Hiatus Kaiyote.</p><p><strong><em>July 20th with Pat Powell</em></strong></p><p>Pat
-    Powell has a career that spans four decades, hailing from the close-knit Jamaican
-    communities of 1960’s Bristol. Pat has supported and performed alongside James
-    Brown, Queen, The Eurythmics, Boy George, Crowded House, Split Enz, and Kylie
-    Minogue.</p>"
 columns:
 - text: Beverages will be charged on consumption and a $500 deposit will be required
     to secure the venue. For special occasions, we would also be glad to custom make
