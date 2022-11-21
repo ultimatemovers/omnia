@@ -100,6 +100,11 @@ fields:
   config:
     required: false
   label: produce_title
+- name: produce_image
+  type: file
+  config:
+    maxSize: 64
+  label: produce image
 - name: produce_little-title
   type: text
   config:
@@ -173,10 +178,5 @@ fields:
     max: 
     labelField: 
   label: projects
-- name: produce_image
-  type: file
-  config:
-    maxSize: 64
-  label: produce image
 pages:
 - about.md
