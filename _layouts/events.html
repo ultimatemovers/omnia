@@ -4,10 +4,6 @@
 <div id="events">
   <div class="cover-image" style="background-image: url({{page.main_img}});">
     <div class="container mx-auto px-4">
-      <!-- removed title from page because of readability  -->
-      <!-- <h1>
-        {{ page.big_title }}
-      </h1> -->
       <div>
         <svg id="Chevrons" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 55 55" class="img-svg">
           <defs>
@@ -31,12 +27,6 @@
     </div>
   </div>
   <div class="container mx-auto main-content px-4 md:p-12 md:p-24">
-    <!-- <div>
-      <h2 class="events-title reveal">Upcoming Events</h2>
-      <h3 class="private-title mt-24 md:mt-48 reveal">{{page.little_title}}</h3>
-      <div class="light-gold reveal lg:pt-12 pb-16 pt-8 md:pt-0">{{page.text}}</div>
-    </div> -->
-
     {% for event in page.events %}
     {% assign index = forloop.index0 | modulo: 2 %}
     <div class="lg:flex justify-between items-center pt-8 lg:pt-16 mb-20 event-item">
@@ -62,50 +52,6 @@
       </div>
     </div>
     {% endfor %}
-    <!-- <h2 class="form-title md:w-1/2 reveal">FOR EXCLUSIVE EVENT INQUIRIES PLEASE CONTACT OUR TEAM USING THE FORM BELOW:
-    </h2>
-    <form class="mb-40" method="POST" action="https://formsubmit.co/362e1c9da30cac6214d550bd9280f7f0">
-      <div class="md:flex justify-between">
-        <input type="text" id="fname" name="Name" placeholder="Your Name" class="input mr-4 reveal w-full md:w-1/2"
-          required />
-        <input type="text" id="lname" name="Phone" placeholder="Your Phone" class="input md:ml-4 reveal w-full md:w-1/2"
-          required />
-      </div>
-      <div class="md:flex justify-between">
-        <input type="text" id="fname" name="Email" placeholder="Your Email" class="input mr-4 reveal w-full md:w-1/2"
-          required />
-        <select name="Event type" id="event-type" class="select  blue reveal md:ml-4">
-          <option value="" class="option" selected disabled>Event type</option>
-          <option value="lunch">Lunch</option>
-          <option value="dinner">Dinner</option>
-        </select>
-      </div>
-      <div class="md:flex justify-between">
-        <select name="Number of Guests" id="guets" class="select mr-4 blue reveal">
-          <option value="" class="option" selected disabled>Numbers of Guests</option>
-          <option value="8-12" class="option">8-12</option>
-          <option value="13-20">13-20</option>
-          <option value="21-30">21-30</option>
-          <option value="30+">30+</option>
-          <option value="50+">50+</option>
-        </select>
-        <input type="text" id="Date" name="date" placeholder="Preferred date"
-          class="md:ml-4 input reveal w-full md:w-1/2" />
-      </div>
-      <div class="md:flex justify-between">
-        <select name="Event Details" id="event-details" class="select mr-4 blue reveal">
-          <option value="" class="option" selected disabled>Event details</option>
-          <option value="sitdown">Sitdown</option>
-          <option value="cocktail">Cocktail</option>
-        </select>
-        <input type="hidden" name="_subject" value="Omnia Bistro newsletter submission!">
-        <input type="hidden" name="_next" value="https://www.omniabistro.com.au/">
-        <input type="hidden" name="_captcha" value="false">
-        <input type="hidden" name="_autoresponse" value="Thanks for newsletter submission">
-        <button type="submit" class="form-button md:ml-4 reveal">Enquire now</button>
-      </div>
-    </form>
-  </div> -->
 </div>
 
 {% include footer.html %}
