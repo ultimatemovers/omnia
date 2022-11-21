@@ -9,6 +9,11 @@ fields:
   label: layout
   default: events
   hidden: true
+- name: main_img
+  type: file
+  config:
+    maxSize: 64
+  label: main_img
 - name: events
   type: field_group_list
   fields:
@@ -36,65 +41,5 @@ fields:
     max: 
     labelField: 
   label: events
-- name: first_column_first_text
-  type: text
-  config:
-    required: false
-  label: first column first text
-- name: first_column_second_text
-  type: text
-  config:
-    required: false
-  label: first column second text
-- name: second_column_first_text
-  type: text
-  config:
-    required: false
-  label: second column first text
-- name: second_column_second_text
-  type: text
-  config:
-    required: false
-  label: second column second text
-- name: second_column_third_text
-  type: text
-  config:
-    required: false
-  label: second column third text
-- name: second_column_fourth_text
-  type: text
-  config:
-    required: false
-  label: second column fourth text
-- name: third_column_first_text
-  type: text
-  config:
-    required: false
-  label: third column first text
-- name: third_column_second_text
-  type: text
-  config:
-    required: false
-  label: third column second text
-- name: big_title
-  type: text
-  config:
-    required: false
-  label: big title
-- name: little_title
-  type: text
-  config:
-    required: false
-  label: little title
-- name: text
-  type: text
-  config:
-    required: false
-  label: text
-- name: main_img
-  type: file
-  config:
-    maxSize: 64
-  label: main_img
 pages:
 - events.md
