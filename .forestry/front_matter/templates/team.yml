@@ -65,36 +65,6 @@ fields:
     max: 
     labelField: 
   label: team_members
-- name: place_title
-  type: text
-  config:
-    required: false
-  label: place_title
-- name: place_text
-  type: text
-  config:
-    required: false
-  label: place text
-- name: place_img
-  type: file
-  config:
-    maxSize: 64
-  label: place_img
-- name: space_title
-  type: text
-  config:
-    required: false
-  label: space_title
-- name: space_text
-  type: text
-  config:
-    required: false
-  label: space text
-- name: space_img
-  type: file
-  config:
-    maxSize: 64
-  label: space_img
 - name: produce_title
   type: text
   config:
