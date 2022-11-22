@@ -35,6 +35,11 @@ fields:
     config:
       maxSize: 64
     label: Menu Group Image
+  - name: menu_in_pdf_format
+    type: file
+    config:
+      maxSize: 64
+    label: menu in pdf format
   - name: categories
     type: field_group_list
     fields:
