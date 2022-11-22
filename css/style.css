@@ -6,7 +6,7 @@
 body {
   height: 100%;
   padding-bottom: 0;
-  background-color: rgba(188,152,79);
+  background-color: #c7cec5;
 }
 
 html {
@@ -22,8 +22,8 @@ html {
 .lulo-clean-one {
   font-family: 'Lulo Clean one', 'sans-serif';
 }
-.garamond-premier-pro-italic {
-  font-family: 'Garamond Premier Pro italic', 'sans-serif';
+.garamond-premier-pro {
+  font-family: 'Garamond Premier Pro', 'sans-serif';
 }
 
 html, body, div, p {
@@ -31,13 +31,16 @@ html, body, div, p {
 }
 
 footer {
-  background-color: rgba(188,152,79);
+  background-color: #c7cec5;
 }
 
 .footer-bottom {
   padding-top: 20px;
-  border-top: 1px solid rgb(242, 226, 178);
+}
 
+footer > div,
+.footer-bottom {
+  border-top: 1px solid rgb(98,118,94);
 }
 
 .footer-bottom p,
@@ -45,28 +48,28 @@ footer {
   font-size: 14px;
 }
 
-.light-gold-btn {
+.omnia-green-btn {
   display: block;
   display: flex;
   justify-content: center;
   font-size: 14px;
   font-weight: 600;
-  border-top-right-radius: 30px;
-  border-bottom-right-radius: 30px;
-  background-color: rgb(242, 226, 178);
-  border: 2px solid rgb(188,152,79);
-  color: rgb(188,152,79);
+  border-radius: 30px;
+  /* border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px; */
+  color: rgb(98,118,94);
+  background-color: rgb(199, 206, 197);
+  border: 2px solid rgb(98,118,94);
   padding: 8px;
   text-transform: uppercase;
-  /*min-width: 300px;*/
-  width: 100%;
+  width: 200px;
   outline: none;
+
 }
 
-.light-gold-btn:hover {
-  color: rgb(242, 226, 178);
-  background-color: rgb(188,152,79);
-  border: 2px solid rgb(242, 226, 178);
+.omnia-green-btn:hover {
+  background-color: rgb(98,118,94);
+  color: rgb(199, 206, 197);
 }
 
 button.light-gold-btn {
@@ -87,15 +90,13 @@ h2.middle-olive-text{
   font-size: 28px;
 }
 .middle-olive-text {
-  color: #F0E1AD;
-  /*font-family: 'Avenir LT Std';*/
-  text-transform: uppercase;
-  font-size: 24px;
-  line-height: 28px;
+  color: rgb(98,118,94);
+  font-size: 20px;
+  line-height: 24px;
 }
 
 .middle-white-title {
-  color:  rgb(242, 226, 178);
+  color: rgb(98,118,94);
   font-size: 32px;
 }
 
@@ -189,14 +190,14 @@ body.noscroll{
 
 .footer-contact-title{
   min-width: 70px;
-  color: rgb(242, 226, 178);
+  color: rgb(98,118,94);
   font-family: 'Avenir LT Std';
   font-size: 18px;
   font-weight: lighter;
 }
 .footer-opening-title {
   min-width: 100px;
-  color: rgb(242, 226, 178);
+  color: rgb(98,118,94);
   font-family: 'Avenir LT Std';
   font-size: 18px;
   font-weight: lighter;
@@ -204,6 +205,14 @@ body.noscroll{
 
 
 /* */
+
+.logo {
+  width: 200px;
+}
+
+footer .openPopup {
+  width: 350px;
+}
 
 .img-svg {
   height: 100px;
@@ -301,15 +310,25 @@ header.site-header{
   position: fixed;
   left: 0;
   right: 0;
-  top: 60px;
-  padding: 0 80px;
+  top: 0;
+  padding: 30px 80px 18px;
   /* width: 92%; */
 }
 
+header.site-header.transparent {
+  background-color: transparent;
+  border-bottom: none;
+}
+
+header.site-header.scrolled {
+  background-color: #c7cec5;
+  border-bottom: 1px solid rgb(98,118,94);
+  transition: background-color 0.3s ease-in-out;
+}
 
 .voucher-btn a{
   font-size: 14px;
-  color: rgb(242, 226, 178);;
+  color: rgb(98,118,94);
   font-weight: 600;
   text-underline-offset: 4px;
 }
@@ -322,26 +341,39 @@ header .make-booking-btn {
 }
 
 .voucher-btn:hover .line {
-  background-color: rgb(242, 226, 178);;
+  background-color: rgb(98,118,94);
   animation: loadLine ease-out forwards 0.3s;
 }
 
+#food .menu-link {
+  letter-spacing: 0.1rem;
+}
+
+#food .menu-link .line{
+  background-color: rgb(98,118,94);
+  /* width: 0; */
+}
+
+#food .menu-link:hover .line {
+  background-color: rgb(98,118,94);
+  animation: loadLineSlower ease-in-out forwards 0.5s;
+}
+
 .make-booking-btn{
-  background-color: rgb(242, 226, 178);
-  color: rgb(188,152,79);
-  border: 2px solid rgb(188,152,79);
+  color: rgb(98,118,94);
+  /* background-color: rgb(188,152,79); */
+  background-color: #c7cec5;
+  border: 2px solid rgb(98,118,94);
   font-size: 14px;
   font-weight: 600;
-  border-top-right-radius: 30px;
-  border-bottom-right-radius: 30px;
+  border-radius: 30px;
   margin: 0 90px;
   transition: 0.4s;
 }
 
 .make-booking-btn:hover {
-  color: rgb(242, 226, 178);
-  background-color: rgb(188,152,79);
-  border: 2px solid rgb(242, 226, 178);
+  background-color: rgb(98,118,94);
+  color: #c7cec5;
 }
 
 header .burger {
@@ -352,7 +384,7 @@ header .burger {
 header .burger .burger-line {
   height: 6px;
   width: 100%;
-  background-color: rgb(242, 226, 178);
+  background-color: rgb(98,118,94);
   transition: all .3s ease-in-out;
 }
 
@@ -391,6 +423,14 @@ header.open-burger .burger:hover .burger-line:nth-child(2){
 /*     N  A  V  I  G  A  T  I  O  N       */
 /* -------------------------------------- */
 
+header.transparent .make-booking-btn {
+  background-color: #c1a973;
+}
+header.transparent .make-booking-btn:hover {
+  background-color: rgb(98,118,94);
+  color: #F0E1AD;
+}
+
 .nav-logo {
   width: 80px;
 }
@@ -410,7 +450,7 @@ nav {
 
 nav .terms-conditions div a{
   font-size: 14px;
-  color: rgb(242, 226, 178);
+  color: rgb(98,118,94);
 }
 
 nav .newsletter {
@@ -421,11 +461,12 @@ nav .newsletter {
 nav .newsletter span{
   font-size: 14px;
   font-weight: 600;
-  background-color: rgb(242, 226, 178);
-  color: rgb(188,152,79);
-  border: 2px solid rgb(188,152,79);
-  border-top-right-radius: 25px;
-  border-bottom-right-radius: 25px;
+  background-color: rgb(193, 169, 115);
+  color: rgb(98,118,94);
+  border: 2px solid rgb(98,118,94);
+  /* border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px; */
+  border-radius: 30px;
   padding: 8px 30px;
   cursor: pointer;
   transition: all .3s ease-in-out;
@@ -433,13 +474,12 @@ nav .newsletter span{
 }
 
 nav .newsletter span:hover {
-  background-color: rgb(188,152,79);
-  color: rgb(242, 226, 178);
-  border: 2px solid rgb(242, 226, 178);
+  background-color: rgb(98,118,94);
+  color: #F0E1AD;
 }
 
 nav .promotion-headline {
-  color: rgb(242, 226, 178);
+  color: rgb(98,118,94);
   font-size: 18px;
   line-height: 20px;
   margin-top: 40px;
@@ -478,12 +518,12 @@ nav ul.navigation li:nth-child(9) {
 nav ul.navigation li a {
   font-size: 34px;
   text-transform: uppercase;
-  color: #F0E1AD;
+  color: rgb(98,118,94);
   transition: 0.4s;
 }
 
 nav ul.navigation li:hover a {
-  color: rgb(188,152,79);
+  color: #F0E1AD;
 }
 
 #navigation-page,
@@ -565,7 +605,7 @@ nav ul.navigation li:hover a {
   color: #F0E1AD;
   font-size: 90px;
   padding-bottom: 15px;
-  border-bottom: 2px solid #F0E1AD;
+  border-bottom: 2px solid rgb(98,118,94);
   /*width: 350px;*/
   width: 90%;
   text-transform: uppercase;
@@ -574,19 +614,18 @@ nav ul.navigation li:hover a {
 }
 
 .events-title {
-  font-family: 'Lulo Clean one', 'sans-serif';
+  /* font-family: 'Lulo Clean one', 'sans-serif'; */
   font-size: 90px;
   padding-bottom: 15px;
   text-transform: uppercase;
   text-align: center;
   margin: 0 auto;
-  color: rgb(242, 226, 178);
-  border-bottom: 2px solid rgb(242, 226, 178);;
+  color: rgb(98,118,94);
+  border-bottom: 2px solid rgb(98,118,94);
 }
 
 .img-radius {
-  border-top-left-radius: 90px;
-  border-top-right-radius: 90px;
+  border-radius: 90px;
 }
 
 .img-bottom-radius {
@@ -602,10 +641,14 @@ nav ul.navigation li:hover a {
 .omnia-red {
   color: rgb(204, 96, 178);
 }
+.omnia-green {
+  color: rgb(98,118,94)
+}
 
 .section-title {
-  font-family: 'Garamond Premier Pro italic', 'sans-serif';
-  color: rgb(242, 226, 178);
+  font-family: 'Garamond Premier Pro', 'sans-serif';
+  /* color: rgb(242, 226, 178); */
+  color: #62765E;
   font-size: 40px;
   line-height: 40px;
   padding-bottom: 15px;
@@ -644,20 +687,20 @@ background-color: #F2E8C3;
 
 #food .inner-container {
   width: 900px;
-  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #food .menu-categories {
-  padding-top: 100px;
+  padding-top: 40px;
   margin: 0 auto;
 }
 
 .menu-title {
-  font-family: 'Lulo Clean one', 'sans-serif';
-  color: rgb(242, 226, 178);
+  color: rgb(98,118,94);
   font-size: 90px;
   padding-bottom: 15px;
-  border-bottom: 2px solid rgb(242, 226, 178);
+  border-bottom: 2px solid rgb(98,118,94);
   width: 800px;
   text-transform: uppercase;
   text-align: center;
@@ -665,42 +708,42 @@ background-color: #F2E8C3;
 }
 
 #food .menu-category-title {
-  color: rgb(242, 226, 178);
+  color: rgb(98,118,94);
   font-size: 20px;
   text-transform: uppercase;
   transition: all .3s ease-in-out;
 }
 
 #food .menu-category-title:hover {
-  color: rgb(242, 226, 178);
+  color: rgb(98,118,94);
 }
 #food .menu-category-title:hover .line{
-  background-color: rgb(242, 226, 178);
+  background-color: rgb(98,118,94);
   animation: loadLine ease-out forwards 0.5s;
 }
 
 #food .menu-category-title.active {
-  color: rgb(242, 226, 178);
+  color: rgb(98,118,94);
   /* text-decoration: underline; */
   /* text-underline-offset: 4px; */
 }
 
 
 #food .menu-category-title.active .line {
-  background-color: rgb(242, 226, 178)
+  background-color: rgb(98,118,94)
 }
 
 #food .divider-line {
-  border-bottom: 2px solid rgb(242, 226, 178);
+  border-bottom: 2px solid rgb(98,118,94);
 }
 
 #food .product-title {
-  color: rgb(242, 226, 178)
+  color: rgb(98,118,94)
 }
 
 #food .product-description,
 #food .product-price {
-  color: rgb(242, 226, 178)
+  color: rgb(98,118,94)
 }
 
 .drink-menu {
@@ -711,8 +754,8 @@ background-color: #F2E8C3;
 
 .drink-category-title {
   font-size: 26px;
-  color: rgb(242, 226, 178);
-  border-bottom: 1px dotted rgb(242, 226, 178);
+  color: rgb(98,118,94);
+  border-bottom: 1px dotted rgb(98,118,94);
 }
 
 
@@ -817,8 +860,8 @@ text-transform: uppercase;
   font-size: 1.1em;
   text-decoration: underline;
 }
-#events .light-gold p {
-  color: rgba(242, 226, 178);
+#events .omnia-green p {
+  color: rgb(98,118,94);
 }
 
 /*.event-img {
@@ -885,8 +928,21 @@ text-transform: uppercase;
 
 #contacts .olive-btn:hover {
   background-color: rgb(188,152,79);
-  color: rgb(242, 226, 178);
-  border: 2px solid rgb(242, 226, 178);
+  color: rgb(98,118,94);
+  border: 2px solid rgb(98,118,94);
+}
+
+#contacts .middle-olive-text, 
+#contacts .footer-opening-title, 
+#contacts .footer-contact-title,
+#contacts .little-white-text{
+  color: rgb(98,118,94);
+}
+
+#contacts .olive-btn {
+  border-color: rgb(98,118,94);
+  color: rgb(98,118,94);
+  background-color: rgb(199 206 197);
 }
 
 .exclusive-events-subtitle,
@@ -992,12 +1048,12 @@ background-position: 30% 40%;
 }
 
 .partner {
-  border: 1px solid #F0E1AD;
+  /* border: 1px solid rgb(98,118,94); */
   padding: 20px 32px;
-  margin-bottom: 32px;
+  margin-bottom: 20px;
   border-radius: 25px;
   position: relative;
-
+  padding-left: 80px;
 }
 
 .accordion-description {
@@ -1039,6 +1095,8 @@ background-position: 30% 40%;
   font-size: 26px;
   text-transform: uppercase;
   width: 100%;
+  text-decoration: underline;
+  text-underline-offset: 4px
 }
 
 .partner-text p {
@@ -1064,7 +1122,7 @@ background-position: 30% 40%;
 }
 
 .border-class  {
-  border-bottom: 2px solid rgb(242, 226, 178);
+  border-bottom: 2px solid #62765E;
 }
 
 .member-item:nth-child(even) .img-border-radius {
@@ -1168,15 +1226,6 @@ border-bottom: 2px solid #A3A792;;
 
 /* PRIVACY PAGE */
 
-
-/* #privacy h1 {
-  font-size: 38px;
-  margin-bottom: 30px;
-  line-height: 48px;
-  text-transform: capitalize;
-  color: #5C7057
-} */
-
 #privacy h2,
 #terms h2 {
   margin-bottom: 20px;
@@ -1185,7 +1234,7 @@ border-bottom: 2px solid #A3A792;;
   font-weight: 400;
   letter-spacing: 0.3px;
   color: rgb(242, 226, 178);
-  font-family: 'Garamond Premier Pro italic', 'sans-serif';
+  font-family: 'Garamond Premier Pro', 'sans-serif';
 }
 
 #privacy h3,
@@ -1196,7 +1245,7 @@ border-bottom: 2px solid #A3A792;;
   line-height: 32px;
   font-weight: bold;
   color: rgb(242, 226, 178);
-  font-family: 'Garamond Premier Pro italic', 'sans-serif';
+  font-family: 'Garamond Premier Pro', 'sans-serif';
 }
 
 #terms h3 {
@@ -1213,7 +1262,7 @@ border-bottom: 2px solid #A3A792;;
   font-weight: 600;
   padding-left: 12px;
   color: rgb(242, 226, 178);
-  font-family: 'Garamond Premier Pro italic', 'sans-serif';
+  font-family: 'Garamond Premier Pro', 'sans-serif';
 }
 
 #privacy h5,
@@ -1224,7 +1273,7 @@ border-bottom: 2px solid #A3A792;;
   line-height: 18px;
   font-weight: 700;
   color: rgb(242, 226, 178);
-  font-family: 'Garamond Premier Pro italic', 'sans-serif';
+  font-family: 'Garamond Premier Pro', 'sans-serif';
 }
 
 #privacy p,
@@ -1364,6 +1413,10 @@ border-bottom: 2px solid #A3A792;;
     padding: 0 16px
   }
   
+  .omnia-green-btn {
+    width: 100%;
+  }
+  
   header.site-header {
     /*top: 40px;*/
     top: 0;
@@ -1447,11 +1500,6 @@ border-bottom: 2px solid #A3A792;;
     position: absolute;
     bottom: 120px;
     margin-top: 0;
-  }
-
-  #bookings .burger-line,
-  #events .burger-line {
-    background-color: rgb(188,152,79);
   }
 
   .omnia-title,
@@ -1548,6 +1596,9 @@ border-bottom: 2px solid #A3A792;;
     max-width: 250px;
   }
 
+  .partner {
+    padding: 20px 8px;
+  }
 
   /*  -----------------  */
   /*    F   O   O   D    */
@@ -1663,6 +1714,12 @@ border-bottom: 2px solid #A3A792;;
 
 @keyframes loadLine {
   0% { width: 0%; }
+  100% { width: 100%; }
+}
+
+@keyframes loadLineSlower {
+  0% { width: 0%; }
+  15% { width: 0%; }
   100% { width: 100%; }
 }
 

@@ -22,20 +22,13 @@
 
   window.addEventListener('scroll', function() {
     let scroll = window.scrollY;
-    if (scroll > 30 ) {
-       if (document.URL.includes("food") ){
-        siteHeader.classList.add('yellow')
-      }
-      else  if (document.URL.includes("bookings") || document.URL.includes("events") ){
-        siteHeader.classList.add('white')
-      }
-      else {
-        siteHeader.classList.add('green')
-      }
-      } else {
-      siteHeader.classList.remove('yellow')
-      siteHeader.classList.remove('white')
-      siteHeader.classList.remove('green')
+    let screenHeight = window.innerHeight
+    const header = document.querySelector('.site-header')
+    if (scroll > (screenHeight - 80) && !header.classList.contains('transparent')) {
+      header.classList.add('scrolled')
+    }
+    else {
+      header.classList.remove('scrolled')
     }
 });
 
@@ -130,6 +123,7 @@
       if (window.innerWidth > 450) {
         navLogo.classList.remove('hidden')
         logo.classList.add('hidden')
+        header.classList.remove('scrolled')
       } else {
         document.body.style = "height: 100vh;"
       }
@@ -144,6 +138,11 @@
       navLogo.classList.add('hidden')
       logo.classList.remove('hidden')
       header.classList.add('open-burger')
+
+      // show header background color 
+      if(window.scrollY > (window.innerHeight - 80)){
+        header.classList.add('scrolled')
+      }
       setTimeout(() => {
         navigationPage.classList.add('hidden')
         navigationPage.classList.remove('close')

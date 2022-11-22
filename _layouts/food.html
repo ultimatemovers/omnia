@@ -47,10 +47,18 @@
     <!-- F O O D -->
     <div class="container mx-auto main-content px-4 md:px-12" id="food-menu">
       <h2 class="menu-title">{{ menu.menu_group_title }}</h2>
-
-      <div class="w-full flex justify-between mb-16 md:mb-24 " style="border-bottom: 2px solid rgb(242, 226, 178)"><!--reveal-->
+      <p class="text-xl mt-12 mb-12 md:mb-0 olive text-center">
+        {{ menu.menu_group_text }}
+      </p>
+      <div class="flex items-center justify-center my-12 ">
+        <a class="menu-link omnia-green text-xl" href="{{menu.menu_in_pdf_format}}" target="_blank">
+          A LA CARTE MENU
+          <div class="line"></div>
+        </a>
+      </div>
+      
+      <!-- <div class="w-full flex justify-between mb-16 md:mb-24 " style="border-bottom: 2px solid rgb(98,118,94)">
         <ul class="menu-categories flex justify-between inner-container overflow-x-auto md:overflow-x-hidden">
-          <!--     F  O  O  D  categories   -->
           {% for category in menu.categories %}
             <li
             class="menu-category-title px-3 py-2 cursor-pointer"
@@ -61,14 +69,15 @@
           </li>
           {% endfor %} 
         </ul>
-      </div>
+      </div> -->
     </div>
   {% else %}
-    <!-- D R I N K  -->
+  
+  <!-- D R I N K  -->
     <div class="container mx-auto main-content px-4 md:px-12" id="drink-menu">
       <h2 class="menu-title">{{ menu.menu_group_title }}</h2>
 
-      <div class="w-full flex justify-between mb-16 md:mb-24 " style="border-bottom: 2px solid rgb(242, 226, 178)"><!--reveal-->
+      <div class="w-full flex justify-between mb-16">
         <ul class="menu-categories flex justify-between inner-container overflow-x-auto md:overflow-x-hidden">
           <!--    D  R  I  N  K  categories  -->
           {% for category in menu.drink_categories %}
@@ -88,11 +97,11 @@
     {% if index == 0 %}
       <!--     F  O  O  D  products   -->
       <div class="inner-container" id="food-products">
-        {% for category in menu.categories %}
+        <!-- {% for category in menu.categories %}
           <div class="category-products w-full mb-32" data-category-products="{{ category.category_title | slugify }}">
             {% for product in category.products %}
 
-              <div class="flex items-start justify-between "><!--reveal-->
+              <div class="flex items-start justify-between ">
                 <div>
                   {% if product.product_price != ""  %}
                     <div class="product-title">{{ product.product_title }}</div>
@@ -112,38 +121,55 @@
               </div>
             {% endfor %}
           </div>
-        {% endfor %}
+        {% endfor %} -->
       </div>
     {% else %}
       <!--    D  R  I  N  K  products  -->
-      <div class="inner-container" id="drink-products">
-        {% for drink_category in menu.drink_categories %}
-          <div class="category-products w-full mb-32" data-category-products="{{ category.category_title }}">
-            {% for category in drink_category.categories %}
-              <div class="drink-category-title pb-2 mb-8 pt-4 garamond-premier-pro-italic ">
-                {{ category.category_title }}
+      <div class="inner-container flex flex-col md:flex-row items-center justify-between mb-32" id="drink-products">
+        <div class="w-full md:w-1/2">
+          <img class="img-radius" src="/img/Omnia Combo drinks.jpg" alt="Omnia Combo drinks">
+        </div>
+        <div class="w-full md:w-1/2 md:pl-8">
+          {% for drink_category in menu.drink_categories %}
+            <div class="category-products w-full" data-category-products="{{ category.category_title }}">
+              <p class="text-xl mt-12 md:mb-24 mb-12 md:mb-0 olive text-center">
+                {{ drink_category.drink_category_text }}
+              </p>
+              
+              <div class="flex items-center justify-center my-12 ">
+                <a class="menu-link omnia-green text-xl" href="#" target="_blank">
+                  BEVERAGE LIST
+                  <div class="line"></div>
+                </a>
               </div>
-              {% for product in category.products %}
-                <div class="flex items-start justify-between "><!--reveal-->
-                  <div>
-                    {% if product.product_price != ""  %}
-                      <div class="product-title">{{ product.product_title }}</div>
-                    {% else %}
-                      <div class="product-title text-xl italic pt-10">{{ product.product_title }}</div>
-                    {% endif %}
-                    
-                    {% if product.product_description != ""  %}
-                      <div class="product-description pt-2 pb-12">{{ product.product_description }}</div>
-                    {% endif %}  
-                  </div>
-                  <div class="product-price">
-                    {{ product.product_price }}
-                  </div>
+  
+              <!-- {% for category in drink_category.categories %}
+                <div class="drink-category-title pb-2 mb-8 pt-4 garamond-premier-pro-italic ">
+                  {{ category.category_title }}
                 </div>
-              {% endfor %}
-            {% endfor %}
-          </div>
-        {% endfor %}
+                {% for product in category.products %}
+                  <div class="flex items-start justify-between ">
+                    <div>
+                      {% if product.product_price != ""  %}
+                        <div class="product-title">{{ product.product_title }}</div>
+                      {% else %}
+                        <div class="product-title text-xl italic pt-10">{{ product.product_title }}</div>
+                      {% endif %}
+                      
+                      {% if product.product_description != ""  %}
+                        <div class="product-description pt-2 pb-12">{{ product.product_description }}</div>
+                      {% endif %}  
+                    </div>
+                    <div class="product-price">
+                      {{ product.product_price }}
+                    </div>
+                  </div>
+                {% endfor %}
+              {% endfor %} -->
+            </div>
+          {% endfor %}
+
+        </div>
       </div>
     {% endif %}
   {% endfor %}  

@@ -2,7 +2,7 @@
 {% include head.html %}
 {% include nav.html %}
 <div id="bookings">
-  <div class="cover-image mb-12 md:mb-24" style="background-image: url({{page.main_img}});">
+  <div class="cover-image" style="background-image: url({{page.main_img}});">
     <div class="container mx-auto px-4">
       <!-- removed title from page because of readability  -->
       <!-- <h1>
@@ -35,12 +35,13 @@
       <h2 class="events-title">Group bookings</h2>
     </div>
     <div class="md:flex pt-12 columns">
-      <div class="md:w-1/2 mr-4">
-        <p class="light-gold">{{page.first_text}}.</p>
-        <p class="light-gold">{{page.second_text}}</p>
+      <div class="md:w-1/2 md:mr-4 md:pr-12">
+        <img class="img-radius" src="/img/Conservatory wide.jpg" alt="Conservatory wide">
       </div>
-      <div class="md:w-1/2 mr-4 flex flex-col justify-between">
-        <p class="pb-8 light-gold">
+      <div class="md:w-1/2 mr-4 flex flex-col justify-between pt-4">
+        <p class="omnia-green pb-4">{{page.first_text}}.</p>
+        <p class="omnia-green pb-4">{{page.second_text}}</p>
+        <p class="pb-8 omnia-green">
           If you are visiting us as a party of seven or more, please get in touch with our reservations team at
           <a href="mailto:info@omniabistro.com.au">
             info@omniabistro.com.au

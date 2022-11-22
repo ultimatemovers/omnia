@@ -37,16 +37,16 @@
         <img src="{{event.img}}" class="img-radius reveal-left">
         {% endif %}
       </div>
-      <div class="pt-8 md:pt-0 light-gold lg:w-1/2 event-text">
+      <div class="pt-8 md:pt-0 omnia-green lg:w-1/2 event-text">
         {% if index == 0 %}
         <div class="reveal-left">
           <h3 class="pb-8 section-title border-class">{{event.title}}</h3>
-          <div class="mb-12 light-gold">{{event.text | markdownify}}</div>
+          <div class="mb-12 omnia-green">{{event.text | markdownify}}</div>
         </div>
         {% else %}
         <div class="reveal-right">
           <h3 class="pb-8 section-title border-class">{{event.title}}</h3>
-          <div class="mb-12 light-gold">{{event.text | markdownify}}</div>
+          <div class="mb-12 omnia-green">{{event.text | markdownify}}</div>
         </div>
         {% endif %}
       </div>
