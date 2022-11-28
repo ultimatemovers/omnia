@@ -371,6 +371,6 @@ menu:
   menu_in_pdf_format: ''
   categories: []
 big_title: DISCOVER FLAVOUR AT ITS FINEST
-main_img: "/assets/images/food-amp-bev-1st-photo-asparag1us.jpeg"
+main_img: "/assets/images/little21.jpeg"
 
 ---
