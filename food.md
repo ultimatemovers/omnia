@@ -285,7 +285,7 @@ food_section:
   title: Food
   text: A menu of seasonal produce, used at its peak, designed with all tastes in
     mind. Familiar yet new, held together by our iconic duck and cheesecake.
-  menu_pdf: ''
+  menu_pdf: "/assets/images/alc_menu_a4_19-11-22.pdf"
   menu_btn_text: A LA CARTE MENU
   img: "/assets/images/221026-omnia2312-trifle-little.jpg"
 drink_section:
