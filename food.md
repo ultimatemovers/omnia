@@ -297,6 +297,6 @@ drink_section:
     text: ''
     menu_pdf: ''
     menu_btn_text: BEVERAGE LIST
-  img: ''
+  img: "/assets/images/omnia-combo-drinks.jpg"
 
 ---
