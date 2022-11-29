@@ -202,7 +202,7 @@ menu:
       product_description: ''
       product_price: "50"
     subcategory: []
-  menu-group-image: ''
+  menu-group-image: "/assets/images/221026-omnia2312-trifle-little.jpg"
   menu_group_name: food
   menu_group_text: A menu of seasonal produce, used at its peak, designed with all
     tastes in mind. Familiar yet new, held together by our iconic duck and cheesecake.
