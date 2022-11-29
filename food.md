@@ -289,7 +289,7 @@ food_section:
   menu_btn_text: A LA CARTE MENU
   img: "/assets/images/221026-omnia2312-trifle-little.jpg"
 drink_section:
-  title: ''
+  title: Drink
   text: ''
   categories: []
   img: ''
