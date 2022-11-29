@@ -1231,6 +1231,11 @@ border-bottom: 2px solid #A3A792;;
 
 /* PRIVACY PAGE */
 
+#privacy .cover-image {
+  background-position: center;
+  background-size: cover;
+}
+
 #privacy h2,
 #terms h2 {
   margin-bottom: 20px;
