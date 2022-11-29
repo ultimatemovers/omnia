@@ -308,6 +308,6 @@ drink_section:
       night with our well loved Lemon Myrtle Gimlet and Saffron Negroni.
     menu_pdf: ''
     menu_btn_text: BEVERAGE LIST
-  img: "/assets/images/omnia-combo-drinks.jpg"
+  img: ''
 
 ---
