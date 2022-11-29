@@ -45,7 +45,7 @@
 
   {% if index == 0 %}
     <!-- F O O D -->
-    <div class="container mx-auto main-content px-4 md:px-12" id="food-menu">
+    <div class="container mx-auto main-content px-4 md:px-12 " id="food-menu">
       <h2 class="menu-title">{{ menu.menu_group_title }}</h2>
       <p class="text-xl mt-12 mb-12 md:mb-0 olive text-center">
         {{ menu.menu_group_text }}
@@ -129,14 +129,14 @@
         <div class="w-full md:w-1/2">
           <img class="img-radius" src="/img/Omnia Combo drinks.jpg" alt="Omnia Combo drinks">
         </div>
-        <div class="w-full md:w-1/2 md:pl-8">
+        <div class="w-full md:w-1/2 md:pl-20">
           {% for drink_category in menu.drink_categories %}
             <div class="category-products w-full" data-category-products="{{ category.category_title }}">
-              <p class="text-xl mt-12 md:mb-24 mb-12 md:mb-0 olive text-center">
+              <p class="text-xl mt-12 md:mb-24 mb-12 md:mb-0 olive text-left">
                 {{ drink_category.drink_category_text }}
               </p>
               
-              <div class="flex items-center justify-center my-12 ">
+              <div class="flex items-left justify-left my-12 ">
                 <a class="menu-link omnia-green text-xl" href="#" target="_blank">
                   BEVERAGE LIST
                   <div class="line"></div>

@@ -32,18 +32,18 @@
     {% assign index = forloop.index0 | modulo: 2 %}
 
     {% if index == 0 %}
-    <div class="flex justify-between flex-col-reverse lg:flex-row pt-40 member-item">
+    <div class="flex justify-between flex-col-reverse lg:flex-row-reverse pt-40 member-item"> 
       {% else %}
-      <div class="flex justify-between flex-col-reverse lg:flex-row-reverse pt-24 member-item">
+      <div class="flex justify-between flex-col-reverse lg:flex-row pt-24 member-item">
         {% endif %}
 
         <div class="blue pt-12 lg:w-1/2 member-text">
           {% if index == 0 %}
-          <h3 class="pb-4 middle-white-title reveal-left garamond-premier-pro-italic ">{{team_member.name}}</h3>
-          <h3 class="omnia-green pb-2 mb-2 border-class uppercase reveal-left">{{team_member.title}}</h3>
-          <p class="mb-12 omnia-green reveal-left">{{team_member.text}}</p>
+          <h3 class="pb-4 middle-white-title reveal-right garamond-premier-pro-italic ">{{team_member.name}}</h3>
+          <h3 class="omnia-green pb-2 mb-2 border-class uppercase reveal-right">{{team_member.title}}</h3>
+          <p class="mb-12 omnia-green reveal-right">{{team_member.text}}</p>
           {% else %}
-          <h3 class="pb-8 middle-white-title reveal-right">{{team_member.name}}</h3>
+          <h3 class="pb-8 middle-white-title reveal-left">{{team_member.name}}</h3>
           <h3 class="omnia-green pb-4 mb-4 border-class uppercase reveal-right">{{team_member.title}}</h3>
           <p class="mb-8 omnia-green reveal-right">{{team_member.text}}</p>
           {% endif %}
@@ -51,9 +51,9 @@
 
         <div class="lg:w-1/2 member-img">
           {% if index == 0 %}
-          <img src="{{team_member.img}}" class="img-border-radius reveal-right">
-          {% else %}
           <img src="{{team_member.img}}" class="img-border-radius reveal-left">
+          {% else %}
+          <img src="{{team_member.img}}" class="img-border-radius reveal-right">
           {% endif %}
         </div>
       </div>
@@ -68,7 +68,7 @@
             <p class="flex middle-olive-text reveal-delay-400">{{page.produce_text}}</p>
           </div>
           <div class="flex flex-col md:flex-row flex-wrap items-start justify-between pt-16">
-            <div class="w-full md:w-1/2 md:px-12 reveal pb-16 md:pb-0">
+            <div class="w-full md:w-1/2 reveal pb-16 md:pb-0 md:pr-10"><!---md:px-12-->
               <img class="img-border-radius key-suppliers" src={{page.produce_image}} alt="key_suppliers">
             </div>
             <div class="w-1/2 partners">

@@ -98,6 +98,7 @@ h2.middle-olive-text{
 .middle-white-title {
   color: rgb(98,118,94);
   font-size: 32px;
+  font-family: 'Lulo Clean one', 'sans-serif';
 }
 
 .little-grey-text {
@@ -224,7 +225,7 @@ footer .openPopup {
 }
 
 .chevron {
-  fill: #F2E2B2;
+  fill: rgb(98,118,94);
   fill-opacity: 1;
 
 }
@@ -347,6 +348,10 @@ header .make-booking-btn {
 
 #food .menu-link {
   letter-spacing: 0.1rem;
+}
+
+#food .cover-image {
+  background-position: 10% 50%;
 }
 
 #food .menu-link .line{
@@ -599,6 +604,10 @@ nav ul.navigation li:hover a {
   line-height: 45px;
 }
 
+#homepage .section-title {
+  color: white;
+}
+
 
 
 .omnia-title {
@@ -614,7 +623,7 @@ nav ul.navigation li:hover a {
 }
 
 .events-title {
-  /* font-family: 'Lulo Clean one', 'sans-serif'; */
+  font-family: 'Lulo Clean one', 'sans-serif'; 
   font-size: 45px;
   padding-bottom: 15px;
   text-transform: uppercase;
@@ -646,9 +655,10 @@ nav ul.navigation li:hover a {
 }
 
 .section-title {
-  font-family: 'Garamond Premier Pro', 'sans-serif';
+  font-family: 'Lulo Clean one', 'sans-serif';
   /* color: rgb(242, 226, 178); */
   color: #62765E;
+  /*color: white;*/
   font-size: 40px;
   line-height: 40px;
   padding-bottom: 15px;
@@ -705,6 +715,7 @@ background-color: #F2E8C3;
   text-transform: uppercase;
   text-align: center;
   margin: 0 auto;
+  font-family: 'Lulo Clean one', 'sans-serif';
 }
 
 #food .menu-category-title {
@@ -936,7 +947,7 @@ text-transform: uppercase;
 #contacts .footer-opening-title, 
 #contacts .footer-contact-title,
 #contacts .little-white-text{
-  color: rgb(98,118,94);
+  color: rgb(242, 226, 178);
 }
 
 #contacts .olive-btn {
@@ -1018,14 +1029,6 @@ text-transform: uppercase;
 /*about us*/
 
 
-/* #about {
-background-color: #AEB3A1;
-} */
-
-#about .cover-image {
-background-position: 30% 40%;
-}
-
 #about .key-suppliers.img-border-radius,
 #about .member-item:nth-child(odd) .img-border-radius,
 #about .member-item:nth-child(even) .img-border-radius {
@@ -1053,7 +1056,8 @@ background-position: 30% 40%;
   margin-bottom: 20px;
   border-radius: 25px;
   position: relative;
-  padding-left: 80px;
+  padding-left: 50px;
+  /*background-color: #225367;*/
 }
 
 .accordion-description {
@@ -1096,7 +1100,8 @@ background-position: 30% 40%;
   text-transform: uppercase;
   width: 100%;
   text-decoration: underline;
-  text-underline-offset: 4px
+  text-underline-offset: 4px;
+  /*font-family: 'Lulo Clean one', 'sans-serif';*/
 }
 
 .partner-text p {
@@ -1125,12 +1130,12 @@ background-position: 30% 40%;
   border-bottom: 2px solid #62765E;
 }
 
-.member-item:nth-child(even) .img-border-radius {
+.member-item:nth-child(odd) .img-border-radius {
   border-bottom-right-radius: 90px;
   border-top-right-radius: 90px;
 }
 
-.member-item:nth-child(odd) .img-border-radius {
+.member-item:nth-child(even) .img-border-radius {
   border-bottom-left-radius: 90px;
   border-top-left-radius: 90px;
 };
@@ -1233,8 +1238,9 @@ border-bottom: 2px solid #A3A792;;
   line-height: 40px;
   font-weight: 400;
   letter-spacing: 0.3px;
-  color: rgb(242, 226, 178);
-  font-family: 'Garamond Premier Pro', 'sans-serif';
+  /*color: rgb(242, 226, 178);*/
+  color: rgb(98,118,94);
+  /*font-family: 'Garamond Premier Pro', 'sans-serif';*/
 }
 
 #privacy h3,
@@ -1244,8 +1250,9 @@ border-bottom: 2px solid #A3A792;;
   font-size: 28px;
   line-height: 32px;
   font-weight: bold;
-  color: rgb(242, 226, 178);
-  font-family: 'Garamond Premier Pro', 'sans-serif';
+  /*color: rgb(242, 226, 178);*/
+  color: rgb(98,118,94);
+  /*font-family: 'Garamond Premier Pro', 'sans-serif';*/
 }
 
 #terms h3 {
@@ -1261,8 +1268,9 @@ border-bottom: 2px solid #A3A792;;
   margin-bottom: 12px;
   font-weight: 600;
   padding-left: 12px;
-  color: rgb(242, 226, 178);
-  font-family: 'Garamond Premier Pro', 'sans-serif';
+  /*color: rgb(242, 226, 178);*/
+  color: rgb(98,118,94);
+  /*font-family: 'Garamond Premier Pro', 'sans-serif';*/
 }
 
 #privacy h5,
@@ -1272,14 +1280,17 @@ border-bottom: 2px solid #A3A792;;
   font-size: 14px;
   line-height: 18px;
   font-weight: 700;
-  color: rgb(242, 226, 178);
-  font-family: 'Garamond Premier Pro', 'sans-serif';
+  /*color: rgb(242, 226, 178);*/
+  color: rgb(98,118,94);
+  /*font-family: 'Garamond Premier Pro', 'sans-serif';*/
+
 }
 
 #privacy p,
 #terms p {
   font-size: 14px;
-  color: rgb(242, 226, 178)
+  color: rgb(98,118,94);
+  /*color: rgb(242, 226, 178)*/
 }
 
 #privacy p strong,
@@ -1307,14 +1318,13 @@ border-bottom: 2px solid #A3A792;;
 @media (max-width: 960px) {
   #food .inner-container {
     width: 100%;
-    /* padding: 0 16px; */
   }
 
 }
 
 @media (min-width: 960px) {
   #about .cover-image {
-    background-position: 50% 10%;
+    background-position: 20% 17%;
     }
 
   #events .cover-image {
@@ -1355,6 +1365,24 @@ border-bottom: 2px solid #A3A792;;
   }
 
 
+  .event-item:nth-child(even) {
+    flex-direction: row-reverse;
+  }
+
+  .event-item:nth-child(even) .event-img {
+    margin-left: 40px;
+    margin-right: 0;
+  }
+
+  .event-item:nth-child(even) .event-text {
+    margin-right: 40px;
+    margin-left: 0;
+    padding-left: 0;
+    padding-right: 80px;
+  }
+
+  /*
+  
   .event-item:nth-child(odd) {
     flex-direction: row-reverse;
   }
@@ -1369,14 +1397,14 @@ border-bottom: 2px solid #A3A792;;
     margin-left: 0;
     padding-left: 0;
     padding-right: 80px;
-  }
+  }*/
 
-  .member-item:nth-child(even) .member-text {
+  .member-item:nth-child(odd) .member-text {
     margin-left: 80px;
     padding-right: 80px;
   }
 
-  .member-item:nth-child(odd) .member-text {
+  .member-item:nth-child(even) .member-text {
     margin-right: 0;
     padding-right: 80px;
     margin-right: 80px;
@@ -1507,7 +1535,8 @@ border-bottom: 2px solid #A3A792;;
   .menu-title,
   .events-title {
     font-size: 46px ;
-    line-height: 60px;
+    line-height: 68px;
+    font-family: 'Lulo Clean one', 'sans-serif';
   }
 
   #bookings .events-title {
@@ -1545,9 +1574,7 @@ border-bottom: 2px solid #A3A792;;
     width: 100%;
   }
 
-  #homepage .section-title {
-    font-size: 32px;
-  }
+ 
 
   .img-homepage {
     height: 500px;

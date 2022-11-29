@@ -35,19 +35,19 @@
     {% assign index = forloop.index0 | modulo: 2 %}
     <div class="lg:flex justify-between pt-8 lg:pt-16 mb-20 event-item">
       <div class="lg:w-1/2 event-img">
-        {% if index == 0 %}
-        <img src="{{section.section_image}}" class="img-radius reveal-left img-homepage">
-        {% else %}
+        {% if index == 0  %}
         <img src="{{section.section_image}}" class="img-radius reveal-right img-homepage">
+        {% else %}
+        <img src="{{section.section_image}}" class="img-radius reveal-left img-homepage">
         {% endif %}
       </div>
       <div class="pt-8 lg:pt-16 omnia-green lg:w-1/2 event-text">
         {% if index == 0 %}
+        <h3 class="pb-8 section-title border-class reveal-left">{{section.section_title}}</h3><!--section-title-->
+        <p class="mb-12 omnia-green reveal-left">{{section.section_description}}</p>
+        {% else %}
         <h3 class="pb-8 section-title border-class reveal-right">{{section.section_title}}</h3>
         <p class="mb-12 omnia-green reveal-right">{{section.section_description}}</p>
-        {% else %}
-        <h3 class="pb-8 section-title border-class reveal-left">{{section.section_title}}</h3>
-        <p class="mb-12 omnia-green reveal-left">{{section.section_description}}</p>
         {% endif %}
       </div>
     </div>
