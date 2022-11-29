@@ -287,9 +287,11 @@ food_section:
     mind. Familiar yet new, held together by our iconic duck and cheesecake.
   menu_pdf: ''
   menu_btn_text: A LA CARTE MENU
+  img: "/assets/images/221026-omnia2312-trifle-little.jpg"
 drink_section:
   title: ''
   text: ''
   categories: []
+  img: ''
 
 ---
