@@ -7,6 +7,11 @@ fields:
   config:
     required: false
   label: Big title
+- name: main_img
+  type: file
+  config:
+    maxSize: 64
+  label: main_img
 - name: menu
   type: field_group_list
   fields:
@@ -48,31 +53,6 @@ fields:
       config:
         required: false
       label: Category Title
-    - name: products
-      type: field_group_list
-      fields:
-      - name: product_title
-        type: text
-        config:
-          required: false
-        label: Product Title
-        default: product title
-      - name: product_description
-        type: text
-        config:
-          required: false
-        label: Product description
-      - name: product_price
-        type: text
-        config:
-          required: false
-        label: Product price
-        default: ''
-      config:
-        min: 
-        max: 
-        labelField: 
-      label: Products
     config:
       min: 
       max: 
@@ -90,10 +70,5 @@ fields:
   label: Layout
   hidden: true
   default: food
-- name: main_img
-  type: file
-  config:
-    maxSize: 64
-  label: main_img
 pages:
 - food.md
