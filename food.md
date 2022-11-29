@@ -292,6 +292,11 @@ drink_section:
   title: Drink
   text: ''
   categories:
+  - title: NON ALCOHOLIC SELECTION
+    text: All the classics, with a few signature twists. Start, spend, or end the
+      night with our well loved Lemon Myrtle Gimlet and Saffron Negroni.
+    menu_pdf: ''
+    menu_btn_text: BEVERAGE LIST
   - title: SIGNATURE COCTAILS
     text: All the classics, with a few signature twists. Start, spend, or end the
       night with our well loved Lemon Myrtle Gimlet and Saffron Negroni.
