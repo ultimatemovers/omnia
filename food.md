@@ -291,7 +291,11 @@ food_section:
 drink_section:
   title: Drink
   text: ''
-  categories: []
+  categories:
+  - title: SIGNATURE COCTAILS
+    text: ''
+    menu_pdf: ''
+    menu_btn_text: BEVERAGE LIST
   img: ''
 
 ---
