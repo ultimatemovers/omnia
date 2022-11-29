@@ -292,6 +292,12 @@ drink_section:
   title: Drink
   text: ''
   categories:
+  - title: CELLAR WBTG
+    text: Omnia has an extensive wine list, offering 25 wines by the glass consisting
+      of 13 regular, and 12 premier wines selected by our sommelier. Found a new favourite,
+      or have a friend on the way? Our whole selection is available in half bottles.
+    menu_pdf: ''
+    menu_btn_text: BEVERAGE LIST
   - title: NON ALCOHOLIC SELECTION
     text: All the classics, with a few signature twists. Start, spend, or end the
       night with our well loved Lemon Myrtle Gimlet and Saffron Negroni.
