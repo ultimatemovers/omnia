@@ -290,7 +290,8 @@ food_section:
   img: "/assets/images/221026-omnia2312-trifle-little.jpg"
 drink_section:
   title: Drink
-  text: ''
+  text: All the classics, with a few signature twists. Start, spend, or end the night
+    with our well loved Lemon Myrtle Gimlet and Saffron Negroni.
   categories:
   - title: SIGNATURE COCTAILS
     text: ''
