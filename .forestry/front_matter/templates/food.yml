@@ -12,57 +12,6 @@ fields:
   config:
     maxSize: 64
   label: main_img
-- name: menu
-  type: field_group_list
-  fields:
-  - name: menu_group_title
-    type: text
-    config:
-      required: false
-    label: Menu Group Title
-  - name: menu_group_name
-    type: text
-    config:
-      required: false
-    label: Menu Group Name
-    hidden: true
-  - name: menu_group_text
-    type: textarea
-    default: ''
-    config:
-      required: false
-      wysiwyg: false
-      schema:
-        format: markdown
-    label: Menu Group Text
-  - name: menu-group-image
-    type: file
-    config:
-      maxSize: 64
-    label: Menu Group Image
-  - name: menu_in_pdf_format
-    type: file
-    config:
-      maxSize: 64
-    label: menu in pdf format
-  - name: categories
-    type: field_group_list
-    fields:
-    - name: category_title
-      type: text
-      config:
-        required: false
-      label: Category Title
-    config:
-      min: 
-      max: 
-      labelField: 
-    label: Categories
-  config:
-    min: 
-    max: 
-    labelField: 
-  label: Menu
 - name: layout
   type: text
   config:
@@ -70,5 +19,34 @@ fields:
   label: Layout
   hidden: true
   default: food
+- name: food_section
+  type: field_group
+  config: {}
+  fields:
+  - name: title
+    type: text
+    config:
+      required: false
+    label: title
+  - name: text
+    type: text
+    config:
+      required: false
+    label: text
+  - name: menu_pdf
+    type: file
+    config:
+      maxSize: 64
+    label: menu pdf
+  - name: menu_btn_text
+    type: file
+    config:
+      maxSize: 64
+    label: menu btn text
+  label: Food section
+- name: drink_section
+  type: field_group
+  config: {}
+  label: Drink section
 pages:
 - food.md
