@@ -281,5 +281,15 @@ menu:
   categories: []
 big_title: DISCOVER FLAVOUR AT ITS FINEST
 main_img: "/assets/images/little21.jpeg"
+food_section:
+  title: Food
+  text: A menu of seasonal produce, used at its peak, designed with all tastes in
+    mind. Familiar yet new, held together by our iconic duck and cheesecake.
+  menu_pdf: ''
+  menu_btn_text: A LA CARTE MENU
+drink_section:
+  title: ''
+  text: ''
+  categories: []
 
 ---
