@@ -48,6 +48,11 @@ fields:
     config:
       maxSize: 64
     label: img
+  - name: menu_btn_link
+    type: text
+    config:
+      required: false
+    label: menu btn link
   label: Food section
 - name: drink_section
   type: field_group
