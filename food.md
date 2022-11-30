@@ -305,8 +305,9 @@ drink_section:
     menu_pdf: "/assets/images/beverage-menu.pdf"
     menu_btn_text: BEVERAGE LIST
   - title: NON ALCOHOLIC SELECTION
-    text: All the classics, with a few signature twists. Start, spend, or end the
-      night with our well loved Lemon Myrtle Gimlet and Saffron Negroni.
+    text: A collaboration of our kitchen and wait teams. Non-alcoholic digestives
+      paired to the seasons. Combining seasonal produce with the desserts that highlight
+      them.
     menu_pdf: "/assets/images/beverage-menu.pdf"
     menu_btn_text: BEVERAGE LIST
   img: ''
