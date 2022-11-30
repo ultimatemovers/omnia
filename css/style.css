@@ -226,6 +226,7 @@ footer .openPopup {
 
 .chevron {
   fill: rgb(98,118,94);
+  fill: rgb(193, 169, 115);
   fill-opacity: 1;
 
 }
@@ -351,7 +352,7 @@ header .make-booking-btn {
 }
 
 #food .cover-image {
-  background-position: 10% 50%;
+  background-position: center;
 }
 
 #food .menu-link .line{
@@ -624,7 +625,8 @@ nav ul.navigation li:hover a {
 
 .events-title {
   font-family: 'Lulo Clean one', 'sans-serif'; 
-  font-size: 45px;
+  font-size: 32px;
+  list-style: 32px;
   padding-bottom: 15px;
   text-transform: uppercase;
   text-align: center;
@@ -656,11 +658,9 @@ nav ul.navigation li:hover a {
 
 .section-title {
   font-family: 'Lulo Clean one', 'sans-serif';
-  /* color: rgb(242, 226, 178); */
   color: #62765E;
-  /*color: white;*/
-  font-size: 40px;
-  line-height: 40px;
+  font-size: 30px;
+  line-height: 30px;
   padding-bottom: 15px;
   margin-bottom: 15px;
   text-transform: uppercase;
@@ -947,7 +947,7 @@ text-transform: uppercase;
 #contacts .footer-opening-title, 
 #contacts .footer-contact-title,
 #contacts .little-white-text{
-  color: rgb(242, 226, 178);
+  color: rgb(98,118,94);
 }
 
 #contacts .olive-btn {
@@ -1304,6 +1304,10 @@ border-bottom: 2px solid #A3A792;;
   margin-top: 24px;
 }
 
+#about .cover-image {
+  background-position: 20% 10%;
+  }
+
 
 @media (max-width: 1441px) {
   nav {
@@ -1328,6 +1332,22 @@ border-bottom: 2px solid #A3A792;;
 }
 
 @media (min-width: 960px) {
+  .section-title {
+    font-size: 40px;
+    line-height: 40px;
+  }
+
+  #food .cover-image {
+    background-position: 10% 50%;
+  }
+
+#contacts .middle-olive-text, 
+#contacts .footer-opening-title, 
+#contacts .footer-contact-title,
+#contacts .little-white-text{
+  color: rgb(242, 226, 178);
+}
+
   #about .cover-image {
     background-position: 20% 17%;
     }
@@ -1543,14 +1563,14 @@ border-bottom: 2px solid #A3A792;;
   .rewards-title,
   .menu-title,
   .events-title {
-    font-size: 46px ;
-    line-height: 68px;
+    font-size: 32px ;
+    line-height: 35px;
     font-family: 'Lulo Clean one', 'sans-serif';
   }
 
   #bookings .events-title {
-    font-size: 46px ;
-    line-height: 60px;
+    font-size: 32px ;
+    line-height: 35px;
   }
 
   #bookings .main-content .make-booking-btn {

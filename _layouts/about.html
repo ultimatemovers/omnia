@@ -32,7 +32,7 @@
     {% assign index = forloop.index0 | modulo: 2 %}
 
     {% if index == 0 %}
-    <div class="flex justify-between flex-col-reverse lg:flex-row-reverse pt-40 member-item"> 
+    <div class="flex justify-between flex-col-reverse lg:flex-row-reverse pt-24 member-item"> 
       {% else %}
       <div class="flex justify-between flex-col-reverse lg:flex-row pt-24 member-item">
         {% endif %}
@@ -61,7 +61,7 @@
 
 
       <!-- Key Suppliers section -->
-      <div class="pb-0 md:pb-24 pt-24">
+      <div class="pb-0 md:pb-24 md:pt-12 md:pt-24">
         <div class="pt-24">
           <h2 class="events-title reveal">{{page.produce_title}}</h2>
           <div class="flex flex-col md:flex-row justify-between items-start pt-24">
