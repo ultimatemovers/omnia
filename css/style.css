@@ -931,9 +931,9 @@ text-transform: uppercase;
     font-weight: 600;
     border-top-right-radius: 30px;
     border-bottom-right-radius: 30px;
-    background-color: rgb(242, 226, 178);
-    color: rgb(188,152,79);
-    border: 2px solid rgb(188,152,79);
+    border-color: rgb(98,118,94);
+    color: rgb(98,118,94);
+    background-color: rgb(199 206 197);
     padding: 8px;
     text-transform: uppercase;
     /* min-width: 300px; */
@@ -955,11 +955,11 @@ text-transform: uppercase;
   color: rgb(98,118,94);
 }
 
-#contacts .olive-btn {
+/*#contacts .olive-btn {
   border-color: rgb(98,118,94);
   color: rgb(98,118,94);
   background-color: rgb(199 206 197);
-}
+}*/
 
 .exclusive-events-subtitle,
 .exclusive-events-subtitle a {
@@ -1300,7 +1300,6 @@ border-bottom: 2px solid #A3A792;;
 #terms p {
   font-size: 14px;
   color: rgb(98,118,94);
-  /*color: rgb(242, 226, 178)*/
 }
 
 #privacy p strong,
@@ -1312,6 +1311,12 @@ border-bottom: 2px solid #A3A792;;
 #about .cover-image {
   background-position: 20% 10%;
   }
+
+
+#events .cover-image {
+    background-position: 65%;
+  }  
+
 
 
 @media (max-width: 1441px) {
@@ -1351,6 +1356,13 @@ border-bottom: 2px solid #A3A792;;
 #contacts .footer-contact-title,
 #contacts .little-white-text{
   color: rgb(242, 226, 178);
+}
+
+
+#contacts .olive-btn {
+  background-color: rgb(242, 226, 178);
+  color: rgb(188,152,79);
+  border: 2px solid rgb(188,152,79);
 }
 
   #about .cover-image {
