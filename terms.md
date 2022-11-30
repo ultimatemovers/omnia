@@ -2,7 +2,7 @@
 layout: terms
 big_title: Terms And Conditions
 subtitle: Promotion Conditions of Entry
-main_img: "/assets/images/221026-omnia1588-pass-action-small.jpg"
+main_img: "/assets/images/221026-omnia1588-pass-action_optimized.jpg"
 
 ---
 ### Follow Omnia and Subscribe to Win a $250 Dining Experience
