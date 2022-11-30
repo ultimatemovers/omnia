@@ -310,6 +310,6 @@ drink_section:
       them.
     menu_pdf: "/assets/images/beverage-menu.pdf"
     menu_btn_text: BEVERAGE LIST
-  img: ''
+  img: '/assets/images/omnia-combo.jpg'
 
 ---

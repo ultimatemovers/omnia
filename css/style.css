@@ -701,7 +701,7 @@ background-color: #F2E8C3;
   margin-right: auto;
 }
 
-#food .menu-categories {
+#food .drink-menu-categories {
   padding-top: 40px;
   margin: 0 auto;
 }
@@ -737,6 +737,11 @@ background-color: #F2E8C3;
   color: rgb(98,118,94);
   /* text-decoration: underline; */
   /* text-underline-offset: 4px; */
+}
+
+#food .food-section-image img,
+#food .drink-section-image img {
+  border-radius: 60px;
 }
 
 
@@ -1390,24 +1395,6 @@ border-bottom: 2px solid #A3A792;;
     flex-direction: row-reverse;
   }
 
-  /*
-  
-  .event-item:nth-child(odd) {
-    flex-direction: row-reverse;
-  }
-
-  .event-item:nth-child(odd) .event-img {
-    margin-left: 40px;
-    margin-right: 0;
-  }
-
-  .event-item:nth-child(odd) .event-text {
-    margin-right: 40px;
-    margin-left: 0;
-    padding-left: 0;
-    padding-right: 80px;
-  }*/
-
   .member-item:nth-child(odd) .member-text {
     margin-left: 80px;
     padding-right: 80px;
@@ -1428,6 +1415,17 @@ border-bottom: 2px solid #A3A792;;
     margin-right: 0;
     padding-right: 80px;
     margin-left: 80px;
+  }
+
+  #food .food-section-text {
+    margin-left: 80px;
+    padding-right: 80px;
+  }
+
+  #food .food-section-image img,
+  #food .drink-section-image img{
+    border-radius: 60px;
+    height: 600px;
   }
 }
 
@@ -1644,7 +1642,7 @@ border-bottom: 2px solid #A3A792;;
     border-bottom-right-radius: 80px
   }
 
-  #food .menu-categories {
+  #food .drink-menu-categories {
     padding-top: 12px;
   }
 
@@ -1658,6 +1656,13 @@ border-bottom: 2px solid #A3A792;;
 
   #food .menu-title {
     width: 100%;
+  }
+
+  #food .food-section-image img, 
+  #food .drink-section-image img {
+    max-height: 400px;
+    margin-left: auto;
+    margin-right: auto;
   }
 
 
@@ -1742,8 +1747,31 @@ border-bottom: 2px solid #A3A792;;
     height: auto;
     object-fit: cover;
   }
-  
+}
 
+@media (min-width: 960px) and (max-width: 1280px) {
+  #food .drink-section-text {
+    padding-top: 0;
+  }
+
+  #food .menu-category-title {
+    font-size: 18px;
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
+  }
+
+  #food .food-section-image img, 
+  #food .drink-section-image img {
+    height: auto;
+    max-height: 450px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #food .food-section-text {
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 /* Animations */
