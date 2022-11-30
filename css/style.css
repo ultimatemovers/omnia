@@ -225,7 +225,7 @@ footer .openPopup {
 }
 
 .chevron {
-  fill: rgb(98,118,94);
+  /*fill: rgb(98,118,94);*/
   fill: rgb(193, 169, 115);
   fill-opacity: 1;
 
@@ -353,6 +353,10 @@ header .make-booking-btn {
 
 #food .cover-image {
   background-position: center;
+}
+
+#bookings .cover-image {
+  background-position: 60% 10%;
 }
 
 #food .menu-link .line{
@@ -1384,6 +1388,10 @@ border-bottom: 2px solid #A3A792;;
 
     #homepage .cover-image {
       background-position: 20% 30%;
+    }
+
+    #bookings .cover-image {
+      background-position: 10% 20%;
     }
 
   .img-homepage {
