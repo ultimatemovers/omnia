@@ -299,12 +299,12 @@ drink_section:
       or have a friend on the way? Our whole selection is available in half bottles.
     menu_pdf: "/assets/images/beverage-menu.pdf"
     menu_btn_text: BEVERAGE LIST
-  - title: NON ALCOHOLIC SELECTION
+  - title: SIGNATURE COCTAILS
     text: All the classics, with a few signature twists. Start, spend, or end the
       night with our well loved Lemon Myrtle Gimlet and Saffron Negroni.
     menu_pdf: "/assets/images/beverage-menu.pdf"
     menu_btn_text: BEVERAGE LIST
-  - title: SIGNATURE COCTAILS
+  - title: NON ALCOHOLIC SELECTION
     text: All the classics, with a few signature twists. Start, spend, or end the
       night with our well loved Lemon Myrtle Gimlet and Saffron Negroni.
     menu_pdf: "/assets/images/beverage-menu.pdf"
