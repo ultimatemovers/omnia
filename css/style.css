@@ -216,10 +216,10 @@ footer .openPopup {
 }
 
 .img-svg {
-  height: 100px;
-  max-width: 40px;
+  height: 80px;
+  max-width: 35px;
   position: absolute;
-  bottom: 5%;
+  bottom: 10%;
   left: calc(50% - 20px);
   cursor: pointer;
 }
@@ -1345,6 +1345,15 @@ border-bottom: 2px solid #A3A792;;
   .section-title {
     font-size: 40px;
     line-height: 40px;
+  }
+
+  .img-svg {
+    height: 100px;
+    max-width: 40px;
+    position: absolute;
+    bottom: 5%;
+    left: calc(50% - 20px);
+    cursor: pointer;
   }
 
   #food .cover-image {
