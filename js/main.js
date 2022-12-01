@@ -242,7 +242,6 @@
         setTimeout(() => {
           a.classList.add('accordion-opened')
           useSetTimeout = false
-          console.log('ehej')
         }, useSetTimeout ? 1 : 1)
           
       })
