@@ -1686,7 +1686,7 @@ border-bottom: 2px solid #A3A792;;
   }
 
   .accordion-opened .accordion-description {
-    max-width: 250px;
+   /* max-width: 250px;*/
   }
 
   .partner {
