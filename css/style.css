@@ -349,6 +349,7 @@ header .make-booking-btn {
 
 #food .menu-link {
   letter-spacing: 0.1rem;
+  font-family: 'Lulo Clean one', 'sans-serif';
 }
 
 #food .cover-image {
@@ -434,11 +435,12 @@ header.open-burger .burger:hover .burger-line:nth-child(2){
 /* -------------------------------------- */
 
 header.transparent .make-booking-btn {
-  background-color: #c1a973;
+  /*background-color: #c1a973;*/
 }
 header.transparent .make-booking-btn:hover {
   background-color: rgb(98,118,94);
-  color: #F0E1AD;
+  /*color: #F0E1AD;*/
+  color: white;
 }
 
 .nav-logo {
@@ -460,7 +462,7 @@ nav {
 
 nav .terms-conditions div a{
   font-size: 14px;
-  color: rgb(98,118,94);
+  color: white;
 }
 
 nav .newsletter {
@@ -471,7 +473,6 @@ nav .newsletter {
 nav .newsletter span{
   font-size: 14px;
   font-weight: 600;
-  background-color: rgb(193, 169, 115);
   color: rgb(98,118,94);
   border: 2px solid rgb(98,118,94);
   /* border-top-right-radius: 25px;
@@ -485,11 +486,11 @@ nav .newsletter span{
 
 nav .newsletter span:hover {
   background-color: rgb(98,118,94);
-  color: #F0E1AD;
+  color: white;
 }
 
 nav .promotion-headline {
-  color: rgb(98,118,94);
+  color: white;
   font-size: 18px;
   line-height: 20px;
   margin-top: 40px;
@@ -528,12 +529,12 @@ nav ul.navigation li:nth-child(9) {
 nav ul.navigation li a {
   font-size: 34px;
   text-transform: uppercase;
-  color: rgb(98,118,94);
+  color: white;
   transition: 0.4s;
 }
 
 nav ul.navigation li:hover a {
-  color: #F0E1AD;
+  color: rgb(98,118,94);
 }
 
 #navigation-page,
@@ -724,9 +725,11 @@ background-color: #F2E8C3;
 
 #food .menu-category-title {
   color: rgb(98,118,94);
-  font-size: 20px;
+  font-size: 18px;
   text-transform: uppercase;
   transition: all .3s ease-in-out;
+  font-family: 'Lulo Clean one', 'sans-serif';
+  letter-spacing: -3px;
 }
 
 #food .menu-category-title:hover {
@@ -851,6 +854,10 @@ text-transform: uppercase;
   text-transform: uppercase;
   padding-bottom: 15px;
   border-bottom: 2px solid #A3A792;
+}
+
+.team-member-title {
+  font-family: 'Lulo Clean one', 'sans-serif';
 }
 
 
@@ -1110,7 +1117,6 @@ text-transform: uppercase;
   width: 100%;
   text-decoration: underline;
   text-underline-offset: 4px;
-  /*font-family: 'Lulo Clean one', 'sans-serif';*/
 }
 
 .partner-text p {
@@ -1484,6 +1490,14 @@ border-bottom: 2px solid #A3A792;;
     width: 100%;
   }
 }
+
+@media (min-width: 1400px) {
+
+  .container {
+    width: 1400px;
+  }
+}
+
 
 @media (max-width: 450px) {
 
