@@ -932,18 +932,15 @@ text-transform: uppercase;
 }
 
 #contacts .olive-btn {
-    /*display: block;
-    display: flex;*/
     justify-content: center;
     font-size: 14px;
     font-weight: 600;
     border-radius: 30px;
-    border-color: rgb(98,118,94);
+    border: 2px solid rgb(98,118,94);
     color: rgb(98,118,94);
     background-color: rgb(199 206 197);
     padding: 8px;
     text-transform: uppercase;
-    /* min-width: 300px; */
     width: 100%;
     outline: none;
     transition: all 0.3 ease-in-out;
@@ -961,12 +958,6 @@ text-transform: uppercase;
 #contacts .little-white-text{
   color: rgb(98,118,94);
 }
-
-/*#contacts .olive-btn {
-  border-color: rgb(98,118,94);
-  color: rgb(98,118,94);
-  background-color: rgb(199 206 197);
-}*/
 
 .exclusive-events-subtitle,
 .exclusive-events-subtitle a {
@@ -1384,22 +1375,9 @@ border-bottom: 2px solid #A3A792;;
     background-position: 10% 50%;
   }
 
-/*#contacts .middle-olive-text, 
-#contacts .footer-opening-title, 
-#contacts .footer-contact-title,
-#contacts .little-white-text{
-  color: white;
-}*/
-
-
 #contacts .olive-btn {
-  background-color: rgb(242, 226, 178);
-  color: rgb(188,152,79);
-  border: 2px solid rgb(188,152,79);
-
   color: rgb(98,118,94);
   background-color: #c7cec5;
-  /*background-color:white;*/
   border: 2px solid rgb(98,118,94);
 }
 
