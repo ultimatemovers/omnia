@@ -1247,6 +1247,7 @@ border-bottom: 2px solid #A3A792;;
   /*color: rgb(242, 226, 178);*/
   color: rgb(98,118,94);
   /*font-family: 'Garamond Premier Pro', 'sans-serif';*/
+  font-family: 'Lulo Clean one', 'sans-serif';
 }
 
 #privacy h3,
@@ -1258,12 +1259,14 @@ border-bottom: 2px solid #A3A792;;
   font-weight: bold;
   /*color: rgb(242, 226, 178);*/
   color: rgb(98,118,94);
+  font-family: 'Lulo Clean one', 'sans-serif';
   /*font-family: 'Garamond Premier Pro', 'sans-serif';*/
 }
 
 #terms h3 {
   font-size: 24px;
   margin-bottom: 20px;
+  font-family: 'Lulo Clean one', 'sans-serif';
 }
 
 #privacy h4,
@@ -1274,9 +1277,8 @@ border-bottom: 2px solid #A3A792;;
   margin-bottom: 12px;
   font-weight: 600;
   padding-left: 12px;
-  /*color: rgb(242, 226, 178);*/
   color: rgb(98,118,94);
-  /*font-family: 'Garamond Premier Pro', 'sans-serif';*/
+  font-family: 'Lulo Clean one', 'sans-serif';
 }
 
 #privacy h5,
@@ -1286,9 +1288,8 @@ border-bottom: 2px solid #A3A792;;
   font-size: 14px;
   line-height: 18px;
   font-weight: 700;
-  /*color: rgb(242, 226, 178);*/
   color: rgb(98,118,94);
-  /*font-family: 'Garamond Premier Pro', 'sans-serif';*/
+  font-family: 'Lulo Clean one', 'sans-serif';
 
 }
 
