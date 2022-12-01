@@ -1723,7 +1723,7 @@ border-bottom: 2px solid #A3A792;;
 
   #food .food-section-image img, 
   #food .drink-section-image img {
-    max-height: 400px;
+   /* max-height: 400px;*/
     margin-left: auto;
     margin-right: auto;
   }
