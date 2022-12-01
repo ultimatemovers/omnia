@@ -225,8 +225,7 @@ footer .openPopup {
 }
 
 .chevron {
-  /*fill: rgb(98,118,94);*/
-  fill: rgb(193, 169, 115);
+  fill: rgb(98,118,94);
   fill-opacity: 1;
 
 }
