@@ -475,13 +475,10 @@ nav .newsletter span{
   font-weight: 600;
   color: rgb(98,118,94);
   border: 2px solid rgb(98,118,94);
-  /* border-top-right-radius: 25px;
-  border-bottom-right-radius: 25px; */
   border-radius: 30px;
-  padding: 8px 30px;
+  padding: 8px;
   cursor: pointer;
   transition: all .3s ease-in-out;
-  width: 360px;
 }
 
 nav .newsletter span:hover {
@@ -935,13 +932,12 @@ text-transform: uppercase;
 }
 
 #contacts .olive-btn {
-    display: block;
-    display: flex;
+    /*display: block;
+    display: flex;*/
     justify-content: center;
     font-size: 14px;
     font-weight: 600;
-    border-top-right-radius: 30px;
-    border-bottom-right-radius: 30px;
+    border-radius: 30px;
     border-color: rgb(98,118,94);
     color: rgb(98,118,94);
     background-color: rgb(199 206 197);
@@ -954,8 +950,8 @@ text-transform: uppercase;
 }
 
 #contacts .olive-btn:hover {
-  background-color: rgb(188,152,79);
-  color: rgb(98,118,94);
+  background-color: rgb(98,118,94);;
+  color: white;
   border: 2px solid rgb(98,118,94);
 }
 
@@ -1345,16 +1341,34 @@ border-bottom: 2px solid #A3A792;;
 }
 
 @media (max-width: 960px) {
+
   #food .inner-container {
     width: 100%;
   }
 
 }
 
+@media (min-width: 450px) {
+#contacts .middle-olive-text, 
+#contacts .footer-opening-title, 
+#contacts .footer-contact-title,
+#contacts .little-white-text{
+  color: white;
+}
+
+}
+
 @media (min-width: 960px) {
+  nav .newsletter span {
+    padding: 8px 30px;
+  }
   .section-title {
     font-size: 40px;
     line-height: 40px;
+  }
+
+  #contacts .olive-btn {
+    width: 50%;
   }
 
   .img-svg {
@@ -1370,18 +1384,23 @@ border-bottom: 2px solid #A3A792;;
     background-position: 10% 50%;
   }
 
-#contacts .middle-olive-text, 
+/*#contacts .middle-olive-text, 
 #contacts .footer-opening-title, 
 #contacts .footer-contact-title,
 #contacts .little-white-text{
-  color: rgb(242, 226, 178);
-}
+  color: white;
+}*/
 
 
 #contacts .olive-btn {
   background-color: rgb(242, 226, 178);
   color: rgb(188,152,79);
   border: 2px solid rgb(188,152,79);
+
+  color: rgb(98,118,94);
+  background-color: #c7cec5;
+  /*background-color:white;*/
+  border: 2px solid rgb(98,118,94);
 }
 
   #about .cover-image {
