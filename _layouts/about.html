@@ -41,7 +41,7 @@
         {% if index == 0 %}
         <h3 class="pb-4 middle-white-title reveal-right ">{{team_member.name}}</h3>
         <h3 class="omnia-green pb-2 mb-2 border-class uppercase reveal-right team-member-title">{{team_member.title}}</h3>
-        <p class="mb-12 omnia-green reveal-right">{{team_member.text}}</p>
+        <p class="mb-12 omnia-green reveal-right text-md">{{team_member.text}}</p>
         {% else %}
         <h3 class="pb-8 middle-white-title reveal-left">{{team_member.name}}</h3>
         <h3 class="omnia-green pb-4 mb-4 border-class uppercase reveal-right">{{team_member.title}}</h3>
@@ -64,25 +64,28 @@
       <!-- Key Suppliers section -->
       <div class="pb-0 md:pb-24">
         <div class="pt-24">
-          <h2 class="events-title reveal">{{page.produce_title}}</h2>
-          <div class="flex flex-col md:flex-row justify-between items-start pt-12">
+         <!-- <h2 class="events-title reveal">{{page.produce_title}}</h2>
+          <div class="flex flex-col md:flex-row justify-between items-start pt-6">
             <p class="flex middle-olive-text reveal-delay-400">{{page.produce_text}}</p>
-          </div>
-          <div class="flex flex-col md:flex-row flex-wrap items-start justify-between pt-12">
-            <div class="w-full md:w-1/2 reveal pb-16 md:pb-0 md:pr-10"><!---md:px-12-->
+          </div>-->
+          <div class="flex flex-col md:flex-row-reverse flex-wrap items-start justify-between pt-12">
+            <div class="w-full md:w-1/2 reveal pb-16 md:pb-0 md:pl-10"><!---md:px-12-->
               <img class="img-border-radius key-suppliers" src={{page.produce_image}} alt="key_suppliers">
             </div>
             <div class="w-1/2 partners">
+              <h2 class="events-title reveal text-center md:text-left">{{page.produce_title}}</h2>
+          <div class="flex flex-col md:flex-row justify-between items-start pt-6">
+            <p class="flex member-text reveal-delay-400 omnia-green">{{page.produce_text}}</p>
+          </div>
+          <div class=" md:flex md:flex-wrap">
               {% for partner in page.partners %}
 
               <div class="pt-16 omnia-green cursor-pointer accordion partner reveal">
-                <div class="flex items-center justify-between">
+                <div class="inline-block"><!--flex items-center-->
                   <h3 class="partner-title omnia-green">
                     {{partner.title}}
                   </h3>
-                  <!-- <div style="width: 32px; margin-left: 20px">
-                    <img class="open-accordion" src="/img/plus.svg" alt="">
-                  </div> -->
+                  <div class="partner-title-line"></div>
                 </div>
 
                 <div class="accordion-description partner-text omnia-green">
@@ -91,6 +94,7 @@
               </div>
               {% endfor %}
             </div>
+          </div>
           </div>
         </div>
       </div>

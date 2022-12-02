@@ -204,7 +204,6 @@
 
 
   function filterProducts(items, products, activeTab) {
-    console.log()
     items.forEach((item, idx) => {
       if (idx === activeTab)
         item.classList.add('active')
@@ -241,7 +240,7 @@
 
         setTimeout(() => {
           a.classList.add('accordion-opened')
-          useSetTimeout = false
+          useSetTimeout = false;
         }, useSetTimeout ? 1 : 1)
           
       })
