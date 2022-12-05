@@ -733,10 +733,28 @@ background-color: #F2E8C3;
   letter-spacing: -3px;
 }
 
-#food .menu-category-title:hover {
+#food .menu-category-title {
   color: rgb(98,118,94);
 }
-#food .menu-category-title:hover .line{
+
+#food .menu-category-line {
+  height: 2px;
+  background-color: rgb(98,118,94);
+}
+
+#food .menu-category-block:hover .menu-category-line {
+  background-color: rgb(98,118,94);
+  animation: loadLine ease-out forwards 0.5s;
+}
+
+.partner-title-line {
+  background-color: rgb(98,118,94);
+  height: 2px;
+}
+
+
+ /*menu-category-title*/
+#food .menu-category-title:hover .partner-title-line {
   background-color: rgb(98,118,94);
   animation: loadLine ease-out forwards 0.5s;
 }
@@ -753,9 +771,9 @@ background-color: #F2E8C3;
 }
 
 
-#food .menu-category-title.active .line {
+/*#food .menu-category-title.active .line {
   background-color: rgb(98,118,94)
-}
+}*/
 
 #food .divider-line {
   border-bottom: 2px solid rgb(98,118,94);
@@ -1084,7 +1102,7 @@ text-transform: uppercase;
 
 #food .accordion-opened .accordion-description {
   /* padding-top: 16px; */
-  max-height: 350px;
+  max-height: 300px;
   -webkit-transition: max-height 0.4s ease-in;
   -o-transition: max-height 0.4s ease-in;
   transition: max-height 0.4s ease-in;
