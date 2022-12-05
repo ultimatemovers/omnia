@@ -360,7 +360,7 @@ header .make-booking-btn {
   background-position: 60% 10%;
 }
 
-#food .menu-link .line{
+#food .menu-link .line {
   background-color: rgb(98,118,94);
   /* width: 0; */
 }
@@ -374,7 +374,7 @@ header .make-booking-btn {
   display: flex;
 }*/
 
-.make-booking-btn{
+.make-booking-btn {
   color: rgb(98,118,94);
   /* background-color: rgb(188,152,79); */
   background-color: #c7cec5;
@@ -726,7 +726,7 @@ background-color: #F2E8C3;
 
 #food .menu-category-title {
   color: rgb(98,118,94);
-  font-size: 18px;
+  font-size: 24px;
   text-transform: uppercase;
   transition: all .3s ease-in-out;
   font-family: 'Lulo Clean one', 'sans-serif';
@@ -1073,6 +1073,7 @@ text-transform: uppercase;
   transition: max-height 0.6s ease-in;
 }
 
+
 .accordion-opened .accordion-description {
   /* padding-top: 16px; */
   max-height: 250px;
@@ -1080,6 +1081,15 @@ text-transform: uppercase;
   -o-transition: max-height 0.4s ease-in;
   transition: max-height 0.4s ease-in;
 }
+
+#food .accordion-opened .accordion-description {
+  /* padding-top: 16px; */
+  max-height: 350px;
+  -webkit-transition: max-height 0.4s ease-in;
+  -o-transition: max-height 0.4s ease-in;
+  transition: max-height 0.4s ease-in;
+}
+
 
 .open-accordion {
   -webkit-transition: all 0.5s ease-in-out;

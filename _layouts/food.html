@@ -3,7 +3,7 @@
 {% include nav.html %}
 
 <div id="food">
-  <div class="cover-image mb-12 md:mb-24" style="background-image: url({{page.main_img}});">
+  <div class="cover-image mb-24" style="background-image: url({{page.main_img}});">
     <div class="container mx-auto px-4">
       <div>
         <svg id="Chevrons"
@@ -31,7 +31,7 @@
     </div>
   </div>
 
-  <div class="container mx-auto px-4 md:px-0 main-content ">
+  <div class="container mx-auto px-4 md:px-0 main-content">
     <!-- F O O D -->
     <div class="flex flex-col lg:flex-row items-start justify-between">
       <div class="w-full lg:w-1/2 food-section-image">
@@ -45,28 +45,73 @@
           {{ page.food_section.text }}
         </p>
         <div class="flex items-center sm:items-left justify-center sm:justify-start my-12 reveal">
-          <a class="menu-link omnia-green text-lg" href="{{ page.food_section.menu_pdf}}" target="_blank">
+          <a class="menu-link omnia-green text-md" href="{{ page.food_section.menu_pdf}}" target="_blank">
             {{ page.food_section.menu_btn_text }}
             <div class="line"></div>
           </a>
-        </div>
+      </div>
       </div>
     </div>
 
 
-    <!-- D R I N K  -->
     <div id="drink-menu-categories" class="flex flex-col lg:flex-row-reverse items-start justify-between mt-8 md:my-24">
       <div class="w-full lg:w-2/5 drink-section-image mb-8 lg:mb-0 flex justify-end reveal">
         <img src="{{ page.drink_section.img }}" alt="omnia drink">
       </div>
       <div class="w-full lg:w-3/5 pt-12 drink-section-text lg:pr-4">
-        <h3 class="text-center px-3 pb-4 middle-white-title reveal">
+        <h3 class="text-center md:text-left md:pl-0 px-3 md:pb-4 md:pb-0 middle-white-title reveal">
           {{ page.drink_section.title }}
         </h3>
+      
+        <div class="">
+          {% for category in page.drink_section.categories %}
+          <div class="pt-8 pb-8 md:pt-2 md:pb-2 omnia-green cursor-pointer reveal accordion-drink">
+            <div class="inline-block">
+            <h3 class="menu-category-title omnia-green">  {{category.title}}</h3>
+            <div class="partner-title-line"></div>
+            </div>
+          <div class="omnia-green pt-4 pb-4 md:w-2/3 accordion-description">      
+            <div class="omnia-green mb-4">{{category.text}}</div>
+            <div class="omnia-green  my-1">
+              <a 
+                class="inline-block menu-link omnia-green text-md" 
+                href="{{ category.menu_pdf }}#page={{forloop.index}}" 
+                target="_blank"
+              >
+                {{ category.menu_btn_text }}
+                <div class="line"></div>
+              </a> 
+            </div> 
+          </div>
+            <!--<div class="inline-block bg-red-200  ">  
+              <h3 class="menu-category-title omnia-green">
+                {{category.title}}
+              </h3>
+              <div class="partner-title-line"></div>
+            </div>
+            <div class=" omnia-green pt-4 pb-4 md:w-2/3 accordion-description bg-red-400">
+            <div class=" omnia-green mb-4">
+              {{category.text}}
+            </div>
+            <div class="omnia-green  my-8">
+              <a 
+                class="inline-block menu-link omnia-green text-md" 
+                href="{{ category.menu_pdf }}#page={{forloop.index}}" 
+                target="_blank"
+              >
+                {{ category.menu_btn_text }}
+                <div class="line"></div>
+              </a> 
+            </div> 
+        </div>-->
+        </div>
+        {% endfor %}
+      
+      </div>
+       
         
-        <div class="w-full flex justify-between mb-16">
+       <!--<div class="w-full flex justify-between mb-16">
           <ul class="drink-menu-categories flex justify-between inner-container overflow-x-auto md:overflow-x-hidden reveal">
-            <!--    D  R  I  N  K  categories  -->
             {% for category in page.drink_section.categories %}
             <li
               class="menu-category-title px-2 py-1 cursor-pointer"
@@ -97,7 +142,7 @@
             </div>
           </div>
         {% endfor %}
-      </div>
+      </div>-->
     </div>
   </div>
     
