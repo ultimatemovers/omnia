@@ -63,25 +63,21 @@
 
       <!-- Key Suppliers section -->
       <div class="pb-0 md:pb-24">
-        <div class="pt-24">
-         <!-- <h2 class="events-title reveal">{{page.produce_title}}</h2>
-          <div class="flex flex-col md:flex-row justify-between items-start pt-6">
-            <p class="flex middle-olive-text reveal-delay-400">{{page.produce_text}}</p>
-          </div>-->
-          <div class="flex flex-col md:flex-row-reverse flex-wrap items-start justify-between pt-12">
+        <div class=" md:pt-24">
+          <div class="flex flex-col md:flex-row-reverse flex-wrap items-start justify-between md:pt-12">
             <div class="w-full md:w-1/2 reveal pb-16 md:pb-0 md:pl-10"><!---md:px-12-->
               <img class="img-border-radius key-suppliers" src={{page.produce_image}} alt="key_suppliers">
             </div>
             <div class="w-1/2 partners">
               <h2 class="events-title reveal text-center md:text-left">{{page.produce_title}}</h2>
           <div class="flex flex-col md:flex-row justify-between items-start pt-6">
-            <p class="flex member-text reveal-delay-400 omnia-green">{{page.produce_text}}</p>
+            <p class="flex member-text reveal-delay-400 omnia-green mb-4">{{page.produce_text}}</p>
           </div>
           <div class=" md:flex md:flex-wrap">
               {% for partner in page.partners %}
 
               <div class="pt-16 omnia-green cursor-pointer accordion partner reveal">
-                <div class="inline-block"><!--flex items-center-->
+                <div class="inline-block">
                   <h3 class="partner-title omnia-green">
                     {{partner.title}}
                   </h3>
