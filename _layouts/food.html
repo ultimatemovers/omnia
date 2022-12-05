@@ -54,7 +54,7 @@
     </div>
 
 
-    <div id="drink-menu-categories" class="flex flex-col lg:flex-row-reverse items-start justify-between mt-8 md:my-24">
+    <div id="drink-menu-categories" class="flex flex-col lg:flex-row-reverse items-start justify-between mt-8 md:my-24 mb-8">
       <div class="w-full lg:w-2/5 drink-section-image mb-8 lg:mb-0 flex justify-end reveal">
         <img src="{{ page.drink_section.img }}" alt="omnia drink">
       </div>
@@ -83,66 +83,10 @@
               </a> 
             </div> 
           </div>
-            <!--<div class="inline-block bg-red-200  ">  
-              <h3 class="menu-category-title omnia-green">
-                {{category.title}}
-              </h3>
-              <div class="partner-title-line"></div>
-            </div>
-            <div class=" omnia-green pt-4 pb-4 md:w-2/3 accordion-description bg-red-400">
-            <div class=" omnia-green mb-4">
-              {{category.text}}
-            </div>
-            <div class="omnia-green  my-8">
-              <a 
-                class="inline-block menu-link omnia-green text-md" 
-                href="{{ category.menu_pdf }}#page={{forloop.index}}" 
-                target="_blank"
-              >
-                {{ category.menu_btn_text }}
-                <div class="line"></div>
-              </a> 
-            </div> 
-        </div>-->
         </div>
         {% endfor %}
       
       </div>
-       
-        
-       <!--<div class="w-full flex justify-between mb-16">
-          <ul class="drink-menu-categories flex justify-between inner-container overflow-x-auto md:overflow-x-hidden reveal">
-            {% for category in page.drink_section.categories %}
-            <li
-              class="menu-category-title px-2 py-1 cursor-pointer"
-              data-category-name="{{ category.title | slugify }}"
-            >
-              {{ category.title }}
-              <div class="line"></div>
-            </li>
-            {% endfor %} 
-          </ul>
-      </div>
-      <div class="reveal">
-        {% for category in page.drink_section.categories %}
-          <div class="category-products md:w-2/3 mx-auto">
-            <p class="text-base md:text-lg mt-12 mb-12 olive text-left">
-              {{ category.text }}
-            </p>
-
-            <div class="flex items-left justify-center mb-12">
-              <a 
-                class="menu-link omnia-green text-lg md:text-xl" 
-                href="{{ category.menu_pdf }}#page={{forloop.index}}" 
-                target="_blank"
-              >
-                {{ category.menu_btn_text }}
-                <div class="line"></div>
-              </a>
-            </div>
-          </div>
-        {% endfor %}
-      </div>-->
     </div>
   </div>
     
