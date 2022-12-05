@@ -48,10 +48,6 @@ partners:
 - title: 'Jonella Farm '
   text: Growers, John and Pam Hobson, hold an impressive 40 years of hands-on knowledge.
     When in season, we use Jonella Farm’s baby corn, sweetcorn and asparagus.
-- title: Moonlight Flat Oysters
-  text: Farmer, Steve Feletti, produces under the motto of, “quality we would wish
-    to be served ourselves.” Oysters handled only by hand, where big and bulk isn’t
-    the desired result. We use Moonlight Flat’s Moonlight Kisses.
 - title: 'Jones Potatoes '
   text: Grower, Gordon Jones, supplies us with the perfect potatoes for every dish.
     Blue Moon potatoes make our rosti crisp on the outside, fluffy on the inside.
@@ -65,6 +61,10 @@ partners:
   text: The face behind the cherries we use seasonally in our duck, and the pumpkins
     that decorate Omnia before they grace our taste buds. Mark delivers his produce
     personally, and frequently joins us at our table for a meal.
+- title: Moonlight Flat Oysters
+  text: Farmer, Steve Feletti, produces under the motto of, “quality we would wish
+    to be served ourselves.” Oysters handled only by hand, where big and bulk isn’t
+    the desired result. We use Moonlight Flat’s Moonlight Kisses.
 produce_little-title: FRESH IS ALWAYS IN FASHION
 produce_text: Omnia Bistro uses Australia’s best quality produce sourced through tight
   knit networks. We champion our growers and producers and tell their stories alongside
