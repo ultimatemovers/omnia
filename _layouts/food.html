@@ -59,20 +59,20 @@
         <img src="{{ page.drink_section.img }}" alt="omnia drink">
       </div>
       <div class="w-full lg:w-3/5 pt-12 drink-section-text lg:pr-4">
-        <h3 class="text-center md:text-left md:pl-0 px-3 md:pb-4 md:pb-0 middle-white-title reveal">
+        <h3 class="text-center md:text-left mb-4 md:pl-0 px-3 md:pb-4 md:pb-0 middle-white-title reveal">
           {{ page.drink_section.title }}
         </h3>
       
         <div class="">
           {% for category in page.drink_section.categories %}
-          <div class="pt-8 pb-8 md:pt-2 md:pb-2 omnia-green cursor-pointer reveal accordion-drink">
+          <div class="pt-2 pb-2 md:pt-2 md:pb-2 omnia-green cursor-pointer reveal accordion-drink">
             <div class="inline-block">
-            <h3 class="menu-category-title omnia-green">  {{category.title}}</h3>
+            <h3 class="menu-category-title omnia-green"> {{category.title}}</h3>
             <div class="partner-title-line"></div>
             </div>
-          <div class="omnia-green pt-4 pb-4 md:w-2/3 accordion-description">      
-            <div class="omnia-green mb-4">{{category.text}}</div>
-            <div class="omnia-green  my-1">
+          <div class="omnia-green pt-1 pb-1 md:pt-4 md:pb-4 md:w-2/3 accordion-description">      
+            <div class="omnia-green md:mb-4">{{category.text}}</div>
+            <div class="omnia-green">
               <a 
                 class="inline-block menu-link omnia-green text-md" 
                 href="{{ category.menu_pdf }}#page={{forloop.index}}" 
