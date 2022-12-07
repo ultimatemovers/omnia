@@ -39,8 +39,10 @@
 
       <div class="blue pt-12 lg:w-1/2 member-text">
         {% if index == 0 %}
-        <h3 class="pb-4 middle-white-title reveal-right ">{{team_member.name}}</h3>
-        <h2 class="omnia-green pb-2 mb-2 border-class uppercase reveal-right small-title">{{team_member.title}}</h2>
+        <div class="border-class mb-2">
+        <h3 class="pb-1  middle-white-title reveal-right">{{team_member.name}}</h3>
+        <h2 class="omnia-green pb-2 uppercase reveal-right small-title pt-1">{{team_member.title}}</h2>
+        </div>
         <p class="mb-12 omnia-green reveal-right text-md">{{team_member.text}}</p>
         {% else %}
         <h3 class="pb-8 middle-white-title reveal-left">{{team_member.name}}</h3>
