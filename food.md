@@ -296,10 +296,10 @@ drink_section:
   title: Drink
   text: ''
   categories:
-  - title: CELLAR WBTG
-    text: Omnia has an extensive wine list, offering 25 wines by the glass consisting
-      of 13 regular, and 12 premier wines selected by our sommelier. Found a new favourite,
-      or have a friend on the way? Our whole selection is available in half bottles.
+  - title: WINE BY THE GLASS
+    text: Omnia has an extensive wine list, besides a wide selection of bottles also
+      offering 25 wines by the glass consisting of 13 regular, and 12 premier wines
+      selected by our sommelier.
     menu_pdf: "/assets/images/beverage-menu.pdf"
     menu_btn_text: BEVERAGE LIST
   - title: SIGNATURE COCTAILS
