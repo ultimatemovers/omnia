@@ -9,6 +9,16 @@ fields:
   label: layout
   hidden: true
   default: bookings
+- name: title
+  type: text
+  config:
+    required: false
+  label: title
+- name: second_title
+  type: text
+  config:
+    required: false
+  label: second title
 - name: main_img
   type: file
   config:

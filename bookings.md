@@ -37,5 +37,7 @@ third_column_first_text: Beverages will be charged on consumption and a $500 dep
 third_column_second_text: For special occasions, we would also be glad to custom make
   your favourite cake.
 second_photo: "/assets/images/conservatory-wide-sm_optimized.jpeg"
+title: Group bookings
+second_title: fnfn
 
 ---
