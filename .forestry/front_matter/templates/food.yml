@@ -43,11 +43,6 @@ fields:
     config:
       required: false
     label: menu btn text
-  - name: menu_btn_link
-    type: text
-    config:
-      required: false
-    label: menu btn link
   - name: menu_pdf
     type: file
     config:
@@ -58,11 +53,6 @@ fields:
     config:
       required: false
     label: second menu btn text
-  - name: second_menu_btn_link
-    type: text
-    config:
-      required: false
-    label: second menu btn link
   - name: second_menu_pdf
     type: file
     config:
