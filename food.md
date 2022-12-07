@@ -15,7 +15,7 @@ menus:
   second_item_cost: '44'
   second_item_ingredients: " ‍Seaweed crusted, smoked fish consommé & kohlrabi"
 - title: MAINS & SIDE
-  text: hello
+  text: 
   first_item: Pelmeni
   first_item_cost: '120'
   first_item_ingredients: 'meat '
