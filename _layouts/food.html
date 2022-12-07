@@ -38,10 +38,13 @@
         <img src="{{page.food_section.img}}" alt="omnia food">
       </div>
       <div class="w-full sm:w-1/2 pt-12 food-section-text text-center md:text-left">
-        <h3 class="text-center md:text-left pb-2 middle-white-title reveal border-b-2 border-white inline">
+        <div class="">
+        <h3 class="text-center md:text-left pb-2 middle-white-title reveal border-b-2 border-white inline"><!--border-b-2 border-white-->
           {{ page.food_section.title }}
         </h3>
-        <p class="mb-12 omnia-green reveal text-base md:text-lg mt-6">
+        <h2 class="omnia-green pb-2 uppercase reveal-right small-title pt-6">{{page.food_section.second_title}}</h2>
+        </div>
+        <p class="mb-12 omnia-green reveal text-base md:text-lg mt-1">
           {{ page.food_section.text }}
         </p>
         <div class="flex items-center sm:items-left sm:justify-start">
