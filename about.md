@@ -100,7 +100,7 @@ hospitality_text: 'Omnia is part of an impressive quartet of LK Hospitality venu
   at Capitol Grand. We are happy to offer patrons the perfect space for a memorable
   experience and pride ourselves on a tradition of setting new standards in the Australian
   hospitality landscape. '
-main_img: "/assets/images/about-us-1st-photo-sn-amp-ed1.jpeg"
+main_img: "/assets/images/about-us-1st-photo-sn-ed.jpg"
 subtitle: |-
   Omnia blends the energy of a European bistro with the stories of Australia’s best growers and producers.
   Dishes with backgrounds that speak to you, not at you. A contemporary take on culinary classics served
