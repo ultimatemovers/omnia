@@ -280,7 +280,7 @@ menu:
   menu_in_pdf_format: ''
   categories: []
 big_title: DISCOVER FLAVOUR AT ITS FINEST
-main_img: "/assets/images/little21.jpeg"
+main_img: "/assets/images/food-bev-1st-photo-asparagus-3-43-21-pm-3-43-21-pm.jpg"
 food_section:
   title: Food
   text: Our kitchen team created a menu of seasonal produce, used at its peak, designed
