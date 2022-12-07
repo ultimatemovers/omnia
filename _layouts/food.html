@@ -44,12 +44,18 @@
         <p class="mb-12 omnia-green reveal text-base md:text-lg mt-6">
           {{ page.food_section.text }}
         </p>
-        <div class="flex items-center sm:items-left justify-center sm:justify-start my-12 reveal">
-          <a class="menu-link omnia-green text-md" href="{{ page.food_section.menu_pdf}}" target="_blank">
+        <div class="flex items-center sm:items-left sm:justify-start">
+          <a class="menu-link omnia-green text-md inline" href="{{ page.food_section.menu_pdf}}" target="_blank">
             {{ page.food_section.menu_btn_text }}
             <div class="line"></div>
           </a>
       </div>
+      <div class="flex items-center sm:items-left sm:justify-start mt-6">
+        <a class="menu-link omnia-green text-md inline" href="{{ page.food_section.second_menu_pdf}}" target="_blank">
+          {{ page.food_section.second_menu_btn_text }}
+          <div class="line"></div>
+        </a>
+    </div>
       </div>
     </div>
 
