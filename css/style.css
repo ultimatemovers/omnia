@@ -765,6 +765,11 @@ background-color: #F2E8C3;
   /* text-underline-offset: 4px; */
 }
 
+#food .food-section-image img {
+  height: 450px;
+  object-fit: cover;
+}
+
 #food .food-section-image img,
 #food .drink-section-image img {
   border-radius: 60px;
@@ -1421,6 +1426,12 @@ border-bottom: 2px solid #A3A792;;
 }
 
 @media (min-width: 960px) {
+  .food-section-image img{
+  height: 600px;
+  /*border: 2px solid red;*/
+  width: 450px;
+  object-fit: cover;
+  }
 
   .partner {
     /* border: 1px solid rgb(98,118,94); */
@@ -1916,13 +1927,13 @@ border-bottom: 2px solid #A3A792;;
     padding-right: 0.25rem;
   }
 
-  #food .food-section-image img, 
+  /*#food .food-section-image img, 
   #food .drink-section-image img {
     height: auto;
     max-height: 450px;
     margin-left: auto;
     margin-right: auto;
-  }
+  }*/
 
   #food .food-section-text {
     margin-left: auto;
