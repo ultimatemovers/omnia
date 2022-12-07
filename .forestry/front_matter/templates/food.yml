@@ -28,6 +28,11 @@ fields:
     config:
       required: false
     label: title
+  - name: second_title
+    type: text
+    config:
+      required: false
+    label: second_title
   - name: text
     type: text
     config:
@@ -68,6 +73,11 @@ fields:
     config:
       required: false
     label: title
+  - name: second_title
+    type: text
+    config:
+      required: false
+    label: second_title
   - name: text
     type: text
     config:
