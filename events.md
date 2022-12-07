@@ -1,12 +1,13 @@
 ---
 layout: events
 events:
-- title: Omnia Vista Social Club – Live music Wednesday nights
+- title: 'Omnia Vista Social Club '
   img: "/assets/images/omnia-events-2nd-photo1.jpeg"
   text: After a successful month of Wednesday Nights at The Embers, we're bringing
     back live music nights at Omnia! Inspired by the Buena Vista Social Club, Omnia
     will be host to great live music and specialty drinks every Wednesday. Come along
     and visit 'Omnia Vista Social Club' for a night out to dinner or drinks.
+  second_title: Live music Wednesday nights
 columns:
 - text: Beverages will be charged on consumption and a $500 deposit will be required
     to secure the venue. For special occasions, we would also be glad to custom make

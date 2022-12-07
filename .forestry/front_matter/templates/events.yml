@@ -22,6 +22,11 @@ fields:
     config:
       required: false
     label: title
+  - name: second_title
+    type: text
+    config:
+      required: false
+    label: second title
   - name: img
     type: file
     config:
