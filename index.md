@@ -18,7 +18,7 @@ sections:
     Road.
   button_text: browse our menu
   button_url: "#"
-  section_second_title: balalala
+  section_second_title: ''
 - section_image: "/assets/images/my-project.jpeg"
   section_title: New dishes
   section_description: |-
