@@ -606,6 +606,10 @@ nav ul.navigation li:hover a {
   background-color: #AEB3A1;
 } */
 
+#homepage .cover-image {
+  background-position: 30%;
+}
+
 #homepage .cover-image h1 {
   text-transform: uppercase;
   font-size: 40px;
@@ -1449,10 +1453,6 @@ border-bottom: 2px solid #A3A792;;
     /*background-color: #225367;*/
   }
 
-  /*.booking-img {
-     height: 100%;
-  }*/
-
   nav .newsletter span {
     padding: 8px 30px;
   }
@@ -1493,7 +1493,7 @@ border-bottom: 2px solid #A3A792;;
     }  
 
     #homepage .cover-image {
-      background-position: 20% 30%;
+      background-position: 20% 15%;
     }
 
     #bookings .cover-image {
