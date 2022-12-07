@@ -283,8 +283,11 @@ big_title: DISCOVER FLAVOUR AT ITS FINEST
 main_img: "/assets/images/little21.jpeg"
 food_section:
   title: Food
-  text: A menu of seasonal produce, used at its peak, designed with all tastes in
-    mind. Familiar yet new, held together by our iconic duck and cheesecake.
+  text: Our kitchen team created a menu of seasonal produce, used at its peak, designed
+    with all tastes in mind. Using Australia’s best quality produce sourced through
+    tight knit networks. We champion our growers and producers and tell their stories
+    alongside our own. Familiar yet new, held together by our iconic honey roasted
+    duck and liquid centre cheesecake.
   menu_pdf: "/assets/images/alc_menu_a4_19-11-22.pdf"
   menu_btn_text: A LA CARTE MENU
   img: "/assets/images/221026-omnia2312-trifle_optimized.jpg"
