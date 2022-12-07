@@ -701,6 +701,11 @@ nav ul.navigation li:hover a {
 background-color: #F2E8C3;
 } */
 
+.title-food-line {
+  height: 2px;
+
+}
+
 #food .inner-container {
   width: 900px;
   margin-left: auto;
@@ -880,7 +885,7 @@ text-transform: uppercase;
   border-bottom: 2px solid #A3A792;
 }
 
-.team-member-title {
+.small-title {
   font-family: 'Lulo Clean one', 'sans-serif';
 }
 
