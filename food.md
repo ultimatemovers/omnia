@@ -290,10 +290,11 @@ food_section:
     duck and liquid centre cheesecake.
   menu_pdf: "/assets/images/alc_menu_a4_19-11-22.pdf"
   menu_btn_text: DINNER MENU
-  img: "/assets/images/221026-omnia2312-trifle_optimized.jpg"
+  img: "/assets/images/trifle.jpeg"
   menu_btn_link: ''
   second_menu_btn_text: LUNCH MENU
   second_menu_pdf: ''
+  second_title: ''
 drink_section:
   title: Drink
   text: ''
@@ -319,5 +320,6 @@ drink_section:
     menu_pdf: "/assets/images/beverage-menu.pdf"
     menu_btn_text: BEVERAGE LIST
   img: "/assets/images/omnia-combo.jpg"
+  second_title: ''
 
 ---
