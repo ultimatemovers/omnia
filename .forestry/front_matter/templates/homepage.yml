@@ -32,6 +32,11 @@ fields:
     config:
       required: false
     label: Section title
+  - name: section_second_title
+    type: text
+    config:
+      required: false
+    label: Section second title
   - name: section_description
     type: textarea
     default: ''
