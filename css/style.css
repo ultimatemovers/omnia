@@ -639,7 +639,7 @@ nav ul.navigation li:hover a {
   margin: 0 auto;
   color: rgb(98,118,94);
   color: white;
-  border-bottom: 2px solid rgb(98,118,94);
+  /*border-bottom: 2px solid rgb(98,118,94);*/
 }
 
 .img-radius {
