@@ -607,7 +607,7 @@ nav ul.navigation li:hover a {
 } */
 
 #homepage .cover-image {
-  background-position: 30%;
+  background-position: center;
 }
 
 #homepage .cover-image h1 {
@@ -1475,7 +1475,8 @@ border-bottom: 2px solid #A3A792;;
   }
 
   #food .cover-image {
-    background-position: 10% 50%;
+    background-position-y: 45%;
+    background-position-x:  center;
   }
 
 #contacts .olive-btn {
@@ -1492,9 +1493,9 @@ border-bottom: 2px solid #A3A792;;
       background-position: 20% 20%;
     }  
 
-    #homepage .cover-image {
-      background-position: 20% 15%;
-    }
+    /*#homepage .cover-image img {
+      background-position: 10% 10%;
+    }*/
 
     #bookings .cover-image {
       background-position: 10% 20%;
