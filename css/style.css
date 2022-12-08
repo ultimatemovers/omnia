@@ -607,7 +607,7 @@ nav ul.navigation li:hover a {
 } */
 
 #homepage .cover-image {
-  background-position: center;
+  background-position-x: 30%;
 }
 
 #homepage .cover-image h1 {
