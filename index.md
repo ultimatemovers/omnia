@@ -7,7 +7,7 @@ hero_title: A European bistro filled with Australian stories. A new familiar. Pr
 big_title: OMNIA
 sections:
 - section_image: "/assets/images/homepage-2nd-photo1.jpeg"
-  section_title: Omnia bistro - Condensed
+  section_title: Omnia bistro - Condensed!
   section_description: |-
     Omnia blends the energy of a European bistro with the stories of Australia’s best growers and producers.
     A contemporary take on culinary classics served with the warmth of old-world hospitality. Take a seat in
